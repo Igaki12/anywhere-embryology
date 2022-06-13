@@ -232,7 +232,7 @@ export const Setting = ({
               variant="solid"
               onClick={() => updateQuestionMode('practice')}
               isDisabled
-              borderRadius={'full'}
+              // borderRadius={'full'}
             >
               続きから再開
             </Button>
