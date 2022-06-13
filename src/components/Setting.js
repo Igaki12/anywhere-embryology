@@ -13,12 +13,30 @@ import {
   Alert,
   AlertIcon,
   useToast,
+  Image,
+  Box,
+  Modal,
+  ModalOverlay,
+  ModalHeader,
+  ModalCloseButton,
+  ModalBody,
+  ModalFooter,
+  ModalContent,
+  useDisclosure,
+  Flex,
+  Spacer,
 } from '@chakra-ui/react'
-import { CheckCircleIcon, QuestionIcon, WarningIcon } from '@chakra-ui/icons'
+import {
+  CheckCircleIcon,
+  InfoIcon,
+  QuestionIcon,
+  WarningIcon,
+} from '@chakra-ui/icons'
 import '../App.css'
 import { SearchWord } from './SearchWord'
 import { useState } from 'react'
 import jsCookie from 'js-cookie'
+import titleImg from '../img/titleImg.png'
 export const Setting = ({
   questionList,
   showSettingDetail,
@@ -33,6 +51,7 @@ export const Setting = ({
   updateAllSettings,
   loadHistory,
 }) => {
+  const { isOpen, onOpen, onClose } = useDisclosure()
   const settingDetail = showSettingDetail()
   const [checkMsg, setCheckMsg] = useState()
   const toast = useToast()
@@ -126,95 +145,136 @@ export const Setting = ({
   }
   return (
     <>
-      <List spacing={3} p={3} bgColor="green.50" fontSize={'sm'}>
-        <ListItem transitionDelay="3s" className="Headline1">
-          <ListIcon as={CheckCircleIcon} color="green.500" />
-          スマートフォン・PC・タブレットでどこでも試験対策が可能！
-        </ListItem>
-        <ListItem transitionDelay="100s" className="Headline1">
-          <ListIcon as={CheckCircleIcon} color="green.500" />
-          出題パターンや出題範囲・キーワードを自由に設定して、自分好みの問題集を作ろう
-        </ListItem>
-        <ListItem transitionDelay="5s" className="Headline1">
-          <ListIcon as={CheckCircleIcon} color="green.500" />
-          途中でアプリを消してしまっても、続きから再開できるので安心
-        </ListItem>
-        <ListItem transitionDelay="6s" className="Headline1">
-          <ListIcon as={WarningIcon} color="green.500" />
-          問題は一部機械作成されているので誤字があり、解答解説は間違っている可能性があります。
-        </ListItem>
-        <ListItem transitionDelay="6s" className="Headline1">
-          <ListIcon as={QuestionIcon} color="green.500" />
-          その他説明不足・バグ等あれば本人まで。
-        </ListItem>
-      </List>
-
-      <Stack direction="row" spacing={4} align="center" m="2" ml={6}>
-        {checkMsg === '条件を満たした質問が存在しません' ? (
-          <Button colorScheme="teal" variant="outline" isDisabled>
-            はじめから
-          </Button>
-        ) : (
+      <Box boxSize="sm" transitionDelay="3s" className="Headline1" mb={6}>
+        <Flex pr={4}>
+          <Spacer />
           <Button
+            onClick={onOpen}
             colorScheme="teal"
-            variant="outline"
-            onClick={() => {
-              updateQuestionMode('training')
-              selectQuestionList(questionList, settingDetail)
-              nextQuestion(settingDetail)
-              makeSetting()
-              saveSetting(settingDetail)
-            }}
+            variant={'solid'}
+            m={0}
+            w={'40px'}
+            h="40px"
+            mt={4}
+            mb={'-80px'}
           >
-            はじめから
+            <InfoIcon />
           </Button>
-        )}
+        </Flex>
 
-        {jsCookie.get('history') &&
-        jsCookie.get('history').split(',').length > 1 ? (
-          <Button
-            bgGradient="linear(to bottom right, green.300, green.800)"
-            color={'white'}
-            variant="solid"
-            onClick={() => {
-              // updateQuestionMode('practice')
-              loadHistory(jsCookie.get('history'), questionList)
-              updateAllSettings({
-                isSet: false,
-                mode: 'training',
-                questionOrder: jsCookie.get('questionOrder'),
-                questionRange: jsCookie.get('questionRange').split(','),
-                wordFilter: jsCookie.get('wordFilter').split(','),
-              })
-              nextQuestion(settingDetail)
-              makeSetting()
-              saveSetting(settingDetail)
-            }}
-          >
-            続きから(あと{remainingNum}問)
-          </Button>
-        ) : (
-          <Button
-            bgGradient="linear(to bottom right, green.300, green.800)"
-            color={'white'}
-            variant="solid"
-            onClick={() => updateQuestionMode('practice')}
-            isDisabled
-          >
-            続きから再開
-          </Button>
-        )}
+        <Image src={titleImg} alt="TitleImage" m={0} p="0" mb={-14} />
+        <Stack direction="row" spacing={4} align="center" ml={6} mr="6">
+          {checkMsg === '条件を満たした質問が存在しません' ? (
+            <Button colorScheme="teal" variant="outline" borderRadius={'full'} isDisabled>
+              はじめから
+            </Button>
+          ) : (
+            <Button
+              colorScheme="blackAlpha"
+              color={'teal'}
+              borderRadius={'full'}
+              variant="outline"
+              onClick={() => {
+                updateQuestionMode('training')
+                selectQuestionList(questionList, settingDetail)
+                nextQuestion(settingDetail)
+                makeSetting()
+                saveSetting(settingDetail)
+              }}
+            >
+              はじめから
+            </Button>
+          )}
+          <Spacer />
 
-        {/* <Button
-          bgGradient="linear(to bottom right, green.300, green.800)"
-          color={'white'}
-          variant="solid"
-          onClick={() => updateQuestionMode('practice')}
-          isDisabled
-        >
-          続きから再開
-        </Button> */}
-      </Stack>
+          {jsCookie.get('history') &&
+          jsCookie.get('history').split(',').length > 1 ? (
+            <Button
+              bgGradient="linear(to bottom right, green.300, green.800)"
+              color={'white'}
+              variant="solid"
+              borderRadius={'full'}
+              onClick={() => {
+                // updateQuestionMode('practice')
+                loadHistory(jsCookie.get('history'), questionList)
+                updateAllSettings({
+                  isSet: false,
+                  mode: 'training',
+                  questionOrder: jsCookie.get('questionOrder'),
+                  questionRange: jsCookie.get('questionRange').split(','),
+                  wordFilter: jsCookie.get('wordFilter').split(','),
+                })
+                nextQuestion(settingDetail)
+                makeSetting()
+                saveSetting(settingDetail)
+              }}
+            >
+              続きから(あと{remainingNum}問)
+            </Button>
+          ) : (
+            <Button
+              bgGradient="linear(to bottom right, green.300, green.800)"
+              color={'white'}
+              variant="solid"
+              onClick={() => updateQuestionMode('practice')}
+              isDisabled
+              borderRadius={'full'}
+            >
+              続きから再開
+            </Button>
+          )}
+        </Stack>
+      </Box>
+
+      <Modal isOpen={isOpen} onClose={onClose}>
+        <ModalOverlay />
+        <ModalContent bgColor={'green.50'}>
+          <ModalHeader>TIPS</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody>
+            <List spacing={3} p={0} bgColor="green.50" fontSize={'sm'}>
+              <ListItem>
+                <ListIcon as={CheckCircleIcon} color="green.500" />
+                スマートフォン・PC・タブレットでどこでも試験対策が可能！
+              </ListItem>
+              <ListItem>
+                <ListIcon as={CheckCircleIcon} color="green.500" />
+                出題パターンや出題範囲・キーワードを自由に設定して、自分好みの問題集を作ろう
+              </ListItem>
+              <ListItem>
+                <ListIcon as={CheckCircleIcon} color="green.500" />
+                途中でアプリを消してしまっても、続きから再開できるので安心
+              </ListItem>
+              <ListItem>
+                <ListIcon as={WarningIcon} color="green.500" />
+                問題は一部機械作成されているので誤字があり、解答解説は間違っている可能性があります。
+              </ListItem>
+              <ListItem>
+                <ListIcon as={QuestionIcon} color="green.500" />
+                その他説明不足・バグ等あれば本人まで。
+              </ListItem>
+            </List>
+            <Divider orientation="horizontal" mt={3} mb="1" />
+            <Text>アップデート履歴</Text>
+            <Text fontSize={'sm'}>06-01_Ver0.8-重くなりすぎないように改善</Text>
+            <Text fontSize={'sm'}>05-25_Ver0.7-”続きから再開”機能を仮実装</Text>
+            <Text fontSize={'sm'}>
+              05-22_Ver0.6-cookieで設定を引継げるように
+            </Text>
+            <Text fontSize={'sm'}>
+              05-09_Ver0.4-”キーワード絞込み”機能を実装
+            </Text>
+            <Text fontSize={'sm'}>2022-05-05_Ver0.1-仮リリース</Text>
+          </ModalBody>
+
+          <ModalFooter>
+            <Button colorScheme="blue" mr={3} onClick={onClose}>
+              Close
+            </Button>
+          </ModalFooter>
+        </ModalContent>
+      </Modal>
+
       {checkMsg === '条件を満たした質問が存在しません' ? (
         <Alert status="error" fontWeight={'semibold'}>
           <AlertIcon />

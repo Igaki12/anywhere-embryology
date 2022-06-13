@@ -63,13 +63,13 @@ export const ControlPanel = ({ showSettingDetail, showHistory }) => {
               {settingDetail.questionOrder}
             </Tag>
             <Text>出題範囲:</Text>
-            {settingDetail.questionRange.map((year,index) => (
+            {settingDetail.questionRange.map((year, index) => (
               <Tag colorScheme="teal" m="1" key={index}>
                 {year}
               </Tag>
             ))}
             <Text>単語絞り込み:</Text>
-            {settingDetail.wordFilter.map((word,index) => (
+            {settingDetail.wordFilter.map((word, index) => (
               <Tag colorScheme="teal" m="1" key={index}>
                 {word}
               </Tag>
@@ -80,17 +80,6 @@ export const ControlPanel = ({ showSettingDetail, showHistory }) => {
               現在{history[history.length - 1].questionNum}問目 / 残り
               {history[history.length - 1].remainingQuestionList.length}問
             </Text>
-            <Divider orientation="horizontal" mt={3} mb="1" />
-            <Text>アップデート履歴:</Text>
-            <Text fontSize={'sm'}>06-01_Ver0.8-重くなりすぎないように改善</Text>
-            <Text fontSize={'sm'}>05-25_Ver0.7-”続きから再開”機能を仮実装</Text>
-            <Text fontSize={'sm'}>
-              05-22_Ver0.6-cookieで設定を引継げるように
-            </Text>
-            <Text fontSize={'sm'}>
-              05-09_Ver0.4-”キーワード絞込み”機能を実装
-            </Text>
-            <Text fontSize={'sm'}>2022-05-05_Ver0.1-仮リリース</Text>
           </ModalBody>
 
           <ModalFooter>
