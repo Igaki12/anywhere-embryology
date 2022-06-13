@@ -150,8 +150,10 @@ export const Setting = ({
           <Spacer />
           <Button
             onClick={onOpen}
-            colorScheme="teal"
+            colorScheme="blackAlpha"
             variant={'solid'}
+            // borderWidth="2px"
+            // borderColor="white"
             m={0}
             w={'40px'}
             h="40px"
@@ -163,21 +165,25 @@ export const Setting = ({
         </Flex>
 
         <Image src={titleImg} alt="TitleImage" m={0} p="0" mb={-14} />
-        <Flex ml={4} mr="4" bgColor={'white'}>
+        <Flex ml={4} mr="4">
           {checkMsg === '条件を満たした質問が存在しません' ? (
             <Button
               colorScheme="teal"
               variant="variant"
-              borderRadius={'full'}
+              // borderRadius={'full'}
+              borderWidth="2px"
+              borderColor="white"
               isDisabled
             >
               はじめから
             </Button>
           ) : (
             <Button
-              bgColor={'black'}
+              bgColor={'blackAlpha.600'}
               color={'white'}
-              borderRadius={'full'}
+              // borderRadius={'full'}
+              borderWidth="2px"
+              borderColor="whiteAlpha"
               variant="solid"
               onClick={() => {
                 updateQuestionMode('training')
@@ -198,7 +204,10 @@ export const Setting = ({
               bgGradient="linear(to bottom right, green.300, green.800)"
               color={'white'}
               variant="solid"
-              borderRadius={'full'}
+              // borderRadius={'full'}
+              borderWidth="2px"
+              borderColor="whiteAlpha"
+              opacity={'0.9'}
               onClick={() => {
                 // updateQuestionMode('practice')
                 loadHistory(jsCookie.get('history'), questionList)
