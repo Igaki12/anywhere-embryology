@@ -163,17 +163,22 @@ export const Setting = ({
         </Flex>
 
         <Image src={titleImg} alt="TitleImage" m={0} p="0" mb={-14} />
-        <Stack direction="row" spacing={4} align="center" ml={6} mr="6">
+        <Flex ml={4} mr="4" bgColor={'white'}>
           {checkMsg === '条件を満たした質問が存在しません' ? (
-            <Button colorScheme="teal" variant="outline" borderRadius={'full'} isDisabled>
+            <Button
+              colorScheme="teal"
+              variant="variant"
+              borderRadius={'full'}
+              isDisabled
+            >
               はじめから
             </Button>
           ) : (
             <Button
-              colorScheme="blackAlpha"
-              color={'teal'}
+              bgColor={'black'}
+              color={'white'}
               borderRadius={'full'}
-              variant="outline"
+              variant="solid"
               onClick={() => {
                 updateQuestionMode('training')
                 selectQuestionList(questionList, settingDetail)
@@ -223,7 +228,7 @@ export const Setting = ({
               続きから再開
             </Button>
           )}
-        </Stack>
+        </Flex>
       </Box>
 
       <Modal isOpen={isOpen} onClose={onClose}>

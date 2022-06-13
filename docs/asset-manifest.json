@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-embryology/static/css/main.2255ca1a.css",
-    "main.js": "/anywhere-embryology/static/js/main.ea5e1378.js",
+    "main.js": "/anywhere-embryology/static/js/main.0de8a0d3.js",
     "static/media/220613-3.JPG": "/anywhere-embryology/static/media/220613-3.3d8d19e2fab9672e9989.JPG",
     "static/media/220613-22.JPG": "/anywhere-embryology/static/media/220613-22.d19456f4a7b93c9accf6.JPG",
     "static/media/220613-20.JPG": "/anywhere-embryology/static/media/220613-20.dce191600271579aa7b7.JPG",
@@ -19,13 +19,13 @@
     "static/media/220613-9.JPG": "/anywhere-embryology/static/media/220613-9.80627a862a39f54f646b.JPG",
     "static/media/220613-5.JPG": "/anywhere-embryology/static/media/220613-5.722ee2571db099cf6fe0.JPG",
     "static/media/220613-14.JPG": "/anywhere-embryology/static/media/220613-14.714169c0be2c7365e2b4.JPG",
-    "static/media/titleImg.png": "/anywhere-embryology/static/media/titleImg.224ff93ac292094d6cc9.png",
+    "static/media/titleImg.png": "/anywhere-embryology/static/media/titleImg.746e455944a8db2744fb.png",
     "index.html": "/anywhere-embryology/index.html",
     "main.2255ca1a.css.map": "/anywhere-embryology/static/css/main.2255ca1a.css.map",
-    "main.ea5e1378.js.map": "/anywhere-embryology/static/js/main.ea5e1378.js.map"
+    "main.0de8a0d3.js.map": "/anywhere-embryology/static/js/main.0de8a0d3.js.map"
   },
   "entrypoints": [
     "static/css/main.2255ca1a.css",
-    "static/js/main.ea5e1378.js"
+    "static/js/main.0de8a0d3.js"
   ]
 }
