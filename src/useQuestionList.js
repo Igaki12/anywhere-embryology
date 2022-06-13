@@ -1,25 +1,25 @@
 import { useState } from 'react'
 import q1 from './img/question/220613-1.JPG'
-import q2 from './img/question/220613-2.JPG'
+// import q2 from './img/question/220613-2.JPG'
 import q3 from './img/question/220613-3.JPG'
 import q4 from './img/question/220613-4.JPG'
 import q5 from './img/question/220613-5.JPG'
 import q6 from './img/question/220613-6.JPG'
 import q7 from './img/question/220613-7.JPG'
-import q8 from './img/question/220613-8.JPG'
+// import q8 from './img/question/220613-8.JPG'
 import q9 from './img/question/220613-9.JPG'
 import q10 from './img/question/220613-10.JPG'
 import q11 from './img/question/220613-11.JPG'
 import q12 from './img/question/220613-12.JPG'
 import q13 from './img/question/220613-13.JPG'
 import q14 from './img/question/220613-14.JPG'
-import q15 from './img/question/220613-15.JPG'
-import q16 from './img/question/220613-16.JPG'
-import q17 from './img/question/220613-17.JPG'
-import q18 from './img/question/220613-18.JPG'
+// import q15 from './img/question/220613-15.JPG'
+// import q16 from './img/question/220613-16.JPG'
+// import q17 from './img/question/220613-17.JPG'
+// import q18 from './img/question/220613-18.JPG'
 import q19 from './img/question/220613-19.JPG'
 import q20 from './img/question/220613-20.JPG'
-import q21 from './img/question/220613-21.JPG'
+// import q21 from './img/question/220613-21.JPG'
 import q22 from './img/question/220613-22.JPG'
 import q23 from './img/question/220613-23.JPG'
 import q24 from './img/question/220613-24.JPG'
@@ -50,7 +50,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/13口頭',
-          questionImg: [q2],
+          questionImg: [],
           questionSentence: '着床するのはどれ？',
           choices: [
             '胚盤胞',
@@ -121,7 +121,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/13口頭',
-          questionImg: [q8],
+          questionImg: [],
           questionSentence:
             '胞状奇胎hydatidiform moleに関係する記述について正しいものを全て選べ（3つ）',
           choices: [
@@ -201,7 +201,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/13口頭',
-          questionImg: [q15],
+          questionImg: [],
           questionSentence: 'ES細胞の起源はどれか',
           choices: [
             '栄養膜',
@@ -217,7 +217,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/13口頭',
-          questionImg: [q16],
+          questionImg: [],
           questionSentence: '原始線条は将来何になる？（複数選択可）',
           choices: [
             '中枢神経',
@@ -234,7 +234,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/13口頭',
-          questionImg: [q17],
+          questionImg: [],
           questionSentence: '上皮と間葉とはそれぞれ何か',
           choices: [],
           answerImg: [],
@@ -244,7 +244,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/13口頭',
-          questionImg: [q18],
+          questionImg: [],
           questionSentence: 'Which process(es) occurs through epithelial mesenchymal transition?',
           choices: ['Implantation','Mesoderm formation','Endoderm formation','Neural crest formation','Blood island formation ','Cancer invasion','None of the above'],
           answerImg: [],
@@ -262,7 +262,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/13口頭',
-          questionImg: [q21],
+          questionImg: [],
           questionSentence: '神経堤に由来しないものは？',
           choices: ['膵島','消化管の神経細胞','シュワン細胞','交感神経','副腎髄質','この中にはない'],
           answerImg: [],
