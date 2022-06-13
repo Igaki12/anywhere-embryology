@@ -32,21 +32,21 @@ export const useQuestionList = () => {
       groupContents: [
         {
           detailInfo: '6/13口頭',
-          questionImg: [q1],
-          questionSentence: '受精が起きる場所は？',
+          questionImg: [],
+          questionSentence: '子宮で、受精卵の受精が起きる場所は？',
           choices: [],
           answerImg: [],
-          answer: '3.卵管膨大部',
+          answer: '卵管膨大部',
           commentary: '',
         },
         {
           detailInfo: '6/13口頭',
-          questionImg: [q1],
-          questionSentence: '透明帯が取れる場所は？',
+          questionImg: [],
+          questionSentence: '子宮内部で、受精卵の透明帯が取れる場所は？',
           choices: [],
           answerImg: [],
-          answer: '5.子宮体内腔',
-          commentary: '',
+          answer: '子宮体内腔',
+          commentary: '透明帯が取れることで、受精卵の着床が可能となる',
         },
         {
           detailInfo: '6/13口頭',
