@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import q1 from './img/question/220613-1.JPG'
+// import q1 from './img/question/220613-1.JPG'
 // import q2 from './img/question/220613-2.JPG'
 import q3 from './img/question/220613-3.JPG'
 import q4 from './img/question/220613-4.JPG'
@@ -23,6 +23,13 @@ import q20 from './img/question/220613-20.JPG'
 import q22 from './img/question/220613-22.JPG'
 import q23 from './img/question/220613-23.JPG'
 import q24 from './img/question/220613-24.JPG'
+// import qq1 from './img/question/220614-1.JPG'
+// import qq2 from './img/question/220614-2.JPG'
+// import qq3 from './img/question/220614-2.JPG'
+// import qq4 from './img/question/220614-2.JPG'
+// import qq5 from './img/question/220614-2.JPG'
+// import qq6 from './img/question/220614-2.JPG'
+// import qq7 from './img/question/220614-2.JPG'
 
 export const useQuestionList = () => {
   const [questionList, setQuestionList] = useState([
@@ -245,10 +252,20 @@ export const useQuestionList = () => {
         {
           detailInfo: '6/13口頭',
           questionImg: [],
-          questionSentence: 'Which process(es) occurs through epithelial mesenchymal transition?',
-          choices: ['Implantation','Mesoderm formation','Endoderm formation','Neural crest formation','Blood island formation ','Cancer invasion','None of the above'],
+          questionSentence:
+            'Which process(es) occurs through epithelial mesenchymal transition?',
+          choices: [
+            'Implantation',
+            'Mesoderm formation',
+            'Endoderm formation',
+            'Neural crest formation',
+            'Blood island formation ',
+            'Cancer invasion',
+            'None of the above',
+          ],
           answerImg: [],
-          answer: '着床Implantation/中胚葉形成Mesoderm formation/神経堤形成Neural crest formation/ガン浸潤Cancer invasion',
+          answer:
+            '着床Implantation/中胚葉形成Mesoderm formation/神経堤形成Neural crest formation/ガン浸潤Cancer invasion',
           commentary: '',
         },
         {
@@ -264,7 +281,14 @@ export const useQuestionList = () => {
           detailInfo: '6/13口頭',
           questionImg: [],
           questionSentence: '神経堤に由来しないものは？',
-          choices: ['膵島','消化管の神経細胞','シュワン細胞','交感神経','副腎髄質','この中にはない'],
+          choices: [
+            '膵島',
+            '消化管の神経細胞',
+            'シュワン細胞',
+            '交感神経',
+            '副腎髄質',
+            'この中にはない',
+          ],
           answerImg: [],
           answer: '',
           commentary: '',
@@ -294,10 +318,154 @@ export const useQuestionList = () => {
           choices: [],
           answerImg: [],
           answer: 'CとD',
-          commentary: '咽頭弓は鰓弓とも呼ばれ、内部を大動脈が通過する。Aは神経管',
+          commentary:
+            '咽頭弓は鰓弓とも呼ばれ、内部を大動脈が通過する。Aは神経管',
+        },
+        {
+          detailInfo: '6/14確認問題',
+          questionImg: [],
+          questionSentence:
+            '背側腸間膜の形成について正しい記述を全て選べ。理由も述べよ。',
+          choices: [
+            '沿軸中胚葉由来である',
+            '横隔膜に寄与する',
+            '体壁に寄与する',
+            '腸管を腹腔内に吊り下げる',
+            '二枚の腹膜が重なって形成される',
+            'この中にはない',
+          ],
+          answerImg: [],
+          answer:
+            '横隔膜に寄与する/腸管を腹腔内に吊り下げる/二枚の腹膜が重なって形成される',
+          commentary:
+            '体腔は側板中胚葉由来。背側腸間膜は体壁と連続しているが、体壁に寄与しているとまでは言えない。',
+        },
+        {
+          detailInfo: '6/14確認問題',
+          questionImg: [],
+          questionSentence:
+            '胚内体腔の形成について正しい記述を全て選べ（２つ）。理由も述べよ',
+          choices: [
+            '羊膜腔に交通する',
+            '絨毛膜腔に交通する',
+            '卵黄嚢に交通する',
+            '外胚葉性の上皮に取り囲まれる',
+            '中胚葉性の上皮に取り囲まれる',
+            'この中にはない',
+          ],
+          answerImg: [],
+          answer: '絨毛膜腔に交通する/中胚葉性の上皮に取り囲まれる',
+          commentary:
+            '胚の外側に広がる絨毛膜腔の一部が側板中胚葉に取り囲まれて体腔が形成される。',
+        },
+        {
+          detailInfo: '6/14確認問題',
+          // questionImg: [qq1],
+          questionSentence:
+            '発生19日目の胚の断面図で、将来胸腔になるのはどこ？',
+          choices: [],
+          answerImg: [],
+          answer: '2（側板中胚葉）',
+          commentary:
+            '4は卵黄嚢。1は羊膜。2は側板中胚葉で、ここにできてくる空間が体腔のもとになる。',
+        },
+        {
+          detailInfo: '6/14確認問題',
+          // questionImg: [qq2],
+          questionSentence:
+            '28日胚の横断面で、将来腹腔になるのは？（複数選択可）',
+          choices: [],
+          answerImg: [],
+          answer: 'CとD',
+          commentary:
+            'Bが神経管。C＆Dが側板中胚葉。間隙が形成され始めている。Gが原始腸管',
+        },
+        {
+          detailInfo: '6/14確認問題',
+          // questionImg: [qq3],
+          questionSentence: '25日胚の横断面で、将来の胸腔はどれか',
+          choices: [],
+          answerImg: [],
+          answer: 'D',
+          commentary:
+            'Dが側板中胚葉で、胚内体腔。下側が臓側中胚葉、上側が壁側中胚葉。Aが神経溝、Eの膨らみは原始心筒（心臓）。',
+        },
+        {
+          detailInfo: '6/14確認問題',
+          questionImg: [],
+          questionSentence: '横中隔について正しい記述を選べ',
+          choices: [
+            '発生5週から形成が始まる',
+            'はじめは心臓よりも前方に形成される',
+            '臓側中胚葉由来である',
+            '横隔膜の一部を形成する',
+            '肝臓細胞索を形成する',
+            'この中にはない',
+          ],
+          answerImg: [],
+          answer:
+            'はじめは心臓よりも前方に形成される/臓側中胚葉由来である/横隔膜の一部を形成する？',
+          commentary:
+            '肝臓細胞索≒肝臓の実質。肝臓の実質は内胚葉の前腸に由来する。',
+        },
+        {
+          detailInfo: '6/14確認問題',
+          // questionImg: [qq4],
+          questionSentence: '25日胚の横断面で、影をつけた部分は何か？',
+          choices: [],
+          answerImg: [],
+          answer: '腹腔？',
+          commentary:
+            '胸膜腔は心膜腔と隔たれて初めて定義される。卵黄嚢は影をつけた部分のさらに下側の部分。心膜腔がその間に筒状に見られる。',
+        },
+        {
+          detailInfo: '6/14確認問題',
+          // questionImg: [qq5],
+          questionSentence: '41日胚の横断面で、矢印の部分は何か？',
+          choices: [],
+          answerImg: [],
+          answer: '横隔神経',
+          commentary:
+            '最上部に見えているのは神経管。その両側が知覚神経、両側に見えて濃く染まっているのが肝臓（を包む腹腔）。最前部の2つの円が心臓。その上が心房のようなもの（血管？）、そのさらに上が肺芽（胸腔）。心膜腔と胸腔を隔てている中隔が胸中隔。知覚神経と同じく濃く染まっているので矢印部分は神経だと推測できる。',
         },
         // {
-        //   detailInfo: '6/13口頭',
+        //   detailInfo: '6/14確認問題',
+        //   questionImg: [q1],
+        //   questionSentence: '',
+        //   choices: [],
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '6/14確認問題',
+        //   questionImg: [q1],
+        //   questionSentence: '',
+        //   choices: [],
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '6/14確認問題',
+        //   questionImg: [q1],
+        //   questionSentence: '',
+        //   choices: [],
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '6/14確認問題',
+        //   questionImg: [q1],
+        //   questionSentence: '',
+        //   choices: [],
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '6/14確認問題',
         //   questionImg: [q1],
         //   questionSentence: '',
         //   choices: [],
