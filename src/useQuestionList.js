@@ -428,9 +428,98 @@ export const useQuestionList = () => {
           commentary:
             '最上部に見えているのは神経管。その両側が知覚神経、両側に見えて濃く染まっているのが肝臓（を包む腹腔）。最前部の2つの円が心臓。その上が心房のようなもの（血管？）、そのさらに上が肺芽（胸腔）。心膜腔と胸腔を隔てている中隔が胸中隔。知覚神経と同じく濃く染まっているので矢印部分は神経だと推測できる。',
         },
+        {
+          detailInfo: '6/14確認問題',
+          questionImg: [],
+          questionSentence:
+            '胎盤について、正しくない記述を全て上げ、理由を発生機序に関連付けて説明せよ',
+          choices: [
+            '胎盤関門は、最終的には栄養膜合胞体層、栄養膜細胞層、胎児血管内皮、絨毛の結合組織からなる',
+            '胎盤関門は免疫グロブリンを通さない',
+            '絨毛膜版には胎児側の血管が通っている',
+            '絨毛膜腔には胎児側の血管が循環する',
+            'すべて正しい仮設である。',
+          ],
+          answerImg: [],
+          answer:
+            '胎盤関門は、最終的には栄養膜合胞体層、栄養膜細胞層、胎児血管内皮、絨毛の結合組織からなる/胎盤関門は免疫グロブリンを通さない/絨毛膜腔には胎児側の血管が循環する',
+          commentary:
+            '胎盤関門は最終的には栄養膜合胞体層・胎児血管内皮の2層となり、結構色々なものを通す。母体から最も分子量の小さいIMgが胎盤を通して胎児に供給され、それが半年程度残るため乳児は風邪を引かない。',
+        },
+        {
+          detailInfo: '6/14確認問題',
+          questionImg: [],
+          questionSentence: '妊娠5か月のヒト組織で、矢印の細胞は何か？',
+          choices: [
+            '赤血球（母体）',
+            '赤血球（胎児）',
+            'ラングハンス細胞',
+            'ランゲルハンス島',
+            '合胞体結節',
+          ],
+          answerImg: [],
+          answer: '赤血球（胎児）',
+          commentary:
+            '映っている組織は胎盤絨毛で、絨毛外側の濃くなっている薄い細胞の層が栄養膜合胞体層（境目が明瞭ではない/hCG産生）で、その内側が栄養膜細胞層（ラングハンス細胞）で、そのさらに内側が結合組織。胎児の赤血球は有核なので本当は核が染まる。',
+        },
+        {
+          detailInfo: '6/14確認問題',
+          questionImg: [],
+          questionSentence:
+            '左右の模式図内（左は発生5週）で、構造1~7の由来をA~Kから選べ。',
+          choices: [],
+          answerImg: [],
+          answer: 'C→1絨毛膜板,K→2羊膜,E→3羊膜腔,I→4胚子,B→6臍帯,D→7卵黄嚢',
+          commentary:
+            '卵黄嚢は腸ループで生理的臍帯ヘルニアを起こす時期がある。絨毛膜と羊膜は融合して羊膜絨毛膜になっていく。',
+        },
+        {
+          detailInfo: '6/14確認問題',
+          questionImg: [],
+          questionSentence:
+            '発生9日胚で、矢印の部分は将来右の模式図のどこになるか？',
+          choices: [],
+          answerImg: [],
+          answer: 'C',
+          commentary:
+            '中央の球が2層性胚盤で、その上側が円柱状の外胚葉で、胚盤上側の空間が羊膜。また、画面上側が子宮内膜（血管などが見える）。その間の濃い部分が栄養膜で、矢印の細胞は細胞境界が明瞭で、栄養膜細胞層と推定できる。模式図で栄養膜細胞層はC。Dは栄養膜合胞体層で、Eは血管。',
+        },
+        {
+          detailInfo: '6/14確認問題',
+          questionImg: [],
+          questionSentence: '妊娠期間中の計測値。矢印は何？',
+          choices: [
+            '羊水の重量',
+            '胎児の体重',
+            '胎盤の重量',
+            '胎児の頭殿長',
+            '母体の重量',
+            'この中にはない',
+          ],
+          answerImg: [],
+          answer: '胎児の頭殿長',
+          commentary: '妊娠8週だと数センチ。胎児の体重は途中から伸びてくる。',
+        },
+        {
+          detailInfo: '6/14確認問題',
+          questionImg: [],
+          questionSentence:
+            '一卵性双生児の模式図で、発生段階のいつ双生児となったと考えられるか？理由とともに述べよ',
+          choices: [
+            '1細胞期',
+            '2細胞期',
+            '桑実胚',
+            '胚盤胞',
+            '原腸胚',
+            'この中にはない',
+          ],
+          answerImg: [],
+          answer: '胚盤胞',
+          commentary: '胎盤（絨毛膜）・羊膜が共通。',
+        },
         // {
         //   detailInfo: '6/14確認問題',
-        //   questionImg: [q1],
+        //   questionImg: [],
         //   questionSentence: '',
         //   choices: [],
         //   answerImg: [],
@@ -439,7 +528,7 @@ export const useQuestionList = () => {
         // },
         // {
         //   detailInfo: '6/14確認問題',
-        //   questionImg: [q1],
+        //   questionImg: [],
         //   questionSentence: '',
         //   choices: [],
         //   answerImg: [],
@@ -448,7 +537,7 @@ export const useQuestionList = () => {
         // },
         // {
         //   detailInfo: '6/14確認問題',
-        //   questionImg: [q1],
+        //   questionImg: [],
         //   questionSentence: '',
         //   choices: [],
         //   answerImg: [],
@@ -457,7 +546,7 @@ export const useQuestionList = () => {
         // },
         // {
         //   detailInfo: '6/14確認問題',
-        //   questionImg: [q1],
+        //   questionImg: [],
         //   questionSentence: '',
         //   choices: [],
         //   answerImg: [],
@@ -466,7 +555,16 @@ export const useQuestionList = () => {
         // },
         // {
         //   detailInfo: '6/14確認問題',
-        //   questionImg: [q1],
+        //   questionImg: [],
+        //   questionSentence: '',
+        //   choices: [],
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '6/14確認問題',
+        //   questionImg: [],
         //   questionSentence: '',
         //   choices: [],
         //   answerImg: [],

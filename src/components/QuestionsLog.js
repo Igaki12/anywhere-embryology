@@ -70,13 +70,14 @@ export const QuestionsLog = ({
                   mt="3"
                   key={index + 'QuestionBox'}
                 >
-                  {question.questionImg.map((image, imageNum) => (
-                    <Image
-                      src={image}
-                      alt="写真読み込みエラー"
-                      key={index + imageNum + 'QuestionImage'}
-                    />
-                  ))}
+                  {question.questionImg &&
+                    question.questionImg.map((image, imageNum) => (
+                      <Image
+                        src={image}
+                        alt="写真読み込みエラー"
+                        key={index + imageNum + 'QuestionImage'}
+                      />
+                    ))}
                   <Box p="6">
                     <Box display="flex" alignItems="baseline">
                       <Badge
