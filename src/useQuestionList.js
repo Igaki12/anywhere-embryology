@@ -514,18 +514,21 @@ export const useQuestionList = () => {
             'この中にはない',
           ],
           answerImg: [],
-          answer: '胚盤胞',
-          commentary: '胎盤（絨毛膜）・羊膜が共通。',
+          answer: 'この中にはない',
+          commentary:
+            '胎盤・絨毛膜・羊膜が共通。原始腸管は2つもっている。これは比較的遅い段階（胚盤葉上層が作られた後/原腸形成の前）で双生児となった場合にみられる。原腸形成後では一卵性双生児は発生しない。',
         },
-        // {
-        //   detailInfo: '6/14確認問題',
-        //   questionImg: [],
-        //   questionSentence: '',
-        //   choices: [],
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
+        {
+          detailInfo: '6/14確認問題',
+          questionImg: [],
+          questionSentence:
+            '母親がD抗原を持たず、胎児がD抗原を持つ場ときに誘発される不適合と、その予防法を解説せよ',
+          choices: [],
+          answerImg: [],
+          answer: '',
+          commentary:
+            '胎児赤芽球症。抗Dグロブリン製剤を注射することで母体側から排除する必要がある。',
+        },
         // {
         //   detailInfo: '6/14確認問題',
         //   questionImg: [],
