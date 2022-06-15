@@ -26,6 +26,8 @@ import qq8 from './img/question/220614-8.JPG'
 import qq9 from './img/question/220614-9.JPG'
 import qq10 from './img/question/220614-10.JPG'
 
+import qq11 from './img/question/220614-11.JPG'
+
 export const useQuestionList = () => {
   const [questionList, setQuestionList] = useState([
     // ここに問題のリストを記述(選択式の場合は[0]に正解択をいれた配列をつくる)
@@ -439,7 +441,7 @@ export const useQuestionList = () => {
           answer:
             '胎盤関門は、最終的には栄養膜合胞体層、栄養膜細胞層、胎児血管内皮、絨毛の結合組織からなる/胎盤関門は免疫グロブリンを通さない/絨毛膜腔には胎児側の血管が循環する',
           commentary:
-            '胎盤関門は最終的には栄養膜合胞体層・胎児血管内皮の2層となり、結構色々なものを通す。母体から最も分子量の小さいIMgが胎盤を通して胎児に供給され、それが半年程度残るため乳児は風邪を引かない。',
+            '胎盤関門は最終的には栄養膜合胞体層・胎児血管内皮の2層となり、結構色々なものを通す。母体から最も分子量の小さいIgGが胎盤を通して胎児に供給され、それが半年程度残るため乳児は風邪を引かない。',
         },
         {
           detailInfo: '6/14確認問題',
@@ -481,7 +483,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/14確認問題',
-          questionImg: [],
+          questionImg: [qq11],
           questionSentence: '妊娠期間中の計測値。矢印は何？',
           choices: [
             '羊水の重量',
@@ -623,6 +625,148 @@ export const useQuestionList = () => {
           commentary:
             'レチノイン酸は体節など分節構造を司る重要なシグナル物質である。パルプロ酸も同様。葉酸は足りないことはあっても取りすぎることはない。クエン酸・酢酸は身近に豊富にある。',
         },
+        {
+          detailInfo: '6/15確認問題',
+          questionImg: [],
+          questionSentence: '三葉性胚盤で、胸骨が由来する部位を選べ',
+          choices: [],
+          answerImg: [],
+          answer: '3.壁側側板中胚葉',
+          commentary: '',
+        },
+        {
+          detailInfo: '6/15確認問題',
+          questionImg: [],
+          questionSentence: '三葉性胚盤で、椎弓が由来する部位を選べ',
+          choices: [],
+          answerImg: [],
+          answer: '7.沿軸中胚葉',
+          commentary: '',
+        },
+        {
+          detailInfo: '6/15確認問題',
+          // questionImg: [],
+          questionSentence: '前頭骨が由来する部位を選べ',
+          choices: [],
+          answerImg: [],
+          answer: '8.神経堤細胞',
+          commentary:
+            '神経堤細胞は神経管から形成される。この中にはないという選択も可。',
+        },
+        {
+          detailInfo: '6/15確認問題',
+          // questionImg: [],
+          questionSentence:
+            '図に示す頭蓋骨の異常a~dに対応する縫合を、1~6から選び、その理由を説明せよ',
+          choices: [],
+          answerImg: [],
+          answer: 'a→4矢状縫合、b→1冠状縫合、c→、',
+          commentary:
+            '頭蓋骨の異常は中枢の異常に繋がる。縫合が早く閉じ過ぎることが原因。4の縫合が早期に閉じると後頭部の成長が阻害されて、その周辺が膨らむ（舟状頭蓋）。bの場合（島状頭蓋）、1の縫合が早期に閉じて正中部分が盛り上がる。6はラムダ縫合。',
+        },
+        {
+          detailInfo: '6/15確認問題',
+          // questionImg: [],
+          questionSentence:
+            '以下は、体節横断面の走査電顕像である。将来、椎骨になるのはどこか？',
+          choices: [],
+          answerImg: [],
+          answer: '2.沿軸中胚葉椎板',
+          commentary: '1が皮板・筋板。2が椎板',
+        },
+        {
+          detailInfo: '6/15確認問題',
+          questionImg: [],
+          questionSentence: '頭蓋骨の中で、神経堤に由来する骨はどれか？',
+          choices: [],
+          answerImg: [],
+          answer: '2前頭骨、5上顎骨、6下顎骨',
+          commentary:
+            '4は側頭骨で、厳密には沿軸中胚葉由来。脊索が頭のトルコ鞍まで来ているので、そこより背側か腹側で由来が分かれる。',
+        },
+        {
+          detailInfo: '6/15確認問題',
+          questionImg: [],
+          questionSentence: '耳小骨のうち、キヌタ骨の骨化形式は？',
+          choices: ['膜内骨化', '軟骨内骨化', 'この中にはない'],
+          answerImg: [],
+          answer: '軟骨内骨化',
+          commentary: '頭蓋骨はほとんど膜内骨化なので、間違いやすい。',
+        },
+        {
+          detailInfo: '6/15確認問題',
+          questionImg: [],
+          questionSentence: '耳小骨のうち、キヌタ骨はどの咽頭弓由来か？',
+          choices: [
+            '第1咽頭弓',
+            '第1咽頭弓および第2咽頭弓',
+            '第2咽頭弓',
+            '第3咽頭弓',
+            'この中にはない',
+          ],
+          answerImg: [],
+          answer: '第1咽頭弓',
+          commentary: '',
+        },
+        {
+          detailInfo: '6/15確認問題',
+          // questionImg: [],
+          questionSentence: 'A~Fは図中のどの部位に由来するか？',
+          choices: [],
+          answerImg: [],
+          answer: 'A-1（神経管）,B-6この図中にはない,C-2（筋板）',
+          commentary:
+            '上肢の骨格筋と顔面の骨格筋で由来が違う。顔面の骨格筋は沿軸中胚葉までは共通（骨格筋は全て沿軸中胚葉由来）だが、頭部なので筋板を介さずに体節文節から直接骨格筋が形成される。なので図のような中間的な体節構造を経ていない。',
+        },
+        {
+          detailInfo: '6/15確認問題',
+          questionImg: [],
+          questionSentence: '沿軸中胚葉から作られるものは何か？',
+          choices: [
+            '舌骨下筋',
+            '瞳孔括約筋',
+            '汗腺の筋上皮',
+            '大動脈の筋上皮',
+            '粘膜筋板',
+            '回外筋',
+            '舌筋',
+          ],
+          answerImg: [],
+          answer: '舌骨下筋、回外筋、舌筋',
+          commentary:
+            '骨格筋は全て沿軸中胚葉由来。粘膜筋板は臓側中胚葉由来。大動脈の筋上皮は平滑筋なので壁側中胚葉由来。',
+        },
+        {
+          detailInfo: '6/15確認問題',
+          questionImg: [],
+          questionSentence:
+            '体節の分化について、2の腹外側筋前駆細胞について分化する組織をa~gより選べ。',
+          choices: [
+            '肋骨',
+            '胸骨',
+            '背部の真皮',
+            '上肢の真皮',
+            '背筋',
+            '外腹斜筋',
+            '円回内筋',
+          ],
+          answerImg: [],
+          answer: '2腹外側筋前駆細胞→f外腹斜筋・g円回内筋',
+          commentary:
+            '背筋は正中に近い筋肉なので、背内側筋前駆細胞から分化する。',
+        },
+
+        // {
+        //   detailInfo: '6/15確認問題',
+        //   questionImg: [],
+        //   questionSentence:
+        //     '',
+        //   choices: [],
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary:
+        //     '',
+        // },
       ],
     },
   ])
