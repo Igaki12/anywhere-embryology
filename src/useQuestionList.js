@@ -756,6 +756,45 @@ export const useQuestionList = () => {
             '背筋は正中に近い筋肉なので、背内側筋前駆細胞から分化する。',
         },
 
+        {
+          detailInfo: '6/15確認問題',
+          questionImg: [],
+          questionSentence: '図の中で肩甲骨はどこに由来するか？',
+          choices: [],
+          answerImg: [],
+          answer: '3.椎板',
+          commentary:
+            '肩甲骨だけでなく、上肢帯（軸骨格）から分化する骨は3椎板から分化する',
+        },
+        {
+          detailInfo: '6/15確認問題',
+          questionImg: [],
+          questionSentence:
+            '外胚葉性頂堤AERについて、正しい記述は？（複数選択可）',
+          choices: [
+            '間葉細胞の軟骨化を促す',
+            '遠近軸のパターニングを行う',
+            '体肢芽の伸張を促す',
+            '側板中胚葉由来である',
+            'ZPAからのシグナルを受けて機能する',
+            'この中にはない',
+          ],
+          answerImg: [],
+          answer: '遠近軸のパターニングを行う/体肢芽の伸張を促す',
+          commentary:
+            '外胚葉性頂堤Apical Ectodermal Ridge。AERは外胚葉由来なので4は違う。AERはZPAを生成するので厳密には異なる。AERのシグナルを受けた細胞は未分化の状態で増殖させる。AERに近い細胞と遠い細胞で発現が変わっていくことを遠近軸に対するパターニングいう。',
+        },
+        {
+          detailInfo: '6/15確認問題',
+          questionImg: [],
+          questionSentence:
+            '遺伝子異常と疾患の組み合わせで、7)FBN1の変異によっておこる疾患をa~gから選べ。',
+          choices: [],
+          answerImg: [],
+          answer: 'b.マルファン症候群',
+          commentary:
+            'よく名前の知られた先天性異常疾患。FGFR3→タナトフォリック症候群。いかに末端にHOX遺伝子が影響しているのか。',
+        },
         // {
         //   detailInfo: '6/15確認問題',
         //   questionImg: [],
