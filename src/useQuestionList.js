@@ -1,35 +1,30 @@
 import { useState } from 'react'
-// import q1 from './img/question/220613-1.JPG'
-// import q2 from './img/question/220613-2.JPG'
+
 import q3 from './img/question/220613-3.JPG'
 import q4 from './img/question/220613-4.JPG'
 import q5 from './img/question/220613-5.JPG'
 import q6 from './img/question/220613-6.JPG'
 import q7 from './img/question/220613-7.JPG'
-// import q8 from './img/question/220613-8.JPG'
 import q9 from './img/question/220613-9.JPG'
 import q10 from './img/question/220613-10.JPG'
 import q11 from './img/question/220613-11.JPG'
 import q12 from './img/question/220613-12.JPG'
 import q13 from './img/question/220613-13.JPG'
 import q14 from './img/question/220613-14.JPG'
-// import q15 from './img/question/220613-15.JPG'
-// import q16 from './img/question/220613-16.JPG'
-// import q17 from './img/question/220613-17.JPG'
-// import q18 from './img/question/220613-18.JPG'
 import q19 from './img/question/220613-19.JPG'
 import q20 from './img/question/220613-20.JPG'
-// import q21 from './img/question/220613-21.JPG'
 import q22 from './img/question/220613-22.JPG'
 import q23 from './img/question/220613-23.JPG'
 import q24 from './img/question/220613-24.JPG'
-// import qq1 from './img/question/220614-1.JPG'
-// import qq2 from './img/question/220614-2.JPG'
-// import qq3 from './img/question/220614-2.JPG'
-// import qq4 from './img/question/220614-2.JPG'
-// import qq5 from './img/question/220614-2.JPG'
-// import qq6 from './img/question/220614-2.JPG'
-// import qq7 from './img/question/220614-2.JPG'
+import qq1 from './img/question/220614-1.JPG'
+import qq2 from './img/question/220614-2.JPG'
+import qq3 from './img/question/220614-3.JPG'
+import qq4 from './img/question/220614-4.JPG'
+import qq5 from './img/question/220614-5.JPG'
+import qq7 from './img/question/220614-7.JPG'
+import qq8 from './img/question/220614-8.JPG'
+import qq9 from './img/question/220614-9.JPG'
+import qq10 from './img/question/220614-10.JPG'
 
 export const useQuestionList = () => {
   const [questionList, setQuestionList] = useState([
@@ -360,7 +355,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/14確認問題',
-          // questionImg: [qq1],
+          questionImg: [qq1],
           questionSentence:
             '発生19日目の胚の断面図で、将来胸腔になるのはどこ？',
           choices: [],
@@ -371,7 +366,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/14確認問題',
-          // questionImg: [qq2],
+          questionImg: [qq2],
           questionSentence:
             '28日胚の横断面で、将来腹腔になるのは？（複数選択可）',
           choices: [],
@@ -382,7 +377,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/14確認問題',
-          // questionImg: [qq3],
+          questionImg: [qq3],
           questionSentence: '25日胚の横断面で、将来の胸腔はどれか',
           choices: [],
           answerImg: [],
@@ -410,7 +405,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/14確認問題',
-          // questionImg: [qq4],
+          questionImg: [qq4],
           questionSentence: '25日胚の横断面で、影をつけた部分は何か？',
           choices: [],
           answerImg: [],
@@ -420,7 +415,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/14確認問題',
-          // questionImg: [qq5],
+          questionImg: [qq5],
           questionSentence: '41日胚の横断面で、矢印の部分は何か？',
           choices: [],
           answerImg: [],
@@ -448,7 +443,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/14確認問題',
-          questionImg: [],
+          questionImg: [qq7],
           questionSentence: '妊娠5か月のヒト組織で、矢印の細胞は何か？',
           choices: [
             '赤血球（母体）',
@@ -464,7 +459,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/14確認問題',
-          questionImg: [],
+          questionImg: [qq8],
           questionSentence:
             '左右の模式図内（左は発生5週）で、構造1~7の由来をA~Kから選べ。',
           choices: [],
@@ -475,7 +470,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/14確認問題',
-          questionImg: [],
+          questionImg: [qq9],
           questionSentence:
             '発生9日胚で、矢印の部分は将来右の模式図のどこになるか？',
           choices: [],
@@ -502,7 +497,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/14確認問題',
-          questionImg: [],
+          questionImg: [qq10],
           questionSentence:
             '一卵性双生児の模式図で、発生段階のいつ双生児となったと考えられるか？理由とともに述べよ',
           choices: [
@@ -624,7 +619,7 @@ export const useQuestionList = () => {
             'この中にはない',
           ],
           answerImg: [],
-          answer: '風疹',
+          answer: 'レチノイン酸、パルプロ酸',
           commentary:
             'レチノイン酸は体節など分節構造を司る重要なシグナル物質である。パルプロ酸も同様。葉酸は足りないことはあっても取りすぎることはない。クエン酸・酢酸は身近に豊富にある。',
         },
