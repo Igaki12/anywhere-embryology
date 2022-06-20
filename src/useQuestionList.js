@@ -25,8 +25,23 @@ import qq7 from './img/question/220614-7.JPG'
 import qq8 from './img/question/220614-8.JPG'
 import qq9 from './img/question/220614-9.JPG'
 import qq10 from './img/question/220614-10.JPG'
-
 import qq11 from './img/question/220614-11.JPG'
+// 0615と0617が逆になっている
+import r1 from './img/question/220615-1.JPG'
+import r2 from './img/question/220615-2.JPG'
+import r3 from './img/question/220615-3.JPG'
+import r4 from './img/question/220615-4.JPG'
+import r5 from './img/question/220615-5.JPG'
+import r6 from './img/question/220615-6.JPG'
+import s1 from './img/question/220617-1.JPG'
+import s2 from './img/question/220617-2.JPG'
+import s3 from './img/question/220617-3.JPG'
+import s4 from './img/question/220617-4.JPG'
+import s5 from './img/question/220617-5.JPG'
+import s6 from './img/question/220617-6.JPG'
+import s7 from './img/question/220617-7.JPG'
+import s8 from './img/question/220617-8.JPG'
+import s9 from './img/question/220617-9.JPG'
 
 export const useQuestionList = () => {
   const [questionList, setQuestionList] = useState([
@@ -627,7 +642,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/15確認問題',
-          questionImg: [],
+          questionImg: [s1],
           questionSentence: '三葉性胚盤で、胸骨が由来する部位を選べ',
           choices: [],
           answerImg: [],
@@ -636,7 +651,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/15確認問題',
-          questionImg: [],
+          questionImg: [s2],
           questionSentence: '三葉性胚盤で、椎弓が由来する部位を選べ',
           choices: [],
           answerImg: [],
@@ -645,7 +660,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/15確認問題',
-          // questionImg: [],
+          questionImg: [s3],
           questionSentence: '前頭骨が由来する部位を選べ',
           choices: [],
           answerImg: [],
@@ -655,7 +670,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/15確認問題',
-          // questionImg: [],
+          questionImg: [s4],
           questionSentence:
             '図に示す頭蓋骨の異常a~dに対応する縫合を、1~6から選び、その理由を説明せよ',
           choices: [],
@@ -666,7 +681,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/15確認問題',
-          // questionImg: [],
+          questionImg: [s5],
           questionSentence:
             '以下は、体節横断面の走査電顕像である。将来、椎骨になるのはどこか？',
           choices: [],
@@ -676,7 +691,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/15確認問題',
-          questionImg: [],
+          questionImg: [s6],
           questionSentence: '頭蓋骨の中で、神経堤に由来する骨はどれか？',
           choices: [],
           answerImg: [],
@@ -710,7 +725,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/15確認問題',
-          // questionImg: [],
+          questionImg: [s7],
           questionSentence: 'A~Fは図中のどの部位に由来するか？',
           choices: [],
           answerImg: [],
@@ -718,6 +733,7 @@ export const useQuestionList = () => {
           commentary:
             '上肢の骨格筋と顔面の骨格筋で由来が違う。顔面の骨格筋は沿軸中胚葉までは共通（骨格筋は全て沿軸中胚葉由来）だが、頭部なので筋板を介さずに体節文節から直接骨格筋が形成される。なので図のような中間的な体節構造を経ていない。',
         },
+
         {
           detailInfo: '6/15確認問題',
           questionImg: [],
@@ -755,10 +771,19 @@ export const useQuestionList = () => {
           commentary:
             '背筋は正中に近い筋肉なので、背内側筋前駆細胞から分化する。',
         },
+        {
+          detailInfo: '6/15確認問題',
+          questionImg: [s8],
+          questionSentence: '図の中で上直筋はどこに由来するか？',
+          choices: [],
+          answerImg: [],
+          answer: '2.筋板？',
+          commentary: '骨格筋は原則沿軸中胚葉筋板から分化する。',
+        },
 
         {
           detailInfo: '6/15確認問題',
-          questionImg: [],
+          questionImg: [s9],
           questionSentence: '図の中で肩甲骨はどこに由来するか？',
           choices: [],
           answerImg: [],
@@ -936,7 +961,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/17確認問題',
-          questionImg: [],
+          questionImg: [r1],
           questionSentence:
             '32日胚の横断面で、成人の網嚢にあたる部分はどこからできるか？',
           choices: [],
@@ -947,7 +972,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/17確認問題',
-          questionImg: [],
+          questionImg: [r6],
           questionSentence: '36日胚の横断面で、矢印は将来何になるか？',
           choices: [],
           answerImg: [],
@@ -956,7 +981,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/17確認問題',
-          questionImg: [],
+          questionImg: [r2],
           questionSentence: '36日胚の横断面で、矢印の部分は将来何になるか？',
           choices: [],
           answerImg: [],
@@ -966,7 +991,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/17確認問題',
-          questionImg: [],
+          questionImg: [r3],
           questionSentence: '肝シヌソイドになるのはどれか？',
           choices: [],
           answerImg: [],
@@ -1002,13 +1027,22 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/17確認問題',
-          questionImg: [],
+          questionImg: [r5],
           questionSentence: '回盲部は図のどこにできるか？',
           choices: [],
           answerImg: [],
           answer: '2',
           commentary:
             '卵黄腸管（メッケル憩室）は将来の回腸にできるので、回盲部（虫垂）はそれより尾側に存在する。',
+        },
+        {
+          detailInfo: '6/17確認問題',
+          questionImg: [r4],
+          questionSentence: '将来の大十二指腸乳頭はどこか？',
+          choices: [],
+          answerImg: [],
+          answer: 'A',
+          commentary: 'Aが主膵管、Bが副膵管（小十二指腸乳頭）になる。',
         },
         // {
         //   detailInfo: '6/17確認問題',
