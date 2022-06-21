@@ -85,6 +85,7 @@ import t40 from './img/question/スクリーンショット 2022-06-21 121246.pn
 import t41 from './img/question/スクリーンショット 2022-06-21 121338.png'
 import t42 from './img/question/スクリーンショット 2022-06-21 121556.png'
 import t43 from './img/question/スクリーンショット 2022-06-21 121655.png'
+import heartLoop from './img/answer/heartLoop.png'
 
 export const useQuestionList = () => {
   const [questionList, setQuestionList] = useState([
@@ -1229,18 +1230,18 @@ export const useQuestionList = () => {
             '筋性心室中隔',
             'この中にはない',
           ],
-          answerImg: [t20],
+          answerImg: [t19],
           answer: '動脈幹円錐中隔',
           commentary:
             '外胚葉（神経堤）の寄与が重要。動脈管の方から心円錐へらせん状に結合が進んでいく。これらが最終的に膜性心室中隔を形成する。神経堤に異常が起こると顔面の異常と心臓異常が同時に見られることは珍しくない。',
         },
         {
           detailInfo: '6/21確認問題',
-          questionImg: [t21, t22],
+          questionImg: [t20, t21],
           questionSentence:
             '図は、胎児循環の模式図である。出生時に閉塞する血管を1～5から全て選び、その役割を解説せよ。',
           choices: [],
-          answerImg: [t23],
+          answerImg: [t22],
           answer:
             '2.動脈管索）出生に伴う肺呼吸の開始　5.静脈管索）出生に伴う臍帯の断絶',
           commentary:
@@ -1454,7 +1455,25 @@ export const useQuestionList = () => {
           commentary:
             '左側第4大動脈弓異常消失パターンにより起こる大動脈弓遮断の3型は、いずれも下半身に至る下行大動脈に血液を供給するため動脈管開存PDAがあり、心室中隔欠損VSDも存在する。その理由は流出路を二分する円錐動脈幹中隔が上手く伸びず、房室管中の腹側心内膜隆起に癒合できなかったためである。ラングマンp215',
         },
-        // {
+        {
+          detailInfo: '6/21確認問題',
+          questionImg: [t23],
+          questionSentence: '成人の大動脈の模式図で、影をつけた部分は胚性期にはどの動脈・咽頭弓動脈に由来するか？（大動脈弓の右鎖骨下動脈より近位側）',
+          choices: [],
+          answerImg: [heartLoop],
+          answer: '心臓動脈幹',
+          commentary: '心球遠位部（動脈幹）は大動脈根・大動脈・肺動脈の近位部を形成する。※咽頭弓第4大動脈弓は、左側では左総頚動脈-左鎖骨下動脈間の大動脈弓を、右側では右鎖骨下動脈の最も近位の部分を形成する。',
+        },
+                // {
+        //   detailInfo: '6/21確認問題',
+        //   questionImg: [],
+        //   questionSentence: '',
+        //   choices: [],
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+                // {
         //   detailInfo: '6/21確認問題',
         //   questionImg: [],
         //   questionSentence: '',
