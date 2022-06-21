@@ -42,6 +42,49 @@ import s6 from './img/question/220617-6.JPG'
 import s7 from './img/question/220617-7.JPG'
 import s8 from './img/question/220617-8.JPG'
 import s9 from './img/question/220617-9.JPG'
+import t01 from './img/question/スクリーンショット 2022-06-21 092614.png'
+import t02 from './img/question/スクリーンショット 2022-06-21 093203.png'
+import t03 from './img/question/スクリーンショット 2022-06-21 093853.png'
+import t04 from './img/question/スクリーンショット 2022-06-21 094723.png'
+import t05 from './img/question/スクリーンショット 2022-06-21 094756.png'
+import t06 from './img/question/スクリーンショット 2022-06-21 095228.png'
+import t07 from './img/question/スクリーンショット 2022-06-21 095346.png'
+import t08 from './img/question/スクリーンショット 2022-06-21 095447.png'
+import t09 from './img/question/スクリーンショット 2022-06-21 100021.png'
+import t10 from './img/question/スクリーンショット 2022-06-21 100032.png'
+import t11 from './img/question/スクリーンショット 2022-06-21 100310.png'
+import t12 from './img/question/スクリーンショット 2022-06-21 100856.png'
+import t13 from './img/question/スクリーンショット 2022-06-21 101520.png'
+import t14 from './img/question/スクリーンショット 2022-06-21 101548.png'
+import t15 from './img/question/スクリーンショット 2022-06-21 101704.png'
+import t16 from './img/question/スクリーンショット 2022-06-21 102159.png'
+import t17 from './img/question/スクリーンショット 2022-06-21 102346.png'
+import t18 from './img/question/スクリーンショット 2022-06-21 102532.png'
+import t19 from './img/question/スクリーンショット 2022-06-21 104018.png'
+import t20 from './img/question/スクリーンショット 2022-06-21 104122.png'
+import t21 from './img/question/スクリーンショット 2022-06-21 104557.png'
+import t22 from './img/question/スクリーンショット 2022-06-21 105421.png'
+import t23 from './img/question/スクリーンショット 2022-06-21 111138.png'
+import t24 from './img/question/スクリーンショット 2022-06-21 111245.png'
+import t25 from './img/question/スクリーンショット 2022-06-21 112344.png'
+import t26 from './img/question/スクリーンショット 2022-06-21 112527.png'
+import t27 from './img/question/スクリーンショット 2022-06-21 112751.png'
+import t28 from './img/question/スクリーンショット 2022-06-21 112824.png'
+import t29 from './img/question/スクリーンショット 2022-06-21 113128.png'
+import t30 from './img/question/スクリーンショット 2022-06-21 113528.png'
+import t31 from './img/question/スクリーンショット 2022-06-21 113658.png'
+import t32 from './img/question/スクリーンショット 2022-06-21 114808.png'
+import t33 from './img/question/スクリーンショット 2022-06-21 114929.png'
+import t34 from './img/question/スクリーンショット 2022-06-21 115421.png'
+import t35 from './img/question/スクリーンショット 2022-06-21 120204.png'
+import t36 from './img/question/スクリーンショット 2022-06-21 120350.png'
+import t37 from './img/question/スクリーンショット 2022-06-21 120643.png'
+import t38 from './img/question/スクリーンショット 2022-06-21 120858.png'
+import t39 from './img/question/スクリーンショット 2022-06-21 121054.png'
+import t40 from './img/question/スクリーンショット 2022-06-21 121246.png'
+import t41 from './img/question/スクリーンショット 2022-06-21 121338.png'
+import t42 from './img/question/スクリーンショット 2022-06-21 121556.png'
+import t43 from './img/question/スクリーンショット 2022-06-21 121655.png'
 
 export const useQuestionList = () => {
   const [questionList, setQuestionList] = useState([
@@ -1046,7 +1089,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/21確認問題',
-          // questionImg: [],
+          questionImg: [t01],
           questionSentence: '発生18日胚で、心臓が由来する部位を選べ。',
           choices: [],
           answerImg: [],
@@ -1078,7 +1121,7 @@ export const useQuestionList = () => {
           questionSentence:
             '一次心臓域の形成過程と形成位置を「原始線条」を用いて解説せよ。（胚盤葉上層という言葉も用いて）',
           choices: [],
-          answerImg: [],
+          answerImg: [t04],
           answer:
             '胚盤葉上層の予定運命：細胞の運命は、胚盤葉上層の中での位置で概ね決まっている。発生の初期に原始線条を通過し中胚葉を形成する運命の胚盤葉上層がもっとも頭部の心臓中胚葉を形成する。',
           commentary:
@@ -1091,7 +1134,7 @@ export const useQuestionList = () => {
           questionSentence:
             '原始心筒/心筒の形成過程について、「心内膜筒」「胚子の屈曲」という単語を用いて解説せよ（一次心臓域という言葉も用いて）。また、将来、流出路となる部位がどのように形成されるのかも説明せよ。',
           choices: [],
-          answerImg: [],
+          answerImg: [t06, t07],
           answer:
             '胚子の左右の屈曲によって心内膜筒が癒合して原始心筒を形成する。',
           commentary: '',
@@ -1119,7 +1162,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/21確認問題',
-          questionImg: [],
+          questionImg: [t11],
           questionSentence: '25日胚の横断面で、影を付けた部分は何か？',
           choices: [],
           answerImg: [],
@@ -1140,7 +1183,7 @@ export const useQuestionList = () => {
             '筋性心室中隔',
             'この中にはない',
           ],
-          answerImg: [],
+          answerImg: [t13, t14],
           answer: '肺静脈、左心房平滑壁部、冠状動脈、心外膜',
           commentary:
             '他にも心房中隔の一部（前庭棘/心房棘）も背側心間膜に由来する。',
@@ -1158,14 +1201,14 @@ export const useQuestionList = () => {
             '筋性心室中隔',
             'この中にはない',
           ],
-          answerImg: [],
+          answerImg: [t16, t17],
           answer: '心室中隔膜性部、房室管（中隔）、動脈管',
           commentary:
             '心内膜の細胞が結合組織に変わっていく。心内膜由来細胞だけでなく神経堤由来細胞も形成に関わる。筋性心室中隔は心筋由来。',
         },
         {
           detailInfo: '6/21確認問題',
-          questionImg: [],
+          questionImg: [t18],
           questionSentence: '発生7週の図で、卵円孔はどれか？(1つ選択)',
           choices: [],
           answerImg: [],
@@ -1186,18 +1229,18 @@ export const useQuestionList = () => {
             '筋性心室中隔',
             'この中にはない',
           ],
-          answerImg: [],
+          answerImg: [t20],
           answer: '動脈幹円錐中隔',
           commentary:
             '外胚葉（神経堤）の寄与が重要。動脈管の方から心円錐へらせん状に結合が進んでいく。これらが最終的に膜性心室中隔を形成する。神経堤に異常が起こると顔面の異常と心臓異常が同時に見られることは珍しくない。',
         },
         {
           detailInfo: '6/21確認問題',
-          questionImg: [],
+          questionImg: [t21, t22],
           questionSentence:
             '図は、胎児循環の模式図である。出生時に閉塞する血管を1～5から全て選び、その役割を解説せよ。',
           choices: [],
-          answerImg: [],
+          answerImg: [t23],
           answer:
             '2.動脈管索）出生に伴う肺呼吸の開始　5.静脈管索）出生に伴う臍帯の断絶',
           commentary:
@@ -1206,11 +1249,11 @@ export const useQuestionList = () => {
 
         {
           detailInfo: '6/21確認問題',
-          questionImg: [],
+          questionImg: [t24],
           questionSentence:
             '成人の大動脈模式図で、影を付けた部分は、胚性期にはどの動脈、咽頭弓動脈に由来するか？（AとB)',
           choices: [],
-          answerImg: [],
+          answerImg: [t25],
           answer:
             'A.右鎖骨下動脈）第4大動脈弓右側　B.左鎖骨下動脈）第7節間動脈',
           commentary:
@@ -1218,31 +1261,31 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/21確認問題',
-          questionImg: [],
+          questionImg: [t26],
           questionSentence:
             '成人の大動脈模式図で、影を付けた部分は、胚性期にはどの動脈、咽頭弓動脈に由来するか？（右総頚動脈）',
           choices: [],
-          answerImg: [],
+          answerImg: [t27],
           answer: '第3大動脈弓から頚動脈系が形成される',
           commentary: '',
         },
         {
           detailInfo: '6/21確認問題',
-          questionImg: [],
+          questionImg: [t28],
           questionSentence:
             '成人の大動脈模式図で、影を付けた部分は、胚性期にはどの動脈、咽頭弓動脈に由来するか？（動脈管索）',
           choices: [],
-          answerImg: [],
+          answerImg: [t30],
           answer: '第6大動脈弓左側',
           commentary: 'ラングマンp210',
         },
         {
           detailInfo: '6/21確認問題',
-          questionImg: [],
+          questionImg: [t29],
           questionSentence:
             '成人の大動脈模式図で、影を付けた部分は、胚性期にはどの動脈、咽頭弓動脈に由来するか？（左肺動脈）',
           choices: [],
-          answerImg: [],
+          answerImg: [t30],
           answer: '第6大動脈弓',
           commentary: '',
         },
@@ -1259,7 +1302,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/21確認問題',
-          questionImg: [],
+          questionImg: [t33],
           questionSentence: '発生32日胚の断面図で、第2咽頭弓はどこか？',
           choices: [],
           answerImg: [],
@@ -1269,18 +1312,18 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/21確認問題',
-          questionImg: [],
+          questionImg: [t34],
           questionSentence:
             '管前大動脈縮窄に動脈管開存が併発しなかった場合、何が起きるか？',
           choices: [],
-          answerImg: [],
+          answerImg: [t35],
           answer: 'C.下半身のチアノーゼ',
           commentary:
             '大きな動脈の縮窄は生命維持に関わるので重要。縮窄が動脈管の前の部分で起こっているのか、後の部分で起こっているのかが重要。今回は動脈管の前の部分で血液が止まってしまう。この場合、動脈管が閉じてしまう（動脈管開存症ではない）と、大動脈の下半身へ流れる部分に一切血液が流入しなくなってしまう。動脈管開存の場合は右心からの血液が動脈管から下半身へ流れるので、血行不良ではあるがチアノーゼにはならない。大動脈の狭窄なので肺高血圧症とは無関係。迂回路は肋間動脈や内胸動脈。ラングマンp212~216',
         },
         {
           detailInfo: '6/21確認問題',
-          questionImg: [],
+          questionImg: [t37],
           questionSentence: '発生4週胚で、肝円索になるのはどれか？',
           choices: [],
           answerImg: [],
@@ -1290,7 +1333,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/21確認問題',
-          questionImg: [],
+          questionImg: [t38],
           questionSentence: '発生4週胚で、上腸間膜静脈になるのはどれか？',
           choices: [],
           answerImg: [],
@@ -1300,7 +1343,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '6/21確認問題',
           questionImg: [],
-          questionSentence: '下大静脈に由来を全て選べ。',
+          questionSentence: '下大静脈の由来を全て選べ。',
           choices: [
             '右卵黄嚢静脈',
             '左卵黄嚢静脈',
@@ -1311,7 +1354,7 @@ export const useQuestionList = () => {
             'この中にはない',
             '前主静脈',
           ],
-          answerImg: [],
+          answerImg: [t40],
           answer: '右卵黄嚢静脈、後主静脈、主下静脈、主上静脈',
           commentary: '',
         },
@@ -1319,8 +1362,17 @@ export const useQuestionList = () => {
           detailInfo: '6/21確認問題',
           questionImg: [],
           questionSentence: '半奇静脈の由来を一つ選べ。',
-          choices: ['右卵黄嚢静脈','主上静脈','主下静脈',''],
-          answerImg: [],
+          choices: [
+            '右卵黄嚢静脈',
+            '主上静脈',
+            '主下静脈',
+            '後主静脈',
+            '前主静脈',
+            '右臍静脈',
+            'この中にはない',
+            '左卵黄嚢静脈',
+          ],
+          answerImg: [t42],
           answer: '主上静脈',
           commentary: '',
         },
@@ -1328,10 +1380,20 @@ export const useQuestionList = () => {
           detailInfo: '6/21確認問題',
           questionImg: [],
           questionSentence: '鎖骨下静脈の由来を選べ。',
-          choices: ['右卵黄嚢静脈','左卵黄嚢静脈','後主静脈','前主静脈','主上静脈','主下静脈','','この中にはない'],
+          choices: [
+            '右卵黄嚢静脈',
+            '左卵黄嚢静脈',
+            '後主静脈',
+            '前主静脈',
+            '主上静脈',
+            '主下静脈',
+            '右臍静脈',
+            'この中にはない',
+          ],
           answerImg: [],
           answer: '前主静脈',
-          commentary: '上半身の静脈は比較的単純（そのまま出生後の静脈を担当する）',
+          commentary:
+            '上半身の静脈は比較的単純（そのまま出生後の静脈を担当する）',
         },
         // {
         //   detailInfo: '6/21確認問題',
