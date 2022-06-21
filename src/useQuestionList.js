@@ -1395,42 +1395,65 @@ export const useQuestionList = () => {
           commentary:
             '上半身の静脈は比較的単純（そのまま出生後の静脈を担当する）',
         },
-        // {
-        //   detailInfo: '6/21確認問題',
-        //   questionImg: [],
-        //   questionSentence: '',
-        //   choices: [],
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '6/21確認問題',
-        //   questionImg: [],
-        //   questionSentence: '',
-        //   choices: [],
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '6/21確認問題',
-        //   questionImg: [],
-        //   questionSentence: '',
-        //   choices: [],
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '6/21確認問題',
-        //   questionImg: [],
-        //   questionSentence: '',
-        //   choices: [],
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
+        {
+          detailInfo: '6/21追加',
+          questionImg: [],
+          questionSentence:
+            '「患者は14歳女児。大きな既往症はない。学校の健康診断で高血圧を指摘され、受診した。上肢は高血圧を呈するが、下肢の血圧は低かった。胸部放射線画像で骨侵食rib notchingが見つかった。」（１）上記が発生異常だとすると、どんな異常か？ ',
+          choices: [
+            '鎖骨下動脈起始異常',
+            '二重大動脈弓',
+            '大動脈縮窄',
+            '重複下大静脈',
+          ],
+          answerImg: [],
+          answer: '大動脈縮窄',
+          commentary:
+            '大動脈縮窄症Coarctation of the aortaは大動脈の管径が左鎖骨下動脈の起始部以下で著しく狭められている状態である。この状態に伴う典型的な臨床症状は、右腕の高血圧と下肢の低血圧が併発することである。ラングマンp213',
+        },
+        {
+          detailInfo: '6/21追加',
+          questionImg: [],
+          questionSentence:
+            '「患者は14歳女児。大きな既往症はない。学校の健康診断で高血圧を指摘され、受診した。上肢は高血圧を呈するが、下肢の血圧は低かった。胸部放射線画像で骨侵食rib notchingが見つかった。」（２）上記の異常に随伴すると考えられる心臓の異常は何か？ ',
+          choices: ['心室中隔欠損', '心房中隔欠損', '左心室肥大', '右心室肥大'],
+          answerImg: [],
+          answer: '左心室肥大？',
+          commentary:
+            '上肢の血圧が高いので、ここへ血液を拍出する左心室への負荷が大きくなる。',
+        },
+        {
+          detailInfo: '6/21追加',
+          questionImg: [],
+          questionSentence: '嚥下困難を起こす異常は次のうちどれか？',
+          choices: [
+            '大動脈弓遮断',
+            '重複大動脈弓',
+            '右大動脈弓',
+            '動脈管開存',
+            '右鎖骨下動脈起始異常',
+          ],
+          answerImg: [],
+          answer: '重複大動脈弓',
+          commentary:
+            '重複大動脈弓Double aortic archでは、右の背側大動脈が右第7節間動脈の分岐部と、左の背側大動脈との結合部の間で残存する。これにより食道と気管を取り囲む血管輪が生じ、しばしばこれらの器官を圧迫し、呼吸困難や嚥下困難を引き起こす。ラングマンp214',
+        },
+        {
+          detailInfo: '6/21追加',
+          questionImg: [],
+          questionSentence: '大動脈弓遮断に随伴する心臓異常は何か？',
+          choices: [
+            '一次口欠損',
+            '二次口欠損',
+            '卵円孔開存',
+            '心室中隔欠損',
+            '動脈管開存',
+          ],
+          answerImg: [],
+          answer: '動脈管開存、心室中隔欠損',
+          commentary:
+            '左側第4大動脈弓異常消失パターンにより起こる大動脈弓遮断の3型は、いずれも下半身に至る下行大動脈に血液を供給するため動脈管開存PDAがあり、心室中隔欠損VSDも存在する。その理由は流出路を二分する円錐動脈幹中隔が上手く伸びず、房室管中の腹側心内膜隆起に癒合できなかったためである。ラングマンp215',
+        },
         // {
         //   detailInfo: '6/21確認問題',
         //   questionImg: [],
