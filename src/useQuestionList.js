@@ -1330,7 +1330,7 @@ export const useQuestionList = () => {
           answerImg: [],
           answer: '6.左臍静脈',
           commentary:
-            '静脈に関しては最初は対称に作られるが左右差が出てくる。左臍静脈が残存して肝円索を',
+            '静脈に関しては最初は対称に作られるが左右差が出てくる。左臍静脈が残存して肝円索を形成する。',
         },
         {
           detailInfo: '6/21確認問題',
@@ -1339,7 +1339,8 @@ export const useQuestionList = () => {
           choices: [],
           answerImg: [],
           answer: '右側卵黄嚢静脈',
-          commentary: '',
+          commentary:
+            '上腸間膜動脈は右側から腸管へ接続する。この後胃と胃間膜が回転することで上腸間膜動脈は胃腸の背側へ隠れることになる。',
         },
         {
           detailInfo: '6/21確認問題',
@@ -1456,15 +1457,17 @@ export const useQuestionList = () => {
             '左側第4大動脈弓異常消失パターンにより起こる大動脈弓遮断の3型は、いずれも下半身に至る下行大動脈に血液を供給するため動脈管開存PDAがあり、心室中隔欠損VSDも存在する。その理由は流出路を二分する円錐動脈幹中隔が上手く伸びず、房室管中の腹側心内膜隆起に癒合できなかったためである。ラングマンp215',
         },
         {
-          detailInfo: '6/21確認問題',
+          detailInfo: '6/21確認問題未出題',
           questionImg: [t23],
-          questionSentence: '成人の大動脈の模式図で、影をつけた部分は胚性期にはどの動脈・咽頭弓動脈に由来するか？（大動脈弓の右鎖骨下動脈より近位側）',
+          questionSentence:
+            '成人の大動脈の模式図で、影をつけた部分は胚性期にはどの動脈・咽頭弓動脈に由来するか？（大動脈弓の右鎖骨下動脈より近位側）',
           choices: [],
           answerImg: [heartLoop],
           answer: '心臓動脈幹',
-          commentary: '心球遠位部（動脈幹）は大動脈根・大動脈・肺動脈の近位部を形成する。※咽頭弓第4大動脈弓は、左側では左総頚動脈-左鎖骨下動脈間の大動脈弓を、右側では右鎖骨下動脈の最も近位の部分を形成する。',
+          commentary:
+            '心球遠位部（動脈幹）は大動脈根・大動脈・肺動脈の近位部を形成する。※咽頭弓第4大動脈弓は、左側では左総頚動脈-左鎖骨下動脈間の大動脈弓を、右側では右鎖骨下動脈の最も近位の部分を形成する。',
         },
-                // {
+        // {
         //   detailInfo: '6/21確認問題',
         //   questionImg: [],
         //   questionSentence: '',
@@ -1473,7 +1476,7 @@ export const useQuestionList = () => {
         //   answer: '',
         //   commentary: '',
         // },
-                // {
+        // {
         //   detailInfo: '6/21確認問題',
         //   questionImg: [],
         //   questionSentence: '',
