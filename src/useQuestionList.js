@@ -85,6 +85,20 @@ import t40 from './img/question/スクリーンショット 2022-06-21 121246.pn
 import t41 from './img/question/スクリーンショット 2022-06-21 121338.png'
 import t42 from './img/question/スクリーンショット 2022-06-21 121556.png'
 import t43 from './img/question/スクリーンショット 2022-06-21 121655.png'
+import u1032 from './img/question/スクリーンショット 2022-06-24 103227.png'
+import u1038 from './img/question/スクリーンショット 2022-06-24 103828.png'
+import u1106 from './img/question/スクリーンショット 2022-06-24 110601.png'
+import u1113 from './img/question/スクリーンショット 2022-06-24 111319.png'
+import u1130 from './img/question/スクリーンショット 2022-06-24 113055.png'
+import u1134 from './img/question/スクリーンショット 2022-06-24 113431.png'
+import u1139 from './img/question/スクリーンショット 2022-06-24 113944.png'
+import u114006 from './img/question/スクリーンショット 2022-06-24 114006.png'
+import u114018 from './img/question/スクリーンショット 2022-06-24 114018.png'
+import u1205 from './img/question/スクリーンショット 2022-06-24 120517.png'
+import u1212 from './img/question/スクリーンショット 2022-06-24 121206.png'
+import u1224 from './img/question/スクリーンショット 2022-06-24 122450.png'
+// import u from './img/question/スクリーンショット 2022-06-24 .png'
+
 import heartLoop from './img/answer/heartLoop.png'
 
 export const useQuestionList = () => {
@@ -1489,7 +1503,7 @@ export const useQuestionList = () => {
           questionSentence: '発生30日胚断面で、耳胞を同定せよ。',
           choices: [],
           answerImg: [],
-          answer: '背側（上側）神経幹の左右で膨らんでいる部分',
+          answer: '背側（上側）神経管の左右で膨らんでいる部分',
           commentary:
             '緑の線の切片を上から見ている。切片後方の突起ができつつある耳胞で、これを断面で同定する問題。耳胞は左右両方にできる。プラコードは神経上皮と外皮が肥厚してできたもの。上側神経管左右にある球状の膨らみが耳胞である。その下側の濃い領域は神経堤由来の間葉で、中枢神経や耳胞と協調して脳神経（CN内耳神経や顔面神経）へ分化する。耳管は前腸（断面中央の管）内胚葉由来',
         },
@@ -1581,7 +1595,7 @@ export const useQuestionList = () => {
           answerImg: [u114018],
           answer: '図参照',
           commentary:
-            '強膜は脳硬膜と同様眼を取り囲む間葉（神経堤・中胚葉）からの由来、網膜色素上皮は眼杯外層由来、硝子体は眼杯裂から進入した間葉組織由来ゼラチン様物質で、硝子体動脈はその中で水晶体を栄養するための動脈。胎生期中に閉塞し、硝子体管が遺残する。',
+            '強膜は脳硬膜と同様眼を取り囲む間葉（神経堤・中胚葉）からの由来、網膜色素上皮は眼杯外層由来、硝子体は眼杯裂から進入した間葉組織由来ゼラチン様物質で、硝子体動脈はその中で水晶体を栄養するための動脈。胎生期中に閉塞し、硝子体管が遺残する。結膜は上皮の陥入で生じ、眼瞼はその表層に発生する。',
         },
         {
           detailInfo: '6/24確認問題',
