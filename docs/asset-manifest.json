@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-embryology/static/css/main.2255ca1a.css",
-    "main.js": "/anywhere-embryology/static/js/main.3c13e7b6.js",
+    "main.js": "/anywhere-embryology/static/js/main.c31a4895.js",
     "static/media/220613-3.JPG": "/anywhere-embryology/static/media/220613-3.3d8d19e2fab9672e9989.JPG",
     "static/media/220614-2.JPG": "/anywhere-embryology/static/media/220614-2.61f2ec176617d3c7b78a.JPG",
     "static/media/220613-22.JPG": "/anywhere-embryology/static/media/220613-22.d19456f4a7b93c9accf6.JPG",
@@ -43,6 +43,7 @@
     "static/media/220617-6.JPG": "/anywhere-embryology/static/media/220617-6.53b1aa075aacba2fb1d7.JPG",
     "static/media/220617-3.JPG": "/anywhere-embryology/static/media/220617-3.2a5fa1a3e83294446d1b.JPG",
     "static/media/220617-4.JPG": "/anywhere-embryology/static/media/220617-4.32e04d482438577bf037.JPG",
+    "static/media/TEF.png": "/anywhere-embryology/static/media/TEF.2114125bda64549be2d2.png",
     "static/media/スクリーンショット 2022-06-21 092614.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 092614.5b7861dd9dfa3bb46d3c.png",
     "static/media/スクリーンショット 2022-06-21 105421.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 105421.6f4a79044ea6cc572faf.png",
     "static/media/スクリーンショット 2022-06-21 101520.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 101520.90c33d8bf625acab6d86.png",
@@ -102,10 +103,10 @@
     "static/media/スクリーンショット 2022-06-21 093853.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 093853.a965de74c013861c4fcf.png",
     "index.html": "/anywhere-embryology/index.html",
     "main.2255ca1a.css.map": "/anywhere-embryology/static/css/main.2255ca1a.css.map",
-    "main.3c13e7b6.js.map": "/anywhere-embryology/static/js/main.3c13e7b6.js.map"
+    "main.c31a4895.js.map": "/anywhere-embryology/static/js/main.c31a4895.js.map"
   },
   "entrypoints": [
     "static/css/main.2255ca1a.css",
-    "static/js/main.3c13e7b6.js"
+    "static/js/main.c31a4895.js"
   ]
 }

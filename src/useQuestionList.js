@@ -97,6 +97,7 @@ import u114018 from './img/question/スクリーンショット 2022-06-24 11401
 import u1205 from './img/question/スクリーンショット 2022-06-24 120517.png'
 import u1212 from './img/question/スクリーンショット 2022-06-24 121206.png'
 import u1224 from './img/question/スクリーンショット 2022-06-24 122450.png'
+import TEF from './img/answer/TEF.png'
 // import u from './img/question/スクリーンショット 2022-06-24 .png'
 
 import heartLoop from './img/answer/heartLoop.png'
@@ -1634,8 +1635,299 @@ export const useQuestionList = () => {
           commentary:
             '膵臓実質は内胚葉前腸由来。ランゲルハンス島は導管末梢部にある幹細胞由来なので同じく内胚葉由来。副腎髄質は神経堤由来。',
         },
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [],
+          questionSentence:
+            '喉頭口の形成にかかる咽頭弓を二つ挙げ、それらに由来する軟骨を挙げよ',
+          choices: [],
+          answerImg: [],
+          answer: '第4・第6咽頭弓',
+          commentary: '喉頭軟骨は中胚葉由来（咽頭弓由来）といえる。',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [],
+          questionSentence: '気管食道中隔の形成過程を解説せよ',
+          choices: [],
+          answerImg: [],
+          answer: '気管食道稜が呼吸憩室と前腸を分割する。',
+          commentary: '',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          // questionImg: [v1],
+          questionSentence:
+            '33日胚の断面で、咽頭口・喉頭嚢はどこか？また、甲状軟骨はどこからできるか？',
+          choices: [],
+          answerImg: [],
+          answer:
+            '断面中央のT字型の空間が咽頭口、その両側の密な空間が咽頭嚢、背側が咽頭蓋へ分化する。',
+          commentary:
+            '断面上が背側、下が頭側。最も腹側の空間は心膜腔で、その背側に大動脈嚢や咽頭嚢が見える。断面中央のひしゃげたT字型の空間は、喉頭口へ分化する。その左右の細胞密集領域は披裂隆起へ分化する。',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          // questionImg: [v2],
+          questionSentence:
+            '32日胚の断面で、気管・食道・気管食道中隔を同定せよ。',
+          choices: [],
+          answerImg: [],
+          answer:
+            '断面中央の縦に2つ並ぶ楕円（背側が食道、腹側が気管）その間が中隔。',
+          commentary:
+            '断面上が背側、下が腹側。最も背側の空間が神経管、その下に横に2つ並ぶ卵型の空間が大動脈？、断面中央の縦に2つ並ぶ2つの楕円型の空間は食道と気管（腹側）である。その間の空間が気管食道中隔である。',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [],
+          questionSentence: '気管食道痩について正しい記述を全て選べ',
+          choices: [
+            '胚芽の発生異常によっておこる',
+            '心臓の異常を伴う事が多い',
+            '羊水過少症を伴うことが多い',
+            '食道下部が気管と痩をなすことが多い',
+            'この中にはない',
+          ],
+          answerImg: [TEF],
+          answer:
+            '心臓の異常を伴う事が多い/食道下部が気管と痩をなすことが多い。',
+          commentary:
+            'VACTERL連合 VACTERL	association	(脊椎異常 vertebral	anomaly,	肛⾨閉鎖 anal	atresia,	⼼臓異常 cardiac	defect,	気管⾷道瘻 tracheoesophageal	fistula,	⾷道閉鎖 esophageal	atresia,	腎臓異常 renal	anomaly,	体肢異常 limb	defect)',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [],
+          questionSentence:
+            '出生前超音波検査で羊水過多が明らかになった。出生時に、胎児は口の中に多量の液体を含んでいた。どのような型の異常が考えられるか？',
+          choices: [],
+          answerImg: [TEF],
+          answer: '食道閉鎖',
+          commentary:
+            '食道閉鎖が起こると、飲み込んだ羊水が胃腸に達しないため、羊水過多症を合併することがある。すぐに手術をする必要がある。',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [],
+          questionSentence:
+            '肺芽の形成過程を、胚内体腔の分割に関係づけて解説せよ',
+          choices: [],
+          // answerImg: [growingLung],
+          answer:
+            '発生5週に体壁から隆起した胸心膜ヒダが、内側へ成長し正中で癒合し食道の中胚葉とも癒合。同時に胸心膜ヒダの根が腹壁へ移動し、結果として原始心膜腔は心膜腔と左右の胸腹腔に分割される。',
+          commentary:
+            '心膜腔と腹腔との間は横中隔が一部分割するが、残った部分は心腹膜管として残存し、最終的には胸腹膜ヒダによって分離される（胸腹膜ヒダ+横中隔=横隔膜）。原始心膜腔が肺の成長に合わせて心膜腔と胸膜腔に分割されていく。肺芽を取り囲む構造は臓側中胚葉由来。原始心膜腔と原始胸膜腔を分けるのが胸心膜ヒダ。横隔神経が胸心膜ヒダに中に発生するので、最終的に横隔神経が心膜の中を通ることになる。',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [],
+          questionSentence:
+            '横隔膜模式図で、影を付けた部分（腱中心）の由来は何か？',
+          choices: [
+            '胸心膜ヒダ',
+            '胸腹膜ヒダ',
+            '心腹膜管',
+            '横中隔',
+            '体節（頚分節）',
+            '体節（胸分節）',
+            '食道間膜',
+          ],
+          answerImg: [],
+          answer: '横中隔',
+          commentary:
+            '横隔膜は横中隔・胸腹膜ヒダ・食道間膜から形成されるが、その腱中心は横中隔由来。',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          // questionImg: [v],
+          questionSentence:
+            '妊娠26週と27週で新生児生存率が大きく異なるのはなぜか？（27週目には救命率が90%以上となる）',
+          choices: [],
+          answerImg: [],
+          answer:
+            '肺胞やⅡ型肺胞上皮細胞が形成され始めるのがこの時期（終末嚢期）だから',
+          commentary:
+            '第3期になるまで肺胞が完成しない。数として十分そろうわけではない',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [],
+          questionSentence:
+            '産科領域で、肺機能が十分に成熟していると判断されるのは妊娠第何週からか？',
+          choices: [],
+          answerImg: [],
+          answer: '34週？',
+          commentary:
+            '34週を越えてくるとほとんど障害が起こらない（→帝王切開可能）',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          // questionImg: [v],
+          questionSentence: '29日胚の横断面で、尿管はどこからできるか？',
+          choices: [],
+          answerImg: [],
+          answer: '神経管両側最外側の密の領域',
+          commentary: '尿管は中間中胚葉由来',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          // questionImg: [v],
+          questionSentence: '29日胚の横断面で、尿道や膀胱はどこからできるか？',
+          choices: [],
+          answerImg: [],
+          answer: '画面中～下部（腹側）の排泄腔',
+          commentary:
+            '尿道や膀胱は中間中胚葉由来ではなく、内胚葉（後腸の排泄腔）由来。後腸の内胚葉は尿膜と連続していて、膀胱形成後尿膜は閉鎖される（正中臍索）',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          // questionImg: [v],
+          questionSentence:
+            '33日胚の縦断面で、将来精巣輸出管となるのはどこか？',
+          choices: [],
+          // answerImg: [mesonephricTubule],
+          answer:
+            '中腎管から中腎へ繋がる中腎細管。断面を左右に短く走っている。',
+          commentary:
+            '断面左右の濃い領域は中腎で、縦に走っている管が中腎管。中腎と中腎管をつなぐ横走する管は中腎細管であり、後の精巣輸出管である。',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          // questionImg: [v],
+          questionSentence: '49日胚横断面後腎で、矢印のA,B,Cは何か？',
+          choices: [],
+          // answerImg: [glomerulus],
+          answer: 'A.糸球体、B.ボーマン嚢、C.集合管（尿管）',
+          commentary:
+            '後腎組織に尿管が進入し、糸球体とそれを覆うボーマン嚢が形成されている。ボーマン嚢は後腎間葉組織（帽状の後腎芽組織）由来、集合管は尿管由来。',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [],
+          questionSentence:
+            '常染色体劣性多発性腎嚢胞ARPKDと、常染色体優性多発性腎嚢胞ADPKD',
+          choices: [
+            'ARPKDは小児期に腎不全が起きる点で異なる',
+            'ARPKDは線毛に関する遺伝子異常が原因である点で異なる',
+            'ARPKDはネフロンに嚢胞が生じる点で異なる',
+            'ARPKDの方が頻度が高い',
+            'この中にはない',
+          ],
+          answerImg: [],
+          answer: '',
+          commentary:
+            'ADPKDのDはDominant。劣性ARPKDは集合管から嚢胞が生じる。優性遺伝病ADPKDは自然淘汰圧を受けるため成人後に発症する。',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          // questionImg: [v],
+          questionSentence: '骨盤腎を栄養する動脈はどこに起始するか？',
+          choices: [],
+          answerImg: [],
+          answer: 'C.腹部大動脈下部',
+          commentary:
+            '腎臓は仙骨のあたりで発生し、成熟過程で外旋し上行するが、動脈群の通過に失敗したものが取り残されたものが骨盤腎である。腎臓は上行中、絶えずより高い部位から起始する大動脈に栄養され、下位になった血管は退化する。',
+        },
+
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [],
+          questionSentence: '成人の膀胱三角の上皮の由来は何か',
+          choices: ['中腎', '中腎管', '傍中腎管', '臓側中胚葉', '後腸'],
+          // answerImg: [trigonOfBladder],
+          answer: '中腎管',
+          commentary:
+            '膀胱三角とは膀胱の拡大に伴い尿管の一部が広がって膀胱壁を構成するようになったもので、膀胱三角も移行上皮（後に内胚葉性上皮に置換されるため）であるが、伸展性に乏しく表面が滑らか。尿管は中腎管由来で、中腎管から尿管芽が出て後腎へ進入する。膀胱三角の形成によって尿管は直接膀胱に接続するようになる。中腎管は最終的に射精管となる。',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [],
+          questionSentence:
+            '17日胚子の矢状断面模式図で、尿膜管痩はどこに由来するか？',
+          choices: [],
+          // answerImg: [urachalFistula],
+          answer: 'B.尿膜',
+          commentary:
+            '模式図下側が卵黄嚢で、黄色が内胚葉。A.は外胚葉と内胚葉が直接繋がる部分で後咽頭膜を構成する。C.は尾側で内胚葉と外胚葉が直接並んで排泄腔膜（→肛門）を構成する。尿膜管痩は臍帯から尿生殖洞（膀胱）へ繋がる尿膜腔の閉鎖不全であるので、',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [],
+          questionSentence:
+            '集合細管と由来が最も近いものを選択肢から選び、その理由を腎臓の発生機序に関係づけて説明せよ。',
+          choices: [
+            '膀胱',
+            '尿管',
+            '尿道',
+            'ヘンレループ',
+            'ボーマン嚢',
+            'この中にはない',
+          ],
+          // answerImg: [growingKidney],
+          answer: '尿管',
+          commentary:
+            '膀胱と尿道は内胚葉由来。尿細管とボーマン嚢後腎間葉組織（中間中胚葉）由来',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [],
+          questionSentence:
+            '線毛の異常を伴う疾患を選択肢から全て選び、それぞれの異常の発生機序に関連づけて理由を説明せよ。',
+          choices: [
+            '馬蹄腎',
+            '停留精巣',
+            'WAGR症候群',
+            'ARPKD',
+            'Kartagener症候群',
+            'この中にはない',
+          ],
+          answerImg: [],
+          answer: 'ARPKD、Kartagener症候群',
+          commentary:
+            'WAGR症候群）ウィルムス腫瘍 Wilms	tumor、無虹彩症 aniridia、⽣殖芽腫瘍gonadoblastoma、知的障害 mental	retardationの合併で線毛病ではない。Kartagener症候群は内臓逆位・慢性副鼻腔炎・不妊症などを併発する線毛病。馬蹄腎は下腸間膜動脈や臍動脈などの通過失敗による腎臓の位置の異常で、線毛病ではない。停留精巣は精巣の下行不全であるが、線毛の異常ではない。',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [],
+          questionSentence:
+            '次の細胞と内分泌因子産生の組み合わせで正しいものを選べ(卵胞膜黄体細胞・顆粒層細胞・内卵胞膜細胞・セルトリ細胞・ライディッヒ細胞)→(テストステロン・エストロン・AMH・FSH・プロゲステロン)',
+          choices: [],
+          answerImg: [],
+          answer:
+            'ライディッヒ細胞→テストステロン、セルトリ細胞→AMH、顆粒層細胞→プロゲステロン？、卵胞膜黄体細胞→エストロン、内卵胞膜細胞→テストステロン',
+          commentary:
+            'AMH:アンチミュラー管ホルモン（弾性では傍中腎管が退化する）。SRY遺伝子由来。内卵胞膜細胞（女性固有）がテストステロンを産生し、顆粒層細胞がそれを芳香化しエストロゲンに変える。',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [],
+          questionSentence: '男性生殖器の由来について正しい組み合わせを選べ',
+          choices: [],
+          answerImg: [],
+          answer:
+            'ライディッヒ細胞←生殖堤間葉、精巣輸出管←中腎管、精管←中腎管、精嚢・精巣網←中腎管、前立腺←後腸内胚葉、セルトリ細胞←髄質索？',
+          commentary: '',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [],
+          questionSentence: '',
+          choices: [],
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [],
+          questionSentence: '',
+          choices: [],
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
         // {
-        //   detailInfo: '6/24確認問題',
+        //   detailInfo: '6/30確認問題',
         //   questionImg: [],
         //   questionSentence: '',
         //   choices: [],
