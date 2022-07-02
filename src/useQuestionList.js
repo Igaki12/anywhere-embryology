@@ -97,7 +97,36 @@ import u114018 from './img/question/スクリーンショット 2022-06-24 11401
 import u1205 from './img/question/スクリーンショット 2022-06-24 120517.png'
 import u1212 from './img/question/スクリーンショット 2022-06-24 121206.png'
 import u1224 from './img/question/スクリーンショット 2022-06-24 122450.png'
+import v01 from './img/question/220702-1.JPG'
+import v02 from './img/question/220702-2.JPG'
+import v03 from './img/question/220702-3.JPG'
+import v04 from './img/question/220702-4.JPG'
+import v05 from './img/question/220702-5.JPG'
+import v06 from './img/question/220702-6.JPG'
+import v07 from './img/question/220702-7.JPG'
+import v08 from './img/question/220702-8.JPG'
+import v09 from './img/question/220702-9.JPG'
+import v10 from './img/question/220702-10.JPG'
+import v11 from './img/question/220702-11.JPG'
+import v12 from './img/question/220702-12.JPG'
+import v13 from './img/question/220702-13.JPG'
+import v14 from './img/question/220702-14.JPG'
+import v15 from './img/question/220702-15.JPG'
+import v16 from './img/question/220702-16.JPG'
+import v17 from './img/question/220702-17.JPG'
+import v18 from './img/question/220702-18.JPG'
+import v19 from './img/question/220702-19.JPG'
+import v22 from './img/question/220702-22.jpg'
+
 import TEF from './img/answer/TEF.png'
+import glomerulus from './img/answer/glomerulus.png'
+import growingLung from './img/answer/growingLung.png'
+import growingKidney from './img/answer/growingKidney.png'
+import kidneyArtery from './img/answer/kidneyArtery.png'
+import mesonephricTubule from './img/answer/mesonephricTubule.png'
+import trigonOfBladder from './img/answer/trigoneOfBladder.png'
+import midKidney from './img/answer/midKidney.png'
+import urachalFistula from './img/answer/urachalFistula.png'
 // import u from './img/question/スクリーンショット 2022-06-24 .png'
 
 import heartLoop from './img/answer/heartLoop.png'
@@ -1652,11 +1681,11 @@ export const useQuestionList = () => {
           choices: [],
           answerImg: [],
           answer: '気管食道稜が呼吸憩室と前腸を分割する。',
-          commentary: '',
+          commentary: 'なので気管は内胚葉由来',
         },
         {
           detailInfo: '6/30確認問題',
-          // questionImg: [v1],
+          questionImg: [v01],
           questionSentence:
             '33日胚の断面で、咽頭口・喉頭嚢はどこか？また、甲状軟骨はどこからできるか？',
           choices: [],
@@ -1668,7 +1697,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/30確認問題',
-          // questionImg: [v2],
+          questionImg: [v02],
           questionSentence:
             '32日胚の断面で、気管・食道・気管食道中隔を同定せよ。',
           choices: [],
@@ -1712,7 +1741,7 @@ export const useQuestionList = () => {
           questionSentence:
             '肺芽の形成過程を、胚内体腔の分割に関係づけて解説せよ',
           choices: [],
-          // answerImg: [growingLung],
+          answerImg: [growingLung],
           answer:
             '発生5週に体壁から隆起した胸心膜ヒダが、内側へ成長し正中で癒合し食道の中胚葉とも癒合。同時に胸心膜ヒダの根が腹壁へ移動し、結果として原始心膜腔は心膜腔と左右の胸腹腔に分割される。',
           commentary:
@@ -1720,7 +1749,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/30確認問題',
-          questionImg: [],
+          questionImg: [v04],
           questionSentence:
             '横隔膜模式図で、影を付けた部分（腱中心）の由来は何か？',
           choices: [
@@ -1739,7 +1768,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/30確認問題',
-          // questionImg: [v],
+          questionImg: [v05],
           questionSentence:
             '妊娠26週と27週で新生児生存率が大きく異なるのはなぜか？（27週目には救命率が90%以上となる）',
           choices: [],
@@ -1762,7 +1791,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/30確認問題',
-          // questionImg: [v],
+          questionImg: [v07],
           questionSentence: '29日胚の横断面で、尿管はどこからできるか？',
           choices: [],
           answerImg: [],
@@ -1771,7 +1800,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/30確認問題',
-          // questionImg: [v],
+          questionImg: [v08],
           questionSentence: '29日胚の横断面で、尿道や膀胱はどこからできるか？',
           choices: [],
           answerImg: [],
@@ -1781,11 +1810,11 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/30確認問題',
-          // questionImg: [v],
+          questionImg: [v09],
           questionSentence:
             '33日胚の縦断面で、将来精巣輸出管となるのはどこか？',
           choices: [],
-          // answerImg: [mesonephricTubule],
+          answerImg: [mesonephricTubule],
           answer:
             '中腎管から中腎へ繋がる中腎細管。断面を左右に短く走っている。',
           commentary:
@@ -1793,10 +1822,22 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/30確認問題',
-          // questionImg: [v],
+          questionImg: [v10],
+          questionSentence:
+            '39日胚横断面で、1)中腎の腎小体、2)中腎細管、3)中腎管、4)生殖堤を同定せよ。',
+          choices: [],
+          answerImg: [midKidney],
+          answer:
+            '1)断面左右中央の濃い胞状の部分　2)断面左右やや上方の真横に走っている管部分　3)断面左右で中腎細管から続いている小さめの丸い円部分　4)断面左右やや下方で下方向へ膨らんでいるやや濃い部分',
+          commentary:
+            '中央のつぶれた管がaortaで（内部に赤血球が詰まっている）、そこから左右前方（下方）に細静脈が伸び、胞状の糸球体を形成する。糸球体のあたりからさらに左右に伸びているのが中腎細管→中腎管（輪切りに切れている）。糸球体の背側（上側に見えているのが後主静脈postcardinal.vで、これらの周りを中腎堤の空間が囲んでいる。断面最も腹側に見えているのが腸管と上腸間膜動脈sup.mesenteric a.である',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [v11],
           questionSentence: '49日胚横断面後腎で、矢印のA,B,Cは何か？',
           choices: [],
-          // answerImg: [glomerulus],
+          answerImg: [glomerulus],
           answer: 'A.糸球体、B.ボーマン嚢、C.集合管（尿管）',
           commentary:
             '後腎組織に尿管が進入し、糸球体とそれを覆うボーマン嚢が形成されている。ボーマン嚢は後腎間葉組織（帽状の後腎芽組織）由来、集合管は尿管由来。',
@@ -1820,7 +1861,18 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/30確認問題',
-          // questionImg: [v],
+          questionImg: [v12],
+          questionSentence: '49日胚（男性）横断面で、1)腎臓、2)精巣を同定せよ',
+          choices: [],
+          answerImg: [v13],
+          answer:
+            '1)断面左右にC字型に濃く染まっているのが腎臓、2)その下方（腹側）で全体が濃染している卵型の部分が精巣',
+          commentary:
+            '精巣が下行し始めている。胎児の肝臓は大きいためこの断面でも腹側右側に大きく映っている。',
+        },
+        {
+          detailInfo: '6/30確認問題',
+          questionImg: [v16],
           questionSentence: '骨盤腎を栄養する動脈はどこに起始するか？',
           choices: [],
           answerImg: [],
@@ -1831,21 +1883,21 @@ export const useQuestionList = () => {
 
         {
           detailInfo: '6/30確認問題',
-          questionImg: [],
+          questionImg: [v17],
           questionSentence: '成人の膀胱三角の上皮の由来は何か',
           choices: ['中腎', '中腎管', '傍中腎管', '臓側中胚葉', '後腸'],
-          // answerImg: [trigonOfBladder],
+          answerImg: [trigonOfBladder],
           answer: '中腎管',
           commentary:
             '膀胱三角とは膀胱の拡大に伴い尿管の一部が広がって膀胱壁を構成するようになったもので、膀胱三角も移行上皮（後に内胚葉性上皮に置換されるため）であるが、伸展性に乏しく表面が滑らか。尿管は中腎管由来で、中腎管から尿管芽が出て後腎へ進入する。膀胱三角の形成によって尿管は直接膀胱に接続するようになる。中腎管は最終的に射精管となる。',
         },
         {
           detailInfo: '6/30確認問題',
-          questionImg: [],
+          questionImg: [v18],
           questionSentence:
             '17日胚子の矢状断面模式図で、尿膜管痩はどこに由来するか？',
           choices: [],
-          // answerImg: [urachalFistula],
+          answerImg: [urachalFistula],
           answer: 'B.尿膜',
           commentary:
             '模式図下側が卵黄嚢で、黄色が内胚葉。A.は外胚葉と内胚葉が直接繋がる部分で後咽頭膜を構成する。C.は尾側で内胚葉と外胚葉が直接並んで排泄腔膜（→肛門）を構成する。尿膜管痩は臍帯から尿生殖洞（膀胱）へ繋がる尿膜腔の閉鎖不全であるので、',
@@ -1863,7 +1915,7 @@ export const useQuestionList = () => {
             'ボーマン嚢',
             'この中にはない',
           ],
-          // answerImg: [growingKidney],
+          answerImg: [growingKidney],
           answer: '尿管',
           commentary:
             '膀胱と尿道は内胚葉由来。尿細管とボーマン嚢後腎間葉組織（中間中胚葉）由来',
@@ -1910,22 +1962,23 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '6/30確認問題',
-          questionImg: [],
-          questionSentence: '',
+          questionImg: [v22],
+          questionSentence:
+            '56日胚（男性）の横断面で、1)腎盂、2)小腎杯、3)腎小体、4)精巣を同定せよ',
           choices: [],
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [v15],
+          answer: '1)腎臓中央で横に切れている太い管が腎盂で、2)そこから枝分かれして腎皮質付近にまで放射状に伸びているのが腎杯、3)腎小体はC字型に分布する腎皮質で多数断面が見える。4)精巣は腎臓の下方（前方）で卵型に切れている。内部の精細管が所々見える。',
+          commentary: '断面左右上方のC字型に濃染している部分が腎臓で、その間の管が大動脈と下大静脈、画面下方の絨毛が豊富な管が十二指腸・空腸で、その下方右側で斜めに切れているのが結腸である。',
         },
-        {
-          detailInfo: '6/30確認問題',
-          questionImg: [],
-          questionSentence: '',
-          choices: [],
-          answerImg: [],
-          answer: '',
-          commentary: '',
-        },
+        // {
+        //   detailInfo: '6/30確認問題',
+        //   questionImg: [],
+        //   questionSentence: '',
+        //   choices: [],
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
         // {
         //   detailInfo: '6/30確認問題',
         //   questionImg: [],
