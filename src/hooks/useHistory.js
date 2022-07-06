@@ -160,11 +160,8 @@ export const useHistory = () => {
 
           if (newRemainingQuestion.questionSentence === '') {
             newRemainingQuestion.questionSentence = `${group.groupTag}の${
-              questionIndex + 2
-            }番目のスライドを確認`
-            console.log(
-              '問題文を自動作成：' + newRemainingQuestion.questionSentence,
-            )
+              questionIndex + 1
+            }番目の問題を確認`
           }
           // 選択肢をランダムに配置
           let choiceList = [...question.choices]
