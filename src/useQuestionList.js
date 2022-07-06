@@ -117,6 +117,40 @@ import v17 from './img/question/220702-17.JPG'
 import v18 from './img/question/220702-18.JPG'
 import v19 from './img/question/220702-19.JPG'
 import v22 from './img/question/220702-22.jpg'
+import w0931 from './img/question/スクリーンショット 2022-07-06 093143.jpg'
+import w0935 from './img/question/スクリーンショット 2022-07-06 093544.jpg'
+import w0938 from './img/question/スクリーンショット 2022-07-06 093852.jpg'
+import w0943 from './img/question/スクリーンショット 2022-07-06 094316.jpg'
+import w1000 from './img/question/スクリーンショット 2022-07-06 100035.jpg'
+import w1006 from './img/question/スクリーンショット 2022-07-06 100608.jpg'
+import w1011 from './img/question/スクリーンショット 2022-07-06 101149.jpg'
+import w1027 from './img/question/スクリーンショット 2022-07-06 102718.jpg'
+import w102715 from './img/question/スクリーンショット 2022-07-06 102755.jpg'
+import w1031 from './img/question/スクリーンショット 2022-07-06 103141.jpg'
+import w103157 from './img/question/スクリーンショット 2022-07-06 103157.jpg'
+import w1043 from './img/question/スクリーンショット 2022-07-06 104351.jpg'
+import w1045 from './img/question/スクリーンショット 2022-07-06 104524.jpg'
+import w1054 from './img/question/スクリーンショット 2022-07-06 105414.jpg'
+import w105432 from './img/question/スクリーンショット 2022-07-06 105432.jpg'
+import w1059 from './img/question/スクリーンショット 2022-07-06 105907.jpg'
+import w105927 from './img/question/スクリーンショット 2022-07-06 105927.jpg'
+import w1103 from './img/question/スクリーンショット 2022-07-06 110311.jpg'
+import w1117 from './img/question/スクリーンショット 2022-07-06 111717.jpg'
+import w1121 from './img/question/スクリーンショット 2022-07-06 112116.jpg'
+import w112149 from './img/question/スクリーンショット 2022-07-06 112149.jpg'
+import w1125 from './img/question/スクリーンショット 2022-07-06 112545.jpg'
+import w1126 from './img/question/スクリーンショット 2022-07-06 112631.jpg'
+import w1137 from './img/question/スクリーンショット 2022-07-06 113709.jpg'
+import w1138 from './img/question/スクリーンショット 2022-07-06 113825.jpg'
+import w1144 from './img/question/スクリーンショット 2022-07-06 114445.jpg'
+import w114453 from './img/question/スクリーンショット 2022-07-06 114453.jpg'
+import w1152 from './img/question/スクリーンショット 2022-07-06 115237.jpg'
+import w1159 from './img/question/スクリーンショット 2022-07-06 115945.jpg'
+import w1206 from './img/question/スクリーンショット 2022-07-06 120631.jpg'
+import w1208 from './img/question/スクリーンショット 2022-07-06 120859.jpg'
+import w1212 from './img/question/スクリーンショット 2022-07-06 121256.jpg'
+import w1220 from './img/question/スクリーンショット 2022-07-06 122024.jpg'
+import w1221 from './img/question/スクリーンショット 2022-07-06 122150.jpg'
 
 import TEF from './img/answer/TEF.png'
 import glomerulus from './img/answer/glomerulus.png'
@@ -1972,15 +2006,332 @@ export const useQuestionList = () => {
           commentary:
             '断面左右上方のC字型に濃染している部分が腎臓で、その間の管が大動脈と下大静脈、画面下方の絨毛が豊富な管が十二指腸・空腸で、その下方右側で斜めに切れているのが結腸である。',
         },
-        // {
-        //   detailInfo: '6/30確認問題',
-        //   questionImg: [],
-        //   questionSentence: '',
-        //   choices: [],
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [],
+          questionSentence: '第1咽頭嚢に由来する器官はどれか？',
+          choices: [
+            '蝸牛',
+            '胸腺',
+            '甲状腺',
+            '鼓室',
+            '外耳道',
+            '上上皮小体',
+            '下上皮小体',
+            '口蓋扁桃',
+            '鰓後体',
+            '頚洞',
+            'この中にはない',
+          ],
+          answerImg: [w0931],
+          answer: '鼓室',
+          commentary:
+            '第一咽頭嚢から鼓室、耳管、鼓膜の内側を形成する。外耳道は第一咽頭溝由来、頚洞は第二/第三咽頭溝由来で発生過程で消滅する（咽頭溝は外側で外胚葉由来、咽頭嚢は内側で内胚葉由来）。口蓋扁桃は第二咽頭嚢由来。胸腺・下上皮小体は第三咽頭嚢由来。上上皮小体や鰓後体は第四咽頭嚢由来。ラングマンp293',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [],
+          questionSentence: '第2咽頭嚢に由来する器官はどれか',
+          choices: [
+            '蝸牛',
+            '胸腺',
+            '甲状腺',
+            '鼓室',
+            '外耳道',
+            '上上皮小体',
+            '下上皮小体',
+            '口蓋扁桃',
+            '鰓後体',
+            '頚洞',
+            'この中にはない',
+          ],
+          answerImg: [w0935],
+          answer: '口蓋扁桃',
+          commentary:
+            '第一咽頭嚢から鼓室、耳管、鼓膜の内側を形成する。外耳道は第一咽頭溝由来、頚洞は第二/第三咽頭溝由来で発生過程で消滅する（咽頭溝は外側で外胚葉由来、咽頭嚢は内側で内胚葉由来）。口蓋扁桃は第二咽頭嚢由来であるが、リンパ組織であるため完全に内胚葉由来とはいえない。胸腺・下上皮小体は第三咽頭嚢由来。上上皮小体や鰓後体は第四咽頭嚢由来。蝸牛は耳板由来。ラングマンp293',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [],
+          questionSentence: '第3咽頭嚢に由来する器官はどれか？',
+          choices: [
+            '蝸牛',
+            '胸腺',
+            '甲状腺',
+            '鼓室',
+            '外耳道',
+            '上上皮小体',
+            '下上皮小体',
+            '口蓋扁桃',
+            '鰓後体',
+            '頚洞',
+            'この中にはない',
+          ],
+          answerImg: [w0938],
+          answer: '胸腺、下上皮小体',
+          commentary:
+            '第一咽頭嚢から鼓室、耳管、鼓膜の内側を形成する。外耳道は第一咽頭溝由来、頚洞は第二/第三咽頭溝由来で発生過程で消滅する（咽頭溝は外側で外胚葉由来、咽頭嚢は内側で内胚葉由来）。口蓋扁桃は第二咽頭嚢由来であるが、リンパ組織であるため完全に内胚葉由来とはいえない。胸腺・下上皮小体は第三咽頭嚢由来で、その後下行してそれぞれの位置へ。この間に下上皮小体と上上皮小体の上下関係が入れ替わる。上上皮小体や鰓後体は第四咽頭嚢由来。蝸牛は耳板由来。ラングマンp293',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [],
+          questionSentence: '第4咽頭嚢に由来する器官はどれか？      ',
+          choices: [
+            '蝸牛',
+            '胸腺',
+            '甲状腺',
+            '鼓室',
+            '外耳道',
+            '上上皮小体',
+            '下上皮小体',
+            '口蓋扁桃',
+            '鰓後体',
+            '頚洞',
+            'この中にはない',
+          ],
+          answerImg: [w0943],
+          answer: '上上皮小体、鰓後体',
+          commentary:
+            '第一咽頭嚢から鼓室、耳管、鼓膜の内側を形成する。外耳道は第一咽頭溝由来、頚洞は第二/第三咽頭溝由来で発生過程で消滅する（咽頭溝は外側で外胚葉由来、咽頭嚢は内側で内胚葉由来）。口蓋扁桃は第二咽頭嚢由来。胸腺・下上皮小体は第三咽頭嚢由来。上上皮小体や鰓後体は第四咽頭嚢由来で、神経堤細胞とともに甲状腺傍濾胞細胞を形成する。蝸牛は耳板由来。ラングマンp293',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [],
+          questionSentence: '発生5週とそれ以降の、咽頭弓の形態を解説せよ',
+          choices: [],
+          answerImg: [w1000],
+          answer:
+            '鰓のような鰓ではない弓状の咽頭弓と、隣接する咽頭弓間の咽頭嚢・咽頭溝で構成される。咽頭溝は第一咽頭溝（→外耳道）以外は第2咽頭弓の拡大により最終的に消失する',
+          commentary:
+            '咽頭弓/鰓弓pharyngeal archは発生4週～5週に出現し始め、その後癒合し外部からは見えなくなる。ラングマンp287～頭・頚部',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [],
+          questionSentence:
+            '各咽頭弓に固有の脳神経要素をそれぞれ挙げて、支配する筋肉を述べよ',
+          choices: [],
+          answerImg: [w1006],
+          answer:
+            '第一咽頭弓）三叉神経下顎枝/咀嚼筋など、第二咽頭弓）顔面神経/表情筋など、第三咽頭弓）舌咽神経/茎突咽頭筋など、第四・第六咽頭弓）迷走神経の上喉頭神経・反回神経・下喉頭神経/輪状甲状筋など',
+          commentary: '各咽頭弓は固有の筋要素・脳神経要素・動脈要素を持つ',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [w1011],
+          questionSentence:
+            '30日胚断面で、1)第一咽頭弓、2)第一咽頭嚢、3)第一咽頭溝、4)第一大動脈弓、5)背側大動脈を同定せよ',
+          choices: [],
+          answerImg: [w1027],
+          answer:
+            '第一咽頭弓→G、第一咽頭嚢→I、第一咽頭溝→F、第一大動脈弓→H、背側大動脈→B',
+          commentary:
+            '第一咽頭弓・第二咽頭弓ができ始めている段階。胚が屈曲しているため斜めの断面になっている（Dorsal/Posterior方向が上側）。中央左右の管は2本の管が斜めに切れている。Aは神経管、Eは第二咽頭弓（Anteriorの第一咽頭弓が断面の下側に位置している）',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [w102715],
+          questionSentence: '32日胚断面で、第一～第四咽頭弓を同定せよ',
+          choices: [],
+          answerImg: [w1031],
+          answer: '第一咽頭弓-G、第二咽頭弓-F、第三咽頭弓-E、第四咽頭弓-D',
+          commentary: 'Bが背側大動脈。D~GのうちよりAnteriorにあるGが第一咽頭弓',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [w103157],
+          questionSentence: '32日胚断面で、舌隆起と甲状腺の原基を同定せよ',
+          choices: [],
+          answerImg: [],
+          answer:
+            'E.外側舌隆起、F.無対舌結節（正中隆起）→舌体、G.舌盲孔→甲状腺',
+          commentary:
+            '第一咽頭弓Dと第二咽頭弓Cが正中で合わさって舌盲孔を形成する。Gの上の空間は前腸。ラングマンp301',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [],
+          questionSentence:
+            '知覚性神経節が外胚葉性プラコードからなる脳神経を全て挙げよ',
+          choices: [],
+          answerImg: [w1043],
+          answer:
+            '耳プラコード→内耳神経、三叉神経プラコード→三叉神経、第一咽頭弓プラコード→顔面神経、第三咽頭弓・第四咽頭弓プラコード→迷走神経',
+          commentary: 'それ以外の脳神経は大体は神経堤由来。ラングマンp343-344',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [w1045],
+          questionSentence:
+            '7週胚前面で、1)上顎隆起、2)内側鼻隆起、3)外側鼻隆起、4)鼻涙溝を同定せよ',
+          choices: [],
+          answerImg: [w1054],
+          answer: 'E.上顎隆起、D.内側鼻隆起、G.外側鼻隆起、B.鼻涙溝',
+          commentary: 'A.鼻窩（外側鼻隆起と内側鼻隆起の間）、C.口窩、F.眼',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [w105432],
+          questionSentence:
+            'これらの異常が起きる時期として最も適するものを1つ選び、発生過程に関係づけて理由を説明せよ',
+          choices: ['3～4週', '4～6週', '7～10週', '16～20週', '20週以降'],
+          answerImg: [w1059],
+          answer: '7～10週',
+          commentary:
+            '上顎隆起と内側鼻隆起の癒合の欠如。口蓋の形成は7～10週の間に作られる。',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [w105927],
+          questionSentence:
+            'A~Cそれぞれの異常の機序として適するものを全て選び、発生過程に関連づけて理由を説明せよ',
+          choices: [],
+          answerImg: [w1103],
+          answer:
+            'A.内側鼻隆起と上顎隆起の癒合不全および一次口蓋と二次口蓋の癒合不全、B.Aの両側、C.二次口蓋の癒合不全',
+          commentary:
+            'A.上顎裂、B.一次口蓋と二次口蓋間の裂、C.二次口蓋裂。ラングマンp308~',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [w1117],
+          questionSentence:
+            '発生2か月末の脳の模式図で、大脳半球はどこから発生するか？',
+          choices: [],
+          answerImg: [w1121],
+          answer: 'A.終脳',
+          commentary:
+            '二次脳胞。B.中脳。小脳半球はC.小脳板から。ラングマンp327',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [w112149],
+          questionSentence:
+            '発生2か月末脳の模式図で、迷走神経の神経核はどこにあるか？最も近いものを選べ。',
+          choices: [],
+          answerImg: [w1125, w1126],
+          answer: 'D.髄脳（→延髄）',
+          commentary:
+            '12対の脳神経のうち、嗅神経、視神経、動眼神経を除く9対が、菱脳域（後脳・髄脳）から起始する。ラングマンp327',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [],
+          questionSentence:
+            '脳の発生に関する以下の記述のうち、正しくないものを全て選べ。',
+          choices: [
+            '小脳板では、基板と翼板が明確に区別される',
+            '髄脳では、基板と翼板が明確に区別される',
+            '脊髄では、基板と翼板が明確に区別される',
+            '中脳は、基板を欠く',
+            '間脳は、基板を欠く',
+            '終脳は、基板を欠く',
+            'すべて正しい',
+          ],
+          answerImg: [w1137, w1138],
+          answer:
+            '髄脳では、基板と翼板が明確に区別される/脊髄では、基板と翼板が明確に区別される/間脳は、基板を欠く/終脳は、基板を欠く',
+          commentary:
+            '基板は腹側で運動性前角を、翼板は背側で知覚性後角を形成。菱脳の主に翼板が小脳板へ（小脳の役割を理解する）。同様に終脳など（上位中枢）は肥厚した翼板からなり基板を欠く。髄脳（→延髄）では基板と翼板が明確に区別される。',
+        },
+
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [],
+          questionSentence: '髄脳と間脳の組織的な形態の違いを説明せよ',
+          choices: [],
+          answerImg: [w1144, w114453],
+          answer:
+            '髄脳は翼板と基板が明確に区別でき、間脳は蓋板と翼板からなり底板と基板を欠く',
+          commentary:
+            '髄脳→延髄、間脳→視床・視床下部・眼杯・下垂体など。ラングマンp391',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [w1152],
+          questionSentence:
+            '56日胚横断面で、1)翼板、2)基板、3)後根神経節、4)白質を同定せよ',
+          choices: [],
+          answerImg: [],
+          answer: 'A.翼板、E.基板、C.後根神経節、B.白質',
+          commentary:
+            '神経管（脊髄）が横断面中央に位置し、そのDorsal側の翼板がA。F.椎体で、椎弓はその背側に発生途中。ちなみに赤い四角で囲った部分は肺。',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [w1159],
+          questionSentence: '前脳域に由来するものを全て選べ',
+          choices: ['古皮質', '小脳', '視床', '海馬', '橋', 'この中にはない'],
+          answerImg: [],
+          answer: '古皮質、視床、海馬',
+          commentary: '古皮質は大脳半球の一部。前脳→終脳・間脳',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [],
+          questionSentence: '間脳に由来する脳の主要な部位を全てあげよ',
+          choices: [],
+          answerImg: [w1206],
+          answer:
+            '視床・視床下部・松果体・眼杯・視交叉・下垂体・第三脳室など...',
+          commentary:
+            '内分泌（下垂体・視床下部・メラトニン分泌の松果体）や感覚器（眼杯:網膜）など幅広い領域に分化していく',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [],
+          questionSentence:
+            '髄鞘を作る細胞の由来について、中枢と末梢の違いを述べよ',
+          choices: [],
+          answerImg: [w1208],
+          answer:
+            'オリゴデンドロサイト）神経上皮由来。シュワン細胞）神経堤由来',
+          commentary:
+            '髄鞘:myeline。中枢）オリゴデンドロサイト、末梢）シュワン細胞。中枢の髄鞘は社会生活に合わせて遅れて髄鞘化される',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [],
+          questionSentence:
+            '腰椎穿刺をL4~L5の高さで行う理由を、脊柱と脊髄の発生過程に関係づけて説明せよ',
+          choices: [],
+          answerImg: [w1212],
+          answer:
+            '発生過程で脊髄は椎骨に比べて伸長が小さいので、最終的にL4~L5の高さには脊髄のない馬尾が分布することになる。',
+          commentary: '',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [],
+          questionSentence:
+            '発生7か月と9か月における大脳半球外側面の形態の相違を説明せよ',
+          choices: [],
+          answerImg: [w1220],
+          answer:
+            '発生7か月の時点では平滑だった大脳半球表面は成長に伴って折れ曲がり、複雑な回gyrusと溝sulcusを形成する',
+          commentary:
+            '発生8週までには神経の大部分が形成されるが、大脳半球は遅い時期に成長するラングマンp334~335',
+        },
+        {
+          detailInfo: '7/6確認問題',
+          questionImg: [],
+          questionSentence:
+            '副腎髄質の由来として最も適したものを選び、副腎の発生過程に関係づけて理由を説明せよ',
+          choices: [
+            '表皮外胚葉',
+            '神経外胚葉',
+            '神経堤',
+            '沿軸中胚葉',
+            '中間中胚葉',
+            '壁側中胚葉',
+            '臓側中胚葉',
+            '内胚葉',
+          ],
+          answerImg: [w1221],
+          answer: '神経堤',
+          commentary: '副腎皮質は中間中胚葉由来',
+        },
+
         // {
         //   detailInfo: '6/30確認問題',
         //   questionImg: [],
