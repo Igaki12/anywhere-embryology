@@ -98,7 +98,8 @@ export const useHistory = () => {
         newRemainingQuestion.id = (groupIndex * 1000 + questionIndex).toString()
         newRemainingQuestion.groupTag = group.groupTag
         if (!newRemainingQuestion.detailInfo) {
-          newRemainingQuestion.detailInfo = '(' + (questionIndex + 1).toString() + ')'
+          newRemainingQuestion.detailInfo =
+            '(' + (questionIndex + 1).toString() + ')'
         }
 
         if (newRemainingQuestion.askedQuestionList) {
@@ -155,6 +156,15 @@ export const useHistory = () => {
           if (newRemainingQuestion.answer === '') {
             newRemainingQuestion.answer = newRemainingQuestion.choices[0]
             console.log('解のない問題に解を自動追加')
+          }
+
+          if (newRemainingQuestion.questionSentence === '') {
+            newRemainingQuestion.questionSentence = `${group.groupTag}の${
+              questionIndex + 2
+            }番目のスライドを確認`
+            console.log(
+              '問題文を自動作成：' + newRemainingQuestion.questionSentence,
+            )
           }
           // 選択肢をランダムに配置
           let choiceList = [...question.choices]
