@@ -144,6 +144,7 @@ import w1137 from './img/question/スクリーンショット 2022-07-06 113709.
 import w1138 from './img/question/スクリーンショット 2022-07-06 113825.jpg'
 import w1144 from './img/question/スクリーンショット 2022-07-06 114445.jpg'
 import w114453 from './img/question/スクリーンショット 2022-07-06 114453.jpg'
+import w1145 from './img/question/スクリーンショット 2022-07-06 114518.jpg'
 import w1152 from './img/question/スクリーンショット 2022-07-06 115237.jpg'
 import w1159 from './img/question/スクリーンショット 2022-07-06 115945.jpg'
 import w1206 from './img/question/スクリーンショット 2022-07-06 120631.jpg'
@@ -2248,11 +2249,11 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '7/6確認問題',
-          questionImg: [w1152],
+          questionImg: [w1145],
           questionSentence:
             '56日胚横断面で、1)翼板、2)基板、3)後根神経節、4)白質を同定せよ',
           choices: [],
-          answerImg: [],
+          answerImg: [w1152],
           answer: 'A.翼板、E.基板、C.後根神経節、B.白質',
           commentary:
             '神経管（脊髄）が横断面中央に位置し、そのDorsal側の翼板がA。F.椎体で、椎弓はその背側に発生途中。ちなみに赤い四角で囲った部分は肺。',
