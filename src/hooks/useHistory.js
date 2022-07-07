@@ -159,9 +159,9 @@ export const useHistory = () => {
           }
 
           if (newRemainingQuestion.questionSentence === '') {
-            newRemainingQuestion.questionSentence = `${group.groupTag}の${
+            newRemainingQuestion.questionSentence = `${group.groupTag}スライド：${
               questionIndex + 1
-            }番目の問題を確認`
+            }番目の問題`
           }
           // 選択肢をランダムに配置
           let choiceList = [...question.choices]
