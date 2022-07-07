@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import transcription from './img/answer/transcription.png'
+import cellDivision from './img/answer/cellDivision.png'
 
 import q3 from './img/question/220613-3.JPG'
 import q4 from './img/question/220613-4.JPG'
