@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import transcription from './img/answer/transcription.png'
 
 import q3 from './img/question/220613-3.JPG'
 import q4 from './img/question/220613-4.JPG'
@@ -2392,7 +2393,7 @@ export const useQuestionList = () => {
           answerImg: [],
           answer: 'トランスポゾン',
           commentary:
-            'ゲノムプロジェクトの進行により、ヒトやマウスのゲノムにおいてタンパク質をコードする領域は 1% であり、残りの 40% 以上はトランスポゾンが占めていることがわかってきた。',
+            'ゲノムプロジェクトの進行により、ヒトやマウスのゲノムにおいて40% 以上はトランスポゾンが占めていることがわかってきた。',
         },
         {
           detailInfo: '',
@@ -2402,8 +2403,95 @@ export const useQuestionList = () => {
           answerImg: [],
           answer: '約1.5%',
           commentary:
-            'ゲノムプロジェクトの進行により、ヒトやマウスのゲノムにおいてタンパク質をコードする領域は 1% であり、残りの 40% 以上はトランスポゾンが占めていることがわかってきた。',
+            'ゲノムプロジェクトの進行により、ヒトやマウスのゲノムにおいてタンパク質をコードする領域は 1% 程度であることがわかってきた。',
         },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '',
+          choices: [],
+          answerImg: [transcription],
+          answer: 'ポリAテイル、5’キャップ',
+          commentary:
+            '転写過程でmRNAの5’末端にはキャップ構造が、3’末端にはポリA配列が形成される',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '',
+          choices: [],
+          answerImg: [],
+          answer: '約20,000',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '',
+          choices: [],
+          answerImg: [],
+          answer: '塩基除去修復、ヌクレオチド修復？',
+          commentary:
+            '塩基除去修復修復は小さな損傷、ヌクレオチド除去修復は比較的大きな損傷に対して作用するDNA修復機構である。相同組み換えは相同染色体間の修復、ミスマッチ修復や校正は主にDNA複製時の作用。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '',
+          choices: [],
+          answerImg: [],
+          answer: '4^6通り？',
+          commentary:
+            '4種類TACGを6塩基分繋げたときの場合の数は4^6通り→約4^6個の塩基が並んでいると1か所で切れる',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '',
+          choices: [],
+          answerImg: [],
+          answer: 'C.女性。5番染色体の短腕に欠失',
+          commentary:
+            'del(n)/t(n):n番染色体に欠失/転座、p/q:染色体短腕/染色体長腕（部位に数字が付く）',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '',
+          choices: [],
+          answerImg: [],
+          answer: 'A.1番染色体の長腕と19番染色体の短腕の間で相互転座',
+          commentary:
+            'ins(n)/t(n):n番染色体に挿入/転座、p/q:染色体短腕/染色体長腕（部位に数字が付く）。複数ある場合は「；」で区切る',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '',
+          choices: [],
+          answerImg: [transcription],
+          answer: '167',
+          commentary: '2400-1800-99=501 501/3=167?',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '',
+          choices: [],
+          answerImg: [],
+          answer: '(14,21)と(14q21q)',
+          commentary:
+            'rob(14;21)...ロバートソン型転座が14番染色体と21番染色体の間で生じた。この後減数分裂第2分裂があるので、(14,21)は生存可能？',
+        },
+        // {
+        //   detailInfo: '',
+        //   questionImg: [],
+        //   questionSentence: '',
+        //   choices: [],
+        //   answerImg: [],
+        //   answer: 'D.30億塩基対',
+        //   commentary: '',
+        // },
         // {
         //   detailInfo: '',
         //   questionImg: [],
