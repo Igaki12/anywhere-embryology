@@ -336,6 +336,7 @@ export const Setting = ({
         defaultValue={settingDetail.questionRange}
       >
         <Stack
+          w={'sm'}
           spacing={[2, 4]}
           direction={['column']}
           bg="blackAlpha.100"
