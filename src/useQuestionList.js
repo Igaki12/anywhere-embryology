@@ -2440,7 +2440,7 @@ export const useQuestionList = () => {
           questionSentence: '',
           choices: [],
           answerImg: [],
-          answer: '4^6通り？',
+          answer: '4^6塩基対？',
           commentary:
             '4種類TACGを6塩基分繋げたときの場合の数は4^6通り→約4^6個の塩基が並んでいると1か所で切れる',
         },
@@ -2481,17 +2481,18 @@ export const useQuestionList = () => {
           answerImg: [],
           answer: '(14,21)と(14q21q)',
           commentary:
-            'rob(14;21)...ロバートソン型転座が14番染色体と21番染色体の間で生じた。この後減数分裂第2分裂があるので、(14,21)は生存可能？',
+            'rob(14;21)...ロバートソン型転座が14番染色体と21番染色体の間で生じた。14q21qは小さく失われてしまっている。この後減数分裂第2分裂があるので、(14,21)は生存可能',
         },
-        // {
-        //   detailInfo: '',
-        //   questionImg: [],
-        //   questionSentence: '',
-        //   choices: [],
-        //   answerImg: [],
-        //   answer: 'D.30億塩基対',
-        //   commentary: '',
-        // },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '',
+          choices: [],
+          answerImg: [],
+          answer: '準備中',
+          commentary:
+            'rob(14;21)...ロバートソン型転座が14番染色体と21番染色体の間で生じた。',
+        },
         // {
         //   detailInfo: '',
         //   questionImg: [],
