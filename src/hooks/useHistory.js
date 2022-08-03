@@ -103,6 +103,13 @@ export const useHistory = () => {
             questionIndex + 1
           }番目の問題を確認`
         }
+        if (!newRemainingQuestion.questionImg) {
+          newRemainingQuestion.questionImg = []
+        }
+        if (!newRemainingQuestion.answerImg) {
+          newRemainingQuestion.answerImg = []
+        }
+
         if (!newRemainingQuestion.detailInfo) {
           newRemainingQuestion.detailInfo =
             '(' + (questionIndex + 1).toString() + ')'

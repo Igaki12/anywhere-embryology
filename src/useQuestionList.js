@@ -2610,33 +2610,86 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '',
           answerImg: [cellDivision],
-          answer: '',
-          commentary: '',
+          answer: 'S期',
+          commentary:
+            '矢印の部分はDNA量は中程度で該当細胞数は少ない。G1→S→G2→M期の細胞周期の中で、DNA量がちょうど1倍になるのがG1期（+ G0期）,その2倍になるのがG2期・M期。残りのS期はDNA合成の進行度合いに応じてDNA量が変化するため、それぞれのDNA量にちょうど該当する細胞数はかなり少なくなる。（DNA量の少ない側の山がG0・G1期、DNA量の多い側の山がG2・M期）',
         },
         {
-          detailInfo: '有糸分裂',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          detailInfo: '遺伝病',
+          answer: '25%',
+          commentary:
+            '嚢胞性繊維症は常染色体劣性遺伝疾患のため、両親ともにキャリアAa。',
         },
         {
-          detailInfo: '有糸分裂',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          detailInfo: '遺伝病',
+          answer: '25%',
+          commentary:
+            '血友病はX染色体上の遺伝疾患（劣性）のため、因子を母親から受け継いだ男の子は全員発症する。母方の叔父が罹患者=母の母がAaのキャリアであることから、母の母(Aa)→母→男の子の2回分の減数分裂でともに因子aが引き継がれたときのみ発症する。よって1/4',
         },
         {
-          detailInfo: '有糸分裂',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          detailInfo: '遺伝病',
+          answer: '50%',
+          commentary:
+            'ハンチントン病は常染色体優性遺伝のため、両親の片方もしくは両方がAaまたはaa。数万人に1人の割合であることを考慮すると、親の片方がAaで、aが遺伝されると発病',
         },
+        {
+          detailInfo: '遺伝病',
+          answer: 'ここでは無視して良い確率',
+          commentary:
+            '母親由来の15番染色体が一部欠損することにより、UBE3Aの働きが失われることにより起こります。 アンジェルマン症候群の約70％がこのタイプです。 基本的には偶然起こるもので、遺伝ではありません。',
+        },
+        {
+          detailInfo: '遺伝病',
+          answer: 'ここでは無視して良い確率',
+          commentary:
+            'ミトコンドリア脳筋症MELASはミトコンドリアDNAの遺伝子異常により発病する疾患で、基本的に母性遺伝である。今回の場合は突然変異だと考えられるので、妹の確率は低い。',
+        },
+        {
+          detailInfo: '遺伝病',
+          answer:
+            'F：3-b-β(XXY-クラインフェルター症候群-高身長・不妊・知的障害を伴わない)',
+          commentary:
+            'ターナー症候群はXの1本欠損、クラインフェルター症候群はXの過剰、ダウン症候群は21番染色体のトリソミー、アンジェルマン症候群は15番染色体の異常',
+        },
+        {
+          detailInfo: '遺伝病',
+          answer: '常染色体潜性遺伝病',
+          commentary:
+            '突然変異とはいえない。男女で有意差（伴性遺伝病）なし。母性遺伝（ミトコンドリア病）ではない。インプリンティング遺伝子は、その発現が両親のいずれかによって決定される遺伝子のことで、メンデルの遺伝の法則の例外である（例：アンジェルマン症候群とプラダーウィリー症候群）が、やはり男女差はない。劣性遺伝だとするとaa発病者の配偶者が全員Aaキャリアでないといけない。常染色体優性遺伝病だと考えるのが最も合理的。14は遺伝因子を持っていない可能性がある',
+        },
+        {
+          detailInfo: '遺伝病',
+          answer: '常染色体潜性遺伝病',
+          commentary:
+            '突然変異ではないと思われる。母性遺伝（ミトコンドリア病）ではない。インプリント病ではない（キャリアは存在しない）。発病者は全員女性。Ⅵ世代の2から遺伝したと考えられるが、2は発病していないので優性遺伝ではない。劣性遺伝とすると、Ⅵ世代4でaa発病した遺伝子が、キャリアAaの状態でⅠ世代からずっと受け継がれAa同士の子孫に4分の1の確率で発病する。このように、近親交配は劣性遺伝病のリスクが増す。',
+        },
+        {
+          detailInfo: '遺伝病',
+          answer: 'ミトコンドリア病',
+          commentary: '母性遺伝（母親→子）がみられる。',
+        },
+        {
+          detailInfo: '遺伝病',
+          answer: '伴性潜性遺伝病',
+          commentary:
+            '発病していない両親から多数の子どもが発病しているので、優性遺伝・ミトコンドリア病ではない。発病者は全員女性なので、常染色体が原因ではない。',
+        },
+        // {
+        //   detailInfo: '有糸分裂',
+        //   questionImg: [],
+        //   questionSentence: '',
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '有糸分裂',
+        //   questionImg: [],
+        //   questionSentence: '',
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
 
         // {
         //   detailInfo: '',
