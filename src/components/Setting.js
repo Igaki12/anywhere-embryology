@@ -145,7 +145,13 @@ export const Setting = ({
   }
   return (
     <>
-      <Box boxSize="sm" transitionDelay="3s" className="Headline1" mb={6}>
+      <Box
+        maxW="sm"
+        minH={'150px'}
+        transitionDelay="3s"
+        className="Headline1"
+        mb={6}
+      >
         <Flex pr={4}>
           <Spacer />
           <Button
@@ -164,7 +170,14 @@ export const Setting = ({
           </Button>
         </Flex>
 
-        <Image src={titleImg} alt="TitleImage" m={0} p="0" mb={-14} />
+        <Image
+          src={titleImg}
+          alt="TitleImage"
+          m={0}
+          p="1"
+          mb={-14}
+          borderRadius="lg"
+        />
         <Flex ml={4} mr="4">
           {checkMsg === '条件を満たした質問が存在しません' ? (
             <Button
@@ -270,6 +283,10 @@ export const Setting = ({
             </List>
             <Divider orientation="horizontal" mt={3} mb="1" />
             <Text>アップデート履歴</Text>
+            <Text fontSize={'sm'}>
+              08-01_Ver1.0-デザインを改善.正式リリース
+            </Text>
+            <Text fontSize={'sm'}>07-10_Ver0.9-辞書機能を試験実装</Text>
             <Text fontSize={'sm'}>06-01_Ver0.8-重くなりすぎないように改善</Text>
             <Text fontSize={'sm'}>05-25_Ver0.7-”続きから再開”機能を仮実装</Text>
             <Text fontSize={'sm'}>

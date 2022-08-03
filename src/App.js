@@ -7,11 +7,14 @@ import { useQuestionList } from './useQuestionList'
 import { useSetting } from './hooks/useSetting'
 import { useHistory } from './hooks/useHistory'
 import { ChoicePanel } from './components/ChoicePanel'
+import { useTechnicalTerm } from './useTechnicalTerm'
 import jsCookie from 'js-cookie'
 
 function App() {
   const { showQuestionList } = useQuestionList()
   const questionList = showQuestionList()
+  const { showTechnicalTerm } = useTechnicalTerm()
+  const technicalTerm = showTechnicalTerm()
   const {
     showSettingDetail,
     updateQuestionOrder,
@@ -61,10 +64,10 @@ function App() {
           colorScheme="teal"
           variant={'outline'}
         >
-          Ver.0.8
+          Ver.1.0
         </Badge>
         <Badge m={1} mt="0" borderRadius="full" px="2" colorScheme="teal">
-          発生・遺伝学
+          第2生理学
         </Badge>
       </Flex>
 
@@ -87,7 +90,7 @@ function App() {
         />
       )}
       {settingDetail.isSet ? (
-        <>
+        <Box bgColor={'blackAlpha.100'} mt="-100px" pt={'100px'} minH="1000px">
           {/* <ResultBar
             showHistory={showHistory}
             showSettingDetail={showSettingDetail}
@@ -102,6 +105,7 @@ function App() {
             reviewQuestion={reviewQuestion}
             reviewAskingQuestion={reviewAskingQuestion}
             saveHistory={saveHistory}
+            technicalTerm={technicalTerm}
           />
           {settingDetail.mode === 'practice' &&
           history[history.length - 1].askingQuestion.choices.length > 1 ? (
@@ -114,7 +118,7 @@ function App() {
             showSettingDetail={showSettingDetail}
             showHistory={showHistory}
           />
-        </>
+        </Box>
       ) : (
         <></>
       )}

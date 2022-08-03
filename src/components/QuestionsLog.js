@@ -1,3 +1,4 @@
+
 import {
   Image,
   Box,
@@ -12,7 +13,7 @@ import {
   Collapse,
   Tooltip,
 } from '@chakra-ui/react'
-import { ArrowDownIcon, RepeatIcon } from '@chakra-ui/icons'
+import { ArrowDownIcon, RepeatIcon, ExternalLinkIcon } from '@chakra-ui/icons'
 import { ResultBar } from './ResultBar'
 import '../App.css'
 import { useState } from 'react'
@@ -27,13 +28,15 @@ export const QuestionsLog = ({
   reviewQuestion,
   reviewAskingQuestion,
   saveHistory,
+  technicalTerm,
 }) => {
   const [isOpen, setIsOpen] = useState(true)
   const toast = useToast()
+
   const toastGoodJob = () => {
     if (history[history.length - 1].remainingQuestionList.length === 0) {
       toast({
-        position: 'top',
+        position: 'top-right',
         title: 'Good Job!',
         description: '全ての問題が終わりました！',
         status: 'success',
@@ -42,8 +45,35 @@ export const QuestionsLog = ({
       })
     }
   }
+  const toastDictionary = (sentence) => {
+    toast({
+      title: `${
+        technicalTerm.find((terms) => terms.term.indexOf(sentence) !== -1)
+          .term[0]
+      }`,
+      description: `${
+        technicalTerm.find((terms) => {
+          return terms.term.indexOf(sentence) !== -1
+        }).explanation
+      }　#${technicalTerm
+        .find((terms) => {
+          return terms.term.indexOf(sentence) !== -1
+        })
+        .term.slice(1)
+        .join(' #')}`,
+      status: 'info',
+      containerStyle: {
+        maxWidth: 'sm',
+      },
+      variant: 'left-accent',
+      duration: 30000,
+      isClosable: true,
+      position: 'top-right',
+    })
+  }
   let history = showHistory()
   let settingDetail = showSettingDetail()
+
   console.log(history[history.length - 1].askedQuestionList)
   // const scrollToTheBottom = () => {
   //   let element = document.documentElement
@@ -62,11 +92,12 @@ export const QuestionsLog = ({
             .map((question, index) => (
               <>
                 <Box
-                  maxW="sm"
+                  maxW="lg"
+                  bgColor={'white'}
                   borderWidth="1px"
                   borderRadius="lg"
                   overflow="hidden"
-                  mb={3}
+                  mb={1}
                   mt="3"
                   key={index + 'QuestionBox'}
                 >
@@ -124,11 +155,12 @@ export const QuestionsLog = ({
                   </Box>
                 </Box>
                 <Box
-                  maxW="sm"
+                  maxW="lg"
+                  mb={'100px'}
                   borderWidth="1px"
                   borderRadius="lg"
                   overflow="hidden"
-                  bg={'red.50'}
+                  bg={'red.100'}
                   key={index + 'AnswerBox'}
                 >
                   {question.answerImg.map((image) => (
@@ -145,7 +177,6 @@ export const QuestionsLog = ({
                         fontWeight="semibold"
                         letterSpacing="wide"
                         fontSize=""
-                        textTransform="uppercase"
                         ml="2"
                         key={index + 'AnswerBox2'}
                       >
@@ -177,7 +208,7 @@ export const QuestionsLog = ({
                             reviewQuestion(index)
                             toast({
                               title: 'この質問はもう一度出題されます',
-                              position: 'top',
+                              position: 'top-right',
                               // description: "We've created your account for you.",
                               status: 'info',
                               duration: 9000,
@@ -207,11 +238,12 @@ export const QuestionsLog = ({
       {history[history.length - 1].askingQuestion.questionSentence ? (
         <>
           <Box
-            maxW="sm"
+            maxW="lg"
+            bgColor={'white'}
             borderWidth="1px"
             borderRadius="lg"
             overflow="hidden"
-            mb={3}
+            mb={1}
             mt="3"
             className="DownSlideIn"
           >
@@ -242,7 +274,59 @@ export const QuestionsLog = ({
               </Box>
 
               <Box mt="1" fontWeight="semibold" as="h4" lineHeight="tight">
-                {history[history.length - 1].askingQuestion.questionSentence}
+                {/* ここから辞書のための分の分割＆判定 */}
+                {technicalTerm
+                  .reduce(
+                    (prev, currentTerms) => {
+                      return currentTerms.term.reduce((previousArray, term) => {
+                        console.log(previousArray)
+                        return previousArray.reduce(
+                          (previousStr, currentStr) => {
+                            console.log(currentStr)
+                            console.log(
+                              currentStr.split(new RegExp(`(${term})`, 'g')),
+                            )
+                            let newStr = []
+                            if (
+                              currentStr.match(new RegExp(`(${term})`, 'g'))
+                            ) {
+                              newStr = currentStr.split(
+                                new RegExp(`(${term})`, 'g'),
+                              )
+                            } else {
+                              newStr = currentStr.split(/(_d.)/g)
+                            }
+                            return [...previousStr, ...newStr]
+                          },
+                          '',
+                        )
+                      }, prev)
+                    },
+                    [
+                      history[history.length - 1].askingQuestion
+                        .questionSentence,
+                    ],
+                  )
+                  .map((sentence, index) => (
+                    <>
+                      {technicalTerm.find((terms) => {
+                        return terms.term.indexOf(sentence) !== -1
+                      }) ? (
+                        <Button
+                          colorScheme={'blue'}
+                          key={index + 'b1'}
+                          variant="link"
+                          fontWeight={'bold'}
+                          onClick={() => toastDictionary(sentence)}
+                        >
+                          {sentence}
+                        </Button>
+                      ) : (
+                        <span key={index + 'n1'}>{sentence}</span>
+                      )}
+                    </>
+                  ))}
+                {/* ここまでが辞書のための文の分割＆判定 */}
                 {history[history.length - 1].askingQuestion
                   .randomizedChoices ? (
                   history[
@@ -264,11 +348,11 @@ export const QuestionsLog = ({
           <Collapse in={isOpen} animateOpacity>
             {history[history.length - 1].isAnswered ? (
               <Box
-                maxW="sm"
+                maxW="lg"
                 borderWidth="1px"
                 borderRadius="lg"
                 overflow="hidden"
-                bg={'red.50'}
+                bg={'red.100'}
                 // className="DownSlideIn"
               >
                 {history[history.length - 1].askingQuestion.answerImg.map(
@@ -286,22 +370,117 @@ export const QuestionsLog = ({
                       color="red.700"
                       fontWeight="semibold"
                       letterSpacing="wide"
-                      fontSize=""
-                      textTransform="uppercase"
                       ml="2"
                     >
-                      {history[history.length - 1].askingQuestion.answer
-                        ? history[history.length - 1].askingQuestion.answer
-                        : '解答準備中'}
+                      {technicalTerm
+                        .reduce(
+                          (prev, currentTerms) => {
+                            return currentTerms.term.reduce(
+                              (previousArray, term) => {
+                                // console.log(previousArray)
+                                return previousArray.reduce(
+                                  (previousStr, currentStr) => {
+                                    // console.log(currentStr)
+                                    // console.log(
+                                    //   currentStr.split(
+                                    //     new RegExp(`(${term})`, 'g'),
+                                    //   ),
+                                    // )
+                                    let newStr = []
+                                    if (
+                                      currentStr.match(
+                                        new RegExp(`(${term})`, 'g'),
+                                      )
+                                    ) {
+                                      newStr = currentStr.split(
+                                        new RegExp(`(${term})`, 'g'),
+                                      )
+                                    } else {
+                                      newStr = currentStr.split(/(_d.)/g)
+                                    }
+                                    return [...previousStr, ...newStr]
+                                  },
+                                  '',
+                                )
+                              },
+                              prev,
+                            )
+                          },
+                          [history[history.length - 1].askingQuestion.answer],
+                        )
+                        .map((sentence, index) => (
+                          <>
+                            {technicalTerm.find((terms) => {
+                              return terms.term.indexOf(sentence) !== -1
+                            }) ? (
+                              <Button
+                                colorScheme={'blue'}
+                                key={index + 'b'}
+                                variant="link"
+                                fontWeight={'bold'}
+                                onClick={() => toastDictionary(sentence)}
+                              >
+                                {sentence}
+                              </Button>
+                            ) : (
+                              <span key={index + 'n'}>{sentence}</span>
+                            )}
+                          </>
+                        ))}
                     </Box>
                   </Box>
                   <Badge variant="solid" colorScheme="red">
                     解説
                   </Badge>
                   <Box mt="1" as="h4" lineHeight="tight">
-                    {history[history.length - 1].askingQuestion.commentary
-                      ? history[history.length - 1].askingQuestion.commentary
-                      : ''}
+                    {technicalTerm
+                      .reduce(
+                        (prev, currentTerms) => {
+                          return currentTerms.term.reduce(
+                            (previousArray, term) => {
+                              // console.log(previousArray)
+                              return previousArray.reduce(
+                                (previousStr, currentStr) => {
+                                  // console.log(currentStr)
+                                  // console.log(
+                                  //   currentStr.split(
+                                  //     new RegExp(`(${term})`, 'g'),
+                                  //   ),
+                                  // )
+                                  return [
+                                    ...previousStr,
+                                    ...currentStr.split(
+                                      new RegExp(`(${term})`, 'g'),
+                                    ),
+                                  ]
+                                },
+                                '',
+                              )
+                            },
+                            prev,
+                          )
+                        },
+                        [history[history.length - 1].askingQuestion.commentary],
+                      )
+                      .map((sentence, index) => (
+                        <>
+                          {technicalTerm.find((terms) => {
+                            return terms.term.indexOf(sentence) !== -1
+                          }) ? (
+                            <Button
+                              colorScheme={'blue'}
+                              key={index + 'b3'}
+                              variant="link"
+                              fontWeight={'bold'}
+                              onClick={() => toastDictionary(sentence)}
+                            >
+                              {sentence}
+                            </Button>
+                          ) : (
+                            <span key={index + 'n3'}>{sentence}</span>
+                          )}
+                        </>
+                      ))}
                   </Box>
                 </Box>
                 {history[history.length - 1].askingQuestion.id.indexOf('r') ===
@@ -328,7 +507,7 @@ export const QuestionsLog = ({
 
                           toast({
                             title: 'この質問はもう一度出題されます',
-                            position: 'top',
+                            position: 'top-right',
                             // description: "We've created your account for you.",
                             status: 'info',
                             duration: 9000,
@@ -357,11 +536,13 @@ export const QuestionsLog = ({
       {history[history.length - 1].isAnswered &&
       history[history.length - 1].remainingQuestionList.length > 0 ? (
         <Button
+          autoFocus
           m={1}
           ml="3"
           rightIcon={<ArrowDownIcon />}
           colorScheme="teal"
           variant={'outline'}
+          bgColor="white"
           onClick={() => {
             nextQuestion(settingDetail)
             // scrollToTheBottom()
@@ -377,9 +558,10 @@ export const QuestionsLog = ({
         <></>
       ) : (
         <Button
+          autoFocus
           m={1}
           ml="3"
-          mt={-2}
+          mt={0}
           rightIcon={<ArrowDownIcon />}
           colorScheme="red"
           variant={'solid'}

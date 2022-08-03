@@ -97,6 +97,12 @@ export const useHistory = () => {
         let newRemainingQuestion = question
         newRemainingQuestion.id = (groupIndex * 1000 + questionIndex).toString()
         newRemainingQuestion.groupTag = group.groupTag
+        // 発生学・再生学だけの特別ルール（問題文を空白にしていると自動記入）
+        if (!newRemainingQuestion.questionSentence) {
+          newRemainingQuestion.questionSentence = `${group.groupTag}の${
+            questionIndex + 1
+          }番目の問題を確認`
+        }
         if (!newRemainingQuestion.detailInfo) {
           newRemainingQuestion.detailInfo =
             '(' + (questionIndex + 1).toString() + ')'
@@ -157,12 +163,6 @@ export const useHistory = () => {
             newRemainingQuestion.answer = newRemainingQuestion.choices[0]
             console.log('解のない問題に解を自動追加')
           }
-
-          if (newRemainingQuestion.questionSentence === '') {
-            newRemainingQuestion.questionSentence = `${group.groupTag}スライド：${
-              questionIndex + 1
-            }番目の問題`
-          }
           // 選択肢をランダムに配置
           let choiceList = [...question.choices]
           newRemainingQuestion.randomizedChoices = []
@@ -190,6 +190,10 @@ export const useHistory = () => {
           ),
           newHistory.askingQuestion,
         ]
+      }
+      // 表示が多くなりすぎないように調節
+      if (newHistory.askedQuestionList.length > 10) {
+        newHistory.askedQuestionList.shift()
       }
       newHistory.askingQuestion = {}
       let randomNum = Math.floor(
@@ -249,6 +253,7 @@ export const useHistory = () => {
         console.log(history)
       }
     }
+    // 追記：
   }
   const checkAnswer = () => {
     let newHistory = history[history.length - 1]
