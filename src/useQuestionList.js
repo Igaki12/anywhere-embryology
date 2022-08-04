@@ -2755,6 +2755,22 @@ export const useQuestionList = () => {
         // },
       ],
     },
+    {
+      groupTag: '確認問題2 発生学序論',
+      groupContents: [
+        {
+          detailInfo: '',
+          answer: '4.13~26週',
+          commentary:
+            '受精齢（発生学で用いられる数え週）で13~、月経齢（産科学など臨床医学で用いられる、満で表される）で14～',
+        },
+        // {
+        //   detailInfo: '有糸分裂',
+        //   answer: '',
+        //   commentary: '',
+        // },
+      ],
+    },
   ])
   const showQuestionList = () => {
     return questionList
