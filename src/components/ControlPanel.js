@@ -23,7 +23,10 @@ export const ControlPanel = ({ showSettingDetail, showHistory }) => {
   const scrollToTheBottom = () => {
     let element = document.documentElement
     let bottom = element.scrollHeight - element.clientHeight
-    window.scroll(0, bottom)
+    window.scrollTo({
+      top: bottom,
+      behavior: 'smooth',
+    })
   }
   return (
     <>

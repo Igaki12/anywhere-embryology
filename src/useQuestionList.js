@@ -2764,8 +2764,170 @@ export const useQuestionList = () => {
           commentary:
             '受精齢（発生学で用いられる数え週）で13~、月経齢（産科学など臨床医学で用いられる、満で表される）で14～',
         },
+        {
+          detailInfo: '',
+          answer: '4.内・中・外',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answer: '5.4日以降',
+          commentary:
+            'おおよそ受精後7日程度かけて受精卵が子宮内膜にもぐりこむ。それまでに受精卵は細胞分裂を開始し胚盤胞を形成する。',
+        },
+        {
+          detailInfo: '',
+          answer: '羊膜腔',
+          commentary: '',
+        },
+        {
+          detailInfo: '配偶子形成',
+          answer:
+            '発生3週に卵黄嚢壁に見いだされる / 発生9週までほとんど雌雄差がない？',
+          commentary:
+            '始原生殖細胞は発生3週に卵黄嚢壁に見いだされる。生殖巣の分化（8週以降？）に必須で、精子形成は発生6週～思春期まで休止状態だが卵子形成は発生7か月まで大規模に続く。（第一減数分裂前期複糸期で停止）精祖細胞・卵祖細胞は体細胞分裂できる。',
+        },
+        {
+          detailInfo: '配偶子形成',
+          answer: '2回の減数分裂で1個の卵細胞を生ずる',
+          commentary: '卵細胞になれなかったものは極体として残る',
+        },
+        {
+          detailInfo: '',
+          answer: 'どれも間違い',
+          commentary:
+            '卵祖細胞の増殖は発生5か月までで終了し、第一減数分裂前期複糸期で停止し思春期まで休眠する。およそ3周期前から卵胞の成長は始まるが、一次卵胞までは下垂体からの性腺刺激ホルモンを必要としない。（→2次卵胞以降はFSHなどに依存）',
+        },
+        {
+          detailInfo: '',
+          answer: '出生時には第一減数分裂前期で停止している。 ',
+          commentary: '思春期まで第一減数前期複糸期で停止している。',
+        },
+        {
+          detailInfo: '',
+          answer: '2回の減数分裂で4個の精子を生ずる',
+          commentary: '精子の10%は異常があるとされる。正常な運動性を欠く。',
+        },
+        {
+          detailInfo: '',
+          answer: '作られ始めた後は生涯にわたり精細管で作られる',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answer: '精子細胞は第二分裂を完了している。',
+          commentary:
+            '卵子の第2分裂が完了するのは受精後である。1次精母細胞→2次精母細胞が第1減数分裂。極体は基本的には減数分裂しない（なので成熟卵母細胞には極体が最大2個）',
+        },
+        {
+          detailInfo: '',
+          answer: '一次精母細胞、二次精母細胞',
+          commentary:
+            '～一次精母細胞までは体細胞分裂、1次精母細胞→2次精母細胞→精子細胞が減数分裂2回、それ以降は分裂しない。',
+        },
+        {
+          detailInfo: '',
+          answer: 'Primary spermatocytes,Secondary spermatocytes',
+          commentary: 'meiotic:減数分裂の、または減数分裂に関する。',
+        },
+        {
+          detailInfo: '',
+          answer: '一次卵母細胞、二次卵母細胞',
+          commentary:
+            '出生までに全て一次卵母細胞に分化し第一減数分裂前期複糸期で停止、思春期以降各卵巣周期ごとに10個ほどの卵胞が減数分裂を再開し二次卵母細胞（+一次極体）へ。第二減数分裂中期で再び停止し、受精後まで完了しない。',
+        },
+        {
+          detailInfo: '',
+          answer: 'Primary oocyte,Secondary oocyte',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answer: '二次卵母細胞と第一極体、受精卵と第二極体',
+          commentary:
+            '二次卵母細胞は第二減数分裂できる細胞のことで、第二極体はそれによってできる副産物',
+        },
+
+        {
+          detailInfo: '',
+          answer:
+            'Secondary oocyte & First polar body,Fertilized oocyte & Second polar bodies',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answer:
+            '一次卵胞と立方上皮の顆粒層細胞、胞状卵胞と立方上皮の顆粒層細胞、胞状卵胞と卵丘細胞',
+          commentary:
+            '原始卵胞は卵母細胞+卵胞上皮細胞、一次卵胞は一次卵母細胞+透明帯+卵胞上皮細胞、二次卵胞は一次卵母細胞+顆粒層細胞+卵胞腔など。卵丘が見え始めるのは成熟卵胞（二次卵母細胞）以降。原始卵胞が成長を始めると、卵胞上皮細胞は立方形に変化し、増殖して数層になる（→顆粒層細胞）',
+        },
+        {
+          detailInfo: '',
+          answer: '一次卵胞',
+          commentary:
+            '卵胞上皮細胞が分泌するムコ多糖類によって一次卵母細胞と卵胞上皮細胞との間に透明帯が形成され始める。卵母細胞を保護するはたらきがある。',
+        },
+        {
+          detailInfo: '',
+          answer: 'Primary follicle',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answer:
+            'ライディッヒ細胞がテストステロンを産生する。 / 内卵胞膜がテストステロンを産生する。 / 顆粒層細胞がβエストラジオールを産生する。',
+          commentary:
+            'ライディッヒ細胞はコレステロールからテストステロンを産生する。顆粒層細胞はテストステロンからエストラジオール（エストロゲン）を産生する。莢膜細胞（内卵胞膜）はそのテストステロンを産生する',
+        },
+        {
+          detailInfo: '',
+          answer: '準備中',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answer: '一次卵母細胞と複糸期',
+          commentary:
+            '第一減数分裂前期複糸期の状態で思春期まで停止状態となる。思春期以降卵巣周期ごとに再開し、第二減数分裂中期で再び停止し排卵される。',
+        },
+        {
+          detailInfo: '',
+          answer: '二次卵母細胞。二次精母細胞',
+          commentary:
+            '第二減数分裂中期まで子宮ですすみ、その後排卵され受精後第二減数分裂が完了する。',
+        },
+        {
+          detailInfo: '',
+          answer: 'Secondary oocytes,Secondary spermatocytes',
+          commentary: '',
+        },
         // {
-        //   detailInfo: '有糸分裂',
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '',
         //   answer: '',
         //   commentary: '',
         // },
