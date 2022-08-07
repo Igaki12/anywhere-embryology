@@ -163,6 +163,7 @@ import kidneyArtery from './img/answer/kidneyArtery.png'
 import mesonephricTubule from './img/answer/mesonephricTubule.png'
 import trigonOfBladder from './img/answer/trigoneOfBladder.png'
 import midKidney from './img/answer/midKidney.png'
+import menstrualCycle from './img/answer/menstrualCycle.png'
 import urachalFistula from './img/answer/urachalFistula.png'
 // import u from './img/question/スクリーンショット 2022-06-24 .png'
 
@@ -2782,8 +2783,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '配偶子形成',
-          answer:
-            '発生3週に卵黄嚢壁に見いだされる / 発生9週までほとんど雌雄差がない？',
+          answer: '発生3週に卵黄嚢壁に見いだされる ',
           commentary:
             '始原生殖細胞は発生3週に卵黄嚢壁に見いだされる。生殖巣の分化（8週以降？）に必須で、精子形成は発生6週～思春期まで休止状態だが卵子形成は発生7か月まで大規模に続く。（第一減数分裂前期複糸期で停止）精祖細胞・卵祖細胞は体細胞分裂できる。',
         },
@@ -2921,6 +2921,200 @@ export const useQuestionList = () => {
         //   answer: '',
         //   commentary: '',
         // },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
+      ],
+    },
+    {
+      groupTag: '確認問題3 発生第一週',
+      groupContents: [
+        {
+          detailInfo: '',
+          answer: 'エストロゲン,プロゲステロン',
+          commentary: 'FSH,LHは性腺刺激ホルモン',
+        },
+        {
+          detailInfo: '',
+          answerImg: [menstrualCycle],
+          answer: 'エストロゲン,LH,FSH',
+          commentary:
+            'エストラジオールの血中濃度が200~300pg/mL以上の値が24~36時間以上続くと、視床下部に対する正のフィードバック調節がはたらき、GnRHの大量放出→LHの大量放出（LHサージ）が起こる。',
+        },
+        {
+          detailInfo: '',
+          answer: 'エストロゲン・プロゲステロン',
+          commentary:
+            'ヒト絨毛性ゴナドトロピンhCGは胚子栄養膜から分泌され、受精卵の着床を伝達し黄体維持を誘導する。エストロゲンは内卵胞膜細胞・顆粒層細胞が産生し、排卵後は黄体が産生する。プロゲステロンは月経後半分泌期を中心に黄体から分泌され、妊娠の維持を誘導する。',
+        },
+        {
+          detailInfo: '',
+          answer: 'hCG',
+          commentary:
+            'ヒト絨毛性ゴナドトロピンhCGは胚子栄養膜から分泌され、受精卵の着床を黄体に伝える。',
+        },
+        {
+          detailInfo: '',
+          answer:
+            'テストステロンを産生する / 排卵後は黄体の一部を形成する / 黄体ではプロゲステロンを産生する。 / 卵胞形成期には立方上皮になる',
+          commentary:
+            '内卵胞膜細胞は顆粒層細胞の外側で卵胞膜（一次卵胞）が厚くなって形成される。莢膜細胞とも呼ばれ、コレステロール→テストステロンを産生する。排卵後は卵胞膜黄体細胞として、顆粒層細胞とともにプロゲステロン・エストロゲンを産生する。',
+        },
+        {
+          detailInfo: '',
+          answer: '20個？',
+          commentary:
+            '思春期以降、各卵巣周期ごとに10個程度の卵胞が成長段階に入り、このうち1個の主席卵胞以外は成長が止まり卵胞閉鎖に至る。原始卵胞自体は思春期で約20～30万個（出生時には200万）あり、このうち排卵に至るのは400~500個という考えから、1個あたり約400~500個 or 4000~5000個が閉鎖卵胞に至るという考え方もできる？',
+        },
+        {
+          detailInfo: '',
+          answer: '染色体異常',
+          commentary:
+            '卵母細胞は比較的染色体異常を起こしやすく、自然流産の40~50%は染色体異常が原因。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [menstrualCycle],
+          answer: '28時間,38時間',
+          commentary:
+            'サージの立ち上がりから24~36時間後、LH分泌のピークからは18~24時間後に排卵がおこるとされる【正常構造・生殖器】発生学スライドでは38時間で排卵と記載【おそらくラングマン】',
+        },
+        {
+          detailInfo: '',
+          answer: '24時間',
+          commentary:
+            '排卵後、卵母細胞と卵丘細胞の複合体は卵管采によってかきとられ、卵管膨大部にて24時間受精を待つ。',
+        },
+        {
+          detailInfo: '',
+          answer: '3時間',
+          commentary:
+            'LH(FSH)サージから20時間後までに第一減数分裂中期に進み、35時間後までに第二減数分裂中期で停止（減数分裂が完了するのは受精後）、38時間後に排卵',
+        },
+        {
+          detailInfo: '',
+          answer: 'B.第一減数分裂の再開',
+          commentary:
+            '卵核胞は卵母細胞が成熟分裂を開始する前に見られる核で、未成熟卵の指標となる。LH/FSHサージの15時間後に崩壊し第一減数分裂を再開する',
+        },
+        {
+          detailInfo: '',
+          answer: '月経周期の第2週の終わり',
+          answerImg: [menstrualCycle],
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answer: 'LHサージの約40時間後',
+          commentary:
+            'LH/FSHサージの20時間後に第一減数分裂を再開し、35時間後までに第二減数分裂で休止する。38時間後に排卵が行われる。',
+        },
+        {
+          detailInfo: '',
+          answer: 'A.1-a / F.2-c / H.2-a',
+          commentary:
+            '顆粒層黄体細胞は顆粒層細胞由来、卵胞膜黄体細胞は内卵胞膜/莢膜細胞由来で、ともに排卵後は黄体としてプロゲステロン・エストロゲンを持続的に産生する。プロゲステロン=黄体ホルモン、エストロゲン=卵胞ホルモンで、厳密にはプロゲステロンは両方で、エストロゲンは卵胞膜黄体細胞で主に産生される。',
+        },
+        {
+          detailInfo: '',
+          answer: 'プロゲステロン / エストロゲン / アンドロステンジオン？',
+          commentary:
+            '矢印の組織の内側に見える淡色で細胞密度が低い組織が顆粒層黄体細胞に見える。よって矢印の細胞は卵胞膜黄体細胞と思われる。卵胞膜黄体細胞は黄体ホルモン（プロゲステロン）・卵胞ホルモン（エストロゲン）を産生する。卵胞刺激ホルモンFSHは下垂体から分泌される上位のホルモン。アンドロステンジオンはテストステロンやエストロゲンの前駆体で、おそらく内卵胞膜や卵胞膜黄体細胞でも産生される',
+        },
+        {
+          detailInfo: '',
+          answer: 'プロゲステロン',
+          commentary:
+            '矢印の組織は細胞密度が低く淡色な顆粒層黄体細胞。黄体ホルモン（プロゲステロン）を主に産生する。顆粒層細胞（卵胞上皮細胞）由来。',
+        },
+        {
+          detailInfo: '',
+          answer: '絨毛性ゴナドトロピン',
+          commentary: '胎盤の栄養膜合胞体層で、着床後hCGを分泌する',
+        },
+        {
+          detailInfo: '',
+          answer: 'A.1-a / F.2-c / H.2-a',
+          commentary:
+            'Granulosa lutein cells -> Progesterone | Theca lutein cells -> Progesterone,Estrogen',
+        },
+        {
+          detailInfo: '',
+          answer: '3.卵管膨大部',
+          commentary: '',
+        },
+
+        {
+          detailInfo: '',
+          answer: 'B',
+          commentary:
+            'In Vitro Fertilization:体外受精 in vitro:試験管内で　人工授精はAIH/Artificial Insemination of Husband',
+        },
+        {
+          detailInfo: '',
+          answer: 'C.ZP3',
+          commentary:
+            '先体反応は卵子透明帯の成分ZP3と精子表面のタンパク質SED1の結合を介して起こる。',
+        },
+        {
+          detailInfo: '',
+          answer: '精母細胞の第二減数分裂',
+          commentary: '胎児の性は精子の持つ性染色体によって決定される',
+        },
+        {
+          detailInfo: '',
+          answer: '4.6日',
+          commentary: '排卵後1日以内に受精、受精後約6日で着床初期',
+        },
+        {
+          detailInfo: '',
+          answer: '8日以上',
+          commentary:
+            '妊娠が起こらなければ、排卵後14日目には黄体は退縮して結合組織に置き換わり白体になる。',
+        },
+        {
+          detailInfo: '',
+          answer: '5日',
+          commentary:
+            '受精後約3日で桑実胚となり（子宮腔に達する）、受精後約4.5日で初期胚盤胞となり、透明帯が消失する。',
+        },
+        {
+          detailInfo: '',
+          answer: '3.胚盤胞',
+          commentary:
+            '受精後約3日で桑実胚となり（子宮腔に達する）、受精後約4.5日で初期胚盤胞となり、透明帯が消失する。',
+        },
+        {
+          detailInfo: '',
+          answer: '8細胞期',
+          commentary:
+            '8細胞期の初めに、外側の割球が隣の割球と固く接着するようになる。',
+        },
+        {
+          detailInfo: '',
+          answer: 'C.栄養膜細胞層',
+          commentary:
+            'ラングハンス細胞とも。胚盤胞外側の細胞は主に胎盤に分化していく。',
+        },
+        {
+          detailInfo: '',
+          answer: 'A.生殖細胞？',
+          commentary:
+            '霊長類の始原生殖細胞の起源は、初期の羊膜芽細胞だと考えられている。矢印の内細胞塊はやがて羊膜腔や二層性胚盤を形成する。尿膜や卵黄嚢は羊膜腔の反対側、胚盤葉下層の扁平な細胞から分化する。胚体外腔膜はさらにその外側。',
+        },
+        {
+          detailInfo: '',
+          answer: '内腔',
+          commentary:
+            '8細胞期初めにコンパクションにより外側の割球がとなりの割球と固く接着するようになり、胚の内側・外側の概念が生じる。',
+        },
+        {
+          detailInfo: '',
+          answer: 'C.3',
+          commentary: '',
+        },
         // {
         //   detailInfo: '',
         //   answer: '',
