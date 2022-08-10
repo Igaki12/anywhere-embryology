@@ -165,6 +165,7 @@ import trigonOfBladder from './img/answer/trigoneOfBladder.png'
 import midKidney from './img/answer/midKidney.png'
 import menstrualCycle from './img/answer/menstrualCycle.png'
 import urachalFistula from './img/answer/urachalFistula.png'
+import bilaminar from './img/answer/bilaminar.png'
 // import u from './img/question/スクリーンショット 2022-06-24 .png'
 
 import heartLoop from './img/answer/heartLoop.png'
@@ -192,22 +193,6 @@ export const useQuestionList = () => {
           answerImg: [],
           answer: '子宮体内腔',
           commentary: '透明帯が取れることで、受精卵の着床が可能となる',
-        },
-        {
-          detailInfo: '6/13口頭',
-          questionImg: [],
-          questionSentence: '着床するのはどれ？',
-          choices: [
-            '胚盤胞',
-            '8細胞期胚',
-            '桑実胚',
-            '原腸胚',
-            '受精卵',
-            'この中にはない',
-          ],
-          answerImg: [],
-          answer: '',
-          commentary: '',
         },
         {
           detailInfo: '6/13口頭',
@@ -3114,6 +3099,91 @@ export const useQuestionList = () => {
           detailInfo: '',
           answer: 'C.3',
           commentary: '',
+        },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
+      ],
+    },
+    {
+      groupTag: '確認問題4 発生第二週',
+      groupContents: [
+        {
+          detailInfo: '',
+          answer: '3.卵管膨大部',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answer: '5.子宮腔',
+          commentary:
+            '受精後4.5日～5日目。初期胚盤胞期に透明帯が消失し、着床（受精後6日）への準備が進む。',
+        },
+        {
+          detailInfo: '',
+          answer: '6.この中にはない（胚盤胞）',
+          commentary:
+            '受精卵→→8細胞期→桑実胚(16~32細胞期)→胚盤胞→原腸胚で、厳密には胚盤胞と原腸胚の間といわれている（授業中解説）',
+        },
+        {
+          detailInfo: '',
+          answer: 'B.胚盤葉上層',
+          answerImg: [bilaminar],
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answer:
+            '1.一次絨毛　2.栄養膜裂孔　3.付着茎　4.羊膜腔　5.二次卵黄嚢　6.胚外壁側中胚葉　7.胚外体腔　8.胚盤葉下層　9.胚盤葉上層　10.栄養膜合胞体層　11.栄養膜細胞層',
+          answerImg: [bilaminar],
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answer: 'E.脱落膜',
+          commentary:
+            'Bが栄養膜細胞層、Dが栄養膜合胞体層。Cはその境の栄養膜裂孔？と推定',
+        },
+        {
+          detailInfo: '',
+          answer: '21日目',
+          commentary: '絨毛に血管が侵入するのは三次絨毛以降',
+        },
+        {
+          detailInfo: '',
+          answer: 'F',
+          commentary: '2は栄養膜細胞層',
+        },
+        {
+          detailInfo: '',
+          answer: '準備中（A,D,E？）',
+          commentary:
+            '早期の胎盤発生には父親由来の遺伝子が、胚発生には母親由来の遺伝子が重要（遺伝子コンフリクト仮説）。単為発生細胞は生殖細胞、脳、心、腎、脾などで高い寄与率を示すが、骨格筋、肝、膵には分化できない。',
+        },
+        {
+          detailInfo: '',
+          answer: 'A,C,F',
+          commentary:
+            '胞状奇胎では、胚子組織がほとんど/まったく存在しない。完全胞状奇胎の場合は2倍体であっても遺伝子が全て父親由来で、部分胞状奇胎であっても3倍体のうち2セットは父親由来。インプリント領域は1%よりもっと少ない。',
+        },
+        {
+          detailInfo: '',
+          answer: '栄養膜細胞層と栄養膜合胞体層の形成過程を解説せよ。',
+          commentary:
+            '胚盤胞の外細胞塊が2層の栄養膜に分化する。栄養膜細胞層は内側で単核細胞で、有糸分裂を行い一部は栄養膜合胞体層に分化する。妊娠後期になると数を減らし層構造を保てなくなる。栄養膜合胞体層は外側で多核細胞層で有糸分裂しない。栄養膜裂孔を生じ母体血を流入させることで胎盤構造を形成する。',
+        },
+        {
+          detailInfo: '',
+          answer: '羊膜芽と羊膜の形成過程を説明せよ。',
+          commentary:
+            '二層性胚盤の上層に空間が生じ、外側（栄養膜側）が羊膜芽細胞・内側が胚盤葉上層に分化する。発生に伴って空間は広がり、羊膜腔（羊膜）と呼ばれるようになる。三層性胚盤以降もこの羊膜芽細胞と胚盤葉（外胚葉）に囲まれた羊膜の構造は変わらず成長を続け、最終的に外胚葉が胎児を1周囲むのに伴って羊膜腔が完全に胎児の外側を取り囲み、絨毛膜と癒合して羊膜絨毛膜を形成する。',
         },
         // {
         //   detailInfo: '',
