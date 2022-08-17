@@ -3202,7 +3202,7 @@ export const useQuestionList = () => {
       ],
     },
     {
-      groupTag: '確認問題6 発生第三週',
+      groupTag: '確認問題5 発生第三週',
       groupContents: [
         {
           detailInfo: '',
@@ -3246,7 +3246,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '',
-          answer: '内部細胞塊、原始線条',
+          answer: '内部細胞塊',
           commentary: 'ES細胞は直接胎盤には分化しない。',
         },
         {
