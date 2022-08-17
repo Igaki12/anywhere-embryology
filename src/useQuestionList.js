@@ -166,6 +166,9 @@ import midKidney from './img/answer/midKidney.png'
 import menstrualCycle from './img/answer/menstrualCycle.png'
 import urachalFistula from './img/answer/urachalFistula.png'
 import bilaminar from './img/answer/bilaminar.png'
+import gastrulation from './img/answer/gastrulation.png'
+import LRaxis from './img/answer/LRaxis.png'
+import week3 from './img/answer/week3.png'
 // import u from './img/question/スクリーンショット 2022-06-24 .png'
 
 import heartLoop from './img/answer/heartLoop.png'
@@ -2457,8 +2460,9 @@ export const useQuestionList = () => {
           questionSentence: '',
           choices: [],
           answerImg: [transcription],
-          answer: '167',
-          commentary: '2400-1800-99=501 501/3=167?',
+          answer: '166',
+          commentary:
+            '2400-1800-99=501 501/3=167 終止コドンは翻訳されないので166',
         },
         {
           detailInfo: '',
@@ -3185,6 +3189,151 @@ export const useQuestionList = () => {
           commentary:
             '二層性胚盤の上層に空間が生じ、外側（栄養膜側）が羊膜芽細胞・内側が胚盤葉上層に分化する。発生に伴って空間は広がり、羊膜腔（羊膜）と呼ばれるようになる。三層性胚盤以降もこの羊膜芽細胞と胚盤葉（外胚葉）に囲まれた羊膜の構造は変わらず成長を続け、最終的に外胚葉が胎児を1周囲むのに伴って羊膜腔が完全に胎児の外側を取り囲み、絨毛膜と癒合して羊膜絨毛膜を形成する。',
         },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
+      ],
+    },
+    {
+      groupTag: '確認問題6 発生第三週',
+      groupContents: [
+        {
+          detailInfo: '',
+          answer: '1.原始線条　2.原始結節3.脊索突起4.脊索前板',
+          answerImg: [week3],
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answerImg: [week3],
+          answer:
+            '1.神経板　2.羊膜　3.卵黄嚢壁　4.口咽頭膜　5.脊索突起　6.排泄腔膜　7.尿膜　8.神経腸管',
+          commentary:
+            '原始線条部分では上皮間葉転換EMTを起こして内胚葉をもつ三層性胚盤を形成する。原始窩は内胚葉正中部分を進み（神経腸管）、脊索管（脊索ではない）を形成する。　口咽頭膜・排泄腔膜は外胚葉と内胚葉が直接接している点で重要。付着茎（→臍帯）への内胚葉の突出は尿膜へ分化する。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [week3],
+          answer: '1.脊索板　2.中胚葉（胚内中胚葉）　3.内胚葉　4.脊索',
+          commentary:
+            '（脊索板→）脊索は内胚葉が正中で入り込んでできた索状の構造で、その後の体節形成誘導に重要な役割を果たす。ラングマンp66',
+        },
+        {
+          detailInfo: '',
+          answer: '中胚葉',
+          commentary: '胚内中胚葉。発生三週目には三層性胚盤が形成されている。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [gastrulation],
+          answer: '陥入中の中胚葉細胞',
+          commentary:
+            '尾側正中の原始線条部分で外胚葉が一部内部へ陥入し中胚葉を形成する。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [week3],
+          answer: '脊索板はD（Fは脊索管？）',
+          commentary:
+            '脊索突起の内部に脊索間という細長い内腔が形成され、その腹側壁が消失して脊索板が形成される。つまり脊索板自体は中胚葉由来の脊索管の背側の壁。Dは腹側壁消失後で脊索板が形成されており（神経腸管とも考えられる）、Fは形成前の脊索管、Eは内胚葉。',
+        },
+        {
+          detailInfo: '',
+          answer: '内部細胞塊、原始線条',
+          commentary: 'ES細胞は直接胎盤には分化しない。',
+        },
+        {
+          detailInfo: '',
+          answer: '2.骨格筋　3.脊椎　4.心臓　5.生殖細胞',
+          commentary:
+            '原始線条は中胚葉に変化する。最初に陥入した中胚葉が最も頭側の心臓中胚葉に、遅れて陥入した中胚葉は側板中胚葉・中間中胚葉（→生殖細胞など）・沿軸中胚葉（→骨格筋・脊椎など）を形成する。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [gastrulation],
+          answer:
+            '上皮は互いに密接に連結し、基本的に体表を覆い、外胚葉・内胚葉由来。間葉は、互いの連結が弱く、それぞれ個別のユニットとして機能し、基本的に中胚葉か神経堤に由来する。',
+          commentary: '上皮→間葉を上皮間葉転換という。',
+        },
+        {
+          detailInfo: '',
+          answer:
+            'B.Mesoderm formation, D.Neural crest formation, F.Cancer invasion',
+          commentary: '上皮間葉転換:EMT',
+        },
+        {
+          detailInfo: '',
+          answer: '前後軸→背腹軸→左右軸→内外軸',
+          commentary:
+            'まず前後軸がAVEによって決定され、次に背腹軸がBMPによって、左右軸が線毛の回転運動を利用して決定される。その後、内外軸→遠近軸の流れで決定される。',
+        },
+        {
+          detailInfo: '',
+          answer: 'D.左右軸の決定',
+          answerImg: [LRaxis],
+          commentary:
+            'NVP:nodal vesicular parcelによる濃度勾配が左右軸を決定する。線毛病は内臓逆位・慢性副鼻腔炎・不妊症などを併発し、Kartagener症候群などと呼ばれる。',
+        },
+        {
+          detailInfo: '',
+          answer: '準備中',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answer: 'A.Nodalの抑制',
+          commentary:
+            'AVE:前方内臓性内胚葉。AVEはシグナル因子Cerberus,Lefty1を発現し、原始結節からのシグナル因子Nodalのけっせうを抑制することで、胚の頭端を確立する。尾側ではAVEからのNodal抑制シグナルが届かないので、頭側化が起きず、原始線条が形成される。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [LRaxis],
+          answer: 'A B D F G ',
+          commentary:
+            '左右軸形成不全→内臓逆位、尿細管上皮の一次線毛→腎嚢胞、気管支上皮には線毛が豊富→気管支拡張症・慢性副鼻腔炎、精子・卵管の線毛→不妊。軟骨無形成症は主に成長ホルモンが原因',
+        },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
         // {
         //   detailInfo: '',
         //   answer: '',
