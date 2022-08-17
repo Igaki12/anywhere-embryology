@@ -2336,7 +2336,7 @@ export const useQuestionList = () => {
       ],
     },
     {
-      groupTag: '確認問題１遺伝学',
+      groupTag: '確認問題1 遺伝学',
       groupContents: [
         {
           detailInfo: '',
@@ -3297,7 +3297,7 @@ export const useQuestionList = () => {
           answerImg: [LRaxis],
           answer: 'A B D F G ',
           commentary:
-            '左右軸形成不全→内臓逆位、尿細管上皮の一次線毛→腎嚢胞、気管支上皮には線毛が豊富→気管支拡張症・慢性副鼻腔炎、精子・卵管の線毛→不妊。軟骨無形成症は主に成長ホルモンが原因',
+            '左右軸形成不全→内臓逆位、尿細管上皮の一次線毛→腎嚢胞、気管上皮には線毛が豊富→気管支拡張症・慢性副鼻腔炎、精子・卵管の線毛→不妊。軟骨無形成症は主に成長ホルモンが原因',
         },
         // {
         //   detailInfo: '',

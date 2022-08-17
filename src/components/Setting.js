@@ -386,6 +386,9 @@ export const Setting = ({
       />
       <Divider orientation="horizontal" />
       <Text fontSize="xs" textColor={'blackAlpha.500'} ml="4">
+        Supported by T.Wada
+      </Text>
+      <Text fontSize="xs" textColor={'blackAlpha.500'} ml="4">
         ©2022- IgaTatApps
       </Text>
     </>
