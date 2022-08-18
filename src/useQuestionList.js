@@ -169,6 +169,13 @@ import bilaminar from './img/answer/bilaminar.png'
 import gastrulation from './img/answer/gastrulation.png'
 import LRaxis from './img/answer/LRaxis.png'
 import week3 from './img/answer/week3.png'
+import after21days from './img/answer/after21days.png'
+import after25days from './img/answer/after25days.png'
+import after29days from './img/answer/after29days.png'
+import embryoStageRisk from './img/answer/EmbryoStageRisk.png'
+import segment from './img/answer/segment.png'
+import segmentationClock from "./img/answer/segmentationClock.png"
+import skull from './img/answer/skull.png'
 // import u from './img/question/スクリーンショット 2022-06-24 .png'
 
 import heartLoop from './img/answer/heartLoop.png'
@@ -2890,31 +2897,6 @@ export const useQuestionList = () => {
           answer: 'Secondary oocytes,Secondary spermatocytes',
           commentary: '',
         },
-        // {
-        //   detailInfo: '',
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   answer: '',
-        //   commentary: '',
-        // },
       ],
     },
     {
@@ -3344,6 +3326,136 @@ export const useQuestionList = () => {
         //   answer: '',
         //   commentary: '',
         // },
+      ],
+    },
+    {
+      groupTag: '確認問題6 胚子期',
+      groupContents: [
+        {
+          detailInfo: '',
+          answerImg: [after25days],
+          answer: '体節 / 口咽頭膜 / 排泄腔膜 / 卵黄腸管',
+          commentary:
+            '断面の頭部に神経菅構造は存在するが、体節構造は存在しない。口咽頭膜はのちに口腔の開口部を構成する部分で、断面より頭側。排泄腔膜はのちに肛門を構成する部分で、尾側。卵黄腸管は中腸と卵黄嚢を連絡する部分（→憩室）で、断面より尾側。',
+        },
+        {
+          detailInfo: '',
+          answer: '5.膵頭',
+          commentary:
+            '副腎髄質への交感神経には節後線維が存在せず、副腎髄質が節後線維とよく似た発生・役割を担う。膵島は内胚葉由来',
+        },
+        {
+          detailInfo: '',
+          answerImg: [after25days],
+          answer:
+            '1.前神経孔　2.第1,2咽頭弓　3.後神経孔　4.卵黄嚢　5.付着茎（尿膜）',
+          commentary: '発生25日胚では神経管の形成が終わっていない。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [after21days],
+          answer:
+            '1.中間中胚葉　2.羊膜　3.肺内体腔　4.臓側中胚葉　5.内胚葉　6.脊索　7.沿軸中胚葉　8.神経菅',
+          commentary:
+            '側板中胚葉→壁側・臓側中胚葉へ分化。背側と腹側から胚内体腔を包み、胸腔・腹腔などを形成する',
+        },
+        {
+          detailInfo: '',
+          answerImg: [segment],
+          answer:
+            '1.体幹の真皮　2.上肢の骨格筋　3.肋骨　4.この中にはない　5.脊髄',
+          commentary:
+            '1.皮板　2.筋板　3.椎板　4.脊索　5.神経菅　沿軸中胚葉→皮板・筋板・椎板　胸骨は側板中胚葉由来',
+        },
+        {
+          detailInfo: '',
+          answerImg: [after21days],
+          answer: 'C.沿軸中胚葉',
+          commentary:
+            '左右で切れ方が異なっているが、最も正中のものから順に（神経ヒダ→）沿軸→中間→側板中胚葉。',
+        },
+        {
+          detailInfo: '',
+          answer: 'E.気管軟骨',
+          commentary:
+            '矢印部分は側板中胚葉。神経堤→メラノサイト、沿軸中胚葉など→骨格筋（筋板）・椎骨（椎板）、内胚葉→食道→肺芽→肺胞上皮。一方で胸腔や気管軟骨は肺を囲む（臓側）側板中胚葉由来',
+        },
+        {
+          detailInfo: '',
+          answerImg: [after21days],
+          answer: 'D.子宮',
+          commentary:
+            '矢印部分は中間中胚葉。神経堤→メラノサイト、沿軸中胚葉など→骨格筋、内胚葉→食道→肺芽→肺胞上皮、（臓側）側板中胚葉→気管軟骨。子宮は中間中胚葉→中腎傍管→子宮・卵管だが、膣前庭は後腸尿生殖洞（内胚葉）由来',
+        },
+        {
+          detailInfo: '',
+          answer: 'B',
+          commentary:
+            '断面上が背側。A.神経菅　C.外胚葉　D.中間？中胚葉　E.内胚葉',
+        },
+        {
+          detailInfo: '',
+          answerImg: [after29days],
+          answer: 'D',
+          commentary:
+            'A.神経管の内部　B.沿軸中胚葉　C.間葉組織　E.静脈洞　F.卵黄嚢　断面より少し尾側の断面図（上の図）ではDは外側の羊膜腔と繋がっており、Dのような側板中胚葉の環状構造が外側から切れて肺内体腔へと形成されるいく途中経過を見ることができる。',
+        },
+        {
+          detailInfo: '',
+          answer: 'CとD',
+          commentary:
+            'Anterior側から第2・第3咽頭弓と推測できる。第一咽頭弓は断面では見えない。',
+        },
+        {
+          detailInfo: '',
+          answer: 'E.40対以上',
+          commentary:
+            '発生21日に4~7対だった体節は発生が進むにつれて数を増し、最終的に42～44対形成される。発生の早期には体節の数で発生時期を決定することができる。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [skull],
+          answer: 'C.頭頂骨　D.頚椎　E.上腕骨',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answer: 'A.葉酸',
+          commentary: '多因子性だが、葉酸欠乏が有意な因子。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [segmentationClock],
+          answer: 'レチノイン酸とFGF8とWnt3a',
+          commentary:
+            '表皮外胚葉からのWNT,BMPが外胚葉（神経管）の背側化を誘導。脊索からのSHHが外胚葉（神経管）の腹側化を誘導、体節からのFGFが前後のパターン形成に寄与。各体節の境界はレチノイン酸（頭側で高濃度）、FGF8,Wnt3a（尾側で高濃度）の濃度勾配の組み合わせで制御される。',
+        },
+        {
+          detailInfo: '',
+          answer: 'C',
+          commentary:
+            '卵黄嚢で造血細胞が出現するのは発生16~18日、第一・第二咽頭弓が出現するのは発生22~23日、眼胞形成は発生24~25日。後神経孔が閉鎖するのが発生26～27日。最終的に42~44対となる体節が、ある程度（30～35対）形成完了するのが発生28~30日後。手足に指放線が出現するのは発生36~42日。全体として循環器や神経は比較的早期に完成し、呼吸器や四肢は比較的出産直前まで成長が続く。',
+        },
+        {
+          detailInfo: '',
+          answer:
+            '感覚器や神経節を作る外胚葉の肥厚部。例えば鼻板・耳板・水晶体板。咽頭弓上プラコードがある。',
+          commentary:
+            '外胚葉の肥厚から頭部の特殊な部位（鼻・耳・水晶体など）が形成される。',
+        },
+        {
+          detailInfo: '',
+          answer:
+            '外胚葉の正中部に神経管が形成される際に、陥没した神経ヒダの稜線に神経堤が形成される。神経管が形成されると神経堤細胞は他の地域に遊走して、副腎髄質やメラノサイト、頭蓋骨の一部など様々な部分を形成する。',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answerImg: [embryoStageRisk],
+          answer:
+            '胚子期には神経・頭部など特に重要な出来事が次々に起こるため、先天異常リスクが最も高い。しかしながら、母親がまだ妊娠に気づいていない場合も多い。',
+          commentary: '胚子期は発生第3～8週',
+        },
       ],
     },
   ])
