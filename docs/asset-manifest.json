@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-embryology/static/css/main.2255ca1a.css",
-    "main.js": "/anywhere-embryology/static/js/main.62dce34d.js",
+    "main.js": "/anywhere-embryology/static/js/main.6a781662.js",
     "static/media/220702-12.JPG": "/anywhere-embryology/static/media/220702-12.0d3413670e5999c03a99.JPG",
     "static/media/220702-11.JPG": "/anywhere-embryology/static/media/220702-11.14c47e14bb5f59ad6070.JPG",
     "static/media/220613-3.JPG": "/anywhere-embryology/static/media/220613-3.e6fe7b9a6e43eab67c2d.JPG",
@@ -67,6 +67,7 @@
     "static/media/スクリーンショット 2022-06-21 092614.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 092614.5b7861dd9dfa3bb46d3c.png",
     "static/media/after49days.png": "/anywhere-embryology/static/media/after49days.b79936ba12e1e0a3a25a.png",
     "static/media/スクリーンショット 2022-06-21 105421.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 105421.6f4a79044ea6cc572faf.png",
+    "static/media/placentalBarrier.png": "/anywhere-embryology/static/media/placentalBarrier.024fb0cf5e60bc4b1a88.png",
     "static/media/after21days.png": "/anywhere-embryology/static/media/after21days.558c6f6fff74a2036298.png",
     "static/media/スクリーンショット 2022-06-21 101520.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 101520.90c33d8bf625acab6d86.png",
     "static/media/スクリーンショット 2022-06-24 103828.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-24 103828.8fae6194c7851b571d98.png",
@@ -82,6 +83,7 @@
     "static/media/スクリーンショット 2022-06-21 113528.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 113528.ca31610548df1e6a3a89.png",
     "static/media/スクリーンショット 2022-06-24 113944.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-24 113944.6c20498cf6ce0b463f7d.png",
     "static/media/スクリーンショット 2022-06-21 095346.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 095346.858ad985fb032bc97849.png",
+    "static/media/uterus.png": "/anywhere-embryology/static/media/uterus.b55a9b4ce7586f1c87f2.png",
     "static/media/heartCavity.png": "/anywhere-embryology/static/media/heartCavity.e9bb4edab4309c8cf14b.png",
     "static/media/スクリーンショット 2022-06-21 112344.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 112344.5f7a6027c579677f3e43.png",
     "static/media/face.png": "/anywhere-embryology/static/media/face.2c9582862c2c203159c3.png",
@@ -196,10 +198,10 @@
     "static/media/スクリーンショット 2022-06-21 093853.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 093853.a965de74c013861c4fcf.png",
     "index.html": "/anywhere-embryology/index.html",
     "main.2255ca1a.css.map": "/anywhere-embryology/static/css/main.2255ca1a.css.map",
-    "main.62dce34d.js.map": "/anywhere-embryology/static/js/main.62dce34d.js.map"
+    "main.6a781662.js.map": "/anywhere-embryology/static/js/main.6a781662.js.map"
   },
   "entrypoints": [
     "static/css/main.2255ca1a.css",
-    "static/js/main.62dce34d.js"
+    "static/js/main.6a781662.js"
   ]
 }

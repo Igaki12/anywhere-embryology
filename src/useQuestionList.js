@@ -192,6 +192,8 @@ import pharyngealNerves from './img/answer/pharyngealNerves.png'
 import thymus from './img/answer/thymus.png'
 import thyroid from './img/answer/thyroid.png'
 import tongue from './img/answer/tongue.png'
+import placentalBarrier from './img/answer/placentalBarrier.png'
+import uterus from './img/answer/uterus.png'
 // import u from './img/question/スクリーンショット 2022-06-24 .png'
 
 import heartLoop from './img/answer/heartLoop.png'
@@ -3555,7 +3557,7 @@ export const useQuestionList = () => {
           answer:
             '臍帯ヘルニアでは飛び出した腸が膜状の袋（臍帯の一部）に包まれているが、腹壁破裂では腸は体壁に空いた孔から突出している。',
           commentary:
-            '臍帯ヘルニアは腸管再構成時の腸管の生理的脱出に伴うもので、飛び出た腸管が臍帯に包まれているが、腹壁破裂は臍帯より体壁の形成がうまくいかないことに起因するので、膜状の袋に包まれていない。',
+            '臍帯ヘルニアは腸管再構成時の腸管の生理的脱出に伴うもので、飛び出た腸管が臍帯に包まれているが、腹壁破裂は臍帯より体壁の形成がうまくいかないことに起因するので、膜状の袋に包まれていない。カントレル五徴症は5つの特徴的な症状で構成される',
         },
         {
           detailInfo: '',
@@ -3571,6 +3573,97 @@ export const useQuestionList = () => {
             '1.胸腹膜ヒダ　2.食道間膜　3.横中隔　4.体壁からの筋の内方成長',
           commentary: '',
         },
+      ],
+    },
+    {
+      groupTag: '確認問題9 胎児と胎盤',
+      groupContents: [
+        {
+          detailInfo: '',
+          answerImg: [placentalBarrier],
+          answer: '4.絨毛膜板には胎児側の血管が通っている。',
+          commentary:
+            '1）胎盤関門は、初期は栄養膜合胞体層・細胞層・結合組織・血管内皮細胞で構成されるが、最終的には栄養膜合胞体層・血管内皮細胞のみで構成されるようになる。2）胎盤関門はIgGを通し、出生後半年間胎児の免疫を支える。3）絨毛膜板には胎児側の血管が通り、4）絨毛間腔内に母体側らせん動脈が開口する。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [placentalBarrier],
+          answer: 'B.胎児側赤血球',
+          commentary:
+            '濃い合胞体の層が絨毛最外層の栄養膜合胞体層で、これより外側が母体血の循環する絨毛管腔となる。ラングハンス細胞は栄養膜細胞層と呼ばれ、栄養膜合胞体層の内側で細胞分裂を行っている。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [placentalBarrier],
+          answer: 'D.ラングハンス細胞',
+          commentary:
+            'ランゲルハンス細胞は核を伸ばしたような形の樹状細胞のひとつで、皮膚など外界と接する部位に存在しており、免疫システムの重要な役割を担当している。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [placentalBarrier],
+          answer: 'A.母体側赤血球',
+          commentary:
+            '濃い合胞体の層が絨毛最外層の栄養膜合胞体層で、これより外側が母体血の循環する絨毛管腔となる。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [uterus],
+          answer:
+            '1.基底脱落膜　2.絨毛膜有毛部　3.羊膜腔　4.卵黄嚢　5.絨毛膜無毛部　6.被包脱落膜　7.羊膜',
+          commentary:
+            '脱落膜までが母体子宮側の組織で、絨毛膜より内側は胎児由来の（母体から見た時の）異物。そしてその境界に胎盤関門が当たる。',
+        },
+        {
+          detailInfo: '',
+          answer:
+            '1.絨毛膜→C　2.羊膜→J　3.羊膜腔→K　4.胚子→I　5.絨毛膜腔→E　6.臍帯/付着茎→B　7.卵黄嚢→D',
+          commentary:
+            '外胚葉が体表全てを構成するようになるのに伴い羊膜も体表全てを覆うようになる。卵黄嚢は成長に伴い縮小を続ける。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [placentalBarrier],
+          answer: '矢印部分は栄養膜合胞体層で、これはDに相当する。',
+          commentary:
+            '栄養膜合胞体層に母体側の血管が侵入することで栄養膜裂孔を形成し、後に絨毛間腔となる。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [placentalBarrier],
+          answer: '矢印部分は栄養膜細胞層（ラングハンス細胞）で、Cに相当する',
+          commentary:
+            '栄養膜細胞層は細胞分裂を繰り返した後に栄養膜合胞体層へと分化する。妊娠後期には細胞層は目立って減少し、胎盤関門を構成する層が減る。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [placentalBarrier],
+          answer: '母体側脱落層にあるらせん動脈で、Bに相当する',
+          commentary: 'らせん状は血行を止めやすくするための構造。',
+        },
+        {
+          detailInfo: '',
+          answer: '4.胎児の頭殿長',
+          commentary:
+            '妊娠期を通して身長は伸びる。一方で体重は妊娠後期に際立って増加する。→二乗三乗の法則',
+        },
+        {
+          detailInfo: '',
+          answer: '3.体壁破裂',
+          commentary:
+            '臍帯の中で膜状の袋に包まれた状態で腸管が脱出する異常が臍帯ヘルニア、発生過程で長い腸管を折りたたんで収納するため一時的に臍帯へ腸管が脱出する正常な現象が生理的臍帯ヘルニア（これが戻らないと臍帯ヘルニア）、体壁の形成がうまくいかず、腸管が腹壁の外へ出てしまう異常が体壁破裂。カントレル五徴症',
+        },
+        {
+          detailInfo: '',
+          answer: '2.腸回転異常症',
+          commentary:
+            '腸管が腹腔の外に飛び出しているので、腸回転異常を併発する可能性が高い。カントレル五徴症なら心臓奇形もあり得るがそのような記述はない。遺伝病という記述もない。',
+        },
+        // {
+        //   answerImg:[],
+        //   answer: '',
+        //   commentary: '',
+        // },
       ],
     },
     {
