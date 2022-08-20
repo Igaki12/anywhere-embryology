@@ -174,8 +174,24 @@ import after25days from './img/answer/after25days.png'
 import after29days from './img/answer/after29days.png'
 import embryoStageRisk from './img/answer/EmbryoStageRisk.png'
 import segment from './img/answer/segment.png'
-import segmentationClock from "./img/answer/segmentationClock.png"
+import segmentationClock from './img/answer/segmentationClock.png'
 import skull from './img/answer/skull.png'
+import after30days from './img/answer/after30days.png'
+import after4weeks from './img/answer/after4weeks.png'
+import diaphragm from './img/answer/diaphragm.png'
+import heartCavity from './img/answer/heartCavity.png'
+import pericardioperitonealCanal from './img/answer/pericardioperitonealCanal.png'
+import pleuropericardialFold from './img/answer/pleuropericardialFold.png'
+import after49days from './img/answer/after49days.png'
+import face from './img/answer/face.png'
+import meckelCartilage from './img/answer/meckelCartilage.png'
+import pharyngealArch from './img/answer/pharyngealArch.png'
+import pharyngealPouch from './img/answer/pharyngealPouch.png'
+import pharyngealTable from './img/answer/pharyngealTable.png'
+import pharyngealNerves from './img/answer/pharyngealNerves.png'
+import thymus from './img/answer/thymus.png'
+import thyroid from './img/answer/thyroid.png'
+import tongue from './img/answer/tongue.png'
 // import u from './img/question/スクリーンショット 2022-06-24 .png'
 
 import heartLoop from './img/answer/heartLoop.png'
@@ -3281,51 +3297,6 @@ export const useQuestionList = () => {
           commentary:
             '左右軸形成不全→内臓逆位、尿細管上皮の一次線毛→腎嚢胞、気管上皮には線毛が豊富→気管支拡張症・慢性副鼻腔炎、精子・卵管の線毛→不妊。軟骨無形成症は主に成長ホルモンが原因',
         },
-        // {
-        //   detailInfo: '',
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   answer: '',
-        //   commentary: '',
-        // },
       ],
     },
     {
@@ -3456,6 +3427,291 @@ export const useQuestionList = () => {
             '胚子期には神経・頭部など特に重要な出来事が次々に起こるため、先天異常リスクが最も高い。しかしながら、母親がまだ妊娠に気づいていない場合も多い。',
           commentary: '胚子期は発生第3～8週',
         },
+      ],
+    },
+    {
+      groupTag: '確認問題7 腸管と体腔',
+      groupContents: [
+        {
+          detailInfo: '',
+          answerImg: [diaphragm],
+          answer:
+            '2.食道間膜が横隔膜に寄与する。4.体壁と腸管をつなぐことで腸管を腹腔内に吊り下げる。5.腸管の左右を包んだ二枚の腹膜が重なって形成される。',
+          commentary:
+            '背側腸間膜dorsal mesenteryは臓側中胚葉由来で壁側中胚葉と繋がる。前腸の尾側端から後腸の終わりまで続く。横隔膜は横中隔+胸腹膜ヒダ+食道間膜（+体壁からの取り込み）で形成される。体壁から連続しているが体壁に寄与するとはいえない。腸間膜は腸管を腹腔内で固定するのに寄与していて、腸管への血管・神経などは二重構造の腸間膜の間を通過する。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [after4weeks],
+          answer:
+            '2.形成時に絨毛膜腔に交通する。5.中胚葉性の上皮（壁側中胚葉・臓側中胚葉）に取り囲まれる',
+          commentary:
+            '羊膜腔が接するのは外胚葉。絨毛膜腔は妊娠後期に羊膜腔と融合する、さらに外側の胚外体腔で、腸管形成時に交通がある。卵黄嚢（内胚葉）は臓側中胚葉に包まれ胚内体腔との交通はない。胚内体腔は臓側中胚葉と壁側中胚葉が繋がってできる空間である。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [after29days],
+          answer: '2.側板中胚葉',
+          commentary:
+            '1.羊膜　3.背側大動脈？　4.卵黄嚢　5.脊索　胸腔は側板中胚葉由来の壁側中胚葉と臓側中胚葉に囲まれて形成される。図のように環状構造の外側が胚外体腔に開くことで臓側・壁側中胚葉に分化していく。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [after21days],
+          answer: 'D.側板中胚葉',
+          commentary:
+            'A.羊膜　B.神経管　C.中間中胚葉　D.側板中胚葉　E.胚外中胚葉　F.卵黄嚢　G.脊索か卵黄嚢　側板中胚葉の細胞間隙が、臓側・壁側中胚葉へ分化していく。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [after4weeks],
+          answer: 'D.側板中胚葉の細胞間隙',
+          commentary:
+            'A.神経管　B.羊膜　C.沿軸中胚葉　E.大動脈か間葉組織　F.卵黄嚢（→腸管）　側板中胚葉の細胞間隙→臓側・壁側中胚葉に分化してそれが再び腹側で癒合することで胸腔や腹腔が形成される。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [diaphragm],
+          answer:
+            '2.はじめは心臓より前方に形成される。3.臓側中胚葉由来である。4.横隔膜の一部を形成する。',
+          commentary:
+            '横中隔は発生三週の終わり～4週にかけて発生し、心臓を囲む臓側中胚葉由来で（はじめ、肺の頭側端に形成される）、胎児の頭屈に伴って、原始胸膜腔と原始腹膜腔の間に位置するようになる。横中隔の中で肝細胞索（内胚葉由来）が発達する。横中隔から横隔膜の腱中心・肝臓の結合組織・腹側腸間膜が生じる。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [heartCavity],
+          answer: 'E',
+          commentary: 'A.外胚葉　B.沿軸中胚葉　C.脊索？　D.前腸？',
+        },
+        {
+          detailInfo: '',
+          answerImg: [heartCavity],
+          answer: 'C.前腸',
+          commentary:
+            '腹側に心臓、背側に中胚葉などで囲まれた空間なので内胚葉由来の前腸と推測される。心筒や心筋細胞は左右臓側中胚葉が正中で繋がって起こるので、それより背側の部分は内胚葉（複数ある場合は胚内体腔=壁側・臓側中胚葉）',
+        },
+        {
+          detailInfo: '',
+          answerImg: [diaphragm, pericardioperitonealCanal],
+          answer:
+            '横中隔より背側に存在する、横中隔によって仕切られた胸腔と腹腔を連絡する管状の通り道。発生に伴って主に胸心膜ヒダにより完全に閉じられる（横隔膜/7週ごろ）',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answerImg: [after30days],
+          answer: 'L.横中隔septum transversum',
+          commentary:
+            '横中隔のすぐ背側にある左右2対の空間は静脈群で、その背側の左右2対の空間が心腹膜管peritoneal cavity。中央細長い環状構造は腸管だろう。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [after30days],
+          answer: 'F.心腹膜管peritoneal cavity',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answerImg: [after30days],
+          answer: 'C.中腸',
+          commentary: '内胚葉由来',
+        },
+        {
+          detailInfo: '',
+          answerImg: [growingLung],
+          answer:
+            '1.胸膜腔　2.肺芽　3.臓側中胚葉（臓側胸膜）　4.心膜腔　5.心膜',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answerImg: [growingLung],
+          answer: 'E.横隔神経',
+          commentary:
+            '横隔神経は頚神経叢から出て心膜や横隔膜を支配する。成人では心臓のすぐ側面を通過する',
+        },
+        {
+          detailInfo: '',
+          answerImg: [growingLung, pleuropericardialFold],
+          answer: '',
+          commentary:
+            '1)心腹膜管をふさぐ胸腹膜ヒダも発生5週ごろに形成される（胸腔・腹腔・心膜腔の分離がほぼ同時に起こる）。2)胸心膜ヒダは原始心膜腔を腹側と背側に（心膜腔と胸腔に）分割する。3)胸心膜ヒダの癒合によって胸膜の左右分割も同時に行われる。4)肺芽は中胚葉（前腸）由来、肺や気管支を囲む軟骨・筋・結合組織は臓側中胚葉由来で、肺芽は前腸内胚葉より腹側（～両側）に形成される。5)胸心膜ヒダには総主静脈や横隔神経が通過する',
+        },
+        {
+          detailInfo: '',
+          answerImg: [diaphragm],
+          answer: '1.心腹膜管を閉じる　4.横隔膜の一部になる。　5.筋性である。',
+          commentary:
+            '胸心膜ヒダが心膜腔と胸腔を分割（+胸膜を左右分割）し、胸腹膜ヒダが胸腔と腹腔を分割（=心腹膜管を閉鎖）する。ともに体壁の壁側中胚葉由来の上皮が左右から伸びてきて形成されるヒダ構造だが、胸腹膜はのちにC3~C5由来の筋が細胞が侵入し横隔膜の筋性部を形成する（～発生第7週）。',
+        },
+        {
+          detailInfo: '',
+          answer:
+            'カントレル五徴症とは、1)正中腹壁欠損、2)前横隔膜ヘルニア、3)胸骨裂、4)心周囲異常、5)心室中隔欠損　の5つで構成され、腹側体壁欠損が原因。',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answer:
+            '臍帯ヘルニアでは飛び出した腸が膜状の袋（臍帯の一部）に包まれているが、腹壁破裂では腸は体壁に空いた孔から突出している。',
+          commentary:
+            '臍帯ヘルニアは腸管再構成時の腸管の生理的脱出に伴うもので、飛び出た腸管が臍帯に包まれているが、腹壁破裂は臍帯より体壁の形成がうまくいかないことに起因するので、膜状の袋に包まれていない。',
+        },
+        {
+          detailInfo: '',
+          answer:
+            '腹部臓器が胸膜腔に脱出することで、心臓・肺が押しやられ発育不全になり、肺の低形成や機能不全に至ると死亡率が高くなる。',
+          commentary:
+            '先天性横隔膜ヘルニアは心腹膜管の閉鎖不全（胸腹膜の形成不全）で、陰圧側の肺部分へ腹部臓器が脱出する異常。ほとんどの場合で心臓のある左側に起こる。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [diaphragm],
+          answer:
+            '1.胸腹膜ヒダ　2.食道間膜　3.横中隔　4.体壁からの筋の内方成長',
+          commentary: '',
+        },
+      ],
+    },
+    {
+      groupTag: '確認問題23 頭頚部',
+      groupContents: [
+        {
+          detailInfo: '',
+          answerImg: [pharyngealArch],
+          answer: '4.鼓室',
+          commentary: '耳管～鼓室までは内胚葉由来',
+        },
+        {
+          detailInfo: '',
+          answerImg: [pharyngealPouch],
+          answer: '5.外耳道　10.頚洞',
+          commentary:
+            '咽頭溝は外胚葉由来。耳の構造は複雑で、鼓膜までの外耳道は第一咽頭溝由来。最終的な構造に関与するのは第一咽頭溝のみで、第二～第四咽頭溝は頚洞などを形成するが最終的には消失する。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [pharyngealPouch],
+          answer: '8.口蓋扁桃',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answerImg: [thymus],
+          answer: '2.胸腺　7.下上皮小体',
+          commentary:
+            '胸腺は最終的に第四咽頭嚢由来の上上皮小体よりさらに尾側に移動し胸腺や下上皮小体を形成する。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [thymus],
+          answer: '6.上上皮小体',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answerImg: [tongue],
+          answer: '準備中',
+          commentary: '舌盲孔、すなわち甲状腺原基の起始部に注意',
+        },
+        {
+          detailInfo: '',
+          answerImg: [pharyngealNerves, pharyngealTable],
+          answer: '表参照',
+          commentary:
+            '支配筋肉は位置関係より支配神経に依存している。つまり、各咽頭弓は形を変え位置を入れ替えながら複雑に混ざり頭頚部を構成する。',
+        },
+        {
+          detailInfo: '',
+          answer:
+            '第一咽頭弓→G、第一咽頭嚢→I、第一咽頭溝→F、第一大動脈弓→H、背側大動脈→B',
+          commentary: '咽頭嚢は内胚葉由来、咽頭溝は外胚葉由来',
+        },
+        {
+          detailInfo: '',
+          answerImg: [pharyngealPouch],
+          answer: '第二咽頭弓→E、第二咽頭嚢→J、第二大動脈弓→D、背側大動脈→B',
+          commentary:
+            '第二咽頭弓は第一咽頭弓より背側→断面上側で根元で切れている。第二咽頭嚢は第2・第3咽頭弓の境界に存在しているので、さらにやや断面上側。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [pharyngealArch],
+          answer: '第一咽頭弓→G、第二咽頭弓→F、第三咽頭弓→E、第四咽頭弓→D',
+          commentary:
+            'この断面は前後がそのまま背腹を表しているのでわかりやすい',
+        },
+        {
+          detailInfo: '',
+          answerImg: [tongue],
+          answer: '（外側）舌隆起→E、甲状腺原基→G',
+          commentary:
+            '舌隆起は第一咽頭弓腹側部に形成される。甲状腺原基は舌盲孔（第1咽頭弓と第2咽頭弓の間）の高さで発生し、第一気管軟骨の高さまで下降する。Eが外側舌隆起、Fが舌結節と対応する',
+        },
+        {
+          detailInfo: '',
+          answerImg: [pharyngealNerves],
+          answer: 'Ⅴ三叉神経、Ⅶ顔面神経、Ⅸ舌咽神経、Ⅹ迷走神経',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answerImg: [face],
+          answer:
+            '顔面隆起は神経堤由来の間葉からなり、主として第一咽頭弓由来。口窩を第一咽頭弓が囲み、口窩の尾側で上顎隆起、側方で下顎隆起が起こり、上顎隆起・下顎隆起が形成される。',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answerImg: [face],
+          answer: '口窩→G、上顎隆起→F、下顎隆起→E',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answerImg: [meckelCartilage],
+          answer:
+            '第一咽頭弓は、眼の下方を前方に伸びる上顎隆起とメッケル軟骨を含む下顎突起からなる。その後の発達中にメッケル軟骨は背側部の２つの小部分を除いて退化消失するが、残存した２つはキヌタ骨とツチ骨を形成する。また、上顎突起の間葉は、顎前骨、上顎骨、頬骨、および側頭骨の一部を膜性骨化により生じる。下顎骨もメッケル軟骨を取り巻く間葉組織の膜性骨化により形成される。',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          answerImg: [meckelCartilage],
+          answer: '準備中',
+          commentary:
+            '第一咽頭弓軟骨はメッケル軟骨と呼ばれるのに対して、第二咽頭弓軟骨はライヘルト軟骨と呼ばれ、アブミ骨・茎状突起・茎突舌骨靭帯・舌骨小角になる。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [meckelCartilage],
+          answer: '甲状軟骨・輪状軟骨・披裂軟骨・小角軟骨・楔状軟骨',
+          commentary:
+            '第4および第6咽頭弓の軟骨要素は癒合して咽頭の甲状軟骨・輪状軟骨・披裂軟骨・小角軟骨・楔状軟骨を形成する。',
+        },
+        {
+          detailInfo: '',
+          answer: '3.甲状腺',
+          answerImg: [thymus],
+          commentary:
+            '甲状腺原基は第1・第2境界の咽頭弓腹側の舌盲孔の高さで発生し、第一気管軟骨の高さまで下降して形成される。副甲状腺（上皮小体）は第3～第4咽頭嚢由来',
+        },
+        {
+          detailInfo: '',
+          answerImg: [thyroid, after49days, tongue],
+          answer: 'D',
+          commentary:
+            '甲状舌管thyroglossal ductは甲状腺と舌盲孔をつなぐ内胚葉由来の構造。甲状腺が下行する間存在し、その後消失する。断面中央に口腔が見え、その中に舌構造が見える。舌盲孔は外側舌隆起+舌結節と、結合節の間に見られる孔。',
+        },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '',
+        //   answer: '',
+        //   commentary: '',
+        // },
       ],
     },
   ])

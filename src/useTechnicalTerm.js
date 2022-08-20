@@ -5,7 +5,8 @@ export const useTechnicalTerm = () => {
     // term[0]が代表名として大きく表示される。
     {
       term: ['レチノイン酸'],
-      explanation: '体節を決定するシグナル物質。頭側で高濃度。',
+      explanation:
+        '体節を決定したり肺芽形成を誘導したりするシグナル物質。体節形成時では頭側で高濃度。',
     },
     {
       term: ['ソニックヘッジホッグ', 'SHH', 'Sonic Hedgehog'],
