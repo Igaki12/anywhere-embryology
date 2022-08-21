@@ -36,7 +36,7 @@ export const QuestionsLog = ({
     if (history[history.length - 1].remainingQuestionList.length === 0) {
       toast({
         position: 'top-right',
-        title: 'Good Job!',
+        title: 'GOOD JOB',
         description: '全ての問題が終わりました！',
         status: 'success',
         duration: 9000,
