@@ -194,6 +194,8 @@ import thyroid from './img/answer/thyroid.png'
 import tongue from './img/answer/tongue.png'
 import placentalBarrier from './img/answer/placentalBarrier.png'
 import uterus from './img/answer/uterus.png'
+import branchialFistula from './img/answer/branchialFistula.png'
+import facialCleft from './img/answer/facialCleft.png'
 // import u from './img/question/スクリーンショット 2022-06-24 .png'
 
 import heartLoop from './img/answer/heartLoop.png'
@@ -3889,7 +3891,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           answerImg: [meckelCartilage],
-          answer: '準備中',
+          answer:
+            'ライトヘルム軟骨はアブミ骨・側頭骨の茎状突起・茎突舌骨靭帯・舌骨小角・舌骨体の上部を形成する。',
           commentary:
             '第一咽頭弓軟骨はメッケル軟骨と呼ばれるのに対して、第二咽頭弓軟骨はライヘルト軟骨と呼ばれ、アブミ骨・茎状突起・茎突舌骨靭帯・舌骨小角になる。',
         },
@@ -3914,16 +3917,54 @@ export const useQuestionList = () => {
           commentary:
             '甲状舌管thyroglossal ductは甲状腺と舌盲孔をつなぐ内胚葉由来の構造。甲状腺が下行する間存在し、その後消失する。断面中央に口腔が見え、その中に舌構造が見える。舌盲孔は外側舌隆起+舌結節と、結合節の間に見られる孔。',
         },
-        // {
-        //   detailInfo: '',
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   answer: '',
-        //   commentary: '',
-        // },
+        {
+          detailInfo: '',
+          answerImg: [meckelCartilage, thymus],
+          answer: '3.甲状腺',
+          commentary:
+            '舌骨下部は第三咽頭弓から派生する。甲状腺は第一咽頭嚢～第二咽頭嚢腹側正中部の舌盲孔から発生し、甲状舌管を伴いながら本来の第一気管軟骨の高さまで下降する。このときに甲状舌管や甲状腺の一部が残り、甲状舌管嚢胞や異所性甲状腺組織と呼ばれる。胸腺・上皮小体・鰓後体も移動中に組織が残存する事があるが、正中ではない。',
+        },
+        {
+          detailInfo: '',
+          answerImg: [branchialFistula],
+          answer: 'B.頚洞',
+          commentary:
+            '咽頭溝は本来第一咽頭溝のみが最終的な構造に寄与し（→外耳道）、他は頚洞などを形成しながらやがて消失するが、第二咽頭弓が第三・第四咽頭弓を超えて尾側に伸長し損なうと、第二・第三・第四咽頭溝の遺残物が細い管で体表と連絡したままになってしまう：鰓痩branchial fistula。このような瘦管は胸鎖乳突筋の前で頚の側面で見いだされ、通常は側頚嚢胞の排液路となる。',
+        },
+        {
+          answerImg: [pharyngealNerves],
+          answer: 'C,E,K',
+          commentary:
+            '第一咽頭弓→三叉神経、第二咽頭弓→顔面神経、第三咽頭弓→舌咽神経、第四咽頭弓→迷走神経',
+        },
+        {
+          answerImg: [pharyngealPouch],
+          answer:
+            '第一咽頭嚢→c,d　第二咽頭嚢→g　第三咽頭嚢→i(f)　第四咽頭嚢→(f),h',
+          commentary: '上上皮小体は第四咽頭嚢、下上皮小体は第三咽頭嚢由来。',
+        },
+        {
+          answerImg: [meckelCartilage],
+          answer:
+            '第一咽頭弓→A,C,D,G,H　第二咽頭弓→B　第三咽頭弓→E　第四咽頭弓→F',
+          commentary: '',
+        },
+        {
+          answerImg: [face],
+          answer: '上顎隆起→E、内側鼻隆起→D、外側鼻隆起→G、鼻涙溝→B',
+          commentary: '',
+        },
+        {
+          answerImg: [facialCleft],
+          answer:
+            'A.4～6週、B.4～6週（上顎隆起と内側鼻隆起が癒合不全によって起こる異常のため）、C.7～10週（口蓋突起の癒合不全によって起こるため）',
+          commentary: '口唇・口蓋ともに7～10週の間に作られる。',
+        },
+        {
+          answerImg: [facialCleft],
+          answer: 'A→2、B→2、C→5',
+          commentary: '',
+        },
       ],
     },
   ])
