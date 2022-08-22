@@ -67,7 +67,7 @@ function App() {
           Ver.1.0
         </Badge>
         <Badge m={1} mt="0" borderRadius="full" px="2" colorScheme="teal">
-          第2生理学
+          発生再生学
         </Badge>
       </Flex>
 
