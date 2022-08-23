@@ -206,6 +206,13 @@ import centralBrain from './img/answer/centralBrain.png'
 import diencephalon from './img/answer/diencephalon.png'
 import medullaOblongata from './img/answer/medullaOblongata.png'
 import spinalCord from './img/answer/spinalCord.png'
+import after21daysKidney from './img/answer/after21daysKidney.png'
+import after56daysPituitaryGland from './img/answer/after56daysPituitaryGland.png'
+import pituitaryGland from './img/answer/pituitaryGland.png'
+import telencephalon from './img/answer/telencephalon.png'
+import testis from './img/answer/testis.png'
+import urinaryBladder from './img/answer/urinaryBladder.png'
+
 // import u from './img/question/スクリーンショット 2022-06-24 .png'
 
 import heartLoop from './img/answer/heartLoop.png'
@@ -3798,6 +3805,57 @@ export const useQuestionList = () => {
       ],
     },
     {
+      groupTag: '確認問題22 泌尿生殖器',
+      groupContents: [
+        {
+          answerImg: [after21daysKidney],
+          answer: '中間中胚葉の部分（神経管の両側の沿軸中胚葉の外側）',
+          commentary: '中間中胚葉→中腎管（ウォルフ管）→尿管',
+        },
+        {
+          answerImg: [urinaryBladder],
+          answer: '内胚葉の部分',
+          commentary: '内胚葉→排泄腔→尿生殖洞→膀胱・尿道',
+        },
+        {
+          answerImg: [testis],
+          answer: '横方向の管部分',
+          commentary:
+            '横方向の管は中腎（→精巣）と中腎管（→精管）をつなぐ中腎細管（→精巣輸出管）、縦方向の管は中腎（→精巣）と尿生殖洞（→膀胱）をつなぐ中腎管（→精管）',
+        },
+        {
+          answerImg: [midKidney],
+          answer:
+            '1)断面左右中央の濃い胞状の部分　2)断面左右やや上方の真横に走っている管部分　3)断面左右で中腎細管から続いている小さめの丸い円部分　4)断面左右やや下方で下方向へ膨らんでいるやや濃い部分',
+          commentary:
+            '中央のつぶれた管がaortaで（内部に赤血球が詰まっている）、そこから左右前方（下方）に細静脈が伸び、胞状の糸球体を形成する。糸球体のあたりからさらに左右に伸びているのが中腎細管→中腎管（輪切りに切れている）。糸球体の背側（上側に見えているのが後主静脈postcardinal.vで、これらの周りを中腎堤の空間が囲んでいる。断面最も腹側に見えているのが腸管と上腸間膜動脈sup.mesenteric a.である',
+        },
+        {
+          answerImg: [],
+          answer:
+            '1)断面左右にC字型に濃く染まっているのが腎臓、2)その下方（腹側）で全体が濃染している卵型の部分が精巣',
+          commentary:
+            '精巣が下行し始めている。胎児の肝臓は大きいためこの断面でも腹側右側に大きく映っている。',
+        },
+        {
+          answerImg: [glomerulus],
+          answer: 'A.糸球体、B.ボーマン嚢、C.集合管（尿管）',
+          commentary:
+            '後腎組織に尿管が進入し、糸球体とそれを覆うボーマン嚢が形成されている。ボーマン嚢は後腎間葉組織（帽状の後腎芽組織）由来、集合管は尿管由来。',
+        },
+        // {
+        //   answerImg: [],
+        //   answer: '1.正常に成人する',
+        //   commentary: '',
+        // },
+        // {
+        //   answerImg: [],
+        //   answer: '1.正常に成人する',
+        //   commentary: '',
+        // },
+      ],
+    },
+    {
       groupTag: '確認問題23 頭頚部',
       groupContents: [
         {
@@ -4063,7 +4121,7 @@ export const useQuestionList = () => {
           answerImg: [after52daysVentricle],
           answer: '海馬→F、モンロー室間孔→D',
           commentary:
-            'Fはおそらく海馬ではないが、同じ大脳辺縁系の脳弓と思われる。モンロー孔は側脳室と第三脳室をつなぐ水道interventricular foremen。',
+            'モンロー孔は側脳室と第三脳室をつなぐ水道interventricular foremen。',
         },
         {
           answerImg: [after56days, , centralBrain, basalGanglia],
@@ -4073,38 +4131,87 @@ export const useQuestionList = () => {
         },
         {
           answerImg: [],
-          answer: '8.口蓋扁桃',
+          answer:
+            '中枢のオリゴデンドロサイトは、神経上皮細胞由来。末梢のシュワン細胞は、神経堤由来である。',
           commentary: '',
         },
         {
           answerImg: [],
-          answer: '8.口蓋扁桃',
-          commentary: '',
+          answer:
+            '3.神経堤由来　胎生皮質形成中に神経堤細胞が副腎に侵入して形成される。',
+          commentary:
+            '交感神経節前線維が直接副腎髄質に進入し、副腎髄質のクロム親和性細胞が実質的な節後線維として、ノルアドレナリンやアドレナリン分泌を行う。皮質は中間中胚葉由来',
         },
         {
           answerImg: [],
-          answer: '8.口蓋扁桃',
-          commentary: '',
+          answer:
+            '5.中間中胚葉　二次的に中間中胚葉由来の体腔上皮から細胞移動が起こり、胎生皮質を取り囲んで最終的な皮質になる。',
+          commentary:
+            '中間中胚葉はほかに、中腎（→精巣・卵巣・ウォルフ管・ミュラー管）・後腎（→腎臓）などに分化する。',
+        },
+        {
+          answerImg: [pituitaryGland],
+          answer: 'F.ラトケ嚢',
+          commentary:
+            '下垂体前葉となる。オキシトシン・バソプレシンなどを分泌する下垂体後葉は神経管由来で、視床下部域から直接神経線維が伸びてくる。',
+        },
+        {
+          answerImg: [pituitaryGland],
+          answer: 'E.第三脳室',
+          commentary: '下垂体・第三脳室はどちらも間脳',
+        },
+        {
+          answerImg: [pituitaryGland],
+          answer: '下垂体後葉→C、下垂体前葉→B、ラトケ嚢→A（B）',
+          commentary:
+            'E.視床下部、D.間脳腔？、C.漏斗、A.ラトケ嚢後壁（→下垂体中間部）、B.ラトケ嚢前壁（ラトケ嚢と下垂体漏斗がまだ隣り合っていない）。ラトケ嚢は下垂体へ伸びた口腔の壁の一部だが、外胚葉由来',
+        },
+        {
+          answerImg: [after56days],
+          answer: '側脳室→D、第三脳室→C',
+          commentary: '断面下側が頭頂部、断面上側が頭底部',
+        },
+        {
+          answerImg: [after56daysPituitaryGland],
+          answer: 'B',
+          commentary:
+            '脳底動脈:basilar a. トルコ鞍の背:dorsum sellae 下垂体:neurohypophysis',
         },
         {
           answerImg: [],
-          answer: '8.口蓋扁桃',
-          commentary: '',
+          answer: 'B.視神経、D.下垂体後葉',
+          commentary:
+            '12対の脳神経のうち最初の2対（視神経と嗅神経）は厳密な意味では末梢神経ではなく、中枢神経の突起である。',
+        },
+        {
+          answerImg: [brainVesicle],
+          answer: 'B.視神経、C.嗅神経、F.動眼神経',
+          commentary:
+            '菱脳→後脳（橋・小脳）・髄脳（延髄）。Ⅰ嗅神経・Ⅱ視神経は前脳由来、Ⅲ動眼神経は中脳に神経核を持つ。Ⅴ三叉神経以降は橋～延髄。（Ⅳ滑車神経は後脳に出現後、中脳へ移動）',
         },
         {
           answerImg: [],
-          answer: '8.口蓋扁桃',
-          commentary: '',
+          answer: 'F.第四脳室',
+          commentary:
+            '菱脳→後脳（橋・小脳）・髄脳（延髄）。シルヴィウス水道＝中脳水道。側脳室は終脳、第三脳室は間脳、モンロー孔はその間。',
         },
         {
           answerImg: [],
-          answer: '8.口蓋扁桃',
+          answer:
+            '胎齢が進むにつれて、脊柱と硬膜が神経管より急速に成長し、出生時には脊髄の末端は第3腰椎の高さになる。よってL4~L5なら脊髄を傷つけることなく穿刺を行うことができる。',
           commentary: '',
         },
         {
-          answerImg: [],
-          answer: '8.口蓋扁桃',
+          answerImg: [telencephalon],
+          answer:
+            '大脳半球は成長に伴って、大脳皮質は折れ曲がり、複雑な回と溝を形成する。',
           commentary: '',
+        },
+        {
+          answerImg: [pharyngealNerves],
+          answer: 'C.顔面神経、E.舌咽神経',
+          commentary:
+            '咽頭弓由来の神経が三叉神経（第一咽頭弓）・顔面神経（第二咽頭弓）・舌咽神経（第三咽頭弓）・迷走神経（第四咽頭弓）であり、このうち神経節が咽頭弓上プラコードに由来するのは顔面神経・舌咽神経・迷走神経',
         },
       ],
     },
