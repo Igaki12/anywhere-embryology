@@ -196,6 +196,16 @@ import placentalBarrier from './img/answer/placentalBarrier.png'
 import uterus from './img/answer/uterus.png'
 import branchialFistula from './img/answer/branchialFistula.png'
 import facialCleft from './img/answer/facialCleft.png'
+import after52days from './img/answer/after52days.png'
+import after52daysVentricle from './img/answer/after52daysVentricle.png'
+import after56days from './img/answer/after56days.png'
+import basalGanglia from './img/answer/basalGanglia.png'
+import brainVesicle from './img/answer/brainVesicle.png'
+import brainVesicle5 from './img/answer/brainVesicle5.png'
+import centralBrain from './img/answer/centralBrain.png'
+import diencephalon from './img/answer/diencephalon.png'
+import medullaOblongata from './img/answer/medullaOblongata.png'
+import spinalCord from './img/answer/spinalCord.png'
 // import u from './img/question/スクリーンショット 2022-06-24 .png'
 
 import heartLoop from './img/answer/heartLoop.png'
@@ -3963,6 +3973,137 @@ export const useQuestionList = () => {
         {
           answerImg: [facialCleft],
           answer: 'A→2、B→2、C→5',
+          commentary: '',
+        },
+      ],
+    },
+    {
+      groupTag: '確認問題24 中枢神経系',
+      groupContents: [
+        {
+          answerImg: [brainVesicle],
+          answer: 'A.終脳',
+          commentary:
+            '前脳→終脳（→大脳半球）・間脳（→視床下部・眼杯・下垂体・視床・松果体など）',
+        },
+        {
+          answerImg: [brainVesicle],
+          answer: 'C',
+          commentary: '菱脳→後脳→小脳（背側）・橋（腹側）',
+        },
+        {
+          answerImg: [brainVesicle],
+          answer: 'D',
+          commentary:
+            'CN-X迷走神経は第四咽頭弓内部に発生し、最終的に延髄中部の孤束核などから外側に出て頚静脈孔を通過する脳神経となる。菱脳→後脳・髄脳（→延髄）',
+        },
+        {
+          answerImg: [brainVesicle5],
+          answer:
+            '頭屈：中脳胞で、脳神経管の腹側への屈曲。頚屈：髄脳で、脳神経管の腹側への屈曲。橋屈：将来の小脳領域で、背側への屈曲',
+          commentary:
+            '第5週では5脳胞（終脳・間脳・中脳・後脳・髄脳）に分化している。',
+        },
+        {
+          answerImg: [brainVesicle5],
+          answer:
+            '二次脳胞の構成要素は、終脳・間脳・中脳・後脳・髄脳である。終脳→大脳半球、間脳→眼胞・視床・視床下部・下垂体、中脳→中脳やその上丘・下丘、後脳→小脳・橋、髄脳→延髄に分化する。',
+          commentary:
+            '4週末までに一次脳胞（前脳・中脳・菱脳）、5週中には二次脳胞（終脳・間脳・中脳・後脳・髄脳）に分化する。',
+        },
+        {
+          answerImg: [medullaOblongata],
+          answer: 'B,C,E,F',
+          commentary:
+            '基板は脊髄でいう前角で、主に遠心性の神経が存在する。翼板は脊髄でいう後角で、主に求心性の神経が存在する。基板・翼板ともに存在するのは脊髄・髄脳・後脳（橋）・中脳までで、間脳や終脳（上位中枢）は基板や底板を欠く。',
+        },
+        {
+          answerImg: [medullaOblongata, diencephalon],
+          answer:
+            '髄脳は翼板と基板を持ち明確に区別されるが、間脳は蓋板と肥厚した翼板からなり基板と底板を持たない。',
+          commentary:
+            '脊髄～中脳に存在する基板は運動ニューロンの細胞体（や運動系脳神経核）に分化するが、上位中枢では直接筋肉へ信号を伝えるニューロンが存在しない。',
+        },
+        {
+          answerImg: [spinalCord],
+          answer: '翼板→A、基板→E、後根神経節→C、白質→B',
+          commentary:
+            '基板は運動ニューロンの細胞体、翼板は感覚ニューロンなどの二次ニューロン、後根神経節は感覚ニューロンなどの一次ニューロンの細胞体、白質はニューロンの有髄軸索（ミエリン）が通過する',
+        },
+        {
+          answerImg: [spinalCord],
+          answer: '翼板→G、基板→E、神経上皮→B、後根神経節→F',
+          commentary:
+            '神経上皮は中心管（髄液）に面する神経管由来の上皮（上衣細胞）。',
+        },
+        {
+          answerImg: [brainVesicle],
+          answer: '3.視床',
+          commentary:
+            '前脳→終脳（大脳半球）・間脳（視床・視床下部・下垂体・松果体など）',
+        },
+        {
+          answerImg: [brainVesicle5],
+          answer: '眼杯・眼茎・下垂体・視床・視床下部・松果体',
+          commentary: '水晶体は眼プラコード由来で、網膜や視神経は間脳由来。',
+        },
+        {
+          answerImg: [diencephalon],
+          answer: '側脳室→C、第三脳室→A',
+          commentary:
+            'E.脈絡膜、B.終脳　第三脳室は間脳由来、側脳室は終脳由来。',
+        },
+        {
+          answerImg: [after52days],
+          answer: '視床→C、視床下部→B、線条体→D、脈絡叢→E、大脳半球→F',
+          commentary:
+            'この時期の胚子は腹側へ屈曲しているため、断面下側が頭頂部、断面上側が頭底部の断面。BからFにかけて間脳視床下部hypothalamusから大脳半球へ上下逆さまに切れている断面。',
+        },
+        {
+          answerImg: [after52daysVentricle],
+          answer: '海馬→F、モンロー室間孔→D',
+          commentary:
+            'Fはおそらく海馬ではないが、同じ大脳辺縁系の脳弓と思われる。モンロー孔は側脳室と第三脳室をつなぐ水道interventricular foremen。',
+        },
+        {
+          answerImg: [after56days, , centralBrain, basalGanglia],
+          answer: '図参照',
+          commentary:
+            'これも前屈姿勢のため上下反対の断面となっている。淡蒼球globus pallidus+被殻putamenはレンズ核で、被殻+尾状核caudate nucleusは線条体を構成する。内包（成人では錐体路の一部）はレンズ核よりさらに内側の間脳領域であるため、矢印では示されていない（問題作成途中！？）',
+        },
+        {
+          answerImg: [],
+          answer: '8.口蓋扁桃',
+          commentary: '',
+        },
+        {
+          answerImg: [],
+          answer: '8.口蓋扁桃',
+          commentary: '',
+        },
+        {
+          answerImg: [],
+          answer: '8.口蓋扁桃',
+          commentary: '',
+        },
+        {
+          answerImg: [],
+          answer: '8.口蓋扁桃',
+          commentary: '',
+        },
+        {
+          answerImg: [],
+          answer: '8.口蓋扁桃',
+          commentary: '',
+        },
+        {
+          answerImg: [],
+          answer: '8.口蓋扁桃',
+          commentary: '',
+        },
+        {
+          answerImg: [],
+          answer: '8.口蓋扁桃',
           commentary: '',
         },
       ],
