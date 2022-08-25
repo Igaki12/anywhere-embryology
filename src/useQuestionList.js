@@ -212,6 +212,8 @@ import pituitaryGland from './img/answer/pituitaryGland.png'
 import telencephalon from './img/answer/telencephalon.png'
 import testis from './img/answer/testis.png'
 import urinaryBladder from './img/answer/urinaryBladder.png'
+import after3weeksVertical from "./img/answer/after3weeksVertical.png"
+import after5weeksKidney from './img/answer/after5weeksKidney.png'
 
 // import u from './img/question/スクリーンショット 2022-06-24 .png'
 
@@ -1780,17 +1782,17 @@ export const useQuestionList = () => {
         {
           detailInfo: '6/30確認問題',
           questionImg: [],
-          questionSentence: '気管食道痩について正しい記述を全て選べ',
+          questionSentence: '気管食道瘻について正しい記述を全て選べ',
           choices: [
             '胚芽の発生異常によっておこる',
             '心臓の異常を伴う事が多い',
             '羊水過少症を伴うことが多い',
-            '食道下部が気管と痩をなすことが多い',
+            '食道下部が気管と瘻をなすことが多い',
             'この中にはない',
           ],
           answerImg: [TEF],
           answer:
-            '心臓の異常を伴う事が多い/食道下部が気管と痩をなすことが多い。',
+            '心臓の異常を伴う事が多い/食道下部が気管と瘻をなすことが多い。',
           commentary:
             'VACTERL連合 VACTERL	association	(脊椎異常 vertebral	anomaly,	肛⾨閉鎖 anal	atresia,	⼼臓異常 cardiac	defect,	気管⾷道瘻 tracheoesophageal	fistula,	⾷道閉鎖 esophageal	atresia,	腎臓異常 renal	anomaly,	体肢異常 limb	defect)',
         },
@@ -1965,12 +1967,12 @@ export const useQuestionList = () => {
           detailInfo: '6/30確認問題',
           questionImg: [v18],
           questionSentence:
-            '17日胚子の矢状断面模式図で、尿膜管痩はどこに由来するか？',
+            '17日胚子の矢状断面模式図で、尿膜管瘻はどこに由来するか？',
           choices: [],
           answerImg: [urachalFistula],
           answer: 'B.尿膜',
           commentary:
-            '模式図下側が卵黄嚢で、黄色が内胚葉。A.は外胚葉と内胚葉が直接繋がる部分で後咽頭膜を構成する。C.は尾側で内胚葉と外胚葉が直接並んで排泄腔膜（→肛門）を構成する。尿膜管痩は臍帯から尿生殖洞（膀胱）へ繋がる尿膜腔の閉鎖不全であるので、',
+            '模式図下側が卵黄嚢で、黄色が内胚葉。A.は外胚葉と内胚葉が直接繋がる部分で後咽頭膜を構成する。C.は尾側で内胚葉と外胚葉が直接並んで排泄腔膜（→肛門）を構成する。尿膜管瘻は臍帯から尿生殖洞（膀胱）へ繋がる尿膜腔の閉鎖不全であるので、',
         },
         {
           detailInfo: '6/30確認問題',
@@ -2034,7 +2036,7 @@ export const useQuestionList = () => {
           detailInfo: '6/30確認問題',
           questionImg: [v22],
           questionSentence:
-            '56日胚（男性）の横断面で、1)腎盂、2)小腎杯、3)腎小体、4)精巣を同定せよ',
+            '56日胚（男性）の横断面で、1)腎盂、2)小腎盃、3)腎小体、4)精巣を同定せよ',
           choices: [],
           answerImg: [v15],
           answer:
@@ -3843,16 +3845,80 @@ export const useQuestionList = () => {
           commentary:
             '後腎組織に尿管が進入し、糸球体とそれを覆うボーマン嚢が形成されている。ボーマン嚢は後腎間葉組織（帽状の後腎芽組織）由来、集合管は尿管由来。',
         },
-        // {
-        //   answerImg: [],
-        //   answer: '1.正常に成人する',
-        //   commentary: '',
-        // },
-        // {
-        //   answerImg: [],
-        //   answer: '1.正常に成人する',
-        //   commentary: '',
-        // },
+        {
+          answerImg: [kidneyArtery],
+          answer:
+            '1)腎臓中央で横に切れている太い管が腎盂で、2)そこから枝分かれして腎皮質付近にまで放射状に伸びているのが腎杯、3)腎小体はC字型に分布する腎皮質で多数断面が見える。4)精巣は腎臓の下方（前方）で卵型に切れている。内部の精細管が所々見える。',
+          commentary:
+            '断面左右上方のC字型に濃染している部分が腎臓で、その間の管が大動脈と下大静脈、画面下方の絨毛が豊富な管が十二指腸・空腸で、その下方右側で斜めに切れているのが結腸である。',
+        },
+        {
+          answerImg: [],
+          answer: 'A.ARPKDは小児期に腎不全が起きる点で異なる。',
+          commentary:
+            'ADPKDのDはDominant。劣性ARPKDは集合管から嚢胞が生じる。優性遺伝病ADPKDは自然淘汰圧を受けるため成人後に発症する。',
+        },
+        {
+          answerImg: [kidneyArtery],
+          answer: 'C',
+          commentary:
+            '骨盤腎とは腎臓の上昇中に、左右の臍動脈や下腸間膜動脈の通過に失敗したもので、腎臓が総腸骨動脈知覚の骨盤内にとどまる。腎臓は上行中に近くの動脈を乗り換えながら供給を受けるので、骨盤近くの動脈が答えとなる。',
+        },
+        {
+          answerImg: [trigonOfBladder],
+          answer: 'B',
+          commentary:
+            '膀胱三角の上皮は中腎管や尿管の上皮の出口が拡がってできたものなので、中腎管由来（尿管も中腎管由来）。ただし、後に尿管同様内胚葉性上皮に置き換わる。',
+        },
+        {
+          answerImg: [after3weeksVertical, urachalFistula],
+          answer: 'D',
+          commentary:
+            'Aは口咽頭膜、Bは卵黄嚢と腸管の連続部分となるが、尿膜管瘦ではない。尿膜管はこの後卵黄嚢の縮小（胚の成長）とともに体腹部へ上行していき、最終的に臍帯に位置したのち閉鎖して正中臍索となって役割を終える。閉鎖し損なうと尿膜管瘻となる。',
+        },
+        {
+          answerImg: [glomerulus],
+          answer: '2.尿管',
+          commentary:
+            '尿管～集合管～集合細管までが尿管由来、S状細管～ボーマン嚢が後腎芽組織由来',
+        },
+        {
+          answerImg: [after21daysKidney],
+          answer: '9.中間中胚葉',
+          commentary:
+            '中間中胚葉→中腎（→生殖器）・後腎（上行して腎臓へ）ほか副腎皮質など。',
+        },
+        {
+          answerImg: [growingKidney, after5weeksKidney],
+          answer: '3.後腎、4.ウォルフ管',
+          commentary:
+            '後腎→ボーマン嚢・尿細管、（中間中胚葉→）ウォルフ管（中腎管）→尿管→集合管・集合細管の２つの由来がある。その他、副腎髄質は神経堤由来、生殖器は中腎由来。',
+        },
+        {
+          answerImg: [midKidney, mesonephricTubule],
+          answer: '3.尿生殖堤の構成要素である、4.尿管の由来である',
+          commentary:
+            '永久腎は後腎由来。最終的な集合管は中腎管（ウォルフ管）由来である。尿生殖堤かは不明だが、生殖堤・生殖器は中腎と関係がある。尿生殖洞（→膀胱）は内胚葉由来。尿管は中腎管からの分岐であるが、最終的には膀胱三角の形成とともに中腎（→精管）とは別で膀胱・尿道に接続するようになる。',
+        },
+        {
+          answerImg: [],
+          answer: 'ARPKD、Kartagener症候群',
+          commentary:
+            'WAGR症候群）ウィルムス腫瘍 Wilms	tumor、無虹彩症 aniridia、⽣殖芽腫瘍gonadoblastoma、知的障害 mental	retardationの合併で線毛病ではない。Kartagener症候群は内臓逆位・慢性副鼻腔炎・不妊症などを併発する線毛病。馬蹄腎は下腸間膜動脈や臍動脈などの通過失敗による腎臓の位置の異常で、線毛病ではない。停留精巣は精巣の下行不全であるが、線毛の異常ではない。',
+        },
+        {
+          answerImg: [urinaryBladder],
+          answer:
+            'A.直腸と尿管の分割不全による直腸尿道瘻、B.直腸と尿生殖洞の分割不全による直腸膀胱瘻、C.肛門の狭窄による肛門閉鎖。',
+          commentary:
+            '卵黄嚢～尿膜管まで一本道だった腸管は排泄腔膜のところで外部へ開口する肛門を形成し、肛門直腸管と尿生殖洞（→膀胱）からの尿管は最終的に完全に独立してそれぞれが会陰に開口するようになる。尿膜管はどれも正常に閉鎖しているので尿膜管瘻は該当なし。Aは直腸から尿道への直腸瘻（直腸と尿管の分割不全）なので、直腸尿道瘻。Bは直腸から膀胱への直腸瘻（直腸と尿生殖洞の分離不全）なので、直腸膀胱瘻。Cは肛門が十分に開口されていないので、肛門閉鎖（肛門狭窄）。A,Bの高さで狭窄が生じた場合は、直腸狭窄となる（これらの高さでは肛門自体が形成されていない）。',
+        },
+        {
+          answerImg: [kidneyArtery],
+          answer: '3.下腸間膜動脈',
+          commentary:
+            '永久腎は後腎由来で、後腎が向きを90度変えながら動脈を変えながら腹腔を上行して最終的な位置にたどり着く。この間に腎臓が左右の臍動脈や下腸間膜動脈の通過に失敗すると骨盤腎を発症する。ちなみに、成人で左腎静脈をせき止めて血尿を生じさせる（ナッツクラッカー現象）動脈は上腸間膜動脈。',
+        },
       ],
     },
     {
@@ -3997,7 +4063,7 @@ export const useQuestionList = () => {
           answerImg: [branchialFistula],
           answer: 'B.頚洞',
           commentary:
-            '咽頭溝は本来第一咽頭溝のみが最終的な構造に寄与し（→外耳道）、他は頚洞などを形成しながらやがて消失するが、第二咽頭弓が第三・第四咽頭弓を超えて尾側に伸長し損なうと、第二・第三・第四咽頭溝の遺残物が細い管で体表と連絡したままになってしまう：鰓痩branchial fistula。このような瘦管は胸鎖乳突筋の前で頚の側面で見いだされ、通常は側頚嚢胞の排液路となる。',
+            '咽頭溝は本来第一咽頭溝のみが最終的な構造に寄与し（→外耳道）、他は頚洞などを形成しながらやがて消失するが、第二咽頭弓が第三・第四咽頭弓を超えて尾側に伸長し損なうと、第二・第三・第四咽頭溝の遺残物が細い管で体表と連絡したままになってしまう：鰓瘻branchial fistula。このような瘦管は胸鎖乳突筋の前で頚の側面で見いだされ、通常は側頚嚢胞の排液路となる。',
         },
         {
           answerImg: [pharyngealNerves],
