@@ -212,8 +212,22 @@ import pituitaryGland from './img/answer/pituitaryGland.png'
 import telencephalon from './img/answer/telencephalon.png'
 import testis from './img/answer/testis.png'
 import urinaryBladder from './img/answer/urinaryBladder.png'
-import after3weeksVertical from "./img/answer/after3weeksVertical.png"
+import after3weeksVertical from './img/answer/after3weeksVertical.png'
 import after5weeksKidney from './img/answer/after5weeksKidney.png'
+import externalGenitalia from './img/answer/externalGenitalia.png'
+import LHFSH from './img/answer/LHFSH.png'
+import MullerianDuct from './img/answer/MullerianDuct.png'
+import ovary from './img/answer/ovary.png'
+import reproductiveRidge from './img/answer/reproductiveRidge.png'
+import sexDifferentiation from './img/answer/sexDifferentiation.png'
+import SexRelatedSignals from './img/answer/SexRelatedSignals.png'
+import testisGrowing from './img/answer/testisGrowing.png'
+import testisHormone from './img/answer/testisHormone.png'
+import testisMovement from './img/answer/testisMovement.png'
+import uterusLigament from './img/answer/uterusLigament.png'
+// import from './img/answer/.png'
+// import from './img/answer/.png'
+// import from './img/answer/.png'
 
 // import u from './img/question/スクリーンショット 2022-06-24 .png'
 
@@ -3803,6 +3817,150 @@ export const useQuestionList = () => {
             '男性は1本で機能するX染色体が、女性には2本存在しているため、過剰な遺伝子発現を避けるために片方のX染色体を不活化している現象。',
           commentary:
             '不活化されるX染色体はモザイク状に決定される（→三毛猫）。X染色体上に原因を持つ遺伝病は男性の方が発症しやすい。',
+        },
+      ],
+    },
+    {
+      groupTag: '確認問題21 泌尿生殖器系',
+      groupContents: [
+        {
+          answerImg: [testisHormone, LHFSH],
+          answer:
+            'A.卵胞膜黄体細胞→テストステロン、B.顆粒層細胞→エストロン、C.セルトリ細胞→AMH',
+          commentary:
+            'AMH:アンチミュラー管ホルモン。男性のセルトリ細胞や、女性の前胞状卵胞の顆粒膜細胞から分泌されるホルモン。他、GnRH(性腺刺激ホルモン/視床下部)→FSH(卵胞刺激ホルモン/下垂体前葉),LH(黄体ホルモン/下垂体前葉)、顆粒層細胞（卵胞や黄体）→エストロン・エストラジオール、内卵胞膜（莢膜/黄体）エストロゲン・アンドロステンジオン。エストロゲンはエストロン・エストラジオール・エストリオールなどの総称。',
+        },
+        {
+          answerImg: [],
+          answer: '1-a,2-b,4-c',
+          commentary: '前問題(1)参考',
+        },
+        {
+          answerImg: [SexRelatedSignals],
+          answer: 'A.SF1、E.SRY',
+          commentary:
+            'SF1:Steroid-genesis factor 1、セルトリ細胞とライディッヒ細胞の分化を誘導し、ライディッヒ細胞のテストステロン産生を促進する。SRY:Sex-determining region Y/Y染色体性決定領域遺伝子で、精巣発達を司り、その産物は転写因子。常染色体上の転写調節因子SOX9と協調してSF1の発現をアップレギュレートする。SF1とSOX9が共同してAMHの濃度をあげ、ミュラー管を退縮させる。逆にWNT4は卵巣決定遺伝子',
+        },
+        {
+          answerImg: [],
+          answer: 'B.SF1、C.SOX9、D.SRY',
+          commentary:
+            'SF1:Steroid-genesis factor 1、セルトリ細胞とライディッヒ細胞の分化を誘導し、ライディッヒ細胞のテストステロン産生を促進する。SRY:Sex-determining region Y/Y染色体性決定領域遺伝子で、精巣発達を司り、その産物は転写因子。常染色体上の転写調節因子SOX9と協調してSF1の発現をアップレギュレートする。SF1とSOX9が共同してAMHの濃度をあげ、ミュラー管を退縮させる。逆にWNT4は卵巣決定遺伝子',
+        },
+        {
+          answerImg: [reproductiveRidge],
+          answer: 'E.8週',
+          commentary:
+            '胚子の遺伝子的性は受精時に決定されるが、発生第7週までは生殖腺には男性または女性の形態的特徴が現れない。始原生殖細胞が第3週までに卵黄嚢壁に出現し、第5週初めに原始生殖腺に達し、第6週に生殖堤に進入し、その後生殖腺を卵巣または精巣に発達させる誘導的影響を及ぼす。',
+        },
+        {
+          answerImg: [testis],
+          answer:
+            'a.中腎細管→精巣輸出管、b.中腎管（ウォルフ管）→精管・精嚢・精巣上体、c.生殖堤間葉→ライディッヒ細胞、d.髄質索→セルトリ細胞・精細管・精巣網、e.内胚葉→前立腺',
+          commentary: '',
+        },
+        {
+          answerImg: [ovary],
+          answer:
+            '卵巣皮質索→1.一次卵胞、中腎傍管（ミュラー管）→2.子宮体・3.卵管、中腎細管（中腎管？）→4.卵巣上体、中腎管→5.ガルトナー管嚢腫、中腎傍管・内胚葉→6.膣',
+          commentary:
+            'ガルトナー管嚢腫は膣室嚢胞の約一割を占め、発生段階における中腎管=ウォルフ管の遺残から発生する。多くは小さく無症状であるが増大し症状を有することもある。膣は膣円盤を含む上部が中腎傍管由来、下部が尿生殖洞由来',
+        },
+        {
+          answerImg: [MullerianDuct],
+          answer: 'B',
+          commentary: '',
+        },
+        {
+          answerImg: [],
+          answer: '背側',
+          commentary: '右の卵巣が右側に（子宮円索は腹側を通るから）',
+        },
+        {
+          answerImg: [sexDifferentiation],
+          answer:
+            '1.AMH→中腎傍管の退縮、2.エストロゲン→卵管の分化、3.ジヒドロテストステロン→男性外生殖器の分化、4.テストステロン→精管の分化',
+          commentary: '',
+        },
+        {
+          answerImg: [testisMovement],
+          answer: 'B.12週',
+          commentary:
+            '精巣下降。正常では、精巣は12週に鼡径部に来て、28週までに鼡径管を通過し、33週までに陰嚢に到達する。卵巣も同様に導管に導かれて下降するが、導管の一部が子宮上部に付着するため、子宮円索と固有卵巣索に分かれる。',
+        },
+        {
+          answerImg: [testisMovement],
+          answer: 'F.32週',
+          commentary:
+            '精巣下降。正常では、精巣は12週に鼡径部に来て、28週までに鼡径管を通過し、33週までに陰嚢に到達する。卵巣も同様に導管に導かれて下降するが、導管の一部が子宮上部に付着するため、子宮円索と固有卵巣索に分かれる。',
+        },
+        {
+          answerImg: [testisMovement],
+          answer: 'B.壁側中胚葉',
+          commentary: '矢印は精巣鞘膜で、壁側中胚葉（体壁）由来。',
+        },
+        {
+          answerImg: [externalGenitalia],
+          answer: '陰嚢-大陰唇、陰茎-小陰唇、亀頭-陰核',
+          commentary: '',
+        },
+        {
+          answerImg: [reproductiveRidge, testis, MullerianDuct],
+          answer:
+            '1.生殖巣体細胞の発生に必要である。4.始原生殖細胞の性染色体がXX,生殖巣体細胞がXYであれば、卵形成が起きる',
+          commentary:
+            '始原生殖細胞は胎生第3週の終わりに卵黄嚢後壁に出現し、生殖腺の原基は肺内体腔に面した中間中胚葉から発生する。生殖堤で産生される因子に導かれて、始原生殖細胞は第6週には生殖堤に到達し、増殖を開始する。発生第7週までは男女の形態的特徴が現れないが、精巣は第8週以降ミュラー管抑制物質やテストステロン産生などを通して生殖管や外生殖器を男性型に誘導する。逆にこれらが無ければ生殖管・外生殖器は女性型になる。生殖巣体細胞とはセルトリ細胞もしくは顆粒層細胞などのこと（セルトリ細胞はミュラー管抑制因子を産生し中腎傍管を抑制する）。',
+        },
+        {
+          answerImg: [testisGrowing],
+          answer: '4.精巣傍体',
+          commentary:
+            '精巣輸出管は中腎細管由来、精管は中腎管由来、精原細胞は始原生殖細胞由来',
+        },
+        {
+          answerImg: [ovary],
+          answer: '3.子宮頸',
+          commentary: '',
+        },
+        {
+          answerImg: [trigonOfBladder],
+          answer: '3.射精管',
+          commentary: '上が尿管。正中臍索が尿膜管由来。',
+        },
+        {
+          answerImg: [sexDifferentiation],
+          answer:
+            '1.AMHはセルトリ細胞から分泌される。3.AMHは卵胞から分泌される。4.テストステロンは中腎管に男性生殖管への発生を促す。',
+          commentary:
+            'テストステロンを産生するのは間質のライディッヒ細胞。AMH（抗ミュラー管ホルモン）は女性の前胞状卵胞の顆粒膜細胞から分泌されるホルモンからも分泌され、卵巣予備能の診断に利用されている。',
+        },
+        {
+          answerImg: [uterusLigament],
+          answer: '1.上縁には卵管が通る。2.ダグラス窩の腹側の壁をなす',
+          commentary:
+            'ダグラス窩＝直腸子宮窩。左右中腎傍管の癒合の拡大に伴って、中腎傍管が後側体壁から離れると、腹膜ヒダを引っ張って子宮広間膜を形成する。',
+        },
+        {
+          answerImg: [testisHormone, LHFSH],
+          answer: '2.顆粒層細胞',
+          commentary:
+            'セルトリ細胞は生殖巣体細胞とよばれ、女性では顆粒層細胞が該当する。',
+        },
+        {
+          answerImg: [testisHormone, LHFSH],
+          answer: '3.卵胞膜細胞',
+          commentary:
+            'ライディッヒ細胞は、生殖堤のもとの間葉に由来し、8週までにテストステロン産生を開始する。中腎管は男性では精管・精嚢・前立腺などへと発達し、女性ではガルトナー管として残る。LHに反応しテストステロンを産生する細胞は、女性では卵胞膜細胞（莢膜細胞）が該当する。',
+        },
+        {
+          answerImg: [],
+          answer: '4.ミュラー管の癒合不全',
+          commentary: '子宮体は中腎傍管ミュラー管由来',
+        },
+        {
+          answerImg: [testisMovement],
+          answer: '鞘状突起が閉鎖せず、腸ループが陰嚢内に下降するのが原因。',
+          commentary: '',
         },
       ],
     },
