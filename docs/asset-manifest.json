@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-embryology/static/css/main.2255ca1a.css",
-    "main.js": "/anywhere-embryology/static/js/main.e9d84e02.js",
+    "main.js": "/anywhere-embryology/static/js/main.336c80f9.js",
     "static/media/220702-12.JPG": "/anywhere-embryology/static/media/220702-12.0d3413670e5999c03a99.JPG",
     "static/media/220702-11.JPG": "/anywhere-embryology/static/media/220702-11.14c47e14bb5f59ad6070.JPG",
     "static/media/220613-3.JPG": "/anywhere-embryology/static/media/220613-3.e6fe7b9a6e43eab67c2d.JPG",
@@ -140,6 +140,7 @@
     "static/media/testisHormone.png": "/anywhere-embryology/static/media/testisHormone.bf6610f276b2748ad6ea.png",
     "static/media/スクリーンショット 2022-06-21 102159.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 102159.9cc5af314e964530f9b0.png",
     "static/media/pleuropericardialFold.png": "/anywhere-embryology/static/media/pleuropericardialFold.7d7da403a024c878c300.png",
+    "static/media/auditoryOssicles.png": "/anywhere-embryology/static/media/auditoryOssicles.28907180ae3744948d5b.png",
     "static/media/tongue.png": "/anywhere-embryology/static/media/tongue.63cb81d48995a20393a2.png",
     "static/media/pharyngealNerves.png": "/anywhere-embryology/static/media/pharyngealNerves.a8525a35f687c931cb39.png",
     "static/media/trigoneOfBladder.png": "/anywhere-embryology/static/media/trigoneOfBladder.bda6b09d087003a14fdb.png",
@@ -152,6 +153,7 @@
     "static/media/semicircularCanal.png": "/anywhere-embryology/static/media/semicircularCanal.9058998a043a18ead073.png",
     "static/media/pharyngealArch.png": "/anywhere-embryology/static/media/pharyngealArch.9b917f921f304809f5c0.png",
     "static/media/スクリーンショット 2022-06-21 111245.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 111245.cb38a3c946453ebc4ab5.png",
+    "static/media/opticCup.png": "/anywhere-embryology/static/media/opticCup.4cee0bfc4ddf536c396c.png",
     "static/media/after29days.png": "/anywhere-embryology/static/media/after29days.893e540eff9b66d8f56f.png",
     "static/media/segmentationClock.png": "/anywhere-embryology/static/media/segmentationClock.26dc69509d7a5fbf9ed5.png",
     "static/media/reproductiveRidge.png": "/anywhere-embryology/static/media/reproductiveRidge.f7aabb8081f1f9bb4afd.png",
@@ -244,10 +246,10 @@
     "static/media/スクリーンショット 2022-06-21 093853.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 093853.a965de74c013861c4fcf.png",
     "index.html": "/anywhere-embryology/index.html",
     "main.2255ca1a.css.map": "/anywhere-embryology/static/css/main.2255ca1a.css.map",
-    "main.e9d84e02.js.map": "/anywhere-embryology/static/js/main.e9d84e02.js.map"
+    "main.336c80f9.js.map": "/anywhere-embryology/static/js/main.336c80f9.js.map"
   },
   "entrypoints": [
     "static/css/main.2255ca1a.css",
-    "static/js/main.e9d84e02.js"
+    "static/js/main.336c80f9.js"
   ]
 }

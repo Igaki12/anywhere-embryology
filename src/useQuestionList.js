@@ -240,7 +240,8 @@ import semicircularCanal from './img/answer/semicircularCanal.png'
 import skin from './img/answer/skin.png'
 import tooth from './img/answer/tooth.png'
 import toothRidge from './img/answer/toothRidge.png'
-// import from './img/answer/.png'
+import auditoryOssicles from './img/answer/auditoryOssicles.png'
+import opticCup from './img/answer/opticCup.png'
 // import from './img/answer/.png'
 // import from './img/answer/.png'
 
@@ -2299,234 +2300,131 @@ export const useQuestionList = () => {
           answer: '神経堤',
           commentary: '副腎皮質は中間中胚葉由来',
         },
-
-        // {
-        //   detailInfo: '6/30確認問題',
-        //   questionImg: [],
-        //   questionSentence: '',
-        //   choices: [],
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
       ],
     },
     {
       groupTag: '確認問題1 遺伝学',
       groupContents: [
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: 'D.30億塩基対',
           commentary: '',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: '1番染色体',
           commentary: '常染色体22対のうち最も小さいのは21番染色体',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: '女性',
           commentary:
             '核型は通常(46,XX)または(46,XY)と示され、性染色体を1つ欠いている場合に45,Xと示される。この状態はモノソミー/ターナー症候群と呼ばれる',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: '最も頻度の高いゲノムの個人差',
           commentary: '個人差は1%よりはるかに小さい',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: 'トランスポゾン',
           commentary:
             'ゲノムプロジェクトの進行により、ヒトやマウスのゲノムにおいて40% 以上はトランスポゾンが占めていることがわかってきた。',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: '約1.5%',
           commentary:
             'ゲノムプロジェクトの進行により、ヒトやマウスのゲノムにおいてタンパク質をコードする領域は 1% 程度であることがわかってきた。',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
           answerImg: [transcription],
           answer: 'ポリAテイル、5’キャップ',
           commentary:
             '転写過程でmRNAの5’末端にはキャップ構造が、3’末端にはポリA配列が形成される',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: '約20,000',
           commentary: '',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: '塩基除去修復、ヌクレオチド修復？',
           commentary:
             '塩基除去修復修復は小さな損傷、ヌクレオチド除去修復は比較的大きな損傷に対して作用するDNA修復機構である。相同組み換えは相同染色体間の修復、ミスマッチ修復や校正は主にDNA複製時の作用。',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: '4^6塩基対？',
           commentary:
             '4種類TACGを6塩基分繋げたときの場合の数は4^6通り→約4^6個の塩基が並んでいると1か所で切れる',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: 'C.女性。5番染色体の短腕に欠失',
           commentary:
             'del(n)/t(n):n番染色体に欠失/転座、p/q:染色体短腕/染色体長腕（部位に数字が付く）',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: 'A.1番染色体の長腕と19番染色体の短腕の間で相互転座',
           commentary:
             'ins(n)/t(n):n番染色体に挿入/転座、p/q:染色体短腕/染色体長腕（部位に数字が付く）。複数ある場合は「；」で区切る',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
           answerImg: [transcription],
           answer: '166',
           commentary:
             '2400-1800-99=501 501/3=167 終止コドンは翻訳されないので166',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: '(14,21)と(14q21q)',
           commentary:
             'rob(14;21)...ロバートソン型転座が14番染色体と21番染色体の間で生じた。14q21qは小さく失われてしまっている。この後減数分裂第2分裂があるので、(14,21)は生存可能',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: 'AとB両方多い',
           commentary:
             'rob(14;21)(q1;p1)...ロバートソン型転座が14番染色体のq1バンドと21番染色体のp1バンドで起こった。できた14q21q染色体は21番染色体由来のセントロメアをもっているので、正常21番染色体とシナプトメア複合体を形成しやすい。→正常21番染色体とは別の細胞に分配されやすい。ただし、残りの14番染色体(と14p21p)のシナプトメア複合体がどちらにどう分配されるかについては明確な差がなく、AとBの発生確率に大きな差はない。',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: 'E.+21',
           commentary: '21番染色体のトリソミー（ダウン症）47,XX',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: 'Microsatellite',
           commentary:
             'SNP:Single Nucleotide Polymorphisms, VNTR:variable number of tandem repeats(=minisatellite), indel=insertion and deletion',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: 'VNTR',
           commentary:
             '減数分裂時に相同染色体がずれやすく多型になりやすい。SNP:Single Nucleotide Polymorphisms, VNTR:variable number of tandem repeats(=minisatellite), indel=insertion and deletion',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: 'SNP',
           commentary:
             '最も一般的な多型。SNP:Single Nucleotide Polymorphisms, VNTR:variable number of tandem repeats(=minisatellite), indel=insertion and deletion',
         },
         {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: 'D.重複',
           commentary: '逆向きの重複。タンデム重複という',
         },
         {
           detailInfo: '分子生物学的手法',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: '1.9^10',
           commentary: 'DNAは指数関数的に増幅する',
         },
         {
           detailInfo: '分子生物学的手法',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: 'A',
           commentary:
             'バンドの数からEで切れるのは2か所、Hは1か所。Eで切った時の短いほうの断片がHでさらに切れていることから、Aが答えだと考察できる。',
         },
         {
           detailInfo: '分子生物学的手法',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: 'D',
           commentary: '',
         },
         {
           detailInfo: '分子生物学的手法',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: 'C',
           commentary:
             '対立遺伝子2ではプローブで検出される断片が5kbであるため。Aは対立遺伝子1の結果',
         },
         {
           detailInfo: '分子生物学的手法',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
           answer: '3',
           commentary:
             '試料3では制限部位があるため300bpと200bpに切断される。試料2は切断されておらず、Sと推測される。',
@@ -2710,24 +2608,20 @@ export const useQuestionList = () => {
       groupTag: '確認問題2 発生学序論',
       groupContents: [
         {
-          detailInfo: '',
           answer: '4.13~26週',
           commentary:
             '受精齢（発生学で用いられる数え週）で13~、月経齢（産科学など臨床医学で用いられる、満で表される）で14～',
         },
         {
-          detailInfo: '',
           answer: '4.内・中・外',
           commentary: '',
         },
         {
-          detailInfo: '',
           answer: '5.4日以降',
           commentary:
             'おおよそ受精後7日程度かけて受精卵が子宮内膜にもぐりこむ。それまでに受精卵は細胞分裂を開始し胚盤胞を形成する。',
         },
         {
-          detailInfo: '',
           answer: '羊膜腔',
           commentary: '',
         },
@@ -2743,111 +2637,92 @@ export const useQuestionList = () => {
           commentary: '卵細胞になれなかったものは極体として残る',
         },
         {
-          detailInfo: '',
           answer: 'どれも間違い',
           commentary:
             '卵祖細胞の増殖は発生5か月までで終了し、第一減数分裂前期複糸期で停止し思春期まで休眠する。およそ3周期前から卵胞の成長は始まるが、一次卵胞までは下垂体からの性腺刺激ホルモンを必要としない。（→2次卵胞以降はFSHなどに依存）',
         },
         {
-          detailInfo: '',
           answer: '出生時には第一減数分裂前期で停止している。 ',
           commentary: '思春期まで第一減数前期複糸期で停止している。',
         },
         {
-          detailInfo: '',
           answer: '2回の減数分裂で4個の精子を生ずる',
           commentary: '精子の10%は異常があるとされる。正常な運動性を欠く。',
         },
         {
-          detailInfo: '',
           answer: '作られ始めた後は生涯にわたり精細管で作られる',
           commentary: '',
         },
         {
-          detailInfo: '',
           answer: '精子細胞は第二分裂を完了している。',
           commentary:
             '卵子の第2分裂が完了するのは受精後である。1次精母細胞→2次精母細胞が第1減数分裂。極体は基本的には減数分裂しない（なので成熟卵母細胞には極体が最大2個）',
         },
         {
-          detailInfo: '',
           answer: '一次精母細胞、二次精母細胞',
           commentary:
             '～一次精母細胞までは体細胞分裂、1次精母細胞→2次精母細胞→精子細胞が減数分裂2回、それ以降は分裂しない。',
         },
         {
-          detailInfo: '',
           answer: 'Primary spermatocytes,Secondary spermatocytes',
           commentary: 'meiotic:減数分裂の、または減数分裂に関する。',
         },
         {
-          detailInfo: '',
           answer: '一次卵母細胞、二次卵母細胞',
           commentary:
             '出生までに全て一次卵母細胞に分化し第一減数分裂前期複糸期で停止、思春期以降各卵巣周期ごとに10個ほどの卵胞が減数分裂を再開し二次卵母細胞（+一次極体）へ。第二減数分裂中期で再び停止し、受精後まで完了しない。',
         },
         {
-          detailInfo: '',
           answer: 'Primary oocyte,Secondary oocyte',
           commentary: '',
         },
         {
-          detailInfo: '',
           answer: '二次卵母細胞と第一極体、受精卵と第二極体',
           commentary:
             '二次卵母細胞は第二減数分裂できる細胞のことで、第二極体はそれによってできる副産物',
         },
 
         {
-          detailInfo: '',
           answer:
             'Secondary oocyte & First polar body,Fertilized oocyte & Second polar bodies',
           commentary: '',
         },
         {
-          detailInfo: '',
           answer:
             '一次卵胞と立方上皮の顆粒層細胞、胞状卵胞と立方上皮の顆粒層細胞、胞状卵胞と卵丘細胞',
           commentary:
             '原始卵胞は卵母細胞+卵胞上皮細胞、一次卵胞は一次卵母細胞+透明帯+卵胞上皮細胞、二次卵胞は一次卵母細胞+顆粒層細胞+卵胞腔など。卵丘が見え始めるのは成熟卵胞（二次卵母細胞）以降。原始卵胞が成長を始めると、卵胞上皮細胞は立方形に変化し、増殖して数層になる（→顆粒層細胞）',
         },
         {
-          detailInfo: '',
           answer: '一次卵胞',
           commentary:
             '卵胞上皮細胞が分泌するムコ多糖類によって一次卵母細胞と卵胞上皮細胞との間に透明帯が形成され始める。卵母細胞を保護するはたらきがある。',
         },
         {
-          detailInfo: '',
           answer: 'Primary follicle',
           commentary: '',
         },
         {
-          detailInfo: '',
           answer:
             'ライディッヒ細胞がテストステロンを産生する。 / 内卵胞膜がテストステロンを産生する。 / 顆粒層細胞がβエストラジオールを産生する。',
           commentary:
             'ライディッヒ細胞はコレステロールからテストステロンを産生する。顆粒層細胞はテストステロンからエストラジオール（エストロゲン）を産生する。莢膜細胞（内卵胞膜）はそのテストステロンを産生する',
         },
         {
-          detailInfo: '',
           answer: '準備中',
           commentary: '',
         },
         {
-          detailInfo: '',
           answer: '一次卵母細胞と複糸期',
           commentary:
             '第一減数分裂前期複糸期の状態で思春期まで停止状態となる。思春期以降卵巣周期ごとに再開し、第二減数分裂中期で再び停止し排卵される。',
         },
         {
-          detailInfo: '',
           answer: '二次卵母細胞。二次精母細胞',
           commentary:
             '第二減数分裂中期まで子宮ですすみ、その後排卵され受精後第二減数分裂が完了する。',
         },
         {
-          detailInfo: '',
           answer: 'Secondary oocytes,Secondary spermatocytes',
           commentary: '',
         },
@@ -2857,186 +2732,155 @@ export const useQuestionList = () => {
       groupTag: '確認問題3 発生第一週',
       groupContents: [
         {
-          detailInfo: '',
           answer: 'エストロゲン,プロゲステロン',
           commentary: 'FSH,LHは性腺刺激ホルモン',
         },
         {
-          detailInfo: '',
           answerImg: [menstrualCycle],
           answer: 'エストロゲン,LH,FSH',
           commentary:
             'エストラジオールの血中濃度が200~300pg/mL以上の値が24~36時間以上続くと、視床下部に対する正のフィードバック調節がはたらき、GnRHの大量放出→LHの大量放出（LHサージ）が起こる。',
         },
         {
-          detailInfo: '',
           answer: 'エストロゲン・プロゲステロン',
           commentary:
             'ヒト絨毛性ゴナドトロピンhCGは胚子栄養膜から分泌され、受精卵の着床を伝達し黄体維持を誘導する。エストロゲンは内卵胞膜細胞・顆粒層細胞が産生し、排卵後は黄体が産生する。プロゲステロンは月経後半分泌期を中心に黄体から分泌され、妊娠の維持を誘導する。',
         },
         {
-          detailInfo: '',
           answer: 'hCG',
           commentary:
             'ヒト絨毛性ゴナドトロピンhCGは胚子栄養膜から分泌され、受精卵の着床を黄体に伝える。',
         },
         {
-          detailInfo: '',
           answer:
             'テストステロンを産生する / 排卵後は黄体の一部を形成する / 黄体ではプロゲステロンを産生する。 / 卵胞形成期には立方上皮になる',
           commentary:
             '内卵胞膜細胞は顆粒層細胞の外側で卵胞膜（一次卵胞）が厚くなって形成される。莢膜細胞とも呼ばれ、コレステロール→テストステロンを産生する。排卵後は卵胞膜黄体細胞として、顆粒層細胞とともにプロゲステロン・エストロゲンを産生する。',
         },
         {
-          detailInfo: '',
           answer: '20個？',
           commentary:
             '思春期以降、各卵巣周期ごとに10個程度の卵胞が成長段階に入り、このうち1個の主席卵胞以外は成長が止まり卵胞閉鎖に至る。原始卵胞自体は思春期で約20～30万個（出生時には200万）あり、このうち排卵に至るのは400~500個という考えから、1個あたり約400~500個 or 4000~5000個が閉鎖卵胞に至るという考え方もできる？',
         },
         {
-          detailInfo: '',
           answer: '染色体異常',
           commentary:
             '卵母細胞は比較的染色体異常を起こしやすく、自然流産の40~50%は染色体異常が原因。',
         },
         {
-          detailInfo: '',
           answerImg: [menstrualCycle],
           answer: '28時間,38時間',
           commentary:
             'サージの立ち上がりから24~36時間後、LH分泌のピークからは18~24時間後に排卵がおこるとされる【正常構造・生殖器】発生学スライドでは38時間で排卵と記載【おそらくラングマン】',
         },
         {
-          detailInfo: '',
           answer: '24時間',
           commentary:
             '排卵後、卵母細胞と卵丘細胞の複合体は卵管采によってかきとられ、卵管膨大部にて24時間受精を待つ。',
         },
         {
-          detailInfo: '',
           answer: '3時間',
           commentary:
             'LH(FSH)サージから20時間後までに第一減数分裂中期に進み、35時間後までに第二減数分裂中期で停止（減数分裂が完了するのは受精後）、38時間後に排卵',
         },
         {
-          detailInfo: '',
           answer: 'B.第一減数分裂の再開',
           commentary:
             '卵核胞は卵母細胞が成熟分裂を開始する前に見られる核で、未成熟卵の指標となる。LH/FSHサージの15時間後に崩壊し第一減数分裂を再開する',
         },
         {
-          detailInfo: '',
           answer: '月経周期の第2週の終わり',
           answerImg: [menstrualCycle],
           commentary: '',
         },
         {
-          detailInfo: '',
           answer: 'LHサージの約40時間後',
           commentary:
             'LH/FSHサージの20時間後に第一減数分裂を再開し、35時間後までに第二減数分裂で休止する。38時間後に排卵が行われる。',
         },
         {
-          detailInfo: '',
           answer: 'A.1-a / F.2-c / H.2-a',
           commentary:
             '顆粒層黄体細胞は顆粒層細胞由来、卵胞膜黄体細胞は内卵胞膜/莢膜細胞由来で、ともに排卵後は黄体としてプロゲステロン・エストロゲンを持続的に産生する。プロゲステロン=黄体ホルモン、エストロゲン=卵胞ホルモンで、厳密にはプロゲステロンは両方で、エストロゲンは卵胞膜黄体細胞で主に産生される。',
         },
         {
-          detailInfo: '',
           answer: 'プロゲステロン / エストロゲン / アンドロステンジオン？',
           commentary:
             '矢印の組織の内側に見える淡色で細胞密度が低い組織が顆粒層黄体細胞に見える。よって矢印の細胞は卵胞膜黄体細胞と思われる。卵胞膜黄体細胞は黄体ホルモン（プロゲステロン）・卵胞ホルモン（エストロゲン）を産生する。卵胞刺激ホルモンFSHは下垂体から分泌される上位のホルモン。アンドロステンジオンはテストステロンやエストロゲンの前駆体で、おそらく内卵胞膜や卵胞膜黄体細胞でも産生される',
         },
         {
-          detailInfo: '',
           answer: 'プロゲステロン',
           commentary:
             '矢印の組織は細胞密度が低く淡色な顆粒層黄体細胞。黄体ホルモン（プロゲステロン）を主に産生する。顆粒層細胞（卵胞上皮細胞）由来。',
         },
         {
-          detailInfo: '',
           answer: '絨毛性ゴナドトロピン',
           commentary: '胎盤の栄養膜合胞体層で、着床後hCGを分泌する',
         },
         {
-          detailInfo: '',
           answer: 'A.1-a / F.2-c / H.2-a',
           commentary:
             'Granulosa lutein cells -> Progesterone | Theca lutein cells -> Progesterone,Estrogen',
         },
         {
-          detailInfo: '',
           answer: '3.卵管膨大部',
           commentary: '',
         },
 
         {
-          detailInfo: '',
           answer: 'B',
           commentary:
             'In Vitro Fertilization:体外受精 in vitro:試験管内で　人工授精はAIH/Artificial Insemination of Husband',
         },
         {
-          detailInfo: '',
           answer: 'C.ZP3',
           commentary:
             '先体反応は卵子透明帯の成分ZP3と精子表面のタンパク質SED1の結合を介して起こる。',
         },
         {
-          detailInfo: '',
           answer: '精母細胞の第二減数分裂',
           commentary: '胎児の性は精子の持つ性染色体によって決定される',
         },
         {
-          detailInfo: '',
           answer: '4.6日',
           commentary: '排卵後1日以内に受精、受精後約6日で着床初期',
         },
         {
-          detailInfo: '',
           answer: '8日以上',
           commentary:
             '妊娠が起こらなければ、排卵後14日目には黄体は退縮して結合組織に置き換わり白体になる。',
         },
         {
-          detailInfo: '',
           answer: '5日',
           commentary:
             '受精後約3日で桑実胚となり（子宮腔に達する）、受精後約4.5日で初期胚盤胞となり、透明帯が消失する。',
         },
         {
-          detailInfo: '',
           answer: '3.胚盤胞',
           commentary:
             '受精後約3日で桑実胚となり（子宮腔に達する）、受精後約4.5日で初期胚盤胞となり、透明帯が消失する。',
         },
         {
-          detailInfo: '',
           answer: '8細胞期',
           commentary:
             '8細胞期の初めに、外側の割球が隣の割球と固く接着するようになる。',
         },
         {
-          detailInfo: '',
           answer: 'C.栄養膜細胞層',
           commentary:
             'ラングハンス細胞とも。胚盤胞外側の細胞は主に胎盤に分化していく。',
         },
         {
-          detailInfo: '',
           answer: 'A.生殖細胞？',
           commentary:
             '霊長類の始原生殖細胞の起源は、初期の羊膜芽細胞だと考えられている。矢印の内細胞塊はやがて羊膜腔や二層性胚盤を形成する。尿膜や卵黄嚢は羊膜腔の反対側、胚盤葉下層の扁平な細胞から分化する。胚体外腔膜はさらにその外側。',
         },
         {
-          detailInfo: '',
           answer: '内腔',
           commentary:
             '8細胞期初めにコンパクションにより外側の割球がとなりの割球と固く接着するようになり、胚の内側・外側の概念が生じる。',
         },
         {
-          detailInfo: '',
           answer: 'C.3',
           commentary: '',
         },
@@ -3056,71 +2900,59 @@ export const useQuestionList = () => {
       groupTag: '確認問題4 発生第二週',
       groupContents: [
         {
-          detailInfo: '',
           answer: '3.卵管膨大部',
           commentary: '',
         },
         {
-          detailInfo: '',
           answer: '5.子宮腔',
           commentary:
             '受精後4.5日～5日目。初期胚盤胞期に透明帯が消失し、着床（受精後6日）への準備が進む。',
         },
         {
-          detailInfo: '',
           answer: '6.この中にはない（胚盤胞）',
           commentary:
             '受精卵→→8細胞期→桑実胚(16~32細胞期)→胚盤胞→原腸胚で、厳密には胚盤胞と原腸胚の間といわれている（授業中解説）',
         },
         {
-          detailInfo: '',
           answer: 'B.胚盤葉上層',
           answerImg: [bilaminar],
           commentary: '',
         },
         {
-          detailInfo: '',
           answer:
             '1.一次絨毛　2.栄養膜裂孔　3.付着茎　4.羊膜腔　5.二次卵黄嚢　6.胚外壁側中胚葉　7.胚外体腔　8.胚盤葉下層　9.胚盤葉上層　10.栄養膜合胞体層　11.栄養膜細胞層',
           answerImg: [bilaminar],
           commentary: '',
         },
         {
-          detailInfo: '',
           answer: 'E.脱落膜',
           commentary:
             'Bが栄養膜細胞層、Dが栄養膜合胞体層。Cはその境の栄養膜裂孔？と推定',
         },
         {
-          detailInfo: '',
           answer: '21日目',
           commentary: '絨毛に血管が侵入するのは三次絨毛以降',
         },
         {
-          detailInfo: '',
           answer: 'F',
           commentary: '2は栄養膜細胞層',
         },
         {
-          detailInfo: '',
           answer: '準備中（A,D,E？）',
           commentary:
             '早期の胎盤発生には父親由来の遺伝子が、胚発生には母親由来の遺伝子が重要（遺伝子コンフリクト仮説）。単為発生細胞は生殖細胞、脳、心、腎、脾などで高い寄与率を示すが、骨格筋、肝、膵には分化できない。',
         },
         {
-          detailInfo: '',
           answer: 'A,C,F',
           commentary:
             '胞状奇胎では、胚子組織がほとんど/まったく存在しない。完全胞状奇胎の場合は2倍体であっても遺伝子が全て父親由来で、部分胞状奇胎であっても3倍体のうち2セットは父親由来。インプリント領域は1%よりもっと少ない。',
         },
         {
-          detailInfo: '',
           answer: '栄養膜細胞層と栄養膜合胞体層の形成過程を解説せよ。',
           commentary:
             '胚盤胞の外細胞塊が2層の栄養膜に分化する。栄養膜細胞層は内側で単核細胞で、有糸分裂を行い一部は栄養膜合胞体層に分化する。妊娠後期になると数を減らし層構造を保てなくなる。栄養膜合胞体層は外側で多核細胞層で有糸分裂しない。栄養膜裂孔を生じ母体血を流入させることで胎盤構造を形成する。',
         },
         {
-          detailInfo: '',
           answer: '羊膜芽と羊膜の形成過程を説明せよ。',
           commentary:
             '二層性胚盤の上層に空間が生じ、外側（栄養膜側）が羊膜芽細胞・内側が胚盤葉上層に分化する。発生に伴って空間は広がり、羊膜腔（羊膜）と呼ばれるようになる。三層性胚盤以降もこの羊膜芽細胞と胚盤葉（外胚葉）に囲まれた羊膜の構造は変わらず成長を続け、最終的に外胚葉が胎児を1周囲むのに伴って羊膜腔が完全に胎児の外側を取り囲み、絨毛膜と癒合して羊膜絨毛膜を形成する。',
@@ -3141,13 +2973,11 @@ export const useQuestionList = () => {
       groupTag: '確認問題5 発生第三週',
       groupContents: [
         {
-          detailInfo: '',
           answer: '1.原始線条　2.原始結節3.脊索突起4.脊索前板',
           answerImg: [week3],
           commentary: '',
         },
         {
-          detailInfo: '',
           answerImg: [week3],
           answer:
             '1.神経板　2.羊膜　3.卵黄嚢壁　4.口咽頭膜　5.脊索突起　6.排泄腔膜　7.尿膜　8.神経腸管',
@@ -3155,81 +2985,68 @@ export const useQuestionList = () => {
             '原始線条部分では上皮間葉転換EMTを起こして内胚葉をもつ三層性胚盤を形成する。原始窩は内胚葉正中部分を進み（神経腸管）、脊索管（脊索ではない）を形成する。　口咽頭膜・排泄腔膜は外胚葉と内胚葉が直接接している点で重要。付着茎（→臍帯）への内胚葉の突出は尿膜へ分化する。',
         },
         {
-          detailInfo: '',
           answerImg: [week3],
           answer: '1.脊索板　2.中胚葉（胚内中胚葉）　3.内胚葉　4.脊索',
           commentary:
             '（脊索板→）脊索は内胚葉が正中で入り込んでできた索状の構造で、その後の体節形成誘導に重要な役割を果たす。ラングマンp66',
         },
         {
-          detailInfo: '',
           answer: '中胚葉',
           commentary: '胚内中胚葉。発生三週目には三層性胚盤が形成されている。',
         },
         {
-          detailInfo: '',
           answerImg: [gastrulation],
           answer: '陥入中の中胚葉細胞',
           commentary:
             '尾側正中の原始線条部分で外胚葉が一部内部へ陥入し中胚葉を形成する。',
         },
         {
-          detailInfo: '',
           answerImg: [week3],
           answer: '脊索板はD（Fは脊索管？）',
           commentary:
             '脊索突起の内部に脊索間という細長い内腔が形成され、その腹側壁が消失して脊索板が形成される。つまり脊索板自体は中胚葉由来の脊索管の背側の壁。Dは腹側壁消失後で脊索板が形成されており（神経腸管とも考えられる）、Fは形成前の脊索管、Eは内胚葉。',
         },
         {
-          detailInfo: '',
           answer: '内部細胞塊',
           commentary: 'ES細胞は直接胎盤には分化しない。',
         },
         {
-          detailInfo: '',
           answer: '2.骨格筋　3.脊椎　4.心臓　5.生殖細胞',
           commentary:
             '原始線条は中胚葉に変化する。最初に陥入した中胚葉が最も頭側の心臓中胚葉に、遅れて陥入した中胚葉は側板中胚葉・中間中胚葉（→生殖細胞など）・沿軸中胚葉（→骨格筋・脊椎など）を形成する。',
         },
         {
-          detailInfo: '',
           answerImg: [gastrulation],
           answer:
             '上皮は互いに密接に連結し、基本的に体表を覆い、外胚葉・内胚葉由来。間葉は、互いの連結が弱く、それぞれ個別のユニットとして機能し、基本的に中胚葉か神経堤に由来する。',
           commentary: '上皮→間葉を上皮間葉転換という。',
         },
         {
-          detailInfo: '',
           answer:
             'B.Mesoderm formation, D.Neural crest formation, F.Cancer invasion',
           commentary: '上皮間葉転換:EMT',
         },
         {
-          detailInfo: '',
           answer: '前後軸→背腹軸→左右軸→内外軸',
           commentary:
             'まず前後軸がAVEによって決定され、次に背腹軸がBMPによって、左右軸が線毛の回転運動を利用して決定される。その後、内外軸→遠近軸の流れで決定される。',
         },
         {
-          detailInfo: '',
           answer: 'D.左右軸の決定',
           answerImg: [LRaxis],
           commentary:
             'NVP:nodal vesicular parcelによる濃度勾配が左右軸を決定する。線毛病は内臓逆位・慢性副鼻腔炎・不妊症などを併発し、Kartagener症候群などと呼ばれる。',
         },
         {
-          detailInfo: '',
           answer: '準備中',
           commentary: '',
         },
         {
-          detailInfo: '',
           answer: 'A.Nodalの抑制',
           commentary:
             'AVE:前方内臓性内胚葉。AVEはシグナル因子Cerberus,Lefty1を発現し、原始結節からのシグナル因子Nodalのけっせうを抑制することで、胚の頭端を確立する。尾側ではAVEからのNodal抑制シグナルが届かないので、頭側化が起きず、原始線条が形成される。',
         },
         {
-          detailInfo: '',
           answerImg: [LRaxis],
           answer: 'A B D F G ',
           commentary:
@@ -3241,27 +3058,23 @@ export const useQuestionList = () => {
       groupTag: '確認問題6 胚子期',
       groupContents: [
         {
-          detailInfo: '',
           answerImg: [after25days],
           answer: '体節 / 口咽頭膜 / 排泄腔膜 / 卵黄腸管',
           commentary:
             '断面の頭部に神経菅構造は存在するが、体節構造は存在しない。口咽頭膜はのちに口腔の開口部を構成する部分で、断面より頭側。排泄腔膜はのちに肛門を構成する部分で、尾側。卵黄腸管は中腸と卵黄嚢を連絡する部分（→憩室）で、断面より尾側。',
         },
         {
-          detailInfo: '',
           answer: '5.膵頭',
           commentary:
             '副腎髄質への交感神経には節後線維が存在せず、副腎髄質が節後線維とよく似た発生・役割を担う。膵島は内胚葉由来',
         },
         {
-          detailInfo: '',
           answerImg: [after25days],
           answer:
             '1.前神経孔　2.第1,2咽頭弓　3.後神経孔　4.卵黄嚢　5.付着茎（尿膜）',
           commentary: '発生25日胚では神経管の形成が終わっていない。',
         },
         {
-          detailInfo: '',
           answerImg: [after21days],
           answer:
             '1.中間中胚葉　2.羊膜　3.肺内体腔　4.臓側中胚葉　5.内胚葉　6.脊索　7.沿軸中胚葉　8.神経菅',
@@ -3269,7 +3082,6 @@ export const useQuestionList = () => {
             '側板中胚葉→壁側・臓側中胚葉へ分化。背側と腹側から胚内体腔を包み、胸腔・腹腔などを形成する',
         },
         {
-          detailInfo: '',
           answerImg: [segment],
           answer:
             '1.体幹の真皮　2.上肢の骨格筋　3.肋骨　4.この中にはない　5.脊髄',
@@ -3277,89 +3089,75 @@ export const useQuestionList = () => {
             '1.皮板　2.筋板　3.椎板　4.脊索　5.神経菅　沿軸中胚葉→皮板・筋板・椎板　胸骨は側板中胚葉由来',
         },
         {
-          detailInfo: '',
           answerImg: [after21days],
           answer: 'C.沿軸中胚葉',
           commentary:
             '左右で切れ方が異なっているが、最も正中のものから順に（神経ヒダ→）沿軸→中間→側板中胚葉。',
         },
         {
-          detailInfo: '',
           answer: 'E.気管軟骨',
           commentary:
             '矢印部分は側板中胚葉。神経堤→メラノサイト、沿軸中胚葉など→骨格筋（筋板）・椎骨（椎板）、内胚葉→食道→肺芽→肺胞上皮。一方で胸腔や気管軟骨は肺を囲む（臓側）側板中胚葉由来',
         },
         {
-          detailInfo: '',
           answerImg: [after21days],
           answer: 'D.子宮',
           commentary:
             '矢印部分は中間中胚葉。神経堤→メラノサイト、沿軸中胚葉など→骨格筋、内胚葉→食道→肺芽→肺胞上皮、（臓側）側板中胚葉→気管軟骨。子宮は中間中胚葉→中腎傍管→子宮・卵管だが、膣前庭は後腸尿生殖洞（内胚葉）由来',
         },
         {
-          detailInfo: '',
           answer: 'B',
           commentary:
             '断面上が背側。A.神経菅　C.外胚葉　D.中間？中胚葉　E.内胚葉',
         },
         {
-          detailInfo: '',
           answerImg: [after29days],
           answer: 'D',
           commentary:
             'A.神経管の内部　B.沿軸中胚葉　C.間葉組織　E.静脈洞　F.卵黄嚢　断面より少し尾側の断面図（上の図）ではDは外側の羊膜腔と繋がっており、Dのような側板中胚葉の環状構造が外側から切れて肺内体腔へと形成されるいく途中経過を見ることができる。',
         },
         {
-          detailInfo: '',
           answer: 'CとD',
           commentary:
             'Anterior側から第2・第3咽頭弓と推測できる。第一咽頭弓は断面では見えない。',
         },
         {
-          detailInfo: '',
           answer: 'E.40対以上',
           commentary:
             '発生21日に4~7対だった体節は発生が進むにつれて数を増し、最終的に42～44対形成される。発生の早期には体節の数で発生時期を決定することができる。',
         },
         {
-          detailInfo: '',
           answerImg: [skull],
           answer: 'C.頭頂骨　D.頚椎　E.上腕骨',
           commentary: '',
         },
         {
-          detailInfo: '',
           answer: 'A.葉酸',
           commentary: '多因子性だが、葉酸欠乏が有意な因子。',
         },
         {
-          detailInfo: '',
           answerImg: [segmentationClock],
           answer: 'レチノイン酸とFGF8とWnt3a',
           commentary:
             '表皮外胚葉からのWNT,BMPが外胚葉（神経管）の背側化を誘導。脊索からのSHHが外胚葉（神経管）の腹側化を誘導、体節からのFGFが前後のパターン形成に寄与。各体節の境界はレチノイン酸（頭側で高濃度）、FGF8,Wnt3a（尾側で高濃度）の濃度勾配の組み合わせで制御される。',
         },
         {
-          detailInfo: '',
           answer: 'C',
           commentary:
             '卵黄嚢で造血細胞が出現するのは発生16~18日、第一・第二咽頭弓が出現するのは発生22~23日、眼胞形成は発生24~25日。後神経孔が閉鎖するのが発生26～27日。最終的に42~44対となる体節が、ある程度（30～35対）形成完了するのが発生28~30日後。手足に指放線が出現するのは発生36~42日。全体として循環器や神経は比較的早期に完成し、呼吸器や四肢は比較的出産直前まで成長が続く。',
         },
         {
-          detailInfo: '',
           answer:
             '感覚器や神経節を作る外胚葉の肥厚部。例えば鼻板・耳板・水晶体板。咽頭弓上プラコードがある。',
           commentary:
             '外胚葉の肥厚から頭部の特殊な部位（鼻・耳・水晶体など）が形成される。',
         },
         {
-          detailInfo: '',
           answer:
             '外胚葉の正中部に神経管が形成される際に、陥没した神経ヒダの稜線に神経堤が形成される。神経管が形成されると神経堤細胞は他の地域に遊走して、副腎髄質やメラノサイト、頭蓋骨の一部など様々な部分を形成する。',
           commentary: '',
         },
         {
-          detailInfo: '',
           answerImg: [embryoStageRisk],
           answer:
             '胚子期には神経・頭部など特に重要な出来事が次々に起こるため、先天異常リスクが最も高い。しかしながら、母親がまだ妊娠に気づいていない場合も多い。',
@@ -3371,7 +3169,6 @@ export const useQuestionList = () => {
       groupTag: '確認問題7 腸管と体腔',
       groupContents: [
         {
-          detailInfo: '',
           answerImg: [diaphragm],
           answer:
             '2.食道間膜が横隔膜に寄与する。4.体壁と腸管をつなぐことで腸管を腹腔内に吊り下げる。5.腸管の左右を包んだ二枚の腹膜が重なって形成される。',
@@ -3379,7 +3176,6 @@ export const useQuestionList = () => {
             '背側腸間膜dorsal mesenteryは臓側中胚葉由来で壁側中胚葉と繋がる。前腸の尾側端から後腸の終わりまで続く。横隔膜は横中隔+胸腹膜ヒダ+食道間膜（+体壁からの取り込み）で形成される。体壁から連続しているが体壁に寄与するとはいえない。腸間膜は腸管を腹腔内で固定するのに寄与していて、腸管への血管・神経などは二重構造の腸間膜の間を通過する。',
         },
         {
-          detailInfo: '',
           answerImg: [after4weeks],
           answer:
             '2.形成時に絨毛膜腔に交通する。5.中胚葉性の上皮（壁側中胚葉・臓側中胚葉）に取り囲まれる',
@@ -3387,28 +3183,24 @@ export const useQuestionList = () => {
             '羊膜腔が接するのは外胚葉。絨毛膜腔は妊娠後期に羊膜腔と融合する、さらに外側の胚外体腔で、腸管形成時に交通がある。卵黄嚢（内胚葉）は臓側中胚葉に包まれ胚内体腔との交通はない。胚内体腔は臓側中胚葉と壁側中胚葉が繋がってできる空間である。',
         },
         {
-          detailInfo: '',
           answerImg: [after29days],
           answer: '2.側板中胚葉',
           commentary:
             '1.羊膜　3.背側大動脈？　4.卵黄嚢　5.脊索　胸腔は側板中胚葉由来の壁側中胚葉と臓側中胚葉に囲まれて形成される。図のように環状構造の外側が胚外体腔に開くことで臓側・壁側中胚葉に分化していく。',
         },
         {
-          detailInfo: '',
           answerImg: [after21days],
           answer: 'D.側板中胚葉',
           commentary:
             'A.羊膜　B.神経管　C.中間中胚葉　D.側板中胚葉　E.胚外中胚葉　F.卵黄嚢　G.脊索か卵黄嚢　側板中胚葉の細胞間隙が、臓側・壁側中胚葉へ分化していく。',
         },
         {
-          detailInfo: '',
           answerImg: [after4weeks],
           answer: 'D.側板中胚葉の細胞間隙',
           commentary:
             'A.神経管　B.羊膜　C.沿軸中胚葉　E.大動脈か間葉組織　F.卵黄嚢（→腸管）　側板中胚葉の細胞間隙→臓側・壁側中胚葉に分化してそれが再び腹側で癒合することで胸腔や腹腔が形成される。',
         },
         {
-          detailInfo: '',
           answerImg: [diaphragm],
           answer:
             '2.はじめは心臓より前方に形成される。3.臓側中胚葉由来である。4.横隔膜の一部を形成する。',
@@ -3416,94 +3208,80 @@ export const useQuestionList = () => {
             '横中隔は発生三週の終わり～4週にかけて発生し、心臓を囲む臓側中胚葉由来で（はじめ、肺の頭側端に形成される）、胎児の頭屈に伴って、原始胸膜腔と原始腹膜腔の間に位置するようになる。横中隔の中で肝細胞索（内胚葉由来）が発達する。横中隔から横隔膜の腱中心・肝臓の結合組織・腹側腸間膜が生じる。',
         },
         {
-          detailInfo: '',
           answerImg: [heartCavity],
           answer: 'E',
           commentary: 'A.外胚葉　B.沿軸中胚葉　C.脊索？　D.前腸？',
         },
         {
-          detailInfo: '',
           answerImg: [heartCavity],
           answer: 'C.前腸',
           commentary:
             '腹側に心臓、背側に中胚葉などで囲まれた空間なので内胚葉由来の前腸と推測される。心筒や心筋細胞は左右臓側中胚葉が正中で繋がって起こるので、それより背側の部分は内胚葉（複数ある場合は胚内体腔=壁側・臓側中胚葉）',
         },
         {
-          detailInfo: '',
           answerImg: [diaphragm, pericardioperitonealCanal],
           answer:
             '横中隔より背側に存在する、横中隔によって仕切られた胸腔と腹腔を連絡する管状の通り道。発生に伴って主に胸心膜ヒダにより完全に閉じられる（横隔膜/7週ごろ）',
           commentary: '',
         },
         {
-          detailInfo: '',
           answerImg: [after30days],
           answer: 'L.横中隔septum transversum',
           commentary:
             '横中隔のすぐ背側にある左右1対の空間は静脈群で、その背側の左右1対の空間が心腹膜管peritoneal cavity。中央細長い環状構造は腸管だろう。',
         },
         {
-          detailInfo: '',
           answerImg: [after30days],
           answer: 'F.心腹膜管peritoneal cavity',
           commentary: '',
         },
         {
-          detailInfo: '',
           answerImg: [after30days],
           answer: 'C.中腸',
           commentary: '内胚葉由来',
         },
         {
-          detailInfo: '',
           answerImg: [growingLung],
           answer:
             '1.胸膜腔　2.肺芽　3.臓側中胚葉（臓側胸膜）　4.心膜腔　5.心膜',
           commentary: '',
         },
         {
-          detailInfo: '',
           answerImg: [growingLung],
           answer: 'E.横隔神経',
           commentary:
             '横隔神経は頚神経叢から出て心膜や横隔膜を支配する。成人では心臓のすぐ側面を通過する',
         },
         {
-          detailInfo: '',
           answerImg: [growingLung, pleuropericardialFold],
           answer: '',
           commentary:
             '1)心腹膜管をふさぐ胸腹膜ヒダも発生5週ごろに形成される（胸腔・腹腔・心膜腔の分離がほぼ同時に起こる）。2)胸心膜ヒダは原始心膜腔を腹側と背側に（心膜腔と胸腔に）分割する。3)胸心膜ヒダの癒合によって胸膜の左右分割も同時に行われる。4)肺芽は中胚葉（前腸）由来、肺や気管支を囲む軟骨・筋・結合組織は臓側中胚葉由来で、肺芽は前腸内胚葉より腹側（～両側）に形成される。5)胸心膜ヒダには総主静脈や横隔神経が通過する',
         },
         {
-          detailInfo: '',
           answerImg: [diaphragm],
           answer: '1.心腹膜管を閉じる　4.横隔膜の一部になる。　5.筋性である。',
           commentary:
             '胸心膜ヒダが心膜腔と胸腔を分割（+胸膜を左右分割）し、胸腹膜ヒダが胸腔と腹腔を分割（=心腹膜管を閉鎖）する。ともに体壁の壁側中胚葉由来の上皮が左右から伸びてきて形成されるヒダ構造だが、胸腹膜はのちにC3~C5由来の筋が細胞が侵入し横隔膜の筋性部を形成する（～発生第7週）。',
         },
         {
-          detailInfo: '',
           answer:
             'カントレル五徴症とは、1)正中腹壁欠損、2)前横隔膜ヘルニア、3)胸骨裂、4)心周囲異常、5)心室中隔欠損　の5つで構成され、腹側体壁欠損が原因。',
           commentary: '',
         },
         {
-          detailInfo: '',
           answer:
             '臍帯ヘルニアでは飛び出した腸が膜状の袋（臍帯の一部）に包まれているが、腹壁破裂では腸は体壁に空いた孔から突出している。',
           commentary:
             '臍帯ヘルニアは腸管再構成時の腸管の生理的脱出に伴うもので、飛び出た腸管が臍帯に包まれているが、腹壁破裂は臍帯より体壁の形成がうまくいかないことに起因するので、膜状の袋に包まれていない。カントレル五徴症は5つの特徴的な症状で構成される',
         },
         {
-          detailInfo: '',
           answer:
             '腹部臓器が胸膜腔に脱出することで、心臓・肺が押しやられ発育不全になり、肺の低形成や機能不全に至ると死亡率が高くなる。',
           commentary:
             '先天性横隔膜ヘルニアは心腹膜管の閉鎖不全（胸腹膜の形成不全）で、陰圧側の肺部分へ腹部臓器が脱出する異常。ほとんどの場合で心臓のある左側に起こる。',
         },
         {
-          detailInfo: '',
           answerImg: [diaphragm],
           answer:
             '1.胸腹膜ヒダ　2.食道間膜　3.横中隔　4.体壁からの筋の内方成長',
@@ -3515,35 +3293,30 @@ export const useQuestionList = () => {
       groupTag: '確認問題8 胎児と胎盤',
       groupContents: [
         {
-          detailInfo: '',
           answerImg: [placentalBarrier],
           answer: '4.絨毛膜板には胎児側の血管が通っている。',
           commentary:
             '1）胎盤関門は、初期は栄養膜合胞体層・細胞層・結合組織・血管内皮細胞で構成されるが、最終的には栄養膜合胞体層・血管内皮細胞のみで構成されるようになる。2）胎盤関門はIgGを通し、出生後半年間胎児の免疫を支える。3）絨毛膜板には胎児側の血管が通り、4）絨毛間腔内に母体側らせん動脈が開口する。',
         },
         {
-          detailInfo: '',
           answerImg: [placentalBarrier],
           answer: 'B.胎児側赤血球',
           commentary:
             '濃い合胞体の層が絨毛最外層の栄養膜合胞体層で、これより外側が母体血の循環する絨毛管腔となる。ラングハンス細胞は栄養膜細胞層と呼ばれ、栄養膜合胞体層の内側で細胞分裂を行っている。',
         },
         {
-          detailInfo: '',
           answerImg: [placentalBarrier],
           answer: 'D.ラングハンス細胞',
           commentary:
             'ランゲルハンス細胞は核を伸ばしたような形の樹状細胞のひとつで、皮膚など外界と接する部位に存在しており、免疫システムの重要な役割を担当している。',
         },
         {
-          detailInfo: '',
           answerImg: [placentalBarrier],
           answer: 'A.母体側赤血球',
           commentary:
             '濃い合胞体の層が絨毛最外層の栄養膜合胞体層で、これより外側が母体血の循環する絨毛管腔となる。',
         },
         {
-          detailInfo: '',
           answerImg: [uterus],
           answer:
             '1.基底脱落膜　2.絨毛膜有毛部　3.羊膜腔　4.卵黄嚢　5.絨毛膜無毛部　6.被包脱落膜　7.羊膜',
@@ -3551,7 +3324,6 @@ export const useQuestionList = () => {
             '脱落膜までが母体子宮側の組織で、絨毛膜より内側は胎児由来の（母体から見た時の）異物。そしてその境界に胎盤関門が当たる。',
         },
         {
-          detailInfo: '',
           answerImg: [uterus],
           answer:
             '1.絨毛膜→C　2.羊膜→J　3.羊膜腔→K　4.胚子→I　5.絨毛膜腔→E　6.臍帯/付着茎→B　7.卵黄嚢→D',
@@ -3559,39 +3331,33 @@ export const useQuestionList = () => {
             '外胚葉が体表全てを構成するようになるのに伴い羊膜も体表全てを覆うようになる。卵黄嚢は成長に伴い縮小を続ける。',
         },
         {
-          detailInfo: '',
           answerImg: [placentalBarrier],
           answer: '矢印部分は栄養膜合胞体層で、これはDに相当する。',
           commentary:
             '栄養膜合胞体層に母体側の血管が侵入することで栄養膜裂孔を形成し、後に絨毛間腔となる。',
         },
         {
-          detailInfo: '',
           answerImg: [placentalBarrier],
           answer: '矢印部分は栄養膜細胞層（ラングハンス細胞）で、Cに相当する',
           commentary:
             '栄養膜細胞層は細胞分裂を繰り返した後に栄養膜合胞体層へと分化する。妊娠後期には細胞層は目立って減少し、胎盤関門を構成する層が減る。',
         },
         {
-          detailInfo: '',
           answerImg: [placentalBarrier],
           answer: '母体側脱落層にあるらせん動脈で、Bに相当する',
           commentary: 'らせん状は血行を止めやすくするための構造。',
         },
         {
-          detailInfo: '',
           answer: '4.胎児の頭殿長',
           commentary:
             '妊娠期を通して身長は伸びる。一方で体重は妊娠後期に際立って増加する。→二乗三乗の法則',
         },
         {
-          detailInfo: '',
           answer: '3.体壁破裂',
           commentary:
             '臍帯の中で膜状の袋に包まれた状態で腸管が脱出する異常が臍帯ヘルニア、発生過程で長い腸管を折りたたんで収納するため一時的に臍帯へ腸管が脱出する正常な現象が生理的臍帯ヘルニア（これが戻らないと臍帯ヘルニア）、体壁の形成がうまくいかず、腸管が腹壁の外へ出てしまう異常が体壁破裂。カントレル五徴症のような記述は見当たらない。',
         },
         {
-          detailInfo: '',
           answer: '2.腸回転異常症',
           commentary:
             '腸管が腹腔の外に飛び出しているので、腸回転異常を併発する可能性が高い。カントレル五徴症なら心臓奇形もあり得るがそのような記述はない。遺伝病という記述もない。',
@@ -3607,113 +3373,95 @@ export const useQuestionList = () => {
       groupTag: '確認問題9 先天異常',
       groupContents: [
         {
-          answerImg: [],
           answer:
             '1.大異常は新生児の3~5%の生ずる。5.予防可能な先天異常も多い。',
           commentary:
             '大異常は3%程度、小異常は15%程度の規模で発生する。小異常があるからといって大異常が見つかるわけではないが、大異常がある場合は高確率で小異常が合併する。原因が特定されていない先天異常は多いが、一部の先天異常に関しては、例えば葉酸摂取で神経管閉鎖障害リスクを低下できたりなど、予防可能な先天異常も存在する',
         },
         {
-          answerImg: [],
           answer:
             '1.一卵性双生児の一致率は8~40%。3.単一遺伝子疾患に比べて頻度が高い。5.多因子遺伝病は遺伝や環境要因から特定の原因が見つからない',
           commentary:
             '例えば「糖尿病になりやすい家系」など、多くの因子の組み合わせで先天異常が生じるかどうかが決まっているため、単一遺伝子疾患のようなわかりやすい分布とはならないと考えられているが、近親者ほどリスクが高かったり、環境次第で発症率が変動したりと、それなりの共通点を持っている。',
         },
         {
-          answerImg: [],
           answer: '2.3～8週',
           commentary:
             '最も感受性が高い時期は、発生3～8週の胚子期である。（主要な器官形成が行われる時期）発生異常の表現型は、発生毒性因子に暴露された量と時間に影響される。',
         },
         {
-          answerImg: [],
           answer: 'C.症候群は診断がつく点で異なる。',
           commentary:
             '症候群・連合ともに高い確率で複数の症状が合併して起こる点で共通している。症候群はこれらの症状が共通する原因が医学的に解明されているので、診断がつく。',
         },
         {
-          answerImg: [],
           answer: '4.最も頻度の高いゲノムの多型である',
           commentary:
             'SNP=一塩基多型Single Nucleotide Polymorphism。SNPは性染色体にも存在し、ゲノムの中に0.1%存在する。人種に関わる多型も発見されているが、野生動物のなかで見たときにヒトの遺伝子多型は比較的少ない部類に入る。（現在の約80億人は少ない人数グループの祖先から広がったと考えられている：ボトルネック）',
         },
         {
-          answerImg: [],
           answer: 'アペール症候群',
           commentary:
             'ダウン症候群は21番染色体のトリソミーで基本的に母体年齢に依存する。クラインフェルター症候群はX染色体数の異常。アペール症候群は精子幹細胞の異常で、これが該当する。猫鳴き症候群は5番染色体の欠損で、父親年齢には依存しない。',
         },
         {
-          answerImg: [],
           answer: 'B.一般的に、3週～8週の胚子期に最も感受性が高い。',
           commentary:
             '発生毒性因子への感受性は、受胎産物（胚子or胎児 + 胎盤・胎膜）と母親の遺伝型と環境要因の相互作用に影響される →多因子性。発生異常の表現型は、発生毒性因子に暴露された量と時間に影響される。風疹rubellaのワクチン接種により先天異常を予防できる。',
         },
         {
-          answerImg: [],
           answer: 'D.風疹　F.サイトメガロウイルス',
           commentary:
             '風疹はワクチン接種も妊婦にできない（生ワクチン）。先天性サイトメガロウイルス感染症は母体初感染の場合に発生しやすく、低体重・小頭症・難聴・発達障害などを引き起こす。新生児B型肝炎ウイルス感染症は分娩時の感染によって発生する。B型肝炎の予防接種は妊娠にいっさい影響を与えない（不活化ワクチン）。',
         },
         {
-          answerImg: [],
           answer: 'A.レチノイン酸　C.バルプロ酸',
           commentary:
             'レチノイン酸は体節など分節構造を司る重要なシグナル物質である。パルプロ酸も同様（バルプロ酸は抗けいれん薬などに用いられる）。葉酸は足りないことはあっても取りすぎることはない。クエン酸・酢酸は身近に豊富にある。',
         },
         {
-          answerImg: [],
           answer: '全て発生毒性因子',
           commentary:
             'アルコールは胎児性アルコール症候群を引き起こし、短眼瞼裂・上顎骨発育不全・心臓異常・知的障害の原因となる。妊娠中の女性だけでなく、男性も薬物乱用によって精子・胎盤・発育中の胎児に悪影響を与え、生まれてくる子どもへ影響を及ぼす。',
         },
         {
-          answerImg: [],
           answer:
             'B.ACE阻害剤　D.サリドマイド　E.クラリス　F.ストレプトマイシン',
           commentary:
             '妊婦はインフルエンザで重症化しやすく、同意後に躊躇なくタミフルを投与することが推奨されている（日本産婦人科医会）。高血圧症で用いられるACE阻害剤の妊婦への投与で胎児の先天異常が継続的に報告されている（PMDA/2014年）。テオドールは経口摂取の喘息治療薬だが、妊娠中でも使用できると考えられている。サリドマイド薬害事件1959～1962年により、新薬に対する審査が厳格となった。クラリスロマイシンはマクロライド系抗生物質だが、ペニシリン系抗生物質に比べ主要な先天異常のリスクが高く、心血管の先天異常のリスクも高いので回避すべき。ストレプトマイシンはアミノグリコシド系抗結核薬だが、非可逆性第神経障害・先天性聴力障害が報告されている。',
         },
         {
-          answerImg: [],
           answer: 'A.糖尿病　C.肥満　F.フェニルケトン尿症',
           commentary:
             '妊婦の糖尿病は放置すると胎児に先天異常（奇形・巨大児・低カルシウム血症・黄疸など）が起こるが、インスリン製剤で血糖コントロールを行えば糖尿病のない人と同じように妊娠出産が可能になった。双極性障害は、その治療薬（炭酸リチウムやバルプロ酸）が胎児に悪影響を与える。肥満の母親から生まれる子どもは、心臓や生殖器の先天性形成不全などの深刻な出生異常を引き起こす可能性が高くなる（2017年スウェーデン研究）。花粉症自体は影響ないが、治療薬は妊娠4か月まで投与非推奨（症状は強いときは薬物以外の、ステロイドなどの点鼻薬が推奨される）。前置胎盤とは、胎盤が正常より低い子宮の壁に形成され、子宮の出口を覆ったり、出口の辺縁に及ぶものを指し、帝王切開で分娩する必要がある。フェニルケトン尿症はフェニルアラニン→チロシンに変える酵素の働きが生まれつき弱く、体にフェニルアラニンが蓄積しチロシンが少なくなる先天疾患で、胎児の脳障害心奇形が報告されており、健全児を生むためには妊娠前からの治療が必要。',
         },
         {
-          answerImg: [],
           answer:
             'ハンチントン病は両親の片方が発病していると50%の確率で遺伝するが、嚢胞性繊維症は両親がともに発病していなくても、両親ともに保因者（キャリア）ならば25%の確率で遺伝する。',
           commentary:
             'ハンチントン病は常染色体優性遺伝で、嚢胞性線維症は劣性遺伝。',
         },
         {
-          answerImg: [],
           answer:
             '共通点）ともに15番染色体の同じ領域の欠失（15q11-q13 deletion）。相違点）欠失した15番染色体が母親由来（アンジェルマン症候群）or父親由来（プラダーウィリー症候群）',
           commentary:
             'アンジェルマン症候群は母親由来の15番染色体の欠損で、知的障害・重度の言語障害・てんかんを伴う。プラダーウィリー症候群は父親由来の15番染色体の欠損で、知的障害・筋緊張低下・肥満・性腺発達不全・精巣下降不全を伴う。ゲノムインプリンティングと呼ばれ、一部の表現型は両親の片方の遺伝子のみで決定される。これは精子や卵子でそれぞれ固有のDNAメチル化などの修飾によるもの（→epigenetic）なので、これらの異常は遺伝時に再構築される（例えばアンジェルマン症候群の父親をもつ子どもは、50%の確率でプラダーウィリー症候群を発症する）',
         },
         {
-          answerImg: [],
           answer: '5.胚性致死である',
           commentary:
             '染色体数の異常は異数体aneuploidyと呼ばれ、正常より1本多いものは特にtrisomyと呼ばれるが、遺伝子量不均衡でほとんどが胚性致死を迎える。最小の染色体である21番染色体（→ダウン症候群）とX染色体（→XXYクラインフェルター症候群）とY染色体のみ生存可能で、他18番染色体（エドワーズ症候群）・13番染色体（パドー症候群）は生後早期に死亡する。',
         },
         {
-          answerImg: [],
           answer: '1.正常に成人する',
           commentary: '',
         },
         {
-          answerImg: [],
           answer: '3.成人しうるが、多様な先天疾患を持つ',
           commentary:
             '受精卵はXOモノソミーとなり、ターナー症候群と呼ばれる。モノソミーとしては唯一生存可能とされる。卵巣欠如・低身長・翼状頚・四肢リンパ水腫などで知的障害は伴わない場合が多く、思春期まで気づかれないこともある。',
         },
         {
-          answerImg: [],
           answer:
             '男性は1本で機能するX染色体が、女性には2本存在しているため、過剰な遺伝子発現を避けるために片方のX染色体を不活化している現象。',
           commentary:
@@ -3722,12 +3470,12 @@ export const useQuestionList = () => {
       ],
     },
     {
-      groupTag: '確認問題17 ',
+      groupTag: '確認問題17 視覚器',
       groupContents: [
         {
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [opticCup],
+          answer: 'B.前脳',
+          commentary: '前脳→間脳（→網膜・視神経など）・大脳半球',
         },
       ],
     },
@@ -3735,14 +3483,16 @@ export const useQuestionList = () => {
       groupTag: '確認問題18 平衡聴覚器',
       groupContents: [
         {
-          answerImg: [cochlear,cochlearWide],
+          answerImg: [cochlear, cochlearWide],
           answer: '1.外有毛細胞、4.蝸牛管',
-          commentary: '耳胞→球形嚢・蝸牛管・卵形嚢・半規管・内リンパ管（膜迷路）。ただし蝸牛の前庭階・鼓室階などは蝸牛管を取り囲む間葉由来',
+          commentary:
+            '耳胞→球形嚢・蝸牛管・卵形嚢・半規管・内リンパ管（膜迷路）。ただし蝸牛の前庭階・鼓室階などは蝸牛管を取り囲む間葉由来',
         },
         {
           answerImg: [otocyst],
           answer: '断面下側の神経管の左右の膨らみ部分が耳胞',
-          commentary: '緑の線の切片を上から見ている。切片後方の突起ができつつある耳胞で、これを断面で同定する問題。耳胞は左右両方にできる。プラコードは神経上皮と外皮が肥厚してできたもの。上側神経管左右にある球状の膨らみが耳胞である。その下側の濃い領域は神経堤由来の間葉で、中枢神経や耳胞と協調して脳神経（CN内耳神経や顔面神経）へ分化する。耳管は前腸（断面中央の管）内胚葉由来',
+          commentary:
+            '緑の線の切片を上から見ている。切片後方の突起ができつつある耳胞で、これを断面で同定する問題。耳胞は左右両方にできる。プラコードは神経上皮と外皮が肥厚してできたもの。上側神経管左右にある球状の膨らみが耳胞である。その下側の濃い領域は神経堤由来の間葉で、中枢神経や耳胞と協調して脳神経（CN内耳神経や顔面神経）へ分化する。耳管は前腸（断面中央の管）内胚葉由来',
         },
         {
           answerImg: [cochlear],
@@ -3752,43 +3502,61 @@ export const useQuestionList = () => {
         {
           answerImg: [meckelCartilage],
           answer: 'B.エウスタキオ管',
-          commentary: '第一咽頭嚢→耳管（エウスタキオ管）・原始鼓室（中耳腔）。第一咽頭弓→ツチ骨・キヌタ骨。耳介は第一咽頭弓と第二咽頭弓の背側端から発生する（6個の神経堤の増殖から耳介小丘が発生）。由来の遠さは判断が難しいが、エウスタキオ管は内胚葉由来なので最も遠いかもしれない。',
+          commentary:
+            '第一咽頭嚢→耳管（エウスタキオ管）・原始鼓室（中耳腔）。第一咽頭弓→ツチ骨・キヌタ骨。耳介は第一咽頭弓と第二咽頭弓の背側端から発生する（6個の神経堤の増殖から耳介小丘が発生）。由来の遠さは判断が難しいが、エウスタキオ管は内胚葉由来なので最も遠いかもしれない。',
         },
         {
-          answerImg: [otocyst,pharyngealNerves],
-          answer: '耳胞）断面中央にある左右一対の球状の空間。　脳神経Ⅷ内耳神経）耳胞と神経管の間の濃い領域',
-          commentary: '耳胞は菱脳付近の外胚葉の肥厚から始まる。内耳神経節も耳胞由来',
+          answerImg: [otocyst, pharyngealNerves],
+          answer:
+            '耳胞）断面中央にある左右一対の球状の空間。　脳神経Ⅷ内耳神経）耳胞と神経管の間の濃い領域',
+          commentary:
+            '耳胞は菱脳付近の外胚葉の肥厚から始まる。内耳神経節も耳胞由来',
         },
         {
           answerImg: [semicircularCanal],
-          answer: '耳胞が分化し、背側に卵形嚢が形成される。発生6週中に卵形嚢の扁平突出として半規管は出現し、突出部の壁の中央部は接着し消滅するため、3つの半規管が形成される。',
+          answer:
+            '耳胞が分化し、背側に卵形嚢が形成される。発生6週中に卵形嚢の扁平突出として半規管は出現し、突出部の壁の中央部は接着し消滅するため、3つの半規管が形成される。',
           commentary: '',
         },
-        // {
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
+        {
+          answerImg: [auditoryOssicles],
+          answer:
+            '耳小骨は胎生前半期に形成されたのち、8か月に周囲の組織が融解するまで間葉の中に埋没している。原始鼓室内腔の内胚葉性上皮が新しくできた腔の表面に広がり、腸間膜のように耳小骨を鼓室壁に結びつける。',
+          commentary: '',
+        },
+        {
+          answerImg: [auditoryOssicles],
+          answer:
+            '外耳道と鼓室間の中胚葉（または神経堤）由来の間葉が薄化し、外側は外耳道底の外胚葉性上皮、内側は鼓室の内胚葉性上皮に覆われることで鼓膜は形成される。',
+          commentary:
+            '鼓膜は外耳道と中耳の仕切りで、外耳道側は外胚葉→第一咽頭溝由来、鼓室側は内胚葉→第一咽頭嚢由来、中間層は中胚葉由来',
+        },
+        {
+          answerImg: [auditoryOssicles],
+          answer: 'B.外耳の発生異常は心臓の先天疾患を合併する事が多い。',
+          commentary:
+            '耳介は第一・第二咽頭弓の背側端にあって第一咽頭溝を取り囲む６つの耳介小丘（神経堤由来）から発生する。神経堤は顔面・心臓・頭蓋など他のたくさんの器官も形成するので、これらの異常は同時に発生する事が多い。難聴には感音性難聴（蝸牛や神経の異常）・伝音性難聴（外耳道や鼓膜・耳小骨の異常）があり、先天性難聴の大部分は感音性難聴（例外：トリーチャー・コリンズ症候群・ダウン症候群などは伝音性難聴）。鼓膜は外胚葉・中胚葉・内胚葉由来の層で構成される。',
+        },
+        {
+          answerImg: [otocystGrowing, semicircularCanal, cochlear],
+          answer: '1.外有毛細胞、4.蝸牛管',
+          commentary:
+            '耳プラコード（外胚葉性上皮肥厚）=耳板→耳胞→内耳神経節・前庭蝸牛神経節・卵形嚢・三半規管・蝸牛管・球形嚢・内外リンパ管',
+        },
+        {
+          answerImg: [cochlearWide],
+          answer:
+            '共通点）蝸牛管の上皮細胞と、前庭膜・基底板は耳胞由来で共通している。　相違点）蝸牛管内の構造は耳胞（外胚葉の肥厚）由来であるが、前庭階や鼓室階は蝸牛管を取り囲む間葉組織由来。',
+          commentary:
+            '蝸牛管のみ耳プラコード由来で、前庭階・鼓室階は付近の間葉組織由来。',
+        },
+        {
+          answerImg: [pharyngealNerves, meckelCartilage],
+          answer:
+            'ツチ骨-鼓膜張筋-Ⅴ三叉神経下顎枝支配、アブミ骨-アブミ骨筋-Ⅶ顔面神経支配',
+          commentary:
+            'ツチ骨・キヌタ骨は第一咽頭弓由来、アブミ骨は第二咽頭弓由来なので、付く筋も同じ咽頭弓由来のもの。',
+        },
       ],
     },
     {
@@ -3813,7 +3581,6 @@ export const useQuestionList = () => {
             '出生時には乳管には腺房がなく、したがって分泌装置がないが、思春期にはエストロゲンとプロゲステロンの濃度が高まることで乳管からの分枝が刺激され、腺房と分泌細胞が形成される。',
         },
         {
-          answerImg: [],
           answer: 'B.メラノサイト、D.三叉神経、E.自律神経',
           commentary:
             '表皮は神経堤起源の細胞の侵入を受ける。これらの細胞はメラノソーム内にメラニン色素を合成する。メラノソームが蓄積すると、メラニン細胞の樹状突起へ輸送され、表皮のケラチン細胞や毛球へと細胞間輸送される。このように、皮膚と毛の色素はもともとあるものではなく、獲得されたものである。ほか、副腎髄質も神経堤由来である。',
@@ -3825,7 +3592,6 @@ export const useQuestionList = () => {
             '上皮性毛包・脂腺は上皮由来である。立毛筋・汗腺の平滑筋・瞳孔括約筋も例外的に外胚葉由来である。',
         },
         {
-          answerImg: [],
           answer: 'B.魚鱗癬',
           commentary:
             'ワーデンブルグ症候群は、皮膚や髪の毛の色素沈着・青い眼・感音性難聴を特徴とする遺伝的疾患。魚鱗癬は重度の皮膚の乾燥の一種（遺伝性・後天性両方存在）。まだら症とはおでこや生え際の所にできる皮膚の白い変化で、その部分だけ白髪になる遺伝性の病気。多毛症は毛包の過剰形成で、遺伝性/薬物など多様な原因が存在する。（皮膚と毛の色素はもともとあるものではなく、獲得されたものである。）',
@@ -3900,7 +3666,6 @@ export const useQuestionList = () => {
             '胸心膜ヒダは胸腔と心膜腔を分割（+胸膜を左右２つに分割）する体壁からの隆起で、胸腹膜管は胸腔と腹腔を分割する（+横隔膜の一部となる）体壁からの隆起。胸心膜ヒダにはC3~C5由来の横隔神経と、心臓へ入る総主静脈が含まれている。断面上側に神経管が見えるので背側。その前方に（小さな脊索と）２つの血管、その腹側が胸腔→心膜腔である。',
         },
         {
-          answerImg: [],
           answer:
             '腺様期：5~16週、管状期：16～26週、終末嚢期：26週～出生、肺胞期：生後8か月～小児期',
           commentary:
@@ -3960,7 +3725,6 @@ export const useQuestionList = () => {
             'その背側（断面上側）に左右一対の背側大動脈や神経管・体節構造がみえる',
         },
         {
-          answerImg: [],
           answer:
             '医療技術の進歩により早産児の生存率は世界トップクラスに向上したが、後遺症に苦しむケースは依然として多いということ。',
           commentary:
@@ -3992,13 +3756,11 @@ export const useQuestionList = () => {
           commentary: '',
         },
         {
-          answerImg: [],
           answer: '妊娠34週以降',
           commentary:
             '妊娠26週前後から肺胞が形成され始め、28週ごろから肺サーファクタント分泌が始まる。',
         },
         {
-          answerImg: [],
           answer:
             '肺を正常に機能させるためには肺胞内の表面張力を下げる必要があるが、妊娠7か月未満で生まれた児はサーファクタントを十分に産生できないから。',
           commentary: '妊娠6か月=約180日=約25～26週',
@@ -4016,7 +3778,6 @@ export const useQuestionList = () => {
             'AMH:アンチミュラー管ホルモン。男性のセルトリ細胞や、女性の前胞状卵胞の顆粒膜細胞から分泌されるホルモン。他、GnRH(性腺刺激ホルモン/視床下部)→FSH(卵胞刺激ホルモン/下垂体前葉),LH(黄体ホルモン/下垂体前葉)、顆粒層細胞（卵胞や黄体）→エストロン・エストラジオール、内卵胞膜（莢膜/黄体）エストロゲン・アンドロステンジオン。エストロゲンはエストロン・エストラジオール・エストリオールなどの総称。',
         },
         {
-          answerImg: [],
           answer: '1-a,2-b,4-c',
           commentary: '前問題(1)参考',
         },
@@ -4027,7 +3788,6 @@ export const useQuestionList = () => {
             'SF1:Steroid-genesis factor 1、セルトリ細胞とライディッヒ細胞の分化を誘導し、ライディッヒ細胞のテストステロン産生を促進する。SRY:Sex-determining region Y/Y染色体性決定領域遺伝子で、精巣発達を司り、その産物は転写因子。常染色体上の転写調節因子SOX9と協調してSF1の発現をアップレギュレートする。SF1とSOX9が共同してAMHの濃度をあげ、ミュラー管を退縮させる。逆にWNT4は卵巣決定遺伝子',
         },
         {
-          answerImg: [],
           answer: 'B.SF1、C.SOX9、D.SRY',
           commentary:
             'SF1:Steroid-genesis factor 1、セルトリ細胞とライディッヒ細胞の分化を誘導し、ライディッヒ細胞のテストステロン産生を促進する。SRY:Sex-determining region Y/Y染色体性決定領域遺伝子で、精巣発達を司り、その産物は転写因子。常染色体上の転写調節因子SOX9と協調してSF1の発現をアップレギュレートする。SF1とSOX9が共同してAMHの濃度をあげ、ミュラー管を退縮させる。逆にWNT4は卵巣決定遺伝子',
@@ -4057,7 +3817,6 @@ export const useQuestionList = () => {
           commentary: '',
         },
         {
-          answerImg: [],
           answer: '背側',
           commentary: '右の卵巣が右側に（子宮円索は腹側を通るから）',
         },
@@ -4138,7 +3897,6 @@ export const useQuestionList = () => {
             'ライディッヒ細胞は、生殖堤のもとの間葉に由来し、8週までにテストステロン産生を開始する。中腎管は男性では精管・精嚢・前立腺などへと発達し、女性ではガルトナー管として残る。LHに反応しテストステロンを産生する細胞は、女性では卵胞膜細胞（莢膜細胞）が該当する。',
         },
         {
-          answerImg: [],
           answer: '4.ミュラー管の癒合不全',
           commentary: '子宮体は中腎傍管ミュラー管由来',
         },
@@ -4176,7 +3934,6 @@ export const useQuestionList = () => {
             '中央のつぶれた管がaortaで（内部に赤血球が詰まっている）、そこから左右前方（下方）に細静脈が伸び、胞状の糸球体を形成する。糸球体のあたりからさらに左右に伸びているのが中腎細管→中腎管（輪切りに切れている）。糸球体の背側（上側に見えているのが後主静脈postcardinal.vで、これらの周りを中腎堤の空間が囲んでいる。断面最も腹側に見えているのが腸管と上腸間膜動脈sup.mesenteric a.である',
         },
         {
-          answerImg: [],
           answer:
             '1)断面左右にC字型に濃く染まっているのが腎臓、2)その下方（腹側）で全体が濃染している卵型の部分が精巣',
           commentary:
@@ -4196,7 +3953,6 @@ export const useQuestionList = () => {
             '断面左右上方のC字型に濃染している部分が腎臓で、その間の管が大動脈と下大静脈、画面下方の絨毛が豊富な管が十二指腸・空腸で、その下方右側で斜めに切れているのが結腸である。',
         },
         {
-          answerImg: [],
           answer: 'A.ARPKDは小児期に腎不全が起きる点で異なる。',
           commentary:
             'ADPKDのDはDominant。劣性ARPKDは集合管から嚢胞が生じる。優性遺伝病ADPKDは自然淘汰圧を受けるため成人後に発症する。',
@@ -4244,7 +4000,6 @@ export const useQuestionList = () => {
             '永久腎は後腎由来。最終的な集合管は中腎管（ウォルフ管）由来である。尿生殖堤かは不明だが、生殖堤・生殖器は中腎と関係がある。尿生殖洞（→膀胱）は内胚葉由来。尿管は中腎管からの分岐であるが、最終的には膀胱三角の形成とともに中腎（→精管）とは別で膀胱・尿道に接続するようになる。',
         },
         {
-          answerImg: [],
           answer: 'ARPKD、Kartagener症候群',
           commentary:
             'WAGR症候群）ウィルムス腫瘍 Wilms	tumor、無虹彩症 aniridia、⽣殖芽腫瘍gonadoblastoma、知的障害 mental	retardationの合併で線毛病ではない。Kartagener症候群は内臓逆位・慢性副鼻腔炎・不妊症などを併発する線毛病。馬蹄腎は下腸間膜動脈や臍動脈などの通過失敗による腎臓の位置の異常で、線毛病ではない。停留精巣は精巣の下行不全であるが、線毛の異常ではない。',
@@ -4268,105 +4023,89 @@ export const useQuestionList = () => {
       groupTag: '確認問題23 頭頚部',
       groupContents: [
         {
-          detailInfo: '',
           answerImg: [pharyngealArch],
           answer: '4.鼓室',
           commentary: '耳管～鼓室までは内胚葉由来',
         },
         {
-          detailInfo: '',
           answerImg: [pharyngealPouch],
           answer: '5.外耳道　10.頚洞',
           commentary:
             '咽頭溝は外胚葉由来。耳の構造は複雑で、鼓膜までの外耳道は第一咽頭溝由来。最終的な構造に関与するのは第一咽頭溝のみで、第二～第四咽頭溝は頚洞などを形成するが最終的には消失する。',
         },
         {
-          detailInfo: '',
           answerImg: [pharyngealPouch],
           answer: '8.口蓋扁桃',
           commentary: '',
         },
         {
-          detailInfo: '',
           answerImg: [thymus],
           answer: '2.胸腺　7.下上皮小体',
           commentary:
             '胸腺は最終的に第四咽頭嚢由来の上上皮小体よりさらに尾側に移動し胸腺や下上皮小体を形成する。',
         },
         {
-          detailInfo: '',
           answerImg: [thymus],
           answer: '6.上上皮小体',
           commentary: '',
         },
         {
-          detailInfo: '',
           answerImg: [tongue],
           answer: '準備中',
           commentary: '舌盲孔、すなわち甲状腺原基の起始部に注意',
         },
         {
-          detailInfo: '',
           answerImg: [pharyngealNerves, pharyngealTable],
           answer: '表参照',
           commentary:
             '支配筋肉は位置関係より支配神経に依存している。つまり、各咽頭弓は形を変え位置を入れ替えながら複雑に混ざり頭頚部を構成する。',
         },
         {
-          detailInfo: '',
           answer:
             '第一咽頭弓→G、第一咽頭嚢→I、第一咽頭溝→F、第一大動脈弓→H、背側大動脈→B',
           commentary: '咽頭嚢は内胚葉由来、咽頭溝は外胚葉由来',
         },
         {
-          detailInfo: '',
           answerImg: [pharyngealPouch],
           answer: '第二咽頭弓→E、第二咽頭嚢→J、第二大動脈弓→D、背側大動脈→B',
           commentary:
             '第二咽頭弓は第一咽頭弓より背側→断面上側で根元で切れている。第二咽頭嚢は第2・第3咽頭弓の境界に存在しているので、さらにやや断面上側。',
         },
         {
-          detailInfo: '',
           answerImg: [pharyngealArch],
           answer: '第一咽頭弓→G、第二咽頭弓→F、第三咽頭弓→E、第四咽頭弓→D',
           commentary:
             'この断面は前後がそのまま背腹を表しているのでわかりやすい',
         },
         {
-          detailInfo: '',
           answerImg: [tongue],
           answer: '（外側）舌隆起→E、甲状腺原基→G',
           commentary:
             '舌隆起は第一咽頭弓腹側部に形成される。甲状腺原基は舌盲孔（第1咽頭弓と第2咽頭弓の間）の高さで発生し、第一気管軟骨の高さまで下降する。Eが外側舌隆起、Fが舌結節と対応する',
         },
         {
-          detailInfo: '',
           answerImg: [pharyngealNerves],
           answer: 'Ⅴ三叉神経、Ⅶ顔面神経、Ⅸ舌咽神経、Ⅹ迷走神経',
           commentary: '',
         },
         {
-          detailInfo: '',
           answerImg: [face],
           answer:
             '顔面隆起は神経堤由来の間葉からなり、主として第一咽頭弓由来。口窩を第一咽頭弓が囲み、口窩の尾側で上顎隆起、側方で下顎隆起が起こり、上顎隆起・下顎隆起が形成される。',
           commentary: '',
         },
         {
-          detailInfo: '',
           answerImg: [face],
           answer: '口窩→G、上顎隆起→F、下顎隆起→E',
           commentary: '',
         },
         {
-          detailInfo: '',
           answerImg: [meckelCartilage],
           answer:
             '第一咽頭弓は、眼の下方を前方に伸びる上顎隆起とメッケル軟骨を含む下顎突起からなる。その後の発達中にメッケル軟骨は背側部の２つの小部分を除いて退化消失するが、残存した２つはキヌタ骨とツチ骨を形成する。また、上顎突起の間葉は、顎前骨、上顎骨、頬骨、および側頭骨の一部を膜性骨化により生じる。下顎骨もメッケル軟骨を取り巻く間葉組織の膜性骨化により形成される。',
           commentary: '',
         },
         {
-          detailInfo: '',
           answerImg: [meckelCartilage],
           answer:
             'ライトヘルム軟骨はアブミ骨・側頭骨の茎状突起・茎突舌骨靭帯・舌骨小角・舌骨体の上部を形成する。',
@@ -4374,35 +4113,30 @@ export const useQuestionList = () => {
             '第一咽頭弓軟骨はメッケル軟骨と呼ばれるのに対して、第二咽頭弓軟骨はライヘルト軟骨と呼ばれ、アブミ骨・茎状突起・茎突舌骨靭帯・舌骨小角になる。',
         },
         {
-          detailInfo: '',
           answerImg: [meckelCartilage],
           answer: '甲状軟骨・輪状軟骨・披裂軟骨・小角軟骨・楔状軟骨',
           commentary:
             '第4および第6咽頭弓の軟骨要素は癒合して咽頭の甲状軟骨・輪状軟骨・披裂軟骨・小角軟骨・楔状軟骨を形成する。',
         },
         {
-          detailInfo: '',
           answer: '3.甲状腺',
           answerImg: [thymus],
           commentary:
             '甲状腺原基は第1・第2境界の咽頭弓腹側の舌盲孔の高さで発生し、第一気管軟骨の高さまで下降して形成される。副甲状腺（上皮小体）は第3～第4咽頭嚢由来',
         },
         {
-          detailInfo: '',
           answerImg: [thyroid, after49days, tongue],
           answer: 'D',
           commentary:
             '甲状舌管thyroglossal ductは甲状腺と舌盲孔をつなぐ内胚葉由来の構造。甲状腺が下行する間存在し、その後消失する。断面中央に口腔が見え、その中に舌構造が見える。舌盲孔は外側舌隆起+舌結節と、結合節の間に見られる孔。',
         },
         {
-          detailInfo: '',
           answerImg: [meckelCartilage, thymus],
           answer: '3.甲状腺',
           commentary:
             '舌骨下部は第三咽頭弓から派生する。甲状腺は第一咽頭嚢～第二咽頭嚢腹側正中部の舌盲孔から発生し、甲状舌管を伴いながら本来の第一気管軟骨の高さまで下降する。このときに甲状舌管や甲状腺の一部が残り、甲状舌管嚢胞や異所性甲状腺組織と呼ばれる。胸腺・上皮小体・鰓後体も移動中に組織が残存する事があるが、正中ではない。',
         },
         {
-          detailInfo: '',
           answerImg: [branchialFistula],
           answer: 'B.頚洞',
           commentary:
@@ -4539,20 +4273,17 @@ export const useQuestionList = () => {
             'これも前屈姿勢のため上下反対の断面となっている。淡蒼球globus pallidus+被殻putamenはレンズ核で、被殻+尾状核caudate nucleusは線条体を構成する。内包（成人では錐体路の一部）はレンズ核よりさらに内側の間脳領域であるため、矢印では示されていない（問題作成途中！？）',
         },
         {
-          answerImg: [],
           answer:
             '中枢のオリゴデンドロサイトは、神経上皮細胞由来。末梢のシュワン細胞は、神経堤由来である。',
           commentary: '',
         },
         {
-          answerImg: [],
           answer:
             '3.神経堤由来　胎生皮質形成中に神経堤細胞が副腎に侵入して形成される。',
           commentary:
             '交感神経節前線維が直接副腎髄質に進入し、副腎髄質のクロム親和性細胞が実質的な節後線維として、ノルアドレナリンやアドレナリン分泌を行う。皮質は中間中胚葉由来',
         },
         {
-          answerImg: [],
           answer:
             '5.中間中胚葉　二次的に中間中胚葉由来の体腔上皮から細胞移動が起こり、胎生皮質を取り囲んで最終的な皮質になる。',
           commentary:
@@ -4587,7 +4318,6 @@ export const useQuestionList = () => {
             '脳底動脈:basilar a. トルコ鞍の背:dorsum sellae 下垂体:neurohypophysis',
         },
         {
-          answerImg: [],
           answer: 'B.視神経、D.下垂体後葉',
           commentary:
             '12対の脳神経のうち最初の2対（視神経と嗅神経）は厳密な意味では末梢神経ではなく、中枢神経の突起である。',
@@ -4599,13 +4329,11 @@ export const useQuestionList = () => {
             '菱脳→後脳（橋・小脳）・髄脳（延髄）。Ⅰ嗅神経・Ⅱ視神経は前脳由来、Ⅲ動眼神経は中脳に神経核を持つ。Ⅴ三叉神経以降は橋～延髄。（Ⅳ滑車神経は後脳に出現後、中脳へ移動）',
         },
         {
-          answerImg: [],
           answer: 'F.第四脳室',
           commentary:
             '菱脳→後脳（橋・小脳）・髄脳（延髄）。シルヴィウス水道＝中脳水道。側脳室は終脳、第三脳室は間脳、モンロー孔はその間。',
         },
         {
-          answerImg: [],
           answer:
             '胎齢が進むにつれて、脊柱と硬膜が神経管より急速に成長し、出生時には脊髄の末端は第3腰椎の高さになる。よってL4~L5なら脊髄を傷つけることなく穿刺を行うことができる。',
           commentary: '',
