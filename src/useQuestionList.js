@@ -225,6 +225,12 @@ import testisGrowing from './img/answer/testisGrowing.png'
 import testisHormone from './img/answer/testisHormone.png'
 import testisMovement from './img/answer/testisMovement.png'
 import uterusLigament from './img/answer/uterusLigament.png'
+import after33daysLung from './img/answer/after33daysLung.png'
+import epiglottis from './img/answer/epiglottis.png'
+import larynx from './img/answer/larynx.png'
+import lungGrowing from './img/answer/lungGrowing.png'
+import tracheaEsophagusSeptum from './img/answer/tracheaEsophagusSeptum.png'
+// import from './img/answer/.png'
 // import from './img/answer/.png'
 // import from './img/answer/.png'
 // import from './img/answer/.png'
@@ -2703,7 +2709,7 @@ export const useQuestionList = () => {
         },
         {
           detailInfo: '遺伝病',
-          answer: '常染色体潜性遺伝病',
+          answer: '常染色体顕性遺伝病',
           commentary:
             '突然変異とはいえない。男女で有意差（伴性遺伝病）なし。母性遺伝（ミトコンドリア病）ではない。インプリンティング遺伝子は、その発現が両親のいずれかによって決定される遺伝子のことで、メンデルの遺伝の法則の例外である（例：アンジェルマン症候群とプラダーウィリー症候群）が、やはり男女差はない。劣性遺伝だとするとaa発病者の配偶者が全員Aaキャリアでないといけない。常染色体優性遺伝病だと考えるのが最も合理的。14は遺伝因子を持っていない可能性がある',
         },
@@ -3539,7 +3545,7 @@ export const useQuestionList = () => {
           answerImg: [after30days],
           answer: 'L.横中隔septum transversum',
           commentary:
-            '横中隔のすぐ背側にある左右2対の空間は静脈群で、その背側の左右2対の空間が心腹膜管peritoneal cavity。中央細長い環状構造は腸管だろう。',
+            '横中隔のすぐ背側にある左右1対の空間は静脈群で、その背側の左右1対の空間が心腹膜管peritoneal cavity。中央細長い環状構造は腸管だろう。',
         },
         {
           detailInfo: '',
@@ -3817,6 +3823,159 @@ export const useQuestionList = () => {
             '男性は1本で機能するX染色体が、女性には2本存在しているため、過剰な遺伝子発現を避けるために片方のX染色体を不活化している現象。',
           commentary:
             '不活化されるX染色体はモザイク状に決定される（→三毛猫）。X染色体上に原因を持つ遺伝病は男性の方が発症しやすい。',
+        },
+      ],
+    },
+    {
+      groupTag: '確認問題19 外皮系',
+      groupContents: [
+        {
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+      ],
+    },
+    {
+      groupTag: '確認問題20 呼吸器系',
+      groupContents: [
+        {
+          answerImg: [larynx],
+          answer: '第4・第6咽頭弓＿甲状軟骨・輪状軟骨・披裂軟骨',
+          commentary:
+            '喉頭内面を覆う上皮は内胚葉由来であるが、軟骨と筋は第4および第6咽頭弓の間葉に由来する。この間葉が急速に増殖する結果、喉頭口の外観は矢状方向の細隙から、T字型の隙に変化する（図A）。その後、２つの咽頭弓の間葉が、甲状軟骨・輪状軟骨・披裂軟骨に形を変えると特徴ある成人型の喉頭口がみられるようになる（図B）。',
+        },
+        {
+          answerImg: [tracheaEsophagusSeptum],
+          answer:
+            'はじめ肺芽は前腸と広く交通している。呼吸器憩室が尾側に拡張すると、左右に気管食道稜が発生し前腸から分離されはじめ、その後これらの稜が癒合して、気管食道中隔が形成される。',
+          commentary:
+            '気管は食道が分割されたものであるため、両者の間には漿膜が存在しない。',
+        },
+        {
+          answerImg: [after33daysLung, larynx],
+          answer:
+            '咽頭口)T字型の隙の部分　喉頭蓋)T字型の隙の断面下側の部分　甲状軟骨)T字型の隙の左右やや下側の部分',
+          commentary:
+            'T字型の隙の背側（断面上側）は前腸、腹側（断面下側）部分は前腸から出た喉頭larynxの分岐部。喉頭の両側に後の喉頭を形成する組織（第4・第6咽頭弓間葉組織由来）が凝集している（laryngeal condensation）。喉頭蓋隆起は喉頭口よりやや頭側（第4咽頭弓頭側）に位置していることから、断面では喉頭口の断面下側のlaryngeal condensationに位置していると推測される。甲状軟骨はそれよりやや尾側なので、喉頭口の左右あたりのlaryngeal condensationに位置していると推測される。甲状軟骨はそれよりやや尾側なので、喉頭口の左右あたりのlaryngeal condensation に位置しているのでは？',
+        },
+        {
+          answerImg: [tracheaEsophagusSeptum],
+          answer:
+            '気管)横長の楕円状の管　食道)縦長楕円状の管　気管食道中隔)その間の隔たり',
+          commentary:
+            '神経管がある断面上側が背側。神経管の前に2つの卵型の管の血管が通っていて、その前方に縦長の前腸（→食道）、横長の呼吸器憩室（→気管）が見える。これらを左右から分割するのが気管食道稜（→気管食道中隔）。連続切片では左右に分岐し肺構造の原型を形成している気道と、変わらず一本の管で下降していく食道が対照的に映っている。',
+        },
+        {
+          answerImg: [pleuropericardialFold, pericardioperitonealCanal],
+          answer:
+            '胸心膜ヒダ)総主静脈をふくむ左右のヒダ状の部分　胸腹膜管)左右の胸心膜ヒダのそれぞれすぐ上側の空間　肺芽)左右の胸腹膜管に囲まれた部分の、中央の対になっている2つの管状の空間　食道)肺芽の上方の薄い1本の管の部分。',
+          commentary:
+            '胸心膜ヒダは胸腔と心膜腔を分割（+胸膜を左右２つに分割）する体壁からの隆起で、胸腹膜管は胸腔と腹腔を分割する（+横隔膜の一部となる）体壁からの隆起。胸心膜ヒダにはC3~C5由来の横隔神経と、心臓へ入る総主静脈が含まれている。断面上側に神経管が見えるので背側。その前方に（小さな脊索と）２つの血管、その腹側が胸腔→心膜腔である。',
+        },
+        {
+          answerImg: [],
+          answer:
+            '腺様期：5~16週、管状期：16～26週、終末嚢期：26週～出生、肺胞期：生後8か月～小児期',
+          commentary:
+            '肺胞が形成される26週から呼吸できるようになり、28週ごろからⅡ型肺胞上皮細胞のサーファクタント分泌が始まる。新生児の呼吸切迫症候群RDSは新生児期の全死亡の2割を占める。',
+        },
+        {
+          answerImg: [pleuropericardialFold],
+          answer:
+            'はじめ肺芽は前腸から分岐し胸心膜腔の背側で主に気管を形成する（管状期）が、胸心膜ヒダや心腹膜管遮断によって胸膜腔が独立すると、肺は胸膜腔内で膨張し肺胞を形成する。（終末嚢期）',
+          commentary: '',
+        },
+        {
+          answerImg: [TEF],
+          answer:
+            '気管食道中隔の異常：気管上部が盲嚢に終わり、下部が気管と瘻で繋がるという異常が考えられる。',
+          commentary:
+            '正常な胎児は子宮内で羊水をある程度飲み込んでいるが、食道が閉鎖していると飲み込めず羊水過多症を合併する。食道が気管とだけ繋がっている場合は羊水が気管に入り肺炎を引き起こす場合がある。',
+        },
+        {
+          answerImg: [TEF],
+          answer:
+            '2.心臓の異常を伴うことが多い。4.食道下部が気管と瘻をなす事が多い。',
+          commentary:
+            'VACTERL連合:Vertebral anomaly + Anal atresia + Cardiac defect + Tracheoesophageal fistula + Esophageal atresia + Renal anomaly + Limb defect',
+        },
+        {
+          answerImg: [diaphragm],
+          answer: 'D.横中隔',
+          commentary: '横中隔が横隔膜の腱中心を形成する。',
+        },
+        {
+          answerImg: [pleuropericardialFold],
+          answer:
+            '横隔神経は初めは発育中の胸心膜ヒダ内を通って中隔に入っている。最終的に胸心膜ヒダは線維性心膜の一部となるため、横隔神経は心膜の中を通るようになる。',
+          commentary:
+            '横隔神経は線維性心膜（外側の心膜）の体性感覚も支配している。',
+        },
+        {
+          answerImg: [pericardioperitonealCanal],
+          answer:
+            '3.胸腹膜の形成不全　腹膜腔と胸膜腔は体の後壁に沿い互いに連続している（胸腹膜管が閉鎖していない）異常で、腹部内臓が胸腔内に侵入してくる。',
+          commentary:
+            '正常児では胸腹膜管は左右からの胸腹膜ヒダによって完全に閉鎖され、横隔膜が形成されるが、これが形成不全だと陰圧である胸腔内に腹部臓器が侵入してくる。',
+        },
+        {
+          answerImg: [pleuropericardialFold, diaphragm],
+          answer:
+            '胸腔)断面中央の左右1対の空間。　気管支)断面中央の肺芽のなかにみられる複数の管。　食道)胸腔正中にみられる1本の管。　食道間膜)食道などと胸腔後壁とをつなぐ腸間膜。　下大静脈)肝臓から心臓にむかって合流していく血管。　大動脈)胸腔背側正中に見られる一本の管。　',
+          commentary:
+            '下大静脈は（心臓）→右卵黄嚢静脈由来部分→主下静脈部分→主上静脈部分→後主静脈部分の4部分で最終的に形成される。このうち右卵黄嚢静脈部分は肝臓シヌソイドも形成するので、ここから心臓にかけて合流していく管が右卵黄嚢静脈由来の下大静脈と推定される。大動脈より背側で神経管の前方に小さな脊索が見られることがあるので注意。',
+        },
+        {
+          answerImg: [pleuropericardialFold, pericardioperitonealCanal],
+          answer:
+            '胸心膜ヒダ)下大静脈の上で左右から気管に向けて胸腔と心膜腔を分割している左右一対のヒダ。　心腹膜管)胸腔背側の左右一対の管。　気管支芽)胸腔中央の左右一対の管（壁が厚い）。　食道)胸腔中央の1本の管。',
+          commentary:
+            'その背側（断面上側）に左右一対の背側大動脈や神経管・体節構造がみえる',
+        },
+        {
+          answerImg: [],
+          answer:
+            '医療技術の進歩により早産児の生存率は世界トップクラスに向上したが、後遺症に苦しむケースは依然として多いということ。',
+          commentary:
+            '新生児医療が目標とするインタクトサバイバル、これは「後遺症なき生存」のことをいいます。 ',
+        },
+        {
+          answerImg: [lungGrowing],
+          answer:
+            'このころに気管末端の立方細胞が薄くなり、毛細血管などと密に隣接した原始肺胞（終末嚢）が形成されるから',
+          commentary:
+            '臨床でいう妊娠齢は、最終月経の第1日目から起算した満週数・満日数であり、妊娠26週は発生25週と同義。このころに肺胞が形成され呼吸が可能にはなるが、サーファクタントが分泌される28週までは虚脱が起こり治療が必要。参考：呼吸窮迫症候群RDS',
+        },
+        {
+          answerImg: [lungGrowing],
+          answer:
+            'サーファクタントが不十分な量しかないと、空気-溶液（血液）境界面の表面膜張力が高くなり、呼息中に肺胞の一部が虚脱するリスクが高い。これが原因で肺胞が部分的に虚脱するのが呼吸窮迫症候群Respiratory distress syndrome:RDSである。',
+          commentary:
+            'Ⅱ型肺胞上皮細胞から分泌されるサーファクタントは表面張力によって大小異なる肺胞の内圧差を減らす働きがあり、吸気時に肺が広がりやすくなる。',
+        },
+        {
+          answerImg: [lungGrowing],
+          answer:
+            '管状期（16~26週）に、終細気管支から2本以上の呼吸細気管支に分かれ、次に呼吸細気管支から3～6の肺胞管に分かれる。終末嚢期（26週～出生）に原始肺胞が形成され、毛細血管が密接、肺胞期（生後8か月～小児期）に肺胞が成熟し、肺胞上皮と毛細血管内皮との接触が発達。',
+          commentary: '',
+        },
+        {
+          answerImg: [diaphragm],
+          answer: 'D.横中隔',
+          commentary: '',
+        },
+        {
+          answerImg: [],
+          answer: '妊娠34週以降',
+          commentary:
+            '妊娠26週前後から肺胞が形成され始め、28週ごろから肺サーファクタント分泌が始まる。',
+        },
+        {
+          answerImg: [],
+          answer:
+            '肺を正常に機能させるためには肺胞内の表面張力を下げる必要があるが、妊娠7か月未満で生まれた児はサーファクタントを十分に産生できないから。',
+          commentary: '妊娠6か月=約180日=約25～26週',
         },
       ],
     },
