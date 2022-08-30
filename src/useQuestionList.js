@@ -230,7 +230,16 @@ import epiglottis from './img/answer/epiglottis.png'
 import larynx from './img/answer/larynx.png'
 import lungGrowing from './img/answer/lungGrowing.png'
 import tracheaEsophagusSeptum from './img/answer/tracheaEsophagusSeptum.png'
-// import from './img/answer/.png'
+import cochlear from './img/answer/cochlear.png'
+import cochlearWide from './img/answer/cochlearWide.png'
+import hair from './img/answer/hair.png'
+import mammaryGland from './img/answer/mammaryGland.png'
+import otocyst from './img/answer/otocyst.png'
+import otocystGrowing from './img/answer/otocystGrowing.png'
+import semicircularCanal from './img/answer/semicircularCanal.png'
+import skin from './img/answer/skin.png'
+import tooth from './img/answer/tooth.png'
+import toothRidge from './img/answer/toothRidge.png'
 // import from './img/answer/.png'
 // import from './img/answer/.png'
 // import from './img/answer/.png'
@@ -249,7 +258,6 @@ export const useQuestionList = () => {
           detailInfo: '6/13口頭',
           questionImg: [],
           questionSentence: '子宮で、受精卵の受精が起きる場所は？',
-          choices: [],
           answerImg: [],
           answer: '卵管膨大部',
           commentary: '',
@@ -258,7 +266,6 @@ export const useQuestionList = () => {
           detailInfo: '6/13口頭',
           questionImg: [],
           questionSentence: '子宮内部で、受精卵の透明帯が取れる場所は？',
-          choices: [],
           answerImg: [],
           answer: '子宮体内腔',
           commentary: '透明帯が取れることで、受精卵の着床が可能となる',
@@ -282,7 +289,6 @@ export const useQuestionList = () => {
           detailInfo: '6/13口頭',
           questionImg: [q4],
           questionSentence: '各部位の名称を述べよ',
-          choices: [],
           answerImg: [],
           answer:
             '1.一次絨毛　2.栄養膜裂孔　3.付着茎　4.羊膜腔　5.二次卵黄嚢　6.胚外壁側中胚葉　7.胚外体腔（絨毛膜腔）　8.内肺葉　9.外胚葉　10.栄養膜合胞体層　11.栄養膜細胞層',
@@ -292,7 +298,6 @@ export const useQuestionList = () => {
           detailInfo: '6/13口頭',
           questionImg: [q5],
           questionSentence: '発生13日目の胚の断面で、母体由来の細胞を選べ',
-          choices: [],
           answerImg: [],
           answer: 'E?',
           commentary:
@@ -302,7 +307,6 @@ export const useQuestionList = () => {
           detailInfo: '6/13口頭',
           questionImg: [q6],
           questionSentence: '絨毛の断面図を示す。発生何日目？',
-          choices: [],
           answerImg: [],
           answer: '21日目',
           commentary:
@@ -313,7 +317,6 @@ export const useQuestionList = () => {
           questionImg: [q7],
           questionSentence:
             '発生13日の胚の断面で、模式図の2に対応する部位はどこか',
-          choices: [],
           answerImg: [],
           answer: 'F',
           commentary: '2は栄養膜細胞層で、胚外中胚葉のすぐ外側を覆っている。',
@@ -341,7 +344,6 @@ export const useQuestionList = () => {
           detailInfo: '6/13口頭',
           questionImg: [q9],
           questionSentence: '図の空欄を埋めよ',
-          choices: [],
           answerImg: [],
           answer: '1.原始線条　2.原始結節　3.脊索　4.口咽頭膜　5.排泄腔膜',
           commentary: '',
@@ -350,7 +352,6 @@ export const useQuestionList = () => {
           detailInfo: '6/13口頭',
           questionImg: [q10],
           questionSentence: '図の空欄を埋めよ',
-          choices: [],
           answerImg: [],
           answer:
             '1.外胚葉　2.羊膜　3.卵黄嚢壁　4.口咽頭膜　5.脊索　6.排泄腔膜　7.尿膜　8.原始窩と神経腸管',
@@ -360,7 +361,6 @@ export const useQuestionList = () => {
           detailInfo: '6/13口頭',
           questionImg: [q11],
           questionSentence: '図の空欄を埋めよ',
-          choices: [],
           answerImg: [],
           answer: '1.外胚葉　2.中胚葉　3.内胚葉　4.脊索',
           commentary: '',
@@ -384,7 +384,6 @@ export const useQuestionList = () => {
           detailInfo: '6/13口頭',
           questionImg: [q13],
           questionSentence: '発生16日胚の横断面で、矢印の細胞は何か',
-          choices: [],
           answerImg: [],
           answer: '中胚葉',
           commentary: '',
@@ -393,7 +392,6 @@ export const useQuestionList = () => {
           detailInfo: '6/13口頭',
           questionImg: [q14],
           questionSentence: '23日胚の横断面で、脊索板はどれか',
-          choices: [],
           answerImg: [],
           answer: 'D',
           commentary: '',
@@ -435,7 +433,6 @@ export const useQuestionList = () => {
           detailInfo: '6/13口頭',
           questionImg: [],
           questionSentence: '上皮と間葉とはそれぞれ何か',
-          choices: [],
           answerImg: [],
           answer:
             '上皮細胞は互いに密接に連結し、シート、チューブ、細胞索、腺房、導管等を形成。基本的に、外胚葉か内胚葉に由来。　間葉細胞は互いの連結は無いか緩い。それぞれが個別のユニットとして機能する。基本的に、中胚葉か神経堤に由来。',
@@ -464,7 +461,6 @@ export const useQuestionList = () => {
           detailInfo: '6/13口頭',
           questionImg: [q19],
           questionSentence: '4週胚。破線の断面に含まれないのは？（複数回答可）',
-          choices: [],
           answerImg: [q20],
           answer: '体節/口咽頭膜/排泄腔膜/卵黄腸管',
           commentary: '',
@@ -489,7 +485,6 @@ export const useQuestionList = () => {
           detailInfo: '6/13口頭',
           questionImg: [q22],
           questionSentence: '25日胚の横断面で、矢印からできるものを挙げよ',
-          choices: [],
           answerImg: [],
           answer: '子宮',
           commentary: '矢印は中間中胚葉。泌尿器・生殖器に分化する。',
@@ -498,7 +493,6 @@ export const useQuestionList = () => {
           detailInfo: '6/13口頭',
           questionImg: [q23],
           questionSentence: '29日胚の横断面で、胚内体腔はどれか？',
-          choices: [],
           answerImg: [],
           answer: 'D',
           commentary: 'Dは側板中胚葉で、体腔の上皮などに分化する。',
@@ -507,7 +501,6 @@ export const useQuestionList = () => {
           detailInfo: '6/13口頭',
           questionImg: [q24],
           questionSentence: '32日胚の断面で、咽頭弓はどれか？',
-          choices: [],
           answerImg: [],
           answer: 'CとD',
           commentary:
@@ -555,7 +548,6 @@ export const useQuestionList = () => {
           questionImg: [qq1],
           questionSentence:
             '発生19日目の胚の断面図で、将来胸腔になるのはどこ？',
-          choices: [],
           answerImg: [],
           answer: '2（側板中胚葉）',
           commentary:
@@ -566,7 +558,6 @@ export const useQuestionList = () => {
           questionImg: [qq2],
           questionSentence:
             '28日胚の横断面で、将来腹腔になるのは？（複数選択可）',
-          choices: [],
           answerImg: [],
           answer: 'CとD',
           commentary:
@@ -576,7 +567,6 @@ export const useQuestionList = () => {
           detailInfo: '6/14確認問題',
           questionImg: [qq3],
           questionSentence: '25日胚の横断面で、将来の胸腔はどれか',
-          choices: [],
           answerImg: [],
           answer: 'D',
           commentary:
@@ -604,7 +594,6 @@ export const useQuestionList = () => {
           detailInfo: '6/14確認問題',
           questionImg: [qq4],
           questionSentence: '25日胚の横断面で、影をつけた部分は何か？',
-          choices: [],
           answerImg: [],
           answer: '腹腔？',
           commentary:
@@ -614,7 +603,6 @@ export const useQuestionList = () => {
           detailInfo: '6/14確認問題',
           questionImg: [qq5],
           questionSentence: '41日胚の横断面で、矢印の部分は何か？',
-          choices: [],
           answerImg: [],
           answer: '横隔神経',
           commentary:
@@ -659,7 +647,6 @@ export const useQuestionList = () => {
           questionImg: [qq8],
           questionSentence:
             '左右の模式図内（左は発生5週）で、構造1~7の由来をA~Kから選べ。',
-          choices: [],
           answerImg: [],
           answer: 'C→1絨毛膜板,K→2羊膜,E→3羊膜腔,I→4胚子,B→6臍帯,D→7卵黄嚢',
           commentary:
@@ -670,7 +657,6 @@ export const useQuestionList = () => {
           questionImg: [qq9],
           questionSentence:
             '発生9日胚で、矢印の部分は将来右の模式図のどこになるか？',
-          choices: [],
           answerImg: [],
           answer: 'C',
           commentary:
@@ -715,7 +701,6 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '母親がD抗原を持たず、胎児がD抗原を持つ場ときに誘発される不適合と、その予防法を解説せよ',
-          choices: [],
           answerImg: [],
           answer: '',
           commentary:
@@ -824,7 +809,6 @@ export const useQuestionList = () => {
           detailInfo: '6/15確認問題',
           questionImg: [s1],
           questionSentence: '三葉性胚盤で、胸骨が由来する部位を選べ',
-          choices: [],
           answerImg: [],
           answer: '3.壁側側板中胚葉',
           commentary: '',
@@ -833,7 +817,6 @@ export const useQuestionList = () => {
           detailInfo: '6/15確認問題',
           questionImg: [s2],
           questionSentence: '三葉性胚盤で、椎弓が由来する部位を選べ',
-          choices: [],
           answerImg: [],
           answer: '7.沿軸中胚葉',
           commentary: '',
@@ -842,7 +825,6 @@ export const useQuestionList = () => {
           detailInfo: '6/15確認問題',
           questionImg: [s3],
           questionSentence: '前頭骨が由来する部位を選べ',
-          choices: [],
           answerImg: [],
           answer: '8.神経堤細胞',
           commentary:
@@ -853,7 +835,6 @@ export const useQuestionList = () => {
           questionImg: [s4],
           questionSentence:
             '図に示す頭蓋骨の異常a~dに対応する縫合を、1~6から選び、その理由を説明せよ',
-          choices: [],
           answerImg: [],
           answer: 'a→4矢状縫合、b→1冠状縫合、c→、',
           commentary:
@@ -864,7 +845,6 @@ export const useQuestionList = () => {
           questionImg: [s5],
           questionSentence:
             '以下は、体節横断面の走査電顕像である。将来、椎骨になるのはどこか？',
-          choices: [],
           answerImg: [],
           answer: '2.沿軸中胚葉椎板',
           commentary: '1が皮板・筋板。2が椎板',
@@ -873,7 +853,6 @@ export const useQuestionList = () => {
           detailInfo: '6/15確認問題',
           questionImg: [s6],
           questionSentence: '頭蓋骨の中で、神経堤に由来する骨はどれか？',
-          choices: [],
           answerImg: [],
           answer: '2前頭骨、5上顎骨、6下顎骨',
           commentary:
@@ -907,7 +886,6 @@ export const useQuestionList = () => {
           detailInfo: '6/15確認問題',
           questionImg: [s7],
           questionSentence: 'A~Fは図中のどの部位に由来するか？',
-          choices: [],
           answerImg: [],
           answer: 'A-5（神経管）,B-6この図中にはない,C-2（筋板）',
           commentary:
@@ -955,7 +933,6 @@ export const useQuestionList = () => {
           detailInfo: '6/15確認問題',
           questionImg: [s8],
           questionSentence: '図の中で上直筋はどこに由来するか？',
-          choices: [],
           answerImg: [],
           answer: '2.筋板？',
           commentary: '骨格筋は原則沿軸中胚葉筋板から分化する。',
@@ -965,7 +942,6 @@ export const useQuestionList = () => {
           detailInfo: '6/15確認問題',
           questionImg: [s9],
           questionSentence: '図の中で肩甲骨はどこに由来するか？',
-          choices: [],
           answerImg: [],
           answer: 'この中にはない',
           commentary:
@@ -994,7 +970,6 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '遺伝子異常と疾患の組み合わせで、7)FBN1の変異によっておこる疾患をa~gから選べ。',
-          choices: [],
           answerImg: [],
           answer: 'b.マルファン症候群',
           commentary:
@@ -1144,7 +1119,6 @@ export const useQuestionList = () => {
           questionImg: [r1],
           questionSentence:
             '32日胚の横断面で、成人の網嚢にあたる部分はどこからできるか？',
-          choices: [],
           answerImg: [],
           answer: 'C',
           commentary:
@@ -1154,7 +1128,6 @@ export const useQuestionList = () => {
           detailInfo: '6/17確認問題',
           questionImg: [r6],
           questionSentence: '36日胚の横断面で、矢印は将来何になるか？',
-          choices: [],
           answerImg: [],
           answer: '',
           commentary: '矢印は背側胃間膜で、将来脾臓になる。',
@@ -1163,7 +1136,6 @@ export const useQuestionList = () => {
           detailInfo: '6/17確認問題',
           questionImg: [r2],
           questionSentence: '36日胚の横断面で、矢印の部分は将来何になるか？',
-          choices: [],
           answerImg: [],
           answer: '胆嚢',
           commentary:
@@ -1173,7 +1145,6 @@ export const useQuestionList = () => {
           detailInfo: '6/17確認問題',
           questionImg: [r3],
           questionSentence: '肝シヌソイドになるのはどれか？',
-          choices: [],
           answerImg: [],
           answer: '2と5',
           commentary:
@@ -1183,7 +1154,6 @@ export const useQuestionList = () => {
           detailInfo: '6/17確認問題',
           questionImg: [],
           questionSentence: '生後、肝円索になるのはどれか？',
-          choices: [],
           answerImg: [],
           answer: '4',
           commentary:
@@ -1209,7 +1179,6 @@ export const useQuestionList = () => {
           detailInfo: '6/17確認問題',
           questionImg: [r5],
           questionSentence: '回盲部は図のどこにできるか？',
-          choices: [],
           answerImg: [],
           answer: '2',
           commentary:
@@ -1219,7 +1188,6 @@ export const useQuestionList = () => {
           detailInfo: '6/17確認問題',
           questionImg: [r4],
           questionSentence: '将来の大十二指腸乳頭はどこか？',
-          choices: [],
           answerImg: [],
           answer: 'A',
           commentary: 'Aが主膵管、Bが副膵管（小十二指腸乳頭）になる。',
@@ -1228,7 +1196,6 @@ export const useQuestionList = () => {
           detailInfo: '6/21確認問題',
           questionImg: [t01],
           questionSentence: '発生18日胚で、心臓が由来する部位を選べ。',
-          choices: [],
           answerImg: [],
           answer: '5.側板中胚葉臓側',
           commentary:
@@ -1257,7 +1224,6 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '一次心臓域の形成過程と形成位置を「原始線条」を用いて解説せよ。（胚盤葉上層という言葉も用いて）',
-          choices: [],
           answerImg: [t04],
           answer:
             '胚盤葉上層の予定運命：細胞の運命は、胚盤葉上層の中での位置で概ね決まっている。発生の初期に原始線条を通過し中胚葉を形成する運命の胚盤葉上層がもっとも頭部の心臓中胚葉を形成する。',
@@ -1270,7 +1236,6 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '原始心筒/心筒の形成過程について、「心内膜筒」「胚子の屈曲」という単語を用いて解説せよ（一次心臓域という言葉も用いて）。また、将来、流出路となる部位がどのように形成されるのかも説明せよ。',
-          choices: [],
           answerImg: [t06, t07],
           answer:
             '胚子の左右の屈曲によって心内膜筒が癒合して原始心筒を形成する。',
@@ -1291,7 +1256,6 @@ export const useQuestionList = () => {
           detailInfo: '6/21確認問題',
           questionImg: [],
           questionSentence: '心膜横洞とは何か？',
-          choices: [],
           answerImg: [],
           answer:
             '背側心間膜の中部がすぐに消失して、流入路と流出路に分離する。',
@@ -1301,7 +1265,6 @@ export const useQuestionList = () => {
           detailInfo: '6/21確認問題',
           questionImg: [t11],
           questionSentence: '25日胚の横断面で、影を付けた部分は何か？',
-          choices: [],
           answerImg: [],
           answer: 'A.心臓',
           commentary:
@@ -1347,7 +1310,6 @@ export const useQuestionList = () => {
           detailInfo: '6/21確認問題',
           questionImg: [t18],
           questionSentence: '発生7週の図で、卵円孔はどれか？(1つ選択)',
-          choices: [],
           answerImg: [],
           answer: '6（二次中隔の開放部分）',
           commentary:
@@ -1376,7 +1338,6 @@ export const useQuestionList = () => {
           questionImg: [t20, t21],
           questionSentence:
             '図は、胎児循環の模式図である。出生時に閉塞する血管を1～5から全て選び、その役割を解説せよ。',
-          choices: [],
           answerImg: [t22],
           answer:
             '2.動脈管索）出生に伴う肺呼吸の開始　5.静脈管索）出生に伴う臍帯の断絶',
@@ -1389,7 +1350,6 @@ export const useQuestionList = () => {
           questionImg: [t24],
           questionSentence:
             '成人の大動脈模式図で、影を付けた部分は、胚性期にはどの動脈、咽頭弓動脈に由来するか？（AとB)',
-          choices: [],
           answerImg: [t25],
           answer:
             'A.右鎖骨下動脈）第4大動脈弓右側　B.左鎖骨下動脈）第7節間動脈',
@@ -1401,7 +1361,6 @@ export const useQuestionList = () => {
           questionImg: [t26],
           questionSentence:
             '成人の大動脈模式図で、影を付けた部分は、胚性期にはどの動脈、咽頭弓動脈に由来するか？（右総頚動脈）',
-          choices: [],
           answerImg: [t27],
           answer: '第3大動脈弓から頚動脈系が形成される',
           commentary: '',
@@ -1411,7 +1370,6 @@ export const useQuestionList = () => {
           questionImg: [t28],
           questionSentence:
             '成人の大動脈模式図で、影を付けた部分は、胚性期にはどの動脈、咽頭弓動脈に由来するか？（動脈管索）',
-          choices: [],
           answerImg: [t30],
           answer: '第6大動脈弓左側',
           commentary: 'ラングマンp210',
@@ -1421,7 +1379,6 @@ export const useQuestionList = () => {
           questionImg: [t29],
           questionSentence:
             '成人の大動脈模式図で、影を付けた部分は、胚性期にはどの動脈、咽頭弓動脈に由来するか？（左肺動脈）',
-          choices: [],
           answerImg: [t30],
           answer: '第6大動脈弓',
           commentary: '',
@@ -1431,7 +1388,6 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '次の空欄を埋めよ。迷走神経の分枝である反回神経recurrent laryngeal nerveは、右側は（　）を回り、左側は（　）を回って上行する。これは、（　）の消失過程が左右で異なるためである。',
-          choices: [],
           answerImg: [],
           answer: '右鎖骨下動脈、大動脈弓、第6大動脈弓',
           commentary:
@@ -1441,7 +1397,6 @@ export const useQuestionList = () => {
           detailInfo: '6/21確認問題',
           questionImg: [t33],
           questionSentence: '発生32日胚の断面図で、第2咽頭弓はどこか？',
-          choices: [],
           answerImg: [],
           answer: 'C',
           commentary:
@@ -1452,7 +1407,6 @@ export const useQuestionList = () => {
           questionImg: [t34],
           questionSentence:
             '管前大動脈縮窄に動脈管開存が併発しなかった場合、何が起きるか？',
-          choices: [],
           answerImg: [t35],
           answer: 'C.下半身のチアノーゼ',
           commentary:
@@ -1462,7 +1416,6 @@ export const useQuestionList = () => {
           detailInfo: '6/21確認問題',
           questionImg: [t37],
           questionSentence: '発生4週胚で、肝円索になるのはどれか？',
-          choices: [],
           answerImg: [],
           answer: '6.左臍静脈',
           commentary:
@@ -1472,7 +1425,6 @@ export const useQuestionList = () => {
           detailInfo: '6/21確認問題',
           questionImg: [t38],
           questionSentence: '発生4週胚で、上腸間膜静脈になるのはどれか？',
-          choices: [],
           answerImg: [],
           answer: '右側卵黄嚢静脈',
           commentary:
@@ -1597,7 +1549,6 @@ export const useQuestionList = () => {
           questionImg: [t23],
           questionSentence:
             '成人の大動脈の模式図で、影をつけた部分は胚性期にはどの動脈・咽頭弓動脈に由来するか？（大動脈弓の右鎖骨下動脈より近位側）',
-          choices: [],
           answerImg: [heartLoop],
           answer: '心臓動脈幹',
           commentary:
@@ -1623,7 +1574,6 @@ export const useQuestionList = () => {
           detailInfo: '6/24確認問題',
           questionImg: [u1038],
           questionSentence: '発生30日胚断面で、耳胞を同定せよ。',
-          choices: [],
           answerImg: [],
           answer: '背側（上側）神経管の左右で膨らんでいる部分',
           commentary:
@@ -1649,7 +1599,6 @@ export const useQuestionList = () => {
           detailInfo: '6/24確認問題',
           questionImg: [],
           questionSentence: '鼓膜の形成過程を解説せよ',
-          choices: [],
           answerImg: [u1113],
           answer:
             '鼓膜は外耳道底における1)外胚葉性上皮被膜、2)鼓室の内胚葉性上皮被膜、3)線維層を形成する結合組織の中間層からなる。',
@@ -1676,7 +1625,6 @@ export const useQuestionList = () => {
           detailInfo: '6/24確認問題',
           questionImg: [u1130],
           questionSentence: '発生30日胚断面で、眼胞を同定せよ',
-          choices: [],
           answerImg: [],
           answer: '断面下側（腹側）の神経管の左右の膨らみ',
           commentary: '残された神経管は前脳（間脳）を形成する。',
@@ -1686,7 +1634,6 @@ export const useQuestionList = () => {
           questionImg: [u1134],
           questionSentence:
             '発生36日胚の断面で、眼杯・水晶体・視神経を同定せよ。また網膜はどこに由来するか？',
-          choices: [],
           answerImg: [u1139],
           answer: '図参照',
           commentary:
@@ -1713,7 +1660,6 @@ export const useQuestionList = () => {
           questionImg: [u114006],
           questionSentence:
             '発生56日胚の断面で、1.網膜色素上皮、2.硝子体動脈、3.結膜嚢、4.眼瞼、5.強膜を同定せよ。',
-          choices: [],
           answerImg: [u114018],
           answer: '図参照',
           commentary:
@@ -1723,7 +1669,6 @@ export const useQuestionList = () => {
           detailInfo: '6/24確認問題',
           questionImg: [u1205],
           questionSentence: '組織図で、外胚葉由来の細胞を選べ。',
-          choices: [],
           answerImg: [],
           answer: 'A.表皮有棘層、C.小汗腺',
           commentary: 'B.真皮結合組織、D.皮下脂肪は中胚葉由来',
@@ -1761,7 +1706,6 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '喉頭口の形成にかかる咽頭弓を二つ挙げ、それらに由来する軟骨を挙げよ',
-          choices: [],
           answerImg: [],
           answer: '第4・第6咽頭弓',
           commentary: '喉頭軟骨は中胚葉由来（咽頭弓由来）といえる。',
@@ -1770,7 +1714,6 @@ export const useQuestionList = () => {
           detailInfo: '6/30確認問題',
           questionImg: [],
           questionSentence: '気管食道中隔の形成過程を解説せよ',
-          choices: [],
           answerImg: [],
           answer: '気管食道稜が呼吸憩室と前腸を分割する。',
           commentary: 'なので気管は内胚葉由来',
@@ -1780,7 +1723,6 @@ export const useQuestionList = () => {
           questionImg: [v01],
           questionSentence:
             '33日胚の断面で、咽頭口・喉頭嚢はどこか？また、甲状軟骨はどこからできるか？',
-          choices: [],
           answerImg: [],
           answer:
             '断面中央のT字型の空間が咽頭口、その両側の密な空間が咽頭嚢、背側が咽頭蓋へ分化する。',
@@ -1792,7 +1734,6 @@ export const useQuestionList = () => {
           questionImg: [v02],
           questionSentence:
             '32日胚の断面で、気管・食道・気管食道中隔を同定せよ。',
-          choices: [],
           answerImg: [],
           answer:
             '断面中央の縦に2つ並ぶ楕円（背側が食道、腹側が気管）その間が中隔。',
@@ -1821,7 +1762,6 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '出生前超音波検査で羊水過多が明らかになった。出生時に、胎児は口の中に多量の液体を含んでいた。どのような型の異常が考えられるか？',
-          choices: [],
           answerImg: [TEF],
           answer: '食道閉鎖',
           commentary:
@@ -1832,7 +1772,6 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '肺芽の形成過程を、胚内体腔の分割に関係づけて解説せよ',
-          choices: [],
           answerImg: [growingLung],
           answer:
             '発生5週に体壁から隆起した胸心膜ヒダが、内側へ成長し正中で癒合し食道の中胚葉とも癒合。同時に胸心膜ヒダの根が腹壁へ移動し、結果として原始心膜腔は心膜腔と左右の胸腹腔に分割される。',
@@ -1863,7 +1802,6 @@ export const useQuestionList = () => {
           questionImg: [v05],
           questionSentence:
             '妊娠26週と27週で新生児生存率が大きく異なるのはなぜか？（27週目には救命率が90%以上となる）',
-          choices: [],
           answerImg: [],
           answer:
             '肺胞やⅡ型肺胞上皮細胞が形成され始めるのがこの時期（終末嚢期）だから',
@@ -1875,7 +1813,6 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '産科領域で、肺機能が十分に成熟していると判断されるのは妊娠第何週からか？',
-          choices: [],
           answerImg: [],
           answer: '34週？',
           commentary:
@@ -1885,7 +1822,6 @@ export const useQuestionList = () => {
           detailInfo: '6/30確認問題',
           questionImg: [v07],
           questionSentence: '29日胚の横断面で、尿管はどこからできるか？',
-          choices: [],
           answerImg: [],
           answer: '神経管両側最外側の密の領域',
           commentary: '尿管は中間中胚葉由来',
@@ -1894,7 +1830,6 @@ export const useQuestionList = () => {
           detailInfo: '6/30確認問題',
           questionImg: [v08],
           questionSentence: '29日胚の横断面で、尿道や膀胱はどこからできるか？',
-          choices: [],
           answerImg: [],
           answer: '画面中～下部（腹側）の排泄腔',
           commentary:
@@ -1905,7 +1840,6 @@ export const useQuestionList = () => {
           questionImg: [v09],
           questionSentence:
             '33日胚の縦断面で、将来精巣輸出管となるのはどこか？',
-          choices: [],
           answerImg: [mesonephricTubule],
           answer:
             '中腎管から中腎へ繋がる中腎細管。断面を左右に短く走っている。',
@@ -1917,7 +1851,6 @@ export const useQuestionList = () => {
           questionImg: [v10],
           questionSentence:
             '39日胚横断面で、1)中腎の腎小体、2)中腎細管、3)中腎管、4)生殖堤を同定せよ。',
-          choices: [],
           answerImg: [midKidney],
           answer:
             '1)断面左右中央の濃い胞状の部分　2)断面左右やや上方の真横に走っている管部分　3)断面左右で中腎細管から続いている小さめの丸い円部分　4)断面左右やや下方で下方向へ膨らんでいるやや濃い部分',
@@ -1928,7 +1861,6 @@ export const useQuestionList = () => {
           detailInfo: '6/30確認問題',
           questionImg: [v11],
           questionSentence: '49日胚横断面後腎で、矢印のA,B,Cは何か？',
-          choices: [],
           answerImg: [glomerulus],
           answer: 'A.糸球体、B.ボーマン嚢、C.集合管（尿管）',
           commentary:
@@ -1955,7 +1887,6 @@ export const useQuestionList = () => {
           detailInfo: '6/30確認問題',
           questionImg: [v12],
           questionSentence: '49日胚（男性）横断面で、1)腎臓、2)精巣を同定せよ',
-          choices: [],
           answerImg: [v13],
           answer:
             '1)断面左右にC字型に濃く染まっているのが腎臓、2)その下方（腹側）で全体が濃染している卵型の部分が精巣',
@@ -1966,7 +1897,6 @@ export const useQuestionList = () => {
           detailInfo: '6/30確認問題',
           questionImg: [v16],
           questionSentence: '骨盤腎を栄養する動脈はどこに起始するか？',
-          choices: [],
           answerImg: [],
           answer: 'C.腹部大動脈下部',
           commentary:
@@ -1988,7 +1918,6 @@ export const useQuestionList = () => {
           questionImg: [v18],
           questionSentence:
             '17日胚子の矢状断面模式図で、尿膜管瘻はどこに由来するか？',
-          choices: [],
           answerImg: [urachalFistula],
           answer: 'B.尿膜（※後日訂正：Dが尿膜）',
           commentary:
@@ -2035,7 +1964,6 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '次の細胞と内分泌因子産生の組み合わせで正しいものを選べ(卵胞膜黄体細胞・顆粒層細胞・内卵胞膜細胞・セルトリ細胞・ライディッヒ細胞)→(テストステロン・エストロン・AMH・FSH・プロゲステロン)',
-          choices: [],
           answerImg: [],
           answer:
             'ライディッヒ細胞→テストステロン、セルトリ細胞→AMH、顆粒層細胞→プロゲステロン？、卵胞膜黄体細胞→エストロン、内卵胞膜細胞→テストステロン',
@@ -2046,7 +1974,6 @@ export const useQuestionList = () => {
           detailInfo: '6/30確認問題',
           questionImg: [],
           questionSentence: '男性生殖器の由来について正しい組み合わせを選べ',
-          choices: [],
           answerImg: [],
           answer:
             'ライディッヒ細胞←生殖堤間葉、精巣輸出管←中腎管、精管←中腎管、精嚢・精巣網←中腎管、前立腺←後腸内胚葉、セルトリ細胞←髄質索？',
@@ -2057,7 +1984,6 @@ export const useQuestionList = () => {
           questionImg: [v22],
           questionSentence:
             '56日胚（男性）の横断面で、1)腎盂、2)小腎盃、3)腎小体、4)精巣を同定せよ',
-          choices: [],
           answerImg: [v15],
           answer:
             '1)腎臓中央で横に切れている太い管が腎盂で、2)そこから枝分かれして腎皮質付近にまで放射状に伸びているのが腎杯、3)腎小体はC字型に分布する腎皮質で多数断面が見える。4)精巣は腎臓の下方（前方）で卵型に切れている。内部の精細管が所々見える。',
@@ -2156,7 +2082,6 @@ export const useQuestionList = () => {
           detailInfo: '7/6確認問題',
           questionImg: [],
           questionSentence: '発生5週とそれ以降の、咽頭弓の形態を解説せよ',
-          choices: [],
           answerImg: [w1000],
           answer:
             '鰓のような鰓ではない弓状の咽頭弓と、隣接する咽頭弓間の咽頭嚢・咽頭溝で構成される。咽頭溝は第一咽頭溝（→外耳道）以外は第2咽頭弓の拡大により最終的に消失する',
@@ -2168,7 +2093,6 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '各咽頭弓に固有の脳神経要素をそれぞれ挙げて、支配する筋肉を述べよ',
-          choices: [],
           answerImg: [w1006],
           answer:
             '第一咽頭弓）三叉神経下顎枝/咀嚼筋など、第二咽頭弓）顔面神経/表情筋など、第三咽頭弓）舌咽神経/茎突咽頭筋など、第四・第六咽頭弓）迷走神経の上喉頭神経・反回神経・下喉頭神経/輪状甲状筋など',
@@ -2179,7 +2103,6 @@ export const useQuestionList = () => {
           questionImg: [w1011],
           questionSentence:
             '30日胚断面で、1)第一咽頭弓、2)第一咽頭嚢、3)第一咽頭溝、4)第一大動脈弓、5)背側大動脈を同定せよ',
-          choices: [],
           answerImg: [w1027],
           answer:
             '第一咽頭弓→G、第一咽頭嚢→I、第一咽頭溝→F、第一大動脈弓→H、背側大動脈→B',
@@ -2190,7 +2113,6 @@ export const useQuestionList = () => {
           detailInfo: '7/6確認問題',
           questionImg: [w102715],
           questionSentence: '32日胚断面で、第一～第四咽頭弓を同定せよ',
-          choices: [],
           answerImg: [w1031],
           answer: '第一咽頭弓-G、第二咽頭弓-F、第三咽頭弓-E、第四咽頭弓-D',
           commentary: 'Bが背側大動脈。D~GのうちよりAnteriorにあるGが第一咽頭弓',
@@ -2199,7 +2121,6 @@ export const useQuestionList = () => {
           detailInfo: '7/6確認問題',
           questionImg: [w103157],
           questionSentence: '32日胚断面で、舌隆起と甲状腺の原基を同定せよ',
-          choices: [],
           answerImg: [],
           answer:
             'E.外側舌隆起、F.無対舌結節（正中隆起）→舌体、G.舌盲孔→甲状腺',
@@ -2211,7 +2132,6 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '知覚性神経節が外胚葉性プラコードからなる脳神経を全て挙げよ',
-          choices: [],
           answerImg: [w1043],
           answer:
             '耳プラコード→内耳神経、三叉神経プラコード→三叉神経、第一咽頭弓プラコード→顔面神経、第三咽頭弓・第四咽頭弓プラコード→迷走神経',
@@ -2222,7 +2142,6 @@ export const useQuestionList = () => {
           questionImg: [w1045],
           questionSentence:
             '7週胚前面で、1)上顎隆起、2)内側鼻隆起、3)外側鼻隆起、4)鼻涙溝を同定せよ',
-          choices: [],
           answerImg: [w1054],
           answer: 'E.上顎隆起、D.内側鼻隆起、G.外側鼻隆起、B.鼻涙溝',
           commentary: 'A.鼻窩（外側鼻隆起と内側鼻隆起の間）、C.口窩、F.眼',
@@ -2243,7 +2162,6 @@ export const useQuestionList = () => {
           questionImg: [w105927],
           questionSentence:
             'A~Cそれぞれの異常の機序として適するものを全て選び、発生過程に関連づけて理由を説明せよ',
-          choices: [],
           answerImg: [w1103],
           answer:
             'A.内側鼻隆起と上顎隆起の癒合不全および一次口蓋と二次口蓋の癒合不全、B.Aの両側、C.二次口蓋の癒合不全',
@@ -2255,7 +2173,6 @@ export const useQuestionList = () => {
           questionImg: [w1117],
           questionSentence:
             '発生2か月末の脳の模式図で、大脳半球はどこから発生するか？',
-          choices: [],
           answerImg: [w1121],
           answer: 'A.終脳',
           commentary:
@@ -2266,7 +2183,6 @@ export const useQuestionList = () => {
           questionImg: [w112149],
           questionSentence:
             '発生2か月末脳の模式図で、迷走神経の神経核はどこにあるか？最も近いものを選べ。',
-          choices: [],
           answerImg: [w1125, w1126],
           answer: 'D.髄脳（→延髄）',
           commentary:
@@ -2297,7 +2213,6 @@ export const useQuestionList = () => {
           detailInfo: '7/6確認問題',
           questionImg: [],
           questionSentence: '髄脳と間脳の組織的な形態の違いを説明せよ',
-          choices: [],
           answerImg: [w1144, w114453],
           answer:
             '髄脳は翼板と基板が明確に区別でき、間脳は蓋板と翼板からなり底板と基板を欠く',
@@ -2309,7 +2224,6 @@ export const useQuestionList = () => {
           questionImg: [w1145],
           questionSentence:
             '56日胚横断面で、1)翼板、2)基板、3)後根神経節、4)白質を同定せよ',
-          choices: [],
           answerImg: [w1152],
           answer: 'A.翼板、E.基板、C.後根神経節、B.白質',
           commentary:
@@ -2328,7 +2242,6 @@ export const useQuestionList = () => {
           detailInfo: '7/6確認問題',
           questionImg: [],
           questionSentence: '間脳に由来する脳の主要な部位を全てあげよ',
-          choices: [],
           answerImg: [w1206],
           answer:
             '視床・視床下部・松果体・眼杯・視交叉・下垂体・第三脳室など...',
@@ -2340,7 +2253,6 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '髄鞘を作る細胞の由来について、中枢と末梢の違いを述べよ',
-          choices: [],
           answerImg: [w1208],
           answer:
             'オリゴデンドロサイト）神経上皮由来。シュワン細胞）神経堤由来',
@@ -2352,7 +2264,6 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '腰椎穿刺をL4~L5の高さで行う理由を、脊柱と脊髄の発生過程に関係づけて説明せよ',
-          choices: [],
           answerImg: [w1212],
           answer:
             '発生過程で脊髄は椎骨に比べて伸長が小さいので、最終的にL4~L5の高さには脊髄のない馬尾が分布することになる。',
@@ -2363,7 +2274,6 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '発生7か月と9か月における大脳半球外側面の形態の相違を説明せよ',
-          choices: [],
           answerImg: [w1220],
           answer:
             '発生7か月の時点では平滑だった大脳半球表面は成長に伴って折れ曲がり、複雑な回gyrusと溝sulcusを形成する',
@@ -2408,7 +2318,6 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '',
-          choices: [],
           answerImg: [],
           answer: 'D.30億塩基対',
           commentary: '',
@@ -2417,7 +2326,6 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '',
-          choices: [],
           answerImg: [],
           answer: '1番染色体',
           commentary: '常染色体22対のうち最も小さいのは21番染色体',
@@ -2426,7 +2334,6 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '',
-          choices: [],
           answerImg: [],
           answer: '女性',
           commentary:
@@ -2436,7 +2343,6 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '',
-          choices: [],
           answerImg: [],
           answer: '最も頻度の高いゲノムの個人差',
           commentary: '個人差は1%よりはるかに小さい',
@@ -2445,7 +2351,6 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '',
-          choices: [],
           answerImg: [],
           answer: 'トランスポゾン',
           commentary:
@@ -2455,7 +2360,6 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '',
-          choices: [],
           answerImg: [],
           answer: '約1.5%',
           commentary:
@@ -2465,7 +2369,6 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '',
-          choices: [],
           answerImg: [transcription],
           answer: 'ポリAテイル、5’キャップ',
           commentary:
@@ -2475,7 +2378,6 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '',
-          choices: [],
           answerImg: [],
           answer: '約20,000',
           commentary: '',
@@ -2484,7 +2386,6 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '',
-          choices: [],
           answerImg: [],
           answer: '塩基除去修復、ヌクレオチド修復？',
           commentary:
@@ -2494,7 +2395,6 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '',
-          choices: [],
           answerImg: [],
           answer: '4^6塩基対？',
           commentary:
@@ -2504,7 +2404,6 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '',
-          choices: [],
           answerImg: [],
           answer: 'C.女性。5番染色体の短腕に欠失',
           commentary:
@@ -2514,7 +2413,6 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '',
-          choices: [],
           answerImg: [],
           answer: 'A.1番染色体の長腕と19番染色体の短腕の間で相互転座',
           commentary:
@@ -2524,7 +2422,6 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '',
-          choices: [],
           answerImg: [transcription],
           answer: '166',
           commentary:
@@ -2534,7 +2431,6 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '',
-          choices: [],
           answerImg: [],
           answer: '(14,21)と(14q21q)',
           commentary:
@@ -2544,7 +2440,6 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '',
-          choices: [],
           answerImg: [],
           answer: 'AとB両方多い',
           commentary:
@@ -3827,11 +3722,142 @@ export const useQuestionList = () => {
       ],
     },
     {
-      groupTag: '確認問題19 外皮系',
+      groupTag: '確認問題17 ',
       groupContents: [
         {
           answerImg: [],
           answer: '',
+          commentary: '',
+        },
+      ],
+    },
+    {
+      groupTag: '確認問題18 平衡聴覚器',
+      groupContents: [
+        {
+          answerImg: [cochlear,cochlearWide],
+          answer: '1.外有毛細胞、4.蝸牛管',
+          commentary: '耳胞→球形嚢・蝸牛管・卵形嚢・半規管・内リンパ管（膜迷路）。ただし蝸牛の前庭階・鼓室階などは蝸牛管を取り囲む間葉由来',
+        },
+        {
+          answerImg: [otocyst],
+          answer: '断面下側の神経管の左右の膨らみ部分が耳胞',
+          commentary: '緑の線の切片を上から見ている。切片後方の突起ができつつある耳胞で、これを断面で同定する問題。耳胞は左右両方にできる。プラコードは神経上皮と外皮が肥厚してできたもの。上側神経管左右にある球状の膨らみが耳胞である。その下側の濃い領域は神経堤由来の間葉で、中枢神経や耳胞と協調して脳神経（CN内耳神経や顔面神経）へ分化する。耳管は前腸（断面中央の管）内胚葉由来',
+        },
+        {
+          answerImg: [cochlear],
+          answer: 'D.蝸牛管',
+          commentary: '耳胞→内耳神経節・前庭蝸牛神経節・蝸牛管など。',
+        },
+        {
+          answerImg: [meckelCartilage],
+          answer: 'B.エウスタキオ管',
+          commentary: '第一咽頭嚢→耳管（エウスタキオ管）・原始鼓室（中耳腔）。第一咽頭弓→ツチ骨・キヌタ骨。耳介は第一咽頭弓と第二咽頭弓の背側端から発生する（6個の神経堤の増殖から耳介小丘が発生）。由来の遠さは判断が難しいが、エウスタキオ管は内胚葉由来なので最も遠いかもしれない。',
+        },
+        {
+          answerImg: [otocyst,pharyngealNerves],
+          answer: '耳胞）断面中央にある左右一対の球状の空間。　脳神経Ⅷ内耳神経）耳胞と神経管の間の濃い領域',
+          commentary: '耳胞は菱脳付近の外胚葉の肥厚から始まる。内耳神経節も耳胞由来',
+        },
+        {
+          answerImg: [semicircularCanal],
+          answer: '耳胞が分化し、背側に卵形嚢が形成される。発生6週中に卵形嚢の扁平突出として半規管は出現し、突出部の壁の中央部は接着し消滅するため、3つの半規管が形成される。',
+          commentary: '',
+        },
+        // {
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+      ],
+    },
+    {
+      groupTag: '確認問題19 外皮系',
+      groupContents: [
+        {
+          answerImg: [skin],
+          answer: 'A,C',
+          commentary:
+            'Aは表皮有棘層、Bは真皮の組織、Cは小汗腺（腺は表皮由来）、Dは皮下脂肪。 表皮は外胚葉由来だが真皮は側板中胚葉（体肢と体壁）・沿軸中胚葉（背部）・神経堤（顔面と頚部）由来。',
+        },
+        {
+          answerImg: [hair],
+          answer: 'D.皮下脂肪-中胚葉、G.皮脂腺-外胚葉',
+          commentary: '皮下脂肪は中胚葉由来、皮脂腺は表皮由来',
+        },
+        {
+          answerImg: [mammaryGland],
+          answer:
+            '3.思春期にエストロゲンとプロゲステロンの作用により発達する。',
+          commentary:
+            '出生時には乳管には腺房がなく、したがって分泌装置がないが、思春期にはエストロゲンとプロゲステロンの濃度が高まることで乳管からの分枝が刺激され、腺房と分泌細胞が形成される。',
+        },
+        {
+          answerImg: [],
+          answer: 'B.メラノサイト、D.三叉神経、E.自律神経',
+          commentary:
+            '表皮は神経堤起源の細胞の侵入を受ける。これらの細胞はメラノソーム内にメラニン色素を合成する。メラノソームが蓄積すると、メラニン細胞の樹状突起へ輸送され、表皮のケラチン細胞や毛球へと細胞間輸送される。このように、皮膚と毛の色素はもともとあるものではなく、獲得されたものである。ほか、副腎髄質も神経堤由来である。',
+        },
+        {
+          answerImg: [mammaryGland],
+          answer: 'E.この中にはない',
+          commentary:
+            '上皮性毛包・脂腺は上皮由来である。立毛筋・汗腺の平滑筋・瞳孔括約筋も例外的に外胚葉由来である。',
+        },
+        {
+          answerImg: [],
+          answer: 'B.魚鱗癬',
+          commentary:
+            'ワーデンブルグ症候群は、皮膚や髪の毛の色素沈着・青い眼・感音性難聴を特徴とする遺伝的疾患。魚鱗癬は重度の皮膚の乾燥の一種（遺伝性・後天性両方存在）。まだら症とはおでこや生え際の所にできる皮膚の白い変化で、その部分だけ白髪になる遺伝性の病気。多毛症は毛包の過剰形成で、遺伝性/薬物など多様な原因が存在する。（皮膚と毛の色素はもともとあるものではなく、獲得されたものである。）',
+        },
+        {
+          answerImg: [tooth],
+          answer: 'C.ゾウゲ芽細胞',
+          commentary:
+            '歯は口腔を覆う上皮と神経堤由来の間葉細胞との相互作用で形成される。具体的には歯堤・内・外エナメル上皮・エナメル結節が外胚葉由来、歯乳頭・ゾウゲ質が神経堤由来。',
+        },
+        {
+          answerImg: [hair],
+          answer: 'A.表皮',
+          commentary:
+            '筋の由来は神経堤（頭部）・体節中胚葉（頚部と後頭域）・側板中胚葉壁側板（体壁と体肢）・側板中胚葉臓側板（心筋・腸管など）がほとんどだが、例外として、瞳孔括約筋・散大筋・乳腺および汗腺中の筋組織は外胚葉起源である。',
+        },
+        {
+          answerImg: [tooth, toothRidge],
+          answer:
+            '歯自体は口腔を覆う上皮とその下層にある神経堤由来の間葉細胞との相互作用で形成される。口腔上皮の基底層が落ち込み歯堤・内外エナメル上皮を形成する一方で、神経堤由来の間葉が歯乳頭を形成し、後にゾウゲ芽細胞（→象牙質）に分化する。歯の外面では歯根部の象牙質と接触している間葉細胞がセメント芽細胞（→セメント質）や歯根膜を形成し、歯をその位置にしっかりと固定すると同時に衝撃の吸収装置として働く。',
+          commentary: '神経堤→歯乳頭・ゾウゲ質・セメント質など',
+        },
+        {
+          answerImg: [mammaryGland],
+          answer:
+            '思春期において、男性ではエストロゲン量が少なくテストステロン量が多いため乳腺は形成されない。女性ではエストロゲンが多くテストステロンが少ないため、エストロゲンやプロゲステロンにより乳腺が形成される。',
+          commentary: 'エストロゲン→乳管の発育、プロゲステロン→腺葉の肥大',
+        },
+        {
+          answerImg: [mammaryGland],
+          answer:
+            '乳腺も汗腺と同じく表皮由来で、発生7週ごろ上肢の基部から下肢まで両側に複数できた乳腺堤の1対だけが残存して下層の間葉中に侵入し、乳管・上皮小窩を形成する。乳頭は出生後に上皮小窩の下層の間葉の増殖によって形成される。腺房や分泌細胞は思春期まで形成されない。',
           commentary: '',
         },
       ],
