@@ -3850,7 +3850,7 @@ export const useQuestionList = () => {
       ],
     },
     {
-      groupTag: '確認問題21 泌尿生殖器系',
+      groupTag: '確認問題21 生殖器系',
       groupContents: [
         {
           answerImg: [testisHormone, LHFSH],
@@ -3990,7 +3990,7 @@ export const useQuestionList = () => {
       ],
     },
     {
-      groupTag: '確認問題22 泌尿生殖器',
+      groupTag: '確認問題22 泌尿器系',
       groupContents: [
         {
           answerImg: [after21daysKidney],
