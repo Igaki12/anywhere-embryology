@@ -242,6 +242,12 @@ import tooth from './img/answer/tooth.png'
 import toothRidge from './img/answer/toothRidge.png'
 import auditoryOssicles from './img/answer/auditoryOssicles.png'
 import opticCup from './img/answer/opticCup.png'
+import eyeAnatomy from './img/answer/eyeAnatomy.png'
+import eyeCup from './img/answer/eyeCup.png'
+import eyeGrowing from './img/answer/eyeGrowing.png'
+import eyeWide from './img/answer/eyeWide.png'
+import iris from './img/answer/iris.png'
+// import from './img/answer/.png'
 // import from './img/answer/.png'
 // import from './img/answer/.png'
 
@@ -3476,6 +3482,82 @@ export const useQuestionList = () => {
           answerImg: [opticCup],
           answer: 'B.前脳',
           commentary: '前脳→間脳（→網膜・視神経など）・大脳半球',
+        },
+        {
+          answerImg: [opticCup],
+          answer: '断面上の、神経菅の左右に一対の球状の空間',
+          commentary:
+            '眼胞は前脳神経管由来で、眼プラコードではない。（耳胞は耳プラコード由来）',
+        },
+        {
+          answerImg: [eyeCup],
+          answer:
+            '眼杯は断面中央前脳から左右側面まで隆起した、C字状の部分。水晶体は断面左側の眼杯に囲まれた球状の部分。視神経は前脳から眼杯へと伸びる眼茎の部分',
+          commentary:
+            '前脳からの隆起 → 眼胞 → 眼杯・眼茎 → 網膜・瞳孔・視神経など。一方で眼プラコードは水晶体を形成する。',
+        },
+        {
+          answerImg: [eyeGrowing],
+          answer:
+            '断面下から2番目の左右一対の空間がガラス体、その腹側の球状の濃い領域が水晶体、その背側周囲の濃い領域（の最内側）が網膜神経層（外側の濃い領域は網膜色素上皮層、最も濃い線は脈絡膜？）',
+          commentary:
+            '網膜神経層は視神経の末端が分布する網膜の中心的な役割を担う層。水晶体は眼プラコード由来の部分。ガラス体は眼球を満たす透明・粘稠なゲル状組織で、中に見える断片は硝子体血管で、胎生期中に閉塞し消失する。断面最下部の左右一対の空間は大脳半球前端で、胎児が前屈しているため神経管は断面最上部にも見える。',
+        },
+        {
+          answerImg: [eyeWide, eyeAnatomy],
+          answer:
+            '網膜色素上皮)網膜の最内側を占めるやや薄いC字状の部分。　硝子体動脈)眼の内側を埋める硝子体に点在する部分。　結膜嚢)断面右下に見える薄い2重壁の部分。　眼瞼)結膜嚢の外側（断面右下）の部分。　強膜)眼球の黒い線（脈絡層）の外側のやや濃い部分。',
+          commentary:
+            '網膜色素上皮層は網膜最外層で、眼杯二重壁の外側の壁から発生する。成人ではこのすぐ内側に光受容器をもつ桿体細胞・錐体細胞が刺さっている。硝子体動脈は眼杯裂から入り込んだ間葉由来の血管で、硝子体内の部分は胎生期に閉塞・消失するが眼茎に入り込んだ部分は網膜中心動脈となる。結膜嚢は外胚葉上皮由来で、眼瞼の裏側を形成し腺が豊富。眼瞼はまぶたのこと。強膜・脈絡膜は眼周囲の間葉由来で、組織切片では脈絡膜が最も濃く、胸膜がその外側で若干濃く映る。',
+        },
+        {
+          answerImg: [eyeAnatomy],
+          answer: 'C.瞳孔散大筋、D.網膜',
+          commentary:
+            '筋は基本中胚葉・神経堤（毛様体筋などの頭部）由来であるが、例外として瞳孔括約筋・瞳孔散大筋（神経外胚葉由来）・汗腺乳腺中の筋組織（外胚葉性上皮由来）が挙げられる。',
+        },
+        {
+          answerImg: [eyeAnatomy],
+          answer: 'B.間脳',
+          commentary:
+            '前脳→大脳半球・間脳。前脳の左右への隆起から眼胞や視神経が発生する。',
+        },
+        {
+          answerImg: [],
+          answer: 'C.瞳孔括約筋',
+          commentary:
+            '筋の由来は神経堤（頭部）・体節中胚葉（頚部と後頭域）・側板中胚葉壁側板（体壁と体肢）・側板中胚葉臓側板（心筋・腸管など）であるが、例外として瞳孔括約筋・瞳孔散大筋・汗腺乳腺中の筋組織は外胚葉起源である。',
+        },
+        {
+          answerImg: [iris],
+          answer: 'B.神経管',
+          commentary:
+            '虹彩の平滑筋は瞳孔括約筋・瞳孔散大筋で、神経外胚葉由来。他の頭部の筋は基本神経堤由来。',
+        },
+        {
+          answerImg: [eyeAnatomy],
+          answer:
+            '眼胞との相互作用による体表外胚葉の肥厚によって水晶体板は形成される。水晶体胞は水晶体板陥入・発達により形成される。',
+          commentary: '',
+        },
+        {
+          answerImg: [eyeCup],
+          answer:
+            '眼杯の陥入により眼杯裂が形成され、硝子体動脈が眼茎の中心部に到達する。その後眼杯裂が腹側で閉じて硝子体動脈を取り囲む。',
+          commentary: '硝子体動脈は眼茎の中心部で網膜中心動脈などを形成する。',
+        },
+        {
+          answerImg: [eyeAnatomy],
+          answer:
+            '眼杯の内層は網膜神経層に、外層は網膜色素上皮にそれぞれ分化する。',
+          commentary:
+            '眼杯の二重壁はそれぞれ別の機能を持つが、全体として網膜を形成し、その外側の脈絡膜・強膜とは由来が異なる。',
+        },
+        {
+          answerImg: [eyeWide, iris],
+          answer: '水晶体の前面を覆う間葉が内部で分離して前眼房が形成される。',
+          commentary:
+            '水晶体は眼プラコード由来、角膜や結膜は外胚葉性上皮由来。その間や周囲の前眼房・眼瞼などは間葉由来',
         },
       ],
     },
