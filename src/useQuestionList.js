@@ -2848,7 +2848,7 @@ export const useQuestionList = () => {
             '妊娠が起こらなければ、排卵後14日目には黄体は退縮して結合組織に置き換わり白体になる。',
         },
         {
-          answer: '5日',
+          answer: '5.子宮体',
           commentary:
             '受精後約3日で桑実胚となり（子宮腔に達する）、受精後約4.5日で初期胚盤胞となり、透明帯が消失する。',
         },
@@ -2879,7 +2879,7 @@ export const useQuestionList = () => {
         },
         {
           answer: 'C.3',
-          commentary: '',
+          commentary: '前置胎盤となった場合は帝王切開を要する。',
         },
         // {
         //   detailInfo: '',
