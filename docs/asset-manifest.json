@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-embryology/static/css/main.2255ca1a.css",
-    "main.js": "/anywhere-embryology/static/js/main.3cb57d87.js",
+    "main.js": "/anywhere-embryology/static/js/main.d918660b.js",
     "static/media/220702-12.JPG": "/anywhere-embryology/static/media/220702-12.0d3413670e5999c03a99.JPG",
     "static/media/220702-11.JPG": "/anywhere-embryology/static/media/220702-11.14c47e14bb5f59ad6070.JPG",
     "static/media/220613-3.JPG": "/anywhere-embryology/static/media/220613-3.e6fe7b9a6e43eab67c2d.JPG",
@@ -63,11 +63,13 @@
     "static/media/220617-3.JPG": "/anywhere-embryology/static/media/220617-3.2a5fa1a3e83294446d1b.JPG",
     "static/media/220617-4.JPG": "/anywhere-embryology/static/media/220617-4.32e04d482438577bf037.JPG",
     "static/media/TEF.png": "/anywhere-embryology/static/media/TEF.2114125bda64549be2d2.png",
+    "static/media/aorticBlockage.png": "/anywhere-embryology/static/media/aorticBlockage.260b96fd93b5b732a7ce.png",
     "static/media/basalGanglia.png": "/anywhere-embryology/static/media/basalGanglia.df0a4bfb1be4c536a4c3.png",
     "static/media/after52daysVentricle.png": "/anywhere-embryology/static/media/after52daysVentricle.5e8fa933569ab86ce4e0.png",
     "static/media/after56daysPituitaryGland.png": "/anywhere-embryology/static/media/after56daysPituitaryGland.c41c9d2d7640b024f219.png",
     "static/media/week3.png": "/anywhere-embryology/static/media/week3.fe895044cade3b98eeb2.png",
     "static/media/after52days.png": "/anywhere-embryology/static/media/after52days.ed08d4327655a5643415.png",
+    "static/media/wideArtery.png": "/anywhere-embryology/static/media/wideArtery.7cafa6d442b067fb2be0.png",
     "static/media/LHFSH.png": "/anywhere-embryology/static/media/LHFSH.f82183afe2226ab3d855.png",
     "static/media/スクリーンショット 2022-06-21 092614.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 092614.5b7861dd9dfa3bb46d3c.png",
     "static/media/after49days.png": "/anywhere-embryology/static/media/after49days.b79936ba12e1e0a3a25a.png",
@@ -101,12 +103,15 @@
     "static/media/スクリーンショット 2022-06-21 112344.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 112344.5f7a6027c579677f3e43.png",
     "static/media/face.png": "/anywhere-embryology/static/media/face.2c9582862c2c203159c3.png",
     "static/media/スクリーンショット 2022-06-24 113431.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-24 113431.e69394729686665a987d.png",
+    "static/media/internodeArtery.png": "/anywhere-embryology/static/media/internodeArtery.5430d6661e71bf98d1ed.png",
     "static/media/スクリーンショット 2022-06-21 120204.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 120204.7cacf609960c38f26fca.png",
     "static/media/hair.png": "/anywhere-embryology/static/media/hair.2d1ad751f2f4c4b1eee8.png",
     "static/media/midKidney.png": "/anywhere-embryology/static/media/midKidney.b85af3268d3d44190a47.png",
     "static/media/スクリーンショット 2022-06-21 101548.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 101548.60a6b14943636a0d0180.png",
     "static/media/pericardioperitonealCanal.png": "/anywhere-embryology/static/media/pericardioperitonealCanal.db1d12eafa49d01dffcc.png",
+    "static/media/doubleAorticArch.png": "/anywhere-embryology/static/media/doubleAorticArch.91165df2d612863e6977.png",
     "static/media/after4weeks.png": "/anywhere-embryology/static/media/after4weeks.d21c0dc6828ebd6a5546.png",
+    "static/media/aorticArch.png": "/anywhere-embryology/static/media/aorticArch.54d42fecfe779586f2e7.png",
     "static/media/スクリーンショット 2022-06-24 113055.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-24 113055.5649c77622cda1e17655.png",
     "static/media/externalGenitalia.png": "/anywhere-embryology/static/media/externalGenitalia.62da02442adf3611f6c7.png",
     "static/media/スクリーンショット 2022-06-21 121556.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 121556.0b9e6f0a8ba4fd1de99c.png",
@@ -122,6 +127,7 @@
     "static/media/スクリーンショット 2022-06-24 120517.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-24 120517.0e905c2dc7f7b06b68ba.png",
     "static/media/スクリーンショット 2022-06-21 114808.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 114808.88f2c7a1273ef5f39e23.png",
     "static/media/after30days.png": "/anywhere-embryology/static/media/after30days.f7eda4918c368da80ef1.png",
+    "static/media/after32days.png": "/anywhere-embryology/static/media/after32days.c541eaec8898f1e7ff6d.png",
     "static/media/eyeWide.png": "/anywhere-embryology/static/media/eyeWide.4999c07e09d0c7211b68.png",
     "static/media/skull.png": "/anywhere-embryology/static/media/skull.4bd811f3956f550d171b.png",
     "static/media/pharyngealPouch.png": "/anywhere-embryology/static/media/pharyngealPouch.b851e588d2c8901d1a9a.png",
@@ -155,6 +161,7 @@
     "static/media/スクリーンショット 2022-06-21 104557.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 104557.eedda83e0e135cd60eec.png",
     "static/media/semicircularCanal.png": "/anywhere-embryology/static/media/semicircularCanal.9058998a043a18ead073.png",
     "static/media/pharyngealArch.png": "/anywhere-embryology/static/media/pharyngealArch.9b917f921f304809f5c0.png",
+    "static/media/vitellineVessel.png": "/anywhere-embryology/static/media/vitellineVessel.bf6036f4553bc9f9ff92.png",
     "static/media/スクリーンショット 2022-06-21 111245.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 111245.cb38a3c946453ebc4ab5.png",
     "static/media/opticCup.png": "/anywhere-embryology/static/media/opticCup.4cee0bfc4ddf536c396c.png",
     "static/media/after29days.png": "/anywhere-embryology/static/media/after29days.893e540eff9b66d8f56f.png",
@@ -162,7 +169,9 @@
     "static/media/reproductiveRidge.png": "/anywhere-embryology/static/media/reproductiveRidge.f7aabb8081f1f9bb4afd.png",
     "static/media/スクリーンショット 2022-06-21 113128.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 113128.7e58b4f9b2319ac1341f.png",
     "static/media/スクリーンショット 2022-06-21 112824.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 112824.72ced1d4215041e3f55b.png",
+    "static/media/pulmonaryArtery.png": "/anywhere-embryology/static/media/pulmonaryArtery.21c353c9e9e1a2c89329.png",
     "static/media/スクリーンショット 2022-06-21 112527.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 112527.1a03ece989221e16d0dc.png",
+    "static/media/anatomicArtery.png": "/anywhere-embryology/static/media/anatomicArtery.44dc947842a10b99f4a5.png",
     "static/media/スクリーンショット 2022-06-21 102532.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 102532.483076c96dbbe66fa91c.png",
     "static/media/tracheaEsophagusSeptum.png": "/anywhere-embryology/static/media/tracheaEsophagusSeptum.3bc3d67d347a78a1eb4b.png",
     "static/media/after5weeksKidney.png": "/anywhere-embryology/static/media/after5weeksKidney.5994a14320c469b5a213.png",
@@ -194,6 +203,7 @@
     "static/media/thyroid.png": "/anywhere-embryology/static/media/thyroid.dca9545c4af53b92581c.png",
     "static/media/pituitaryGland.png": "/anywhere-embryology/static/media/pituitaryGland.d1f81fe71e4fdaaac3ff.png",
     "static/media/スクリーンショット 2022-06-21 095228.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 095228.9242240eac2c653be1c6.png",
+    "static/media/hematopoieticTissue.png": "/anywhere-embryology/static/media/hematopoieticTissue.df55047ea6cff990a77c.png",
     "static/media/スクリーンショット 2022-07-06 115945.jpg": "/anywhere-embryology/static/media/スクリーンショット 2022-07-06 115945.c2337b6fc3ba5512f5a8.jpg",
     "static/media/スクリーンショット 2022-06-21 121338.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 121338.82acb7af844b32f15271.png",
     "static/media/スクリーンショット 2022-07-06 093143.jpg": "/anywhere-embryology/static/media/スクリーンショット 2022-07-06 093143.14937dd2ab1d958e590d.jpg",
@@ -251,10 +261,10 @@
     "static/media/スクリーンショット 2022-06-21 093853.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 093853.a965de74c013861c4fcf.png",
     "index.html": "/anywhere-embryology/index.html",
     "main.2255ca1a.css.map": "/anywhere-embryology/static/css/main.2255ca1a.css.map",
-    "main.3cb57d87.js.map": "/anywhere-embryology/static/js/main.3cb57d87.js.map"
+    "main.d918660b.js.map": "/anywhere-embryology/static/js/main.d918660b.js.map"
   },
   "entrypoints": [
     "static/css/main.2255ca1a.css",
-    "static/js/main.3cb57d87.js"
+    "static/js/main.d918660b.js"
   ]
 }

@@ -247,7 +247,16 @@ import eyeCup from './img/answer/eyeCup.png'
 import eyeGrowing from './img/answer/eyeGrowing.png'
 import eyeWide from './img/answer/eyeWide.png'
 import iris from './img/answer/iris.png'
-// import from './img/answer/.png'
+import after32days from './img/answer/after32days.png'
+import anatomicArtery from './img/answer/anatomicArtery.png'
+import aorticArch from './img/answer/aorticArch.png'
+import aorticBlockage from './img/answer/aorticBlockage.png'
+import doubleAorticArch from './img/answer/doubleAorticArch.png'
+import hematopoieticTissue from './img/answer/hematopoieticTissue.png'
+import internodeArtery from './img/answer/internodeArtery.png'
+import pulmonaryArtery from './img/answer/pulmonaryArtery.png'
+import vitellineVessel from './img/answer/vitellineVessel.png'
+import wideArtery from './img/answer/wideArtery.png'
 // import from './img/answer/.png'
 // import from './img/answer/.png'
 
@@ -3463,6 +3472,147 @@ export const useQuestionList = () => {
             '男性は1本で機能するX染色体が、女性には2本存在しているため、過剰な遺伝子発現を避けるために片方のX染色体を不活化している現象。',
           commentary:
             '不活化されるX染色体はモザイク状に決定される（→三毛猫）。X染色体上に原因を持つ遺伝病は男性の方が発症しやすい。',
+        },
+      ],
+    },
+    {
+      groupTag: '確認問題15 動脈系',
+      groupContents: [
+        {
+          answerImg: [aorticArch],
+          answer: '心臓動脈幹',
+          commentary: '',
+        },
+        {
+          answerImg: [aorticArch],
+          answer: '大動脈嚢左角',
+          commentary:
+            '左右に分岐した部分から左の第6咽頭弓動脈の起始までの部分。大動脈嚢は腹側大動脈と肺動脈幹に分割された部分から左右の角を形成し、引き続きそれぞれ腕頭動脈・大動脈弓の近位部を生じる。',
+        },
+        {
+          answerImg: [aorticArch],
+          answer: '大動脈嚢右角',
+          commentary:
+            '大動脈嚢は腹側大動脈と肺動脈幹に分割された部分から左右の角を形成し、引き続きそれぞれ腕頭動脈・大動脈弓の近位部を生じる。',
+        },
+        {
+          answerImg: [anatomicArtery],
+          answer: 'A.第四大動脈弓、B.第七節間動脈',
+          commentary:
+            '右鎖骨下動脈遠位部と左鎖骨下動脈は各側の第七節間動脈より形成。',
+        },
+        {
+          answerImg: [aorticArch],
+          answer: '第三大動脈弓',
+          commentary: '第三大動脈→総頚動脈・内頚動脈起始部',
+        },
+        {
+          answerImg: [aorticArch],
+          answer: '第四大動脈',
+          commentary:
+            '第四大動脈左側→大動脈弓（左総頚動脈分岐部から左鎖骨下動脈分岐部まで）',
+        },
+        {
+          answerImg: [aorticArch],
+          answer: '背側大動脈（左側）',
+          commentary: '',
+        },
+        {
+          answerImg: [aorticArch],
+          answer: '第六大動脈弓（左側）',
+          commentary: '第六大動脈弓左側→左肺動脈・動脈管',
+        },
+        {
+          answerImg: [aorticArch],
+          answer: '第六大動脈弓（左側）',
+          commentary: '第六大動脈弓左側→左肺動脈・動脈管',
+        },
+        {
+          answerImg: [after32days],
+          answer: '咽頭原基（前腸）',
+          commentary: 'pharynx primordium:咽頭原基。前腸由来',
+        },
+        {
+          answerImg: [after32days],
+          answer: '神経管',
+          commentary: 'P側の神経管は脊髄へ、A側の神経管は脳胞へ。',
+        },
+        {
+          answerImg: [after32days],
+          answer: '脊索',
+          commentary: '内胚葉由来',
+        },
+        {
+          answerImg: [after32days],
+          answer: '背側大動脈',
+          commentary: '背側大動脈は背側に左右一対ある。',
+        },
+        {
+          answerImg: [after32days],
+          answer: 'C',
+          commentary:
+            '実は断面（緑の横線）では第一咽頭弓は切れていない。よってもっとも断面腹側（頭側）で切れている咽頭弓は第二咽頭弓。',
+        },
+        {
+          answerImg: [aorticArch],
+          answer: 'A.右鎖骨下動脈　B.大動脈弓　C.第六大動脈弓',
+          commentary:
+            '右側で、第六大動脈弓の遠位部と第五大動脈弓が消失した後、右反回神経は右鎖骨下動脈をかぎ型にぐるりと回る。左側では反回神経はもとの位置にとどまったまま、動脈管索をかぎ型に回る',
+        },
+
+        {
+          answerImg: [aorticArch, pulmonaryArtery],
+          answer:
+            '発達中の胚芽に対して第六大動脈弓が重要な枝を出し、動脈管を残して背側大動脈との連絡を絶ち肺動脈幹が形成される。その先の原始肺動脈は毛細血管網を発達させ肺動脈を形成する。',
+          commentary: '',
+        },
+        {
+          answerImg: [internodeArtery, wideArtery],
+          answer:
+            '（背側節間動脈）肋間動脈・腰動脈・右鎖骨下動脈遠位部・左鎖骨下動脈・椎骨動脈、（外側節間動脈）横隔膜動脈・腎動脈・精巣動脈・卵巣動脈、（腹側節間動脈）腹腔動脈・上腸間膜動脈・下腸間膜動脈',
+          commentary:
+            '右鎖骨下動脈遠位部と左鎖骨下動脈は各側の第七節間動脈より形成。節間動脈は体節とともに形成される。節間動脈の方向と、大動脈から出てくる動脈の方向が概ね一致している。',
+        },
+        {
+          answerImg: [vitellineVessel, hematopoieticTissue],
+          answer:
+            '造血幹細胞は最初、卵黄嚢の血管で出現し、すぐにAGMに移動する。胎児齢2ヶ月になると肝臓に移動し、7ヶ月になると骨髄に移動する。',
+          commentary:
+            '造血幹細胞は大動脈-生殖巣-中腎域(Aorta-Gonad-Mesonephros region)と呼ばれる発生中の中腎付近にある大動脈を囲む中胚葉に由来する。',
+        },
+        {
+          answerImg: [doubleAorticArch],
+          answer: 'B.重複大動脈弓',
+          commentary:
+            '重複大動脈弓（二重大動脈弓）では、右の背側大動脈が右第七節間動脈の分岐部と、左の背側大動脈との結合部の間で残存する。これにより食道と血管を取り囲む血管輪が生じ、しばしばこれらの器官を圧迫し、呼吸困難や嚥下困難を引き起こす',
+        },
+        {
+          answerImg: [aorticBlockage],
+          answer: 'D.心室中隔欠損、E.動脈管開存',
+          commentary:
+            '大動脈弓遮断はきわめてまれな異常で、左右第四大動脈弓消失パターンの異常によって起こる。遮断部位により3型あるが、いずれも基本的に心室中隔欠損+動脈管開存を伴うことで下半身への血流を保つ。開存しない場合は内胸動脈などで下半身への血流を補う場合がある。',
+        },
+        {
+          answerImg: [aorticBlockage],
+          answer: 'C.下半身のチアノーゼ',
+          commentary:
+            '管前大動脈縮窄とは動脈管より前（心臓側）の部分でおこった大動脈縮窄のこと。本来は動脈管開存で血流を補えるパターンなのだが...',
+        },
+        {
+          answerImg: [],
+          answer: 'B.上半身の高血圧',
+          commentary:
+            '管後大動脈縮窄では動脈管より末端（末梢側）で大動脈が縮窄しているため、動脈管開存は伴わない。その結果下半身への血流は減少し、本来全身に回るはずだった血液が上半身に集中することになる。（内胸動脈などで下半身への血流が補われた場合でも、まず拍出血液が全て上半身に流れることになる）',
+        },
+      ],
+    },
+    {
+      groupTag: '確認問題16 静脈系',
+      groupContents: [
+        {
+          answerImg: [],
+          answer: '',
+          commentary: '',
         },
       ],
     },
