@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-embryology/static/css/main.2255ca1a.css",
-    "main.js": "/anywhere-embryology/static/js/main.0505bb3b.js",
+    "main.js": "/anywhere-embryology/static/js/main.d853d1dc.js",
     "static/media/220702-12.JPG": "/anywhere-embryology/static/media/220702-12.0d3413670e5999c03a99.JPG",
     "static/media/220702-11.JPG": "/anywhere-embryology/static/media/220702-11.14c47e14bb5f59ad6070.JPG",
     "static/media/220613-3.JPG": "/anywhere-embryology/static/media/220613-3.e6fe7b9a6e43eab67c2d.JPG",
@@ -139,7 +139,7 @@
     "static/media/falciformLigament.png": "/anywhere-embryology/static/media/falciformLigament.c566b9b3fbf87de51de1.png",
     "static/media/urinaryBladder.png": "/anywhere-embryology/static/media/urinaryBladder.ada703d9b680eafdcbf4.png",
     "static/media/スクリーンショット 2022-06-24 120517.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-24 120517.0e905c2dc7f7b06b68ba.png",
-    "static/media/transpericardialSinus.png": "/anywhere-embryology/static/media/transpericardialSinus.c1a7f6dca4b6ab0054d0.png",
+    "static/media/transPericardialSinus.png": "/anywhere-embryology/static/media/transPericardialSinus.c1a7f6dca4b6ab0054d0.png",
     "static/media/スクリーンショット 2022-06-21 114808.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 114808.88f2c7a1273ef5f39e23.png",
     "static/media/atrialSeptum.png": "/anywhere-embryology/static/media/atrialSeptum.c2e08cb84362e4c1675c.png",
     "static/media/after30days.png": "/anywhere-embryology/static/media/after30days.f7eda4918c368da80ef1.png",
@@ -291,10 +291,10 @@
     "static/media/スクリーンショット 2022-06-21 093853.png": "/anywhere-embryology/static/media/スクリーンショット 2022-06-21 093853.a965de74c013861c4fcf.png",
     "index.html": "/anywhere-embryology/index.html",
     "main.2255ca1a.css.map": "/anywhere-embryology/static/css/main.2255ca1a.css.map",
-    "main.0505bb3b.js.map": "/anywhere-embryology/static/js/main.0505bb3b.js.map"
+    "main.d853d1dc.js.map": "/anywhere-embryology/static/js/main.d853d1dc.js.map"
   },
   "entrypoints": [
     "static/css/main.2255ca1a.css",
-    "static/js/main.0505bb3b.js"
+    "static/js/main.d853d1dc.js"
   ]
 }
