@@ -257,6 +257,10 @@ import internodeArtery from './img/answer/internodeArtery.png'
 import pulmonaryArtery from './img/answer/pulmonaryArtery.png'
 import vitellineVessel from './img/answer/vitellineVessel.png'
 import wideArtery from './img/answer/wideArtery.png'
+import arantius from './img/answer/arantius.png'
+import inferiorVenaCava from './img/answer/inferiorVenaCava.png'
+import superiorMesentericArtery from './img/answer/superiorMesentericArtery.png'
+import vein from './img/answer/vein.png'
 // import from './img/answer/.png'
 // import from './img/answer/.png'
 
@@ -3476,6 +3480,26 @@ export const useQuestionList = () => {
       ],
     },
     {
+      groupTag: '確認問題13',
+      groupContents: [
+        {
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+      ],
+    },
+    {
+      groupTag: '確認問題14',
+      groupContents: [
+        {
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+      ],
+    },
+    {
       groupTag: '確認問題15 動脈系',
       groupContents: [
         {
@@ -3610,9 +3634,50 @@ export const useQuestionList = () => {
       groupTag: '確認問題16 静脈系',
       groupContents: [
         {
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [arantius],
+          answer:
+            '静脈管は胎児期に臍静脈から下大静脈へつなぐ肝臓に位置する静脈。出生後肺循環を始めるまでの間、胎盤（母体）からの血液を心臓へ届ける唯一の通路としてはたらく。',
+          commentary:
+            '臍静脈から胎児に入る血液の大部分は、静脈管というバイパスを通って下大静脈に入る。静脈系の血管であるが流れる血液は胎児内で最も酸素に富んだ動脈血であることに注意',
+        },
+        {
+          answerImg: [superiorMesentericArtery],
+          answer: '4.右卵黄嚢静脈',
+          commentary:
+            '十二指腸のまわりの右卵黄嚢静脈が上腸間膜静脈と脾静脈に分化する。左卵黄嚢静脈は消失する。右卵黄嚢静脈の上流は肝シヌソイドを形成するため、これらは門脈系を形成する。',
+        },
+        {
+          answerImg: [superiorMesentericArtery, arantius],
+          answer: '6.左臍静脈',
+          commentary:
+            '臍帯からの血液は臍静脈が運ぶ。右臍静脈の多くの部分は早期に消失するので、左臍静脈が胎盤から胎児（肝臓）へ血液を送る唯一の血管となる。生後に閉鎖し、臍から肝臓の部分は肝円索、肝臓内部で下大静脈へ繋がる部分は静脈管索となる。',
+        },
+        {
+          answerImg: [inferiorVenaCava],
+          answer: '1.右卵黄嚢静脈　3.後主静脈　5.主上静脈　6.主下静脈',
+          commentary: '参考：下大静脈',
+        },
+        {
+          answerImg: [superiorMesentericArtery],
+          answer: '2.卵黄嚢静脈',
+          commentary:
+            '上腸間膜動脈は卵黄嚢動脈由来で、腹側節間動脈（腹腔動脈・上下腸間膜動脈）のひとつ。下腸間膜動脈は臍動脈由来。',
+        },
+        {
+          answerImg: [vein],
+          answer: '5.主上静脈',
+          commentary: '主上静脈は奇静脈・半奇静脈を形成する比較的背側の静脈',
+        },
+        {
+          answerImg: [vein],
+          answer: '4.前主静脈',
+          commentary:
+            '発生4週ごろ、静脈系は卵黄嚢静脈・前主静脈・後主静脈・総主静脈（前後主静脈の合流）に分類される。',
+        },
+        {
+          answerImg: [vein],
+          answer: '3.上大静脈',
+          commentary: '腕頭静脈は前主静脈由来なので、同じ頭側の静脈を選ぶ。',
         },
       ],
     },
