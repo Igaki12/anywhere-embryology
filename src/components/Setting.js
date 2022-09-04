@@ -150,7 +150,7 @@ export const Setting = ({
         minH={'150px'}
         transitionDelay="3s"
         className="Headline1"
-        mb={6}
+        mb={10}
       >
         <Flex pr={4}>
           <Spacer />
