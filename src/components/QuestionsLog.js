@@ -155,7 +155,7 @@ export const QuestionsLog = ({
                 </Box>
                 <Box
                   maxW="xl"
-                  mb={'100px'}
+                  mb={'250px'}
                   borderWidth="1px"
                   borderRadius="lg"
                   overflow="hidden"
