@@ -261,7 +261,6 @@ import arantius from './img/answer/arantius.png'
 import inferiorVenaCava from './img/answer/inferiorVenaCava.png'
 import superiorMesentericArtery from './img/answer/superiorMesentericArtery.png'
 import vein from './img/answer/vein.png'
-// import from './img/answer/.png'
 import adultCirculation from './img/answer/adultCirculation.png'
 import atrialSeptum from './img/answer/atrialSeptum.png'
 import cardiacAnomaly from './img/answer/cardiacAnomaly.png'
@@ -279,9 +278,16 @@ import transpericardialSinus from './img/answer/transpericardialSinus.png'
 import transverseHeartTube from './img/answer/transverseHeartTube.png'
 import venaCava from './img/answer/venaCava.png'
 import youngVein from './img/answer/youngVein.png'
-
-// import u from './img/question/スクリーンショット 2022-06-24 .png'
-
+import adultForeGut from './img/answer/adultForeGut.png'
+import ECJunction from './img/answer/ECJunction.png'
+import falciformLigament from './img/answer/falciformLigament.png'
+import foreIntestineLoop from './img/answer/foreIntestineLoop.png'
+import intestineLoop from './img/answer/intestineLoop.png'
+import midIntestineLoop from './img/answer/midIntestineLoop.png'
+import organFromIntestine from './img/answer/organFromIntestine.png'
+import pancreasBury from './img/answer/pancreasBury.png'
+import pancreasGrowing from './img/answer/pancreasGrowing.png'
+// import from './img/answer/.png'
 import heartLoop from './img/answer/heartLoop.png'
 
 export const useQuestionList = () => {
@@ -296,7 +302,6 @@ export const useQuestionList = () => {
           questionSentence: '子宮で、受精卵の受精が起きる場所は？',
           answerImg: [],
           answer: '卵管膨大部',
-          commentary: '',
         },
         {
           detailInfo: '6/13口頭',
@@ -382,7 +387,6 @@ export const useQuestionList = () => {
           questionSentence: '図の空欄を埋めよ',
           answerImg: [],
           answer: '1.原始線条　2.原始結節　3.脊索　4.口咽頭膜　5.排泄腔膜',
-          commentary: '',
         },
         {
           detailInfo: '6/13口頭',
@@ -391,7 +395,6 @@ export const useQuestionList = () => {
           answerImg: [],
           answer:
             '1.外胚葉　2.羊膜　3.卵黄嚢壁　4.口咽頭膜　5.脊索　6.排泄腔膜　7.尿膜　8.原始窩と神経腸管',
-          commentary: '',
         },
         {
           detailInfo: '6/13口頭',
@@ -399,7 +402,6 @@ export const useQuestionList = () => {
           questionSentence: '図の空欄を埋めよ',
           answerImg: [],
           answer: '1.外胚葉　2.中胚葉　3.内胚葉　4.脊索',
-          commentary: '',
         },
         {
           detailInfo: '6/13口頭',
@@ -414,7 +416,6 @@ export const useQuestionList = () => {
           ],
           answerImg: [],
           answer: '',
-          commentary: '',
         },
         {
           detailInfo: '6/13口頭',
@@ -422,7 +423,6 @@ export const useQuestionList = () => {
           questionSentence: '発生16日胚の横断面で、矢印の細胞は何か',
           answerImg: [],
           answer: '中胚葉',
-          commentary: '',
         },
         {
           detailInfo: '6/13口頭',
@@ -430,7 +430,6 @@ export const useQuestionList = () => {
           questionSentence: '23日胚の横断面で、脊索板はどれか',
           answerImg: [],
           answer: 'D',
-          commentary: '',
         },
         {
           detailInfo: '6/13口頭',
@@ -491,7 +490,6 @@ export const useQuestionList = () => {
           answerImg: [],
           answer:
             '着床Implantation/中胚葉形成Mesoderm formation/神経堤形成Neural crest formation/ガン浸潤Cancer invasion',
-          commentary: '',
         },
         {
           detailInfo: '6/13口頭',
@@ -499,7 +497,6 @@ export const useQuestionList = () => {
           questionSentence: '4週胚。破線の断面に含まれないのは？（複数回答可）',
           answerImg: [q20],
           answer: '体節/口咽頭膜/排泄腔膜/卵黄腸管',
-          commentary: '',
         },
         {
           detailInfo: '6/13口頭',
@@ -515,7 +512,6 @@ export const useQuestionList = () => {
           ],
           answerImg: [],
           answer: '',
-          commentary: '',
         },
         {
           detailInfo: '6/13口頭',
@@ -847,7 +843,6 @@ export const useQuestionList = () => {
           questionSentence: '三葉性胚盤で、胸骨が由来する部位を選べ',
           answerImg: [],
           answer: '3.壁側側板中胚葉',
-          commentary: '',
         },
         {
           detailInfo: '6/15確認問題',
@@ -855,7 +850,6 @@ export const useQuestionList = () => {
           questionSentence: '三葉性胚盤で、椎弓が由来する部位を選べ',
           answerImg: [],
           answer: '7.沿軸中胚葉',
-          commentary: '',
         },
         {
           detailInfo: '6/15確認問題',
@@ -916,7 +910,6 @@ export const useQuestionList = () => {
           ],
           answerImg: [],
           answer: '第1咽頭弓',
-          commentary: '',
         },
         {
           detailInfo: '6/15確認問題',
@@ -1050,7 +1043,6 @@ export const useQuestionList = () => {
           ],
           answerImg: [],
           answer: '尿管・腎臓・膀胱',
-          commentary: '',
         },
         {
           detailInfo: '6/17確認問題',
@@ -1070,7 +1062,6 @@ export const useQuestionList = () => {
           ],
           answerImg: [],
           answer: '胃・空腸・S字結腸',
-          commentary: '',
         },
         {
           detailInfo: '6/17確認問題',
@@ -1275,7 +1266,6 @@ export const useQuestionList = () => {
           answerImg: [t06, t07],
           answer:
             '胚子の左右の屈曲によって心内膜筒が癒合して原始心筒を形成する。',
-          commentary: '',
         },
         {
           detailInfo: '6/21確認問題',
@@ -1295,7 +1285,6 @@ export const useQuestionList = () => {
           answerImg: [],
           answer:
             '背側心間膜の中部がすぐに消失して、流入路と流出路に分離する。',
-          commentary: '',
         },
         {
           detailInfo: '6/21確認問題',
@@ -1399,7 +1388,6 @@ export const useQuestionList = () => {
             '成人の大動脈模式図で、影を付けた部分は、胚性期にはどの動脈、咽頭弓動脈に由来するか？（右総頚動脈）',
           answerImg: [t27],
           answer: '第3大動脈弓から頚動脈系が形成される',
-          commentary: '',
         },
         {
           detailInfo: '6/21確認問題',
@@ -1417,7 +1405,6 @@ export const useQuestionList = () => {
             '成人の大動脈模式図で、影を付けた部分は、胚性期にはどの動脈、咽頭弓動脈に由来するか？（左肺動脈）',
           answerImg: [t30],
           answer: '第6大動脈弓',
-          commentary: '',
         },
         {
           detailInfo: '6/21確認問題',
@@ -1482,7 +1469,6 @@ export const useQuestionList = () => {
           ],
           answerImg: [t40],
           answer: '右卵黄嚢静脈、後主静脈、主下静脈、主上静脈',
-          commentary: '',
         },
         {
           detailInfo: '6/21確認問題',
@@ -1500,7 +1486,6 @@ export const useQuestionList = () => {
           ],
           answerImg: [t42],
           answer: '主上静脈',
-          commentary: '',
         },
         {
           detailInfo: '6/21確認問題',
@@ -2013,7 +1998,6 @@ export const useQuestionList = () => {
           answerImg: [],
           answer:
             'ライディッヒ細胞←生殖堤間葉、精巣輸出管←中腎管、精管←中腎管、精嚢・精巣網←中腎管、前立腺←後腸内胚葉、セルトリ細胞←髄質索？',
-          commentary: '',
         },
         {
           detailInfo: '6/30確認問題',
@@ -2303,7 +2287,6 @@ export const useQuestionList = () => {
           answerImg: [w1212],
           answer:
             '発生過程で脊髄は椎骨に比べて伸長が小さいので、最終的にL4~L5の高さには脊髄のない馬尾が分布することになる。',
-          commentary: '',
         },
         {
           detailInfo: '7/6確認問題',
@@ -2342,7 +2325,6 @@ export const useQuestionList = () => {
       groupContents: [
         {
           answer: 'D.30億塩基対',
-          commentary: '',
         },
         {
           answer: '1番染色体',
@@ -2375,7 +2357,6 @@ export const useQuestionList = () => {
         },
         {
           answer: '約20,000',
-          commentary: '',
         },
         {
           answer: '塩基除去修復、ヌクレオチド修復？',
@@ -2450,7 +2431,6 @@ export const useQuestionList = () => {
         {
           detailInfo: '分子生物学的手法',
           answer: 'D',
-          commentary: '',
         },
         {
           detailInfo: '分子生物学的手法',
@@ -2478,7 +2458,6 @@ export const useQuestionList = () => {
           questionSentence: '',
           answerImg: [cellDivision],
           answer: 'S期はG',
-          commentary: '',
         },
         {
           detailInfo: '有糸分裂',
@@ -2609,7 +2588,6 @@ export const useQuestionList = () => {
           detailInfo: '減数分裂',
           answer:
             '卵祖細胞は有糸分裂する / キアズマではDNAが切断される / 極体も減数分裂する',
-          commentary: '',
         },
         {
           detailInfo: 'エピジェネティックス・インプリント',
@@ -2640,7 +2618,6 @@ export const useQuestionList = () => {
         },
         {
           answer: '4.内・中・外',
-          commentary: '',
         },
         {
           answer: '5.4日以降',
@@ -2649,7 +2626,6 @@ export const useQuestionList = () => {
         },
         {
           answer: '羊膜腔',
-          commentary: '',
         },
         {
           detailInfo: '配偶子形成',
@@ -2677,7 +2653,6 @@ export const useQuestionList = () => {
         },
         {
           answer: '作られ始めた後は生涯にわたり精細管で作られる',
-          commentary: '',
         },
         {
           answer: '精子細胞は第二分裂を完了している。',
@@ -2700,7 +2675,6 @@ export const useQuestionList = () => {
         },
         {
           answer: 'Primary oocyte,Secondary oocyte',
-          commentary: '',
         },
         {
           answer: '二次卵母細胞と第一極体、受精卵と第二極体',
@@ -2711,7 +2685,6 @@ export const useQuestionList = () => {
         {
           answer:
             'Secondary oocyte & First polar body,Fertilized oocyte & Second polar bodies',
-          commentary: '',
         },
         {
           answer:
@@ -2726,7 +2699,6 @@ export const useQuestionList = () => {
         },
         {
           answer: 'Primary follicle',
-          commentary: '',
         },
         {
           answer:
@@ -2736,7 +2708,6 @@ export const useQuestionList = () => {
         },
         {
           answer: '準備中',
-          commentary: '',
         },
         {
           answer: '一次卵母細胞と複糸期',
@@ -2750,7 +2721,6 @@ export const useQuestionList = () => {
         },
         {
           answer: 'Secondary oocytes,Secondary spermatocytes',
-          commentary: '',
         },
       ],
     },
@@ -2817,7 +2787,6 @@ export const useQuestionList = () => {
         {
           answer: '月経周期の第2週の終わり',
           answerImg: [menstrualCycle],
-          commentary: '',
         },
         {
           answer: 'LHサージの約40時間後',
@@ -2850,7 +2819,6 @@ export const useQuestionList = () => {
         },
         {
           answer: '3.卵管膨大部',
-          commentary: '',
         },
 
         {
@@ -2927,7 +2895,6 @@ export const useQuestionList = () => {
       groupContents: [
         {
           answer: '3.卵管膨大部',
-          commentary: '',
         },
         {
           answer: '5.子宮腔',
@@ -2942,13 +2909,11 @@ export const useQuestionList = () => {
         {
           answer: 'B.胚盤葉上層',
           answerImg: [bilaminar],
-          commentary: '',
         },
         {
           answer:
             '1.一次絨毛　2.栄養膜裂孔　3.付着茎　4.羊膜腔　5.二次卵黄嚢　6.胚外壁側中胚葉　7.胚外体腔　8.胚盤葉下層　9.胚盤葉上層　10.栄養膜合胞体層　11.栄養膜細胞層',
           answerImg: [bilaminar],
-          commentary: '',
         },
         {
           answer: 'E.脱落膜',
@@ -3001,7 +2966,6 @@ export const useQuestionList = () => {
         {
           answer: '1.原始線条　2.原始結節3.脊索突起4.脊索前板',
           answerImg: [week3],
-          commentary: '',
         },
         {
           answerImg: [week3],
@@ -3065,7 +3029,6 @@ export const useQuestionList = () => {
         },
         {
           answer: '準備中',
-          commentary: '',
         },
         {
           answer: 'A.Nodalの抑制',
@@ -3155,7 +3118,6 @@ export const useQuestionList = () => {
         {
           answerImg: [skull],
           answer: 'C.頭頂骨　D.頚椎　E.上腕骨',
-          commentary: '',
         },
         {
           answer: 'A.葉酸',
@@ -3181,7 +3143,6 @@ export const useQuestionList = () => {
         {
           answer:
             '外胚葉の正中部に神経管が形成される際に、陥没した神経ヒダの稜線に神経堤が形成される。神経管が形成されると神経堤細胞は他の地域に遊走して、副腎髄質やメラノサイト、頭蓋骨の一部など様々な部分を形成する。',
-          commentary: '',
         },
         {
           answerImg: [embryoStageRisk],
@@ -3248,7 +3209,6 @@ export const useQuestionList = () => {
           answerImg: [diaphragm, pericardioperitonealCanal],
           answer:
             '横中隔より背側に存在する、横中隔によって仕切られた胸腔と腹腔を連絡する管状の通り道。発生に伴って主に胸心膜ヒダにより完全に閉じられる（横隔膜/7週ごろ）',
-          commentary: '',
         },
         {
           answerImg: [after30days],
@@ -3259,7 +3219,6 @@ export const useQuestionList = () => {
         {
           answerImg: [after30days],
           answer: 'F.心腹膜管peritoneal cavity',
-          commentary: '',
         },
         {
           answerImg: [after30days],
@@ -3270,7 +3229,6 @@ export const useQuestionList = () => {
           answerImg: [growingLung],
           answer:
             '1.胸膜腔　2.肺芽　3.臓側中胚葉（臓側胸膜）　4.心膜腔　5.心膜',
-          commentary: '',
         },
         {
           answerImg: [growingLung],
@@ -3293,7 +3251,6 @@ export const useQuestionList = () => {
         {
           answer:
             'カントレル五徴症とは、1)正中腹壁欠損、2)前横隔膜ヘルニア、3)胸骨裂、4)心周囲異常、5)心室中隔欠損　の5つで構成され、腹側体壁欠損が原因。',
-          commentary: '',
         },
         {
           answer:
@@ -3311,7 +3268,6 @@ export const useQuestionList = () => {
           answerImg: [diaphragm],
           answer:
             '1.胸腹膜ヒダ　2.食道間膜　3.横中隔　4.体壁からの筋の内方成長',
-          commentary: '',
         },
       ],
     },
@@ -3480,7 +3436,6 @@ export const useQuestionList = () => {
         },
         {
           answer: '1.正常に成人する',
-          commentary: '',
         },
         {
           answer: '3.成人しうるが、多様な先天疾患を持つ',
@@ -3496,12 +3451,184 @@ export const useQuestionList = () => {
       ],
     },
     {
-      groupTag: '確認問題13',
+      groupTag: '確認問題13 消化器系',
       groupContents: [
         {
-          answerImg: [],
-          answer: '',
+          answerImg: [pancreasBury],
+          answer:
+            'A.腹腔内器官）1,6,9　B.腹膜後器官）2,3,8,10　C.二次腹膜後器官）4,5,7',
+          commentary:
+            '膵臓・十二指腸・上行結腸など一部の臓器は腸間膜を途中で消失して後腹壁に埋まる。',
+        },
+        {
+          answerImg: [organFromIntestine],
+          answer: '2.咽頭弓　4.脾臓',
+          commentary:
+            '肝臓・膵臓は腸管から発生するが、脾臓は背側腸間膜から発生し前腸に由来しない。前腸は総胆管が十二指腸に開口する部位のすぐ尾側までの領域で、肝臓は含まれる。',
+        },
+        {
+          answerImg: [pancreasBury],
+          answer: '5.脾臓',
+          commentary:
+            '内胚葉→原始腸管→前腸・中腸・後腸など。脾臓は背側腸間膜から発生する',
+        },
+        {
+          answerImg: [organFromIntestine],
+          answer: '6.全て後腸に由来する',
           commentary: '',
+        },
+        {
+          answerImg: [midIntestineLoop],
+          answer: '1.肝臓',
+          commentary:
+            '中腸は総胆管が十二指腸に開口する部位のすぐ尾側から始まり、横行結腸の近位2/3までの上腸間膜動脈支配域。肝臓は前腸から発生する。メッケル憩室は卵黄腸管の遺残物なので中腸に含まれる。',
+        },
+        {
+          answerImg: [foreIntestineLoop],
+          answer: 'A.（右側・左側）→（背側・腹側）',
+          commentary:
+            '前腸は90度回転するので腹側の肝臓は右へ、背側の膵臓脾臓は左へ位置するようになる。左臍静脈も腹側へ。',
+        },
+        {
+          answerImg: [pancreasBury],
+          answer:
+            '大網は背側胃間膜由来で、胃の回転に伴い下方に膨出し、そのまま下方に成長を続け、横行結腸と小腸の前でエプロンのように拡がる二重壁の嚢を形成する。この二重の嚢が大網でのちに二葉は癒合する。',
+          commentary: '大網の後葉は、横行結腸間膜と癒合している。',
+        },
+
+        {
+          answerImg: [foreIntestineLoop],
+          answer: 'C.右側腹腔',
+          commentary: 'このあと前腸が90度回転して右側腹腔は背側に移動する',
+        },
+        {
+          answerImg: [foreIntestineLoop],
+          answer: 'A.右側腹腔',
+        },
+        {
+          answerImg: [adultForeGut],
+          answer: 'B.網嚢孔の縁を形成する',
+          commentary: ' 通るのは固有肝動脈・総胆管・門脈',
+        },
+        {
+          answerImg: [foreIntestineLoop],
+          answer: '大網（背側胃間膜）',
+          commentary: '',
+        },
+        {
+          answerImg: [foreIntestineLoop],
+          answer: '脾臓原基',
+          commentary: '',
+        },
+        {
+          answerImg: [foreIntestineLoop],
+          answer: '小網',
+          commentary: '腹側胃間膜の、胃と肝臓の間の部分',
+        },
+        {
+          answerImg: [foreIntestineLoop],
+          answer:
+            '脾臓は背側胃間膜の中胚葉の増殖として出現し、胃の回転とともに向きを変えることで後腹壁と癒合する。',
+        },
+        {
+          answerImg: [falciformLigament],
+          answer:
+            '肝細胞索が横中隔内で成長すると、横中隔は膜状になり肝鎌状間膜を形成する。',
+        },
+        {
+          answerImg: [falciformLigament],
+          answer: '内胚葉',
+          commentary:
+            '前腸末端→肝芽→肝細胞索。クッパー細胞と肝臓の結合組織は横中隔の中胚葉由来',
+        },
+        {
+          answerImg: [superiorMesentericArtery],
+          answer: '2.右卵黄嚢静脈',
+          commentary: '左卵黄嚢静脈は最終的に消失する',
+        },
+        {
+          answerImg: [superiorMesentericArtery],
+          answer: '2.右卵黄嚢静脈',
+          commentary:
+            '上腸間膜動脈は右卵黄嚢静脈由来、下腸間膜静脈は臍静脈由来',
+        },
+        {
+          answerImg: [superiorMesentericArtery],
+          answer: '4.左臍静脈',
+          commentary: '右側の臍静脈は最終的に消失する',
+        },
+        {
+          answerImg: [pancreasGrowing],
+          answer: 'A.腹側膵(鈎状突起)　B.背側膵(膵臓の本体)',
+        },
+        {
+          answerImg: [pancreasGrowing],
+          answer: 'A',
+        },
+        {
+          answer: 'D.前腸内胚葉',
+          commentary:
+            '膵臓発生の初期から、グルカゴンやインスリンを含有する顆粒を持つ細胞が、未熟な膵導管の末梢部から出芽する→内胚葉由来',
+        },
+        {
+          answerImg: [intestineLoop],
+          answer: 'E.6週～13週',
+        },
+        {
+          answerImg: [intestineLoop],
+          answer:
+            '2.最初の90度の中腸回転は正常に起きるが、中腸が腹腔内に復帰するとき、正常な発生の反対向きに180度回転する。',
+        },
+        {
+          answerImg: [intestineLoop],
+          answer:
+            '1.最初の90度の中腸回転は正常に起きるが、中腸が腹腔内に復帰するとき、回転が起きない',
+          commentary:
+            '正常であれば中腸が腹腔内に復帰するとき180度回転が起こる。',
+        },
+        {
+          answerImg: [midIntestineLoop],
+          answer: '2.卵黄腸管（→メッケル憩室）より尾側',
+        },
+        {
+          answerImg: [organFromIntestine],
+          answer: '2',
+          commentary:
+            '尿膜管は最終的に閉鎖して正中臍索となる。閉塞しないと尿膜管瘻となる。',
+        },
+        {
+          answerImg: [pancreasBury],
+          answer: 'B.横行結腸間膜と大網（背側胃間膜）',
+        },
+        {
+          answer:
+            'a.腹腔動脈→1.食道・2.胃・4.肝臓・5.膵臓。　b.上腸間膜動脈→3.十二指腸尾側・6.空腸・7.回腸・8.虫垂・9.上行結腸10.横行結腸吻側。　c.下腸間膜動脈→11.下行結腸・12.直腸',
+          commentary:
+            'bの領域が中腸（総胆管開口部より尾側～横行結腸近位2/3）と重なる。',
+        },
+        {
+          answer: 'B,C,D',
+          commentary:
+            '上腸間膜動脈支配域が中腸（総胆管開口部より尾側～横行結腸近位2/3）と重なる。',
+        },
+        {
+          answer:
+            '中腸回転により、固有腸間膜は上腸間膜動脈の起始部のまわりでおおきくねじれる。',
+        },
+        {
+          answerImg: [ECJunction],
+          answer: 'C',
+          commentary:
+            '排泄腔膜は外胚葉と内胚葉がじかに接する部位であり、重層扁平上皮が単層円柱上皮に移行するE-C Junctionがみられる。',
+        },
+        {
+          answerImg: [ECJunction],
+          answer:
+            '排泄腔膜は外胚葉と内胚葉がじかに接する部位であり、この外胚葉側が表皮とつながる肛門（の下部1/3）、内胚葉側が腸管とつながる直腸（と肛門上部）へ分化し、両者の境界には重層扁平上皮が単層円柱上皮に移行するE-C Junctionがみられる。',
+        },
+        {
+          answer:
+            '原因：筋間神経節（アウエルバッハ神経叢）と粘膜下神経節（マイスネル神経叢）の両方の完全喪失　症状：便排泄遅延、腹部膨満、腸の完全or部分閉塞',
         },
       ],
     },
@@ -3511,7 +3638,6 @@ export const useQuestionList = () => {
         {
           answerImg: [firstHeart],
           answer: '5.側板中胚葉臓側板',
-          commentary: '',
         },
         {
           answerImg: [secondHeart],
@@ -3530,12 +3656,10 @@ export const useQuestionList = () => {
           answerImg: [heartTube],
           answer:
             '胚子の屈曲は頭尾方向だけでなく外側方でも起こる。その結果、二本の心内膜筒が尾側で合流する。同時に馬蹄形の筒の中央部分が拡張して、将来の流出路と心室域を形成する。',
-          commentary: '',
         },
         {
           answerImg: [heartLoopAnatomy],
           answer: '3.予定右心室',
-          commentary: '',
         },
         {
           answerImg: [heartLoopAnatomy],
@@ -3554,17 +3678,14 @@ export const useQuestionList = () => {
           answerImg: [transpericardialSinus],
           answer:
             '心膜横洞とは、心膜腔の両側を連絡する穴。背側の間膜の中部が消失することで形成される。',
-          commentary: '',
         },
         {
           answerImg: [heartTube],
           answer: 'A.心臓',
-          commentary: '',
         },
         {
           answerImg: [secondHeart, posteriorHeartCavity],
           answer: '1.肺静脈　2.左心房平滑壁部　3.冠状動脈　4.心外膜',
-          commentary: '',
         },
         {
           answerImg: [posteriorHeartCavity],
@@ -3582,12 +3703,10 @@ export const useQuestionList = () => {
           answerImg: [atrialSeptum],
           answer:
             '4）まず一次中隔が心房を二分し一次口を形成する。一次中隔が心内膜隆起と癒合すると、一次中隔の一部が細胞死することで二次口が形成される。最後に二次中隔と卵円孔がその右側に形成されることで胎児の心房中隔ができあがる。',
-          commentary: '',
         },
         {
           answerImg: [atrialSeptum],
           answer: '6.卵円孔',
-          commentary: '',
         },
         {
           answerImg: [cardiacSeptumMadeWithNeuralCrest],
@@ -3598,7 +3717,6 @@ export const useQuestionList = () => {
         {
           answerImg: [firstCardiacSeptum],
           answer: '4.一次口（一次中隔）が最初',
-          commentary: '',
         },
         {
           answerImg: [atrialSeptum],
@@ -3610,7 +3728,6 @@ export const useQuestionList = () => {
           answerImg: [adultCirculation],
           answer:
             '2.動脈管/肺動脈から大動脈弓に繋がる血管で、機能していない肺を経由せずに血液を全身に送る通り道。　5.静脈管/胎盤の血液を下大静脈に送る役割。',
-          commentary: '',
         },
         {
           answerImg: [adultCirculation],
@@ -3621,7 +3738,6 @@ export const useQuestionList = () => {
         {
           answerImg: [posteriorHeartCavity],
           answer: '1.背側心間膜内で形成される。　3.心房への開口部を4つもつ。',
-          commentary: '',
         },
         {
           answerImg: [transpericardialSinus],
@@ -3650,32 +3766,26 @@ export const useQuestionList = () => {
         {
           answerImg: [youngVein],
           answer: 'F.臍静脈',
-          commentary: '',
         },
         {
           answerImg: [venaCava],
           answer: 'D.静脈洞角',
-          commentary: '',
         },
         {
           answerImg: [heartTube],
           answer: 'D.背側大動脈',
-          commentary: '',
         },
         {
           answerImg: [heartTube],
           answer: 'C',
-          commentary: '',
         },
         {
           answerImg: [heartTube],
           answer: 'C.心臓',
-          commentary: '',
         },
         {
           answerImg: [heartTube],
           answer: 'E.背側大動脈',
-          commentary: '',
         },
         {
           answerImg: [transverseHeartTube],
@@ -3688,7 +3798,6 @@ export const useQuestionList = () => {
           detailInfo: '心臓異常',
           answerImg: [atrialSeptum],
           answer: 'C.二次中隔欠損',
-          commentary: '',
         },
         {
           detailInfo: '心臓異常',
@@ -3726,7 +3835,6 @@ export const useQuestionList = () => {
         {
           answerImg: [aorticArch],
           answer: '心臓動脈幹',
-          commentary: '',
         },
         {
           answerImg: [aorticArch],
@@ -3760,7 +3868,6 @@ export const useQuestionList = () => {
         {
           answerImg: [aorticArch],
           answer: '背側大動脈（左側）',
-          commentary: '',
         },
         {
           answerImg: [aorticArch],
@@ -3809,7 +3916,6 @@ export const useQuestionList = () => {
           answerImg: [aorticArch, pulmonaryArtery],
           answer:
             '発達中の胚芽に対して第六大動脈弓が重要な枝を出し、動脈管を残して背側大動脈との連絡を絶ち肺動脈幹が形成される。その先の原始肺動脈は毛細血管網を発達させ肺動脈を形成する。',
-          commentary: '',
         },
         {
           answerImg: [internodeArtery, wideArtery],
@@ -3965,7 +4071,6 @@ export const useQuestionList = () => {
           answerImg: [eyeAnatomy],
           answer:
             '眼胞との相互作用による体表外胚葉の肥厚によって水晶体板は形成される。水晶体胞は水晶体板陥入・発達により形成される。',
-          commentary: '',
         },
         {
           answerImg: [eyeCup],
@@ -4025,13 +4130,11 @@ export const useQuestionList = () => {
           answerImg: [semicircularCanal],
           answer:
             '耳胞が分化し、背側に卵形嚢が形成される。発生6週中に卵形嚢の扁平突出として半規管は出現し、突出部の壁の中央部は接着し消滅するため、3つの半規管が形成される。',
-          commentary: '',
         },
         {
           answerImg: [auditoryOssicles],
           answer:
             '耳小骨は胎生前半期に形成されたのち、8か月に周囲の組織が融解するまで間葉の中に埋没している。原始鼓室内腔の内胚葉性上皮が新しくできた腔の表面に広がり、腸間膜のように耳小骨を鼓室壁に結びつける。',
-          commentary: '',
         },
         {
           answerImg: [auditoryOssicles],
@@ -4133,7 +4236,6 @@ export const useQuestionList = () => {
           answerImg: [mammaryGland],
           answer:
             '乳腺も汗腺と同じく表皮由来で、発生7週ごろ上肢の基部から下肢まで両側に複数できた乳腺堤の1対だけが残存して下層の間葉中に侵入し、乳管・上皮小窩を形成する。乳頭は出生後に上皮小窩の下層の間葉の増殖によって形成される。腺房や分泌細胞は思春期まで形成されない。',
-          commentary: '',
         },
       ],
     },
@@ -4184,7 +4286,6 @@ export const useQuestionList = () => {
           answerImg: [pleuropericardialFold],
           answer:
             'はじめ肺芽は前腸から分岐し胸心膜腔の背側で主に気管を形成する（管状期）が、胸心膜ヒダや心腹膜管遮断によって胸膜腔が独立すると、肺は胸膜腔内で膨張し肺胞を形成する。（終末嚢期）',
-          commentary: '',
         },
         {
           answerImg: [TEF],
@@ -4257,12 +4358,10 @@ export const useQuestionList = () => {
           answerImg: [lungGrowing],
           answer:
             '管状期（16~26週）に、終細気管支から2本以上の呼吸細気管支に分かれ、次に呼吸細気管支から3～6の肺胞管に分かれる。終末嚢期（26週～出生）に原始肺胞が形成され、毛細血管が密接、肺胞期（生後8か月～小児期）に肺胞が成熟し、肺胞上皮と毛細血管内皮との接触が発達。',
-          commentary: '',
         },
         {
           answerImg: [diaphragm],
           answer: 'D.横中隔',
-          commentary: '',
         },
         {
           answer: '妊娠34週以降',
@@ -4311,7 +4410,6 @@ export const useQuestionList = () => {
           answerImg: [testis],
           answer:
             'a.中腎細管→精巣輸出管、b.中腎管（ウォルフ管）→精管・精嚢・精巣上体、c.生殖堤間葉→ライディッヒ細胞、d.髄質索→セルトリ細胞・精細管・精巣網、e.内胚葉→前立腺',
-          commentary: '',
         },
         {
           answerImg: [ovary],
@@ -4323,7 +4421,6 @@ export const useQuestionList = () => {
         {
           answerImg: [MullerianDuct],
           answer: 'B',
-          commentary: '',
         },
         {
           answer: '背側',
@@ -4333,7 +4430,6 @@ export const useQuestionList = () => {
           answerImg: [sexDifferentiation],
           answer:
             '1.AMH→中腎傍管の退縮、2.エストロゲン→卵管の分化、3.ジヒドロテストステロン→男性外生殖器の分化、4.テストステロン→精管の分化',
-          commentary: '',
         },
         {
           answerImg: [testisMovement],
@@ -4355,7 +4451,6 @@ export const useQuestionList = () => {
         {
           answerImg: [externalGenitalia],
           answer: '陰嚢-大陰唇、陰茎-小陰唇、亀頭-陰核',
-          commentary: '',
         },
         {
           answerImg: [reproductiveRidge, testis, MullerianDuct],
@@ -4373,7 +4468,6 @@ export const useQuestionList = () => {
         {
           answerImg: [ovary],
           answer: '3.子宮頸',
-          commentary: '',
         },
         {
           answerImg: [trigonOfBladder],
@@ -4412,7 +4506,6 @@ export const useQuestionList = () => {
         {
           answerImg: [testisMovement],
           answer: '鞘状突起が閉鎖せず、腸ループが陰嚢内に下降するのが原因。',
-          commentary: '',
         },
       ],
     },
@@ -4545,7 +4638,6 @@ export const useQuestionList = () => {
         {
           answerImg: [pharyngealPouch],
           answer: '8.口蓋扁桃',
-          commentary: '',
         },
         {
           answerImg: [thymus],
@@ -4556,7 +4648,6 @@ export const useQuestionList = () => {
         {
           answerImg: [thymus],
           answer: '6.上上皮小体',
-          commentary: '',
         },
         {
           answerImg: [tongue],
@@ -4595,24 +4686,20 @@ export const useQuestionList = () => {
         {
           answerImg: [pharyngealNerves],
           answer: 'Ⅴ三叉神経、Ⅶ顔面神経、Ⅸ舌咽神経、Ⅹ迷走神経',
-          commentary: '',
         },
         {
           answerImg: [face],
           answer:
             '顔面隆起は神経堤由来の間葉からなり、主として第一咽頭弓由来。口窩を第一咽頭弓が囲み、口窩の尾側で上顎隆起、側方で下顎隆起が起こり、上顎隆起・下顎隆起が形成される。',
-          commentary: '',
         },
         {
           answerImg: [face],
           answer: '口窩→G、上顎隆起→F、下顎隆起→E',
-          commentary: '',
         },
         {
           answerImg: [meckelCartilage],
           answer:
             '第一咽頭弓は、眼の下方を前方に伸びる上顎隆起とメッケル軟骨を含む下顎突起からなる。その後の発達中にメッケル軟骨は背側部の２つの小部分を除いて退化消失するが、残存した２つはキヌタ骨とツチ骨を形成する。また、上顎突起の間葉は、顎前骨、上顎骨、頬骨、および側頭骨の一部を膜性骨化により生じる。下顎骨もメッケル軟骨を取り巻く間葉組織の膜性骨化により形成される。',
-          commentary: '',
         },
         {
           answerImg: [meckelCartilage],
@@ -4667,12 +4754,10 @@ export const useQuestionList = () => {
           answerImg: [meckelCartilage],
           answer:
             '第一咽頭弓→A,C,D,G,H　第二咽頭弓→B　第三咽頭弓→E　第四咽頭弓→F',
-          commentary: '',
         },
         {
           answerImg: [face],
           answer: '上顎隆起→E、内側鼻隆起→D、外側鼻隆起→G、鼻涙溝→B',
-          commentary: '',
         },
         {
           answerImg: [facialCleft],
@@ -4683,7 +4768,6 @@ export const useQuestionList = () => {
         {
           answerImg: [facialCleft],
           answer: 'A→2、B→2、C→5',
-          commentary: '',
         },
       ],
     },
@@ -4776,7 +4860,7 @@ export const useQuestionList = () => {
             'モンロー孔は側脳室と第三脳室をつなぐ水道interventricular foremen。',
         },
         {
-          answerImg: [after56days, , centralBrain, basalGanglia],
+          answerImg: [after56days, centralBrain, basalGanglia],
           answer: '図参照',
           commentary:
             'これも前屈姿勢のため上下反対の断面となっている。淡蒼球globus pallidus+被殻putamenはレンズ核で、被殻+尾状核caudate nucleusは線条体を構成する。内包（成人では錐体路の一部）はレンズ核よりさらに内側の間脳領域であるため、矢印では示されていない（問題作成途中！？）',
@@ -4784,7 +4868,6 @@ export const useQuestionList = () => {
         {
           answer:
             '中枢のオリゴデンドロサイトは、神経上皮細胞由来。末梢のシュワン細胞は、神経堤由来である。',
-          commentary: '',
         },
         {
           answer:
@@ -4845,13 +4928,11 @@ export const useQuestionList = () => {
         {
           answer:
             '胎齢が進むにつれて、脊柱と硬膜が神経管より急速に成長し、出生時には脊髄の末端は第3腰椎の高さになる。よってL4~L5なら脊髄を傷つけることなく穿刺を行うことができる。',
-          commentary: '',
         },
         {
           answerImg: [telencephalon],
           answer:
             '大脳半球は成長に伴って、大脳皮質は折れ曲がり、複雑な回と溝を形成する。',
-          commentary: '',
         },
         {
           answerImg: [pharyngealNerves],
