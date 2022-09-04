@@ -109,7 +109,9 @@ export const useHistory = () => {
         if (!newRemainingQuestion.answerImg) {
           newRemainingQuestion.answerImg = []
         }
-
+        if (!newRemainingQuestion.commentary) {
+          newRemainingQuestion.commentary = ''
+        }
         if (!newRemainingQuestion.detailInfo) {
           newRemainingQuestion.detailInfo =
             '(' + (questionIndex + 1).toString() + ')'
