@@ -4649,7 +4649,7 @@ export const useQuestionList = () => {
         },
         {
           answerImg: [thymus],
-          answer: '6.上上皮小体',
+          answer: '6.上上皮小体　9.鰓後体',
         },
         {
           answerImg: [tongue],
@@ -4706,7 +4706,7 @@ export const useQuestionList = () => {
         {
           answerImg: [meckelCartilage],
           answer:
-            'ライトヘルム軟骨はアブミ骨・側頭骨の茎状突起・茎突舌骨靭帯・舌骨小角・舌骨体の上部を形成する。',
+            'ライヘルト軟骨はアブミ骨・側頭骨の茎状突起・茎突舌骨靭帯・舌骨小角・舌骨体の上部を形成する。',
           commentary:
             '第一咽頭弓軟骨はメッケル軟骨と呼ばれるのに対して、第二咽頭弓軟骨はライヘルト軟骨と呼ばれ、アブミ骨・茎状突起・茎突舌骨靭帯・舌骨小角になる。',
         },
@@ -4834,9 +4834,9 @@ export const useQuestionList = () => {
         },
         {
           answerImg: [brainVesicle],
-          answer: '3.視床',
+          answer: '3.視床　4.海馬',
           commentary:
-            '前脳→終脳（大脳半球）・間脳（視床・視床下部・下垂体・松果体など）',
+            '前脳→終脳（大脳半球/海馬などの大脳辺縁系含む）・間脳（視床・視床下部・下垂体・松果体など）',
         },
         {
           answerImg: [brainVesicle5],
