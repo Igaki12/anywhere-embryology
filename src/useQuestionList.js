@@ -2964,7 +2964,7 @@ export const useQuestionList = () => {
       groupTag: '確認問題5 発生第三週',
       groupContents: [
         {
-          answer: '1.原始線条　2.原始結節3.脊索突起4.脊索前板',
+          answer: '1.原始線条　2.原始結節　3.脊索突起　4.口咽頭膜　5.排泄腔膜',
           answerImg: [week3],
         },
         {
@@ -3001,9 +3001,9 @@ export const useQuestionList = () => {
           commentary: 'ES細胞は直接胎盤には分化しない。',
         },
         {
-          answer: '2.骨格筋　3.脊椎　4.心臓　5.生殖細胞',
+          answer: '6.この中にはない',
           commentary:
-            '原始線条は中胚葉に変化する。最初に陥入した中胚葉が最も頭側の心臓中胚葉に、遅れて陥入した中胚葉は側板中胚葉・中間中胚葉（→生殖細胞など）・沿軸中胚葉（→骨格筋・脊椎など）を形成する。',
+            '原始線条は成長の過程で消える。もし残っていたら奇腫の原因となる。',
         },
         {
           answerImg: [gastrulation],
@@ -3017,7 +3017,7 @@ export const useQuestionList = () => {
           commentary: '上皮間葉転換:EMT',
         },
         {
-          answer: '前後軸→背腹軸→左右軸→内外軸',
+          answer: 'E.前後軸→背腹軸→左右軸→内外軸',
           commentary:
             'まず前後軸がAVEによって決定され、次に背腹軸がBMPによって、左右軸が線毛の回転運動を利用して決定される。その後、内外軸→遠近軸の流れで決定される。',
         },
