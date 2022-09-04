@@ -262,7 +262,23 @@ import inferiorVenaCava from './img/answer/inferiorVenaCava.png'
 import superiorMesentericArtery from './img/answer/superiorMesentericArtery.png'
 import vein from './img/answer/vein.png'
 // import from './img/answer/.png'
-// import from './img/answer/.png'
+import adultCirculation from './img/answer/adultCirculation.png'
+import atrialSeptum from './img/answer/atrialSeptum.png'
+import cardiacAnomaly from './img/answer/cardiacAnomaly.png'
+import cardiacSeptum from './img/answer/cardiacSeptum.png'
+import cardiacSeptumMadeWithNeuralCrest from './img/answer/cardiacSeptumMadeWithNeuralCrest.png'
+import ebsteinAnomaly from './img/answer/ebsteinAnomaly.png'
+import finalVenaCava from './img/answer/finalVenaCava.png'
+import firstCardiacSeptum from './img/answer/firstCardiacSeptum.png'
+import firstHeart from './img/answer/firstHeart.png'
+import heartTube from './img/answer/heartTube.png'
+import heartLoopAnatomy from './img/answer/heartLoopAnatomy.png'
+import posteriorHeartCavity from './img/answer/posteriorHeartCavity.png'
+import secondHeart from './img/answer/secondHeart.png'
+import transpericardialSinus from './img/answer/transpericardialSinus.png'
+import transverseHeartTube from './img/answer/transverseHeartTube.png'
+import venaCava from './img/answer/venaCava.png'
+import youngVein from './img/answer/youngVein.png'
 
 // import u from './img/question/スクリーンショット 2022-06-24 .png'
 
@@ -3490,12 +3506,217 @@ export const useQuestionList = () => {
       ],
     },
     {
-      groupTag: '確認問題14',
+      groupTag: '確認問題14 心臓脈管系',
       groupContents: [
         {
-          answerImg: [],
-          answer: '',
+          answerImg: [firstHeart],
+          answer: '5.側板中胚葉臓側板',
           commentary: '',
+        },
+        {
+          answerImg: [secondHeart],
+          answer: '3.右心室　5.動脈幹　6.心円錐',
+          commentary:
+            '二次心臓野は一次心臓野の根本に発生し、右心室と流出路（心円錐・動脈幹）を形成する',
+        },
+        {
+          answerImg: [firstHeart],
+          answer:
+            '心臓前駆細胞は胚盤葉上層の、原始線条の頭端の直筋に存在する。ここから細胞は原始線条を通って遊走して側板中胚葉臓側板に至り、その一部は神経ヒダ頭方で一次心臓域を形成する',
+          commentary:
+            '最初に上皮間葉転換を起こして原始結節から潜り込んだ中胚葉が頭側で心臓や頭部を形成する細胞になるといわれている。',
+        },
+        {
+          answerImg: [heartTube],
+          answer:
+            '胚子の屈曲は頭尾方向だけでなく外側方でも起こる。その結果、二本の心内膜筒が尾側で合流する。同時に馬蹄形の筒の中央部分が拡張して、将来の流出路と心室域を形成する。',
+          commentary: '',
+        },
+        {
+          answerImg: [heartLoopAnatomy],
+          answer: '3.予定右心室',
+          commentary: '',
+        },
+        {
+          answerImg: [heartLoopAnatomy],
+          answer: '2.予定左心房　4.予定左心室',
+          commentary:
+            '房室管は初期の心室と共通心房とを連絡している。最も近いのはこの両端の左心室と左心房',
+        },
+        {
+          answerImg: [firstHeart],
+          answer:
+            '一次心臓域の位置は神経ヒダ頭方にあるが、頭部の体屈曲によって心筒は頚部から胸郭内に移動するため、発生第四週における心臓の位置は胸郭内にある。',
+          commentary:
+            '前後左右方向に胚子が屈曲することにより、頭側の外側の側板中胚葉だった一次心臓域は胸郭前方に集まってくる。',
+        },
+        {
+          answerImg: [transpericardialSinus],
+          answer:
+            '心膜横洞とは、心膜腔の両側を連絡する穴。背側の間膜の中部が消失することで形成される。',
+          commentary: '',
+        },
+        {
+          answerImg: [heartTube],
+          answer: 'A.心臓',
+          commentary: '',
+        },
+        {
+          answerImg: [secondHeart, posteriorHeartCavity],
+          answer: '1.肺静脈　2.左心房平滑壁部　3.冠状動脈　4.心外膜',
+          commentary: '',
+        },
+        {
+          answerImg: [posteriorHeartCavity],
+          answer: '7.房室中隔',
+          commentary:
+            '心臓には中隔が数多く形成されるが、心内膜隆起が成長・接近・癒合して形成されるもの（房室域・円錐動脈幹・心室中隔膜性部）と、心臓壁に生じた稜以外の部分が拡張することで形成されるもの（心室中隔筋性部・心房中隔）とがある。3は後者の方式で形成された一次中隔が一部アポトーシスを起こして形成された構造である。',
+        },
+        {
+          answerImg: [cardiacSeptum],
+          answer: '1.心室中隔膜性部　4.房室管中隔　5.動脈管円錐中隔　',
+          commentary:
+            '心臓には中隔が数多く形成されるが、心内膜隆起が成長・接近・癒合して形成されるもの（房室域・円錐動脈幹・心室中隔膜性部）と、心臓壁に生じた稜以外の部分が拡張することで形成されるもの（心室中隔筋性部・心房中隔）とがある。',
+        },
+        {
+          answerImg: [atrialSeptum],
+          answer:
+            '4）まず一次中隔が心房を二分し一次口を形成する。一次中隔が心内膜隆起と癒合すると、一次中隔の一部が細胞死することで二次口が形成される。最後に二次中隔と卵円孔がその右側に形成されることで胎児の心房中隔ができあがる。',
+          commentary: '',
+        },
+        {
+          answerImg: [atrialSeptum],
+          answer: '6.卵円孔',
+          commentary: '',
+        },
+        {
+          answerImg: [cardiacSeptumMadeWithNeuralCrest],
+          answer: '（神経堤の寄与が重要な部位は）5.動脈幹円錐中隔',
+          commentary:
+            '菱脳域の神経ヒダの縁から遊走してきた心臓形成神経堤細胞が第三・第四・第六咽頭弓を通って心臓の流出領域に遊走し、ここに進入する。この場所で神経堤細胞は心円錐と動脈管の両方での心内膜隆起形成に寄与する。そのほか、房室中隔の形成にも寄与する。両者ともに心内膜隆起から形成される中隔という点で共通している。',
+        },
+        {
+          answerImg: [firstCardiacSeptum],
+          answer: '4.一次口（一次中隔）が最初',
+          commentary: '',
+        },
+        {
+          answerImg: [atrialSeptum],
+          answer: '4,2,3,7,5,6,1?',
+          commentary:
+            '心室中隔は筋性部（胎生第四週末）→膜性部の順。心房中隔は一次口（胎生第四週末）→二次口→卵円孔の順。動脈幹に内膜隆起が現れるのは第五週中。房室心内膜隆起は胎生第四週末。',
+        },
+        {
+          answerImg: [adultCirculation],
+          answer:
+            '2.動脈管/肺動脈から大動脈弓に繋がる血管で、機能していない肺を経由せずに血液を全身に送る通り道。　5.静脈管/胎盤の血液を下大静脈に送る役割。',
+          commentary: '',
+        },
+        {
+          answerImg: [adultCirculation],
+          answer:
+            '動脈管が閉鎖されると、右心室の拍出血液が肺循環に送られるようになる。静脈管が閉鎖されると、胎盤からの血液が途絶える。',
+          commentary: 'ほか、臍静脈由来の肝円索も存在する',
+        },
+        {
+          answerImg: [posteriorHeartCavity],
+          answer: '1.背側心間膜内で形成される。　3.心房への開口部を4つもつ。',
+          commentary: '',
+        },
+        {
+          answerImg: [transpericardialSinus],
+          answer: '1.心外膜　.冠状動脈の平滑筋',
+          commentary: 'これらは心外膜原基由来',
+        },
+        {
+          answerImg: [venaCava],
+          answer: '1.前主静脈（右側）→上大静脈',
+          commentary:
+            '右卵黄嚢静脈VIT→下大静脈、前主静脈ACV（右側）→上大静脈、左側総主動脈CCV→左静脈洞角→冠状静脈洞。左卵黄嚢静脈と右臍静脈は消失する',
+        },
+        {
+          answerImg: [venaCava],
+          answer: '4.右卵黄嚢静脈→下大静脈',
+          commentary:
+            '右卵黄嚢静脈VIT→下大静脈、前主静脈ACV（右側）→上大静脈、左側総主動脈CCV→左静脈洞角→冠状静脈洞。左卵黄嚢静脈と右臍静脈は消失する',
+        },
+        {
+          answerImg: [finalVenaCava],
+          answer: '9.総主静脈（左側）→冠状静脈洞',
+          commentary:
+            '右卵黄嚢静脈VIT→下大静脈、前主静脈ACV（右側）→上大静脈、左側総主動脈CCV→左静脈洞角→冠状静脈洞。総主静脈は前主静脈と後主静脈が合流した部分。',
+        },
+
+        {
+          answerImg: [youngVein],
+          answer: 'F.臍静脈',
+          commentary: '',
+        },
+        {
+          answerImg: [venaCava],
+          answer: 'D.静脈洞角',
+          commentary: '',
+        },
+        {
+          answerImg: [heartTube],
+          answer: 'D.背側大動脈',
+          commentary: '',
+        },
+        {
+          answerImg: [heartTube],
+          answer: 'C',
+          commentary: '',
+        },
+        {
+          answerImg: [heartTube],
+          answer: 'C.心臓',
+          commentary: '',
+        },
+        {
+          answerImg: [heartTube],
+          answer: 'E.背側大動脈',
+          commentary: '',
+        },
+        {
+          answerImg: [transverseHeartTube],
+          answer:
+            '3.卵黄嚢壁での血島の形成、4.最終的脊索の形成？　(※心筒が形成されるより前の出来事で、拍動開始がいつかは不明)',
+          commentary:
+            '心筒が形成されるのは発生22日ごろの8体節期。最初の血球が作られる卵黄嚢壁の血島は19日までには作られる。頭側神経孔の閉鎖は18~20体節期（発生25日）で、その後一次脳胞が形成される。尾側神経孔は28日ごろまで閉鎖せず、脊索は三葉性胚盤の頃に形成されるので発生21日には完成している。',
+        },
+        {
+          detailInfo: '心臓異常',
+          answerImg: [atrialSeptum],
+          answer: 'C.二次中隔欠損',
+          commentary: '',
+        },
+        {
+          detailInfo: '心臓異常',
+          answerImg: [atrialSeptum],
+          answer: 'A.一次口欠損',
+          commentary: '房室心内膜隆起の癒合不全に基づく一次口欠損',
+        },
+        {
+          detailInfo: '心臓異常',
+          answerImg: [cardiacAnomaly],
+          answer: 'C.心室中隔欠損　E.動脈管開存　G.大血管転換',
+          commentary:
+            '大血管転換は円錐動脈幹中隔が正常のらせん状走行をとりそこね、まっすぐに下行するために起こり、その結果、大動脈が右心室から、肺動脈が左心室から出る。多くは神経堤細胞の傷害が原因のため心室中隔膜性部の欠損もともなう。',
+        },
+        {
+          detailInfo: '心臓異常',
+          answerImg: [cardiacAnomaly],
+          answer: 'C.心室中隔欠損　E.動脈管開存　F.ファロー四徴症',
+          commentary:
+            'ディジョージシークエンスは21q11欠失症候群でみられる異常の例で、神経堤の異常発生に起因する異常の組み合わせパターンを特徴とする。患児は顔面異常等のほか動脈管開存やファロー四徴症をしめす。神経堤細胞は心臓では心内膜隆起によって形成される中隔（心円錐中隔・房室中隔・心室中隔膜性部）に含まれる。',
+        },
+        {
+          detailInfo: '心臓異常',
+          answerImg: [cardiacAnomaly],
+          answer:
+            'A.ファロー四徴症、D.肥大性心筋症、H.大動脈弁閉鎖症、I.肺動脈弁狭窄',
+          commentary:
+            '動脈管が開存するのは大動脈と肺動脈への血流分配が偏った場合なので、動脈幹内の狭窄・閉鎖に伴うことが多い。三尖弁閉鎖症は三尖弁が閉鎖され心室中隔・心房中隔が開存する先天異常であるが、動脈管は閉鎖することが多い。',
         },
       ],
     },
