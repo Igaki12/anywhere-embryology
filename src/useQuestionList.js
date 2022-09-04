@@ -274,7 +274,7 @@ import heartTube from './img/answer/heartTube.png'
 import heartLoopAnatomy from './img/answer/heartLoopAnatomy.png'
 import posteriorHeartCavity from './img/answer/posteriorHeartCavity.png'
 import secondHeart from './img/answer/secondHeart.png'
-import transpericardialSinus from './img/answer/transPericardialSinus.png'
+import transPericardialSinus from './img/answer/transPericardialSinus.png'
 import transverseHeartTube from './img/answer/transverseHeartTube.png'
 import venaCava from './img/answer/venaCava.png'
 import youngVein from './img/answer/youngVein.png'
@@ -3677,7 +3677,7 @@ export const useQuestionList = () => {
             '前後左右方向に胚子が屈曲することにより、頭側の外側の側板中胚葉だった一次心臓域は胸郭前方に集まってくる。',
         },
         {
-          answerImg: [transpericardialSinus],
+          answerImg: [transPericardialSinus],
           answer:
             '心膜横洞とは、心膜腔の両側を連絡する穴。背側の間膜の中部が消失することで形成される。',
         },
@@ -3742,7 +3742,7 @@ export const useQuestionList = () => {
           answer: '1.背側心間膜内で形成される。　3.心房への開口部を4つもつ。',
         },
         {
-          answerImg: [transpericardialSinus],
+          answerImg: [transPericardialSinus],
           answer: '1.心外膜　.冠状動脈の平滑筋',
           commentary: 'これらは心外膜原基由来',
         },
