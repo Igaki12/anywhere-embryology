@@ -45,6 +45,13 @@ function App() {
       savingHistory += ','
     })
     savingHistory = savingHistory.substring(0, savingHistory.length - 1)
+    let jsonData = {
+      app: 'anywhere-embryology',
+      latestUpdate: new Date().getTime(),
+      status: settingDetail,
+      history: savingHistory,
+    }
+    localStorage.setItem('anywhere-embryology', JSON.stringify(jsonData))
     jsCookie.set('history', savingHistory)
     console.log('saveHistory:' + jsCookie.get('history'))
   }
