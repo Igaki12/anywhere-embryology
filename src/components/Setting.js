@@ -221,6 +221,7 @@ export const Setting = ({
               borderWidth="2px"
               borderColor="whiteAlpha"
               opacity={'0.9'}
+              isDisabled
               onClick={() => {
                 // updateQuestionMode('practice')
                 loadHistory(jsCookie.get('history'), questionList)
